@@ -1,0 +1,732 @@
+{
+"recettes": [
+{
+"id": "garbure-allegee-sudouest",
+"nom": "Garbure allégée du Sud-Ouest",
+"type": "viande",
+"terroir": null,
+"description": "La grande soupe-repas béarnaise aux légumes, haricots tarbais et jambon de Bayonne, en version légère sans confit."
+},
+{
+"id": "poule-au-pot-toulousaine-sudouest",
+"nom": "Poule au pot et ses légumes",
+"type": "volaille",
+"terroir": null,
+"description": "La volaille pochée chère à Henri IV, servie avec ses légumes fondants, son bouillon parfumé et un riz de Camargue."
+},
+{
+"id": "magret-grille-legumes-rotis-sudouest",
+"nom": "Magret de canard grillé, légumes d'automne rôtis",
+"type": "volaille",
+"terroir": null,
+"description": "Un magret rosé et dégraissé, servi sur un lit de potimarron et de carottes rôtis au thym et au miel."
+},
+{
+"id": "poulet-basquaise-leger-sudouest",
+"nom": "Poulet basquaise léger",
+"type": "volaille",
+"terroir": null,
+"description": "Du poulet mijoté dans une fondue de poivrons, tomates et piment d'Espelette, servi avec un riz de Camargue."
+},
+{
+"id": "dinde-pruneaux-agen-sudouest",
+"nom": "Escalopes de dinde aux pruneaux d'Agen",
+"type": "volaille",
+"terroir": null,
+"description": "Un sauté de dinde express aux carottes et aux pruneaux d'Agen, légèrement caramélisé au miel."
+},
+{
+"id": "axoa-veau-leger-sudouest",
+"nom": "Axoa de veau léger",
+"type": "viande",
+"terroir": null,
+"description": "L'émincé de veau basque aux poivrons et au piment d'Espelette, mijoté avec très peu de matière grasse."
+},
+{
+"id": "saucisse-toulouse-lentilles-sudouest",
+"nom": "Saucisse de Toulouse grillée aux lentilles vertes",
+"type": "viande",
+"terroir": null,
+"description": "La saucisse emblématique de la ville rose, grillée et dégraissée, posée sur des lentilles vertes mijotées aux carottes."
+},
+{
+"id": "truite-amandes-riz-camargue-sudouest",
+"nom": "Truite aux amandes, riz de Camargue",
+"type": "poisson",
+"terroir": null,
+"description": "Des truites des Pyrénées dorées à la poêle, nappées d'un beurre citronné aux amandes et accompagnées de riz complet."
+},
+{
+"id": "merlu-ecrase-pdt-epinards-sudouest",
+"nom": "Merlu rôti, écrasé de pommes de terre aux épinards",
+"type": "poisson",
+"terroir": null,
+"description": "Un dos de merlu de Saint-Jean-de-Luz rôti au piment d'Espelette, avec un écrasé de pommes de terre à l'huile d'olive et des épinards."
+},
+{
+"id": "salade-lentilles-rocamadour-sudouest",
+"nom": "Salade de lentilles au Rocamadour chaud",
+"type": "vege",
+"terroir": null,
+"description": "Des lentilles vertes en vinaigrette moutardée, de la mâche, des noix et des toasts de Rocamadour fondant."
+},
+{
+"id": "piperade-oeufs-sudouest",
+"nom": "Piperade aux œufs",
+"type": "vege",
+"terroir": null,
+"description": "La compotée basque de poivrons, tomates et oignons doux, liée à la fin par des œufs crémeux."
+},
+{
+"id": "haricots-tarbais-mijotes-sudouest",
+"nom": "Haricots tarbais mijotés aux légumes",
+"type": "vege",
+"terroir": null,
+"description": "Des haricots tarbais fondants mijotés à la tomate, aux carottes et au thym, un plat complet végétarien du piémont pyrénéen."
+},
+{
+"id": "poulet-roti-thym-ail-rose-quotidien",
+"nom": "Poulet rôti au thym, ail rose de Lautrec et pommes de terre",
+"type": "volaille",
+"terroir": null,
+"description": "Le grand classique du dimanche : un poulet fermier doré au four, parfumé au thym et à l'ail rose, avec des pommes de terre fondantes."
+},
+{
+"id": "escalopes-dinde-moutarde-champignons-quotidien",
+"nom": "Escalopes de dinde à la moutarde et aux champignons",
+"type": "volaille",
+"terroir": null,
+"description": "Des escalopes moelleuses nappées d'une sauce moutarde légère aux champignons, prêtes en une demi-heure avec leur riz de Camargue."
+},
+{
+"id": "blanquette-volaille-allegee-quotidien",
+"nom": "Blanquette de volaille allégée aux petits légumes",
+"type": "volaille",
+"terroir": null,
+"description": "Toute la douceur de la blanquette, en version légère : la crème est en partie remplacée par du yaourt et les légumes sont à l'honneur."
+},
+{
+"id": "filet-mignon-pruneaux-agen-quotidien",
+"nom": "Filet mignon de porc aux pruneaux d'Agen",
+"type": "viande",
+"terroir": null,
+"description": "Un sucré-salé emblématique du Sud-Ouest : le filet mignon mijote doucement avec les pruneaux d'Agen et les carottes."
+},
+{
+"id": "salade-mache-bayonne-tomme-quotidien",
+"nom": "Salade-repas de mâche au jambon de Bayonne, pomme et tomme",
+"type": "viande",
+"terroir": null,
+"description": "Une assiette complète et croquante : mâche, copeaux de tomme des Pyrénées, jambon de Bayonne, pomme et noix."
+},
+{
+"id": "papillote-truite-legumes-quotidien",
+"nom": "Papillotes de truite aux petits légumes et citron",
+"type": "poisson",
+"terroir": null,
+"description": "Des filets de truite cuits en papillote sur une julienne de poireau et carotte, un plat léger qui se prépare en dix minutes."
+},
+{
+"id": "cabillaud-espelette-riz-camargue-quotidien",
+"nom": "Dos de cabillaud à la tomate et au piment d'Espelette, riz de Camargue",
+"type": "poisson",
+"terroir": null,
+"description": "Un poisson blanc poché dans une sauce tomate relevée d'une pointe de piment d'Espelette, servi sur un lit de riz camarguais."
+},
+{
+"id": "maquereau-moutarde-fondue-poireaux-quotidien",
+"nom": "Filets de maquereau à la moutarde, fondue de poireaux",
+"type": "poisson",
+"terroir": null,
+"description": "Un poisson de la côte atlantique riche en oméga-3, rôti à la moutarde et posé sur une fondue de poireaux toute douce."
+},
+{
+"id": "veloute-potimarron-noix-quotidien",
+"nom": "Velouté de potimarron aux noix",
+"type": "vege",
+"terroir": null,
+"description": "Un velouté d'automne soyeux et coloré, relevé d'une touche de crème et du croquant des noix."
+},
+{
+"id": "gratin-chou-fleur-cantal-quotidien",
+"nom": "Gratin de chou-fleur au Cantal",
+"type": "vege",
+"terroir": null,
+"description": "Un gratin doré et réconfortant : chou-fleur croquant-fondant et béchamel légère gratinée au Cantal."
+},
+{
+"id": "omelette-champignons-persil-quotidien",
+"nom": "Omelette aux champignons et persil, salade verte",
+"type": "vege",
+"terroir": null,
+"description": "L'omelette baveuse du soir, garnie de champignons poêlés et de persil, avec sa salade croquante en vinaigrette."
+},
+{
+"id": "quiche-legere-poireaux-chevre-quotidien",
+"nom": "Quiche légère aux poireaux et chèvre frais",
+"type": "vege",
+"terroir": null,
+"description": "Une quiche à la pâte maison à l'huile d'olive et à l'appareil au lait, sans crème, garnie de poireaux fondants et de chèvre frais."
+},
+{
+"id": "pates-completes-potimarron-complets",
+"nom": "Pâtes complètes au potimarron, champignons et noix",
+"type": "vege",
+"terroir": null,
+"description": "Des penne complètes enrobées de potimarron fondant, de champignons poêlés et de noix croquantes, le plat d'automne réconfortant et léger."
+},
+{
+"id": "risotto-riz-complet-poireaux-complets",
+"nom": "Risotto de riz complet de Camargue aux poireaux et Comté",
+"type": "vege",
+"terroir": null,
+"description": "Un risotto rustique au riz complet de Camargue, à la fondue de poireaux et au Comté, crémeux sans excès de matière grasse."
+},
+{
+"id": "dahl-lentilles-vertes-complets",
+"nom": "Dahl de lentilles vertes au curry doux",
+"type": "vege",
+"terroir": null,
+"description": "Un dahl onctueux de lentilles vertes françaises mijotées à la tomate et au curry, adouci d'un nuage de yaourt."
+},
+{
+"id": "couscous-complet-legumes-complets",
+"nom": "Couscous complet aux légumes d'automne et pois chiches",
+"type": "vege",
+"terroir": null,
+"description": "Une semoule complète vapeur couronnée de légumes d'automne mijotés aux épices et de pois chiches fondants."
+},
+{
+"id": "petit-epeautre-champignons-complets",
+"nom": "Petit épeautre façon risotto aux champignons et Cantal",
+"type": "vege",
+"terroir": null,
+"description": "Le petit épeautre mijoté comme un risotto, avec champignons dorés et copeaux de Cantal, un plat de terroir complet et rassasiant."
+},
+{
+"id": "bol-quinoa-pois-chiches-complets",
+"nom": "Bol complet au quinoa, pois chiches rôtis et chèvre frais",
+"type": "vege",
+"terroir": null,
+"description": "Un bol frais et complet : quinoa français, pois chiches dorés au paprika, carottes râpées, mâche et chèvre frais, le tout relevé d'une vinai"
+},
+{
+"id": "minestrone-occitan-complets",
+"nom": "Minestrone occitan aux haricots lingots et petites pâtes complètes",
+"type": "vege",
+"terroir": null,
+"description": "Une soupe-repas généreuse où haricots blancs, légumes d'hiver et petites pâtes complètes mijotent dans un bouillon tomaté au thym."
+},
+{
+"id": "poelee-riz-complet-poulet-complets",
+"nom": "Poêlée de riz complet au poulet, brocoli et carottes",
+"type": "volaille",
+"terroir": null,
+"description": "Un wok à la française : riz complet de Camargue sauté avec des aiguillettes de poulet fermier, brocoli croquant et touche de miel au piment "
+},
+{
+"id": "one-pot-pates-dinde-complets",
+"nom": "One-pot de pâtes complètes à la dinde et aux poivrons",
+"type": "volaille",
+"terroir": null,
+"description": "Tout cuit dans une seule cocotte : pâtes complètes, dinde dorée, poivrons et tomate aux herbes de Provence, prêt en une demi-heure."
+},
+{
+"id": "salade-lentilles-truite-complets",
+"nom": "Salade tiède de lentilles vertes à la truite fumée",
+"type": "poisson",
+"terroir": null,
+"description": "Des lentilles vertes tièdes en vinaigrette moutardée, relevées d'échalote et de cornichons, couronnées de truite fumée des Pyrénées."
+},
+{
+"id": "pates-sardines-brocoli-complets",
+"nom": "Pâtes complètes aux sardines, brocoli et citron",
+"type": "poisson",
+"terroir": null,
+"description": "Des spaghetti complets aux sardines émiettées, brocoli croquant, zeste de citron et chapelure dorée, un plat malin riche en oméga-3."
+},
+{
+"id": "chili-leger-tarbais-complets",
+"nom": "Chili léger au bœuf et haricots tarbais, riz complet de Camargue",
+"type": "viande",
+"terroir": null,
+"description": "Un chili du Sud-Ouest tout en légèreté : bœuf maigre, haricots tarbais fondants et piment d'Espelette, servi sur un riz complet de Camargue."
+},
+{
+"id": "raclette-savoyarde-charcuterie-gourmand",
+"nom": "Raclette savoyarde à la charcuterie",
+"type": "viande",
+"terroir": "Savoie",
+"description": "Le fromage à raclette qui coule sur des pommes de terre vapeur, un plateau de charcuterie et des cornichons croquants : la soirée d'hiver pa"
+},
+{
+"id": "tartiflette-reblochon-gourmand",
+"nom": "Tartiflette au reblochon",
+"type": "viande",
+"terroir": "Savoie",
+"description": "Pommes de terre, lardons et oignons fondus sous un reblochon entier qui gratine au four : le gratin le plus réconfortant des Alpes."
+},
+{
+"id": "welsh-complet-cheddar-biere-gourmand",
+"nom": "Welsh complet au cheddar et à la bière",
+"type": "viande",
+"terroir": "Nord",
+"description": "Une tranche de pain, du jambon, une nappe de cheddar fondu à la bière et un œuf au plat par-dessus : le plat emblématique des estaminets du "
+},
+{
+"id": "burger-maison-cantal-oignons-confits-gourmand",
+"nom": "Burger maison au Cantal et oignons confits",
+"type": "viande",
+"terroir": null,
+"description": "Un steak haché du boucher, du Cantal fondant et des oignons confits au miel dans un pain de boulanger, avec des frites au four."
+},
+{
+"id": "camembert-roti-miel-noix-gourmand",
+"nom": "Camembert rôti au miel et aux noix, pommes de terre grenaille",
+"type": "vege",
+"terroir": "Normandie",
+"description": "Deux camemberts au lait cru rôtis dans leur boîte avec du miel, du thym et des noix, dans lesquels on trempe pommes de terre et pain de camp"
+},
+{
+"id": "gnocchis-fourres-fromage-gratines-epinards-gourmand",
+"nom": "Gnocchis fourrés au fromage gratinés aux épinards",
+"type": "vege",
+"terroir": null,
+"description": "Des gnocchis déjà fourrés au fromage, enrobés de crème à la muscade avec des épinards et gratinés sous une couche de Comté."
+},
+{
+"id": "parmentier-confit-canard-gourmand",
+"nom": "Parmentier de confit de canard",
+"type": "volaille",
+"terroir": "Sud-Ouest",
+"description": "Du confit de canard effiloché avec des échalotes sous une purée maison beurrée, gratiné au four : le hachis parmentier version Sud-Ouest."
+},
+{
+"id": "aligot-aubrac-saucisse-toulouse-gourmand",
+"nom": "Aligot de l'Aubrac et saucisse de Toulouse grillée",
+"type": "viande",
+"terroir": "Aubrac (Aveyron)",
+"description": "La purée filante à la tomme fraîche et à la crème, battue jusqu'au ruban, servie avec une saucisse de Toulouse bien grillée."
+},
+{
+"id": "fondue-savoyarde-trois-fromages-gourmand",
+"nom": "Fondue savoyarde aux trois fromages",
+"type": "vege",
+"terroir": "Savoie",
+"description": "Comté, Beaufort et Emmental fondus dans le vin blanc, où l'on trempe des cubes de pain de campagne en gardant un œil sur la croûte au fond d"
+},
+{
+"id": "croziflette-sarrasin-reblochon-gourmand",
+"nom": "Croziflette aux crozets de sarrasin",
+"type": "viande",
+"terroir": "Savoie",
+"description": "La cousine de la tartiflette aux crozets, ces petites pâtes carrées de sarrasin, gratinée sous un reblochon avec lardons et oignons."
+},
+{
+"id": "truffade-auvergnate-gourmand",
+"nom": "Truffade auvergnate",
+"type": "vege",
+"terroir": "Auvergne",
+"description": "Des pommes de terre rissolées à l'ail dans lesquelles fond une tomme fraîche de Cantal, servies en galette filante avec une salade verte."
+},
+{
+"id": "cassoulet-toulousain-complet-gourmand",
+"nom": "Cassoulet toulousain complet",
+"type": "viande",
+"terroir": "Toulouse",
+"description": "Haricots lingots mijotés avec confit de canard, saucisse de Toulouse et poitrine de porc, gratinés longuement au four jusqu'à la croûte doré"
+},
+{
+"id": "confit-canard-pommes-sarladaises-gourmand",
+"nom": "Confit de canard et pommes de terre sarladaises",
+"type": "volaille",
+"terroir": "Périgord",
+"description": "Cuisses de canard confites à la peau croustillante et pommes de terre rissolées dans la graisse de canard avec ail, persil et cèpes."
+},
+{
+"id": "croque-monsieur-bechamel-gratines-gourmand",
+"nom": "Croque-monsieur à la béchamel gratinés",
+"type": "viande",
+"terroir": null,
+"description": "Le vrai croque-monsieur de bistrot : jambon et Comté entre deux tranches de pain beurrées, nappé de béchamel à la muscade et gratiné au four"
+},
+{
+"id": "boeuf-bourguignon-classiques",
+"nom": "Bœuf bourguignon",
+"type": "viande",
+"terroir": "Bourgogne",
+"description": "Le grand mijoté du dimanche : du bœuf fondant longuement cuit au vin rouge avec carottes, champignons et un peu de lardons."
+},
+{
+"id": "pot-au-feu-classiques",
+"nom": "Pot-au-feu traditionnel",
+"type": "viande",
+"terroir": null,
+"description": "Le repas complet par excellence : du bœuf poché longuement avec ses légumes racines, servi avec son bouillon, de la moutarde et des cornicho"
+},
+{
+"id": "hachis-parmentier-classiques",
+"nom": "Hachis parmentier maison",
+"type": "viande",
+"terroir": null,
+"description": "Une purée maison bien moelleuse sur un hachis de bœuf aux oignons et aux herbes, gratiné juste ce qu'il faut."
+},
+{
+"id": "blanquette-de-veau-classiques",
+"nom": "Blanquette de veau à l'ancienne",
+"type": "viande",
+"terroir": null,
+"description": "Du veau tendre dans une sauce blanche veloutée au citron, avec carottes, champignons et un riz de Camargue complet."
+},
+{
+"id": "lapin-a-la-moutarde-classiques",
+"nom": "Lapin à la moutarde",
+"type": "viande",
+"terroir": "Bourgogne",
+"description": "Des morceaux de lapin dorés puis mijotés dans une sauce à la moutarde, aux échalotes et au vin blanc, à peine crémée."
+},
+{
+"id": "coq-au-vin-classiques",
+"nom": "Coq au vin",
+"type": "volaille",
+"terroir": "Bourgogne",
+"description": "Un poulet fermier mijoté au vin rouge avec champignons, petits oignons et lardons, servi sur des pâtes complètes."
+},
+{
+"id": "poulet-au-vinaigre-lyonnais-classiques",
+"nom": "Poulet au vinaigre",
+"type": "volaille",
+"terroir": "Lyonnais",
+"description": "Le classique des bouchons lyonnais : des morceaux de poulet dorés, déglacés au vinaigre de vin et mijotés avec tomates et échalotes dans une"
+},
+{
+"id": "poulet-chasseur-classiques",
+"nom": "Poulet chasseur",
+"type": "volaille",
+"terroir": null,
+"description": "Du poulet mijoté dans une sauce tomate aux champignons, échalotes et vin blanc, parfumée à l'estragon."
+},
+{
+"id": "pintade-au-chou-classiques",
+"nom": "Pintade au chou braisé",
+"type": "volaille",
+"terroir": "Alsace",
+"description": "Une pintade dorée puis mijotée sur un lit de chou vert fondant aux carottes et quelques lardons, avec ses pommes de terre."
+},
+{
+"id": "gratin-dauphinois-salade-classiques",
+"nom": "Gratin dauphinois et salade aux noix",
+"type": "vege",
+"terroir": "Dauphiné",
+"description": "Le vrai gratin dauphinois, sans fromage : des pommes de terre confites dans le lait et la crème parfumés à l'ail et à la muscade, avec une s"
+},
+{
+"id": "soupe-oignon-gratinee-classiques",
+"nom": "Soupe à l'oignon gratinée",
+"type": "vege",
+"terroir": "Lyon",
+"description": "Des oignons doux longuement compotés, un bouillon parfumé au thym, et des croûtons de pain gratinés au Comté qui fondent dans le bol."
+},
+{
+"id": "gratin-pates-completes-comte-champignons-classiques",
+"nom": "Gratin de pâtes complètes au Comté et aux champignons",
+"type": "vege",
+"terroir": "Jura",
+"description": "Des macaronis complets enrobés d'une béchamel à la muscade, mêlés à des champignons poêlés et gratinés sous une croûte de Comté."
+},
+{
+"id": "oeufs-a-la-florentine-classiques",
+"nom": "Œufs à la florentine",
+"type": "vege",
+"terroir": null,
+"description": "Des œufs mollets posés sur un lit d'épinards fondus, nappés de sauce Mornay au Comté et passés au four quelques minutes."
+},
+{
+"id": "estouffade-boeuf-provencale-sud",
+"nom": "Estouffade de bœuf à la provençale",
+"type": "viande",
+"terroir": "Provence",
+"description": "Un bœuf longuement mijoté au vin rouge, aux olives noires et au zeste d'orange, fondant et parfumé comme sur les tables de Provence."
+},
+{
+"id": "mounjetado-ariegeoise-sud",
+"nom": "Mounjetado ariégeoise",
+"type": "viande",
+"terroir": "Ariège",
+"description": "Le cassoulet des Pyrénées ariégeoises : haricots tarbais fondants, saucisse de Toulouse et confit de canard mijotés des heures dans la cocot"
+},
+{
+"id": "farcous-aveyronnais-sud",
+"nom": "Farçous aveyronnais",
+"type": "viande",
+"terroir": "Aveyron",
+"description": "Des galettes vertes et dorées de blettes, persil et chair à saucisse, croustillantes dehors et moelleuses dedans, à dévorer avec une salade."
+},
+{
+"id": "poulet-olives-provencale-sud",
+"nom": "Poulet aux olives à la provençale",
+"type": "volaille",
+"terroir": "Provence",
+"description": "Des morceaux de poulet fermier dorés puis mijotés dans une sauce tomate au vin blanc, parsemée d'olives et d'herbes de Provence."
+},
+{
+"id": "poulet-roquefort-aveyron-sud",
+"nom": "Poulet au Roquefort et aux noix",
+"type": "volaille",
+"terroir": "Aveyron",
+"description": "Des aiguillettes de poulet dans une sauce crémeuse au Roquefort, relevée d'échalote et de noix concassées, servies sur des pâtes complètes."
+},
+{
+"id": "salade-landaise-sud",
+"nom": "Salade landaise",
+"type": "volaille",
+"terroir": "Landes",
+"description": "La grande salade du Sud-Ouest : gésiers confits tièdes, magret fumé, jambon de Bayonne, maïs et pignons grillés sur un lit de salade croquan"
+},
+{
+"id": "tielle-setoise-sud",
+"nom": "Tielle sétoise",
+"type": "poisson",
+"terroir": "Sète",
+"description": "La tourte orangée du port de Sète : une pâte à pain fine garnie d'encornets mijotés dans une sauce tomate relevée au piment."
+},
+{
+"id": "brandade-nimes-sud",
+"nom": "Brandade de Nîmes",
+"type": "poisson",
+"terroir": "Nîmes",
+"description": "La morue dessalée longuement travaillée à l'huile d'olive et au lait, puis gratinée : une purée blanche et onctueuse au parfum d'ail."
+},
+{
+"id": "grand-aioli-provencal-sud",
+"nom": "Grand aïoli provençal",
+"type": "poisson",
+"terroir": "Provence",
+"description": "Le plat du partage en Provence : cabillaud poché, légumes vapeur et œufs durs autour d'un bol d'aïoli monté au mortier."
+},
+{
+"id": "moules-farcies-setoise-sud",
+"nom": "Moules farcies à la sétoise",
+"type": "poisson",
+"terroir": "Sète",
+"description": "De grosses moules de Bouzigues garnies d'une farce à la chair à saucisse et au persil, ficelées puis mijotées dans une sauce tomate au pimen"
+},
+{
+"id": "soupe-au-pistou-sud",
+"nom": "Soupe au pistou",
+"type": "vege",
+"terroir": "Provence",
+"description": "La grande soupe de légumes d'été provençale, haricots cocos, courgettes et petites pâtes, relevée au dernier moment d'un pistou d'ail et de "
+},
+{
+"id": "tian-legumes-provencal-sud",
+"nom": "Tian de légumes provençal",
+"type": "vege",
+"terroir": "Provence",
+"description": "Des rondelles d'aubergine, courgette et tomate rangées serrées sur un lit d'oignons et confites au four avec thym et huile d'olive."
+},
+{
+"id": "tourin-ail-perigord-sud",
+"nom": "Tourin à l'ail",
+"type": "vege",
+"terroir": "Périgord",
+"description": "La soupe à l'ail du Sud-Ouest, liée aux jaunes d'œufs et au vinaigre, versée brûlante sur des tranches de pain rassis."
+},
+{
+"id": "aubergines-farcies-riz-camargue-pelardon-sud",
+"nom": "Aubergines farcies au riz de Camargue et au Pélardon",
+"type": "vege",
+"terroir": "Cévennes",
+"description": "Des demi-aubergines rôties, garnies de riz de Camargue complet, de leur chair compotée à la tomate et à l'oignon doux, et gratinées au Pélar"
+},
+{
+"id": "croque-monsieur-leger-jambon-comte-rapides",
+"nom": "Croque-monsieur léger au jambon blanc, Comté et salade verte",
+"type": "viande",
+"terroir": "Paris",
+"description": "Le croque du bistrot en version allégée : pas de béchamel, juste du bon pain, une fine tartinade yaourt-moutarde, du jambon et du Comté grat"
+},
+{
+"id": "emince-porc-paprika-poivrons-semoule-rapides",
+"nom": "Émincé de porc au paprika, poivrons et semoule complète",
+"type": "viande",
+"terroir": null,
+"description": "Des lanières de filet mignon saisies vivement avec des poivrons fondants et une pointe de paprika, servies sur une semoule complète qui gonf"
+},
+{
+"id": "wraps-poulet-carottes-sauce-yaourt-rapides",
+"nom": "Wraps maison au poulet, carottes râpées et sauce yaourt-moutarde",
+"type": "volaille",
+"terroir": null,
+"description": "Des galettes souples faites maison en dix minutes, garnies de poulet doré aux épices, de carottes râpées, de salade croquante et d'une sauce"
+},
+{
+"id": "poelee-dinde-curry-chou-fleur-riz-camargue-rapides",
+"nom": "Poêlée de dinde au curry, chou-fleur et riz de Camargue complet",
+"type": "volaille",
+"terroir": null,
+"description": "Une poêlée dorée et parfumée : dinde, bouquets de chou-fleur et oignon doux liés d'une sauce curry au yaourt, servie sur un riz de Camargue "
+},
+{
+"id": "salade-poulet-pommes-noix-miel-moutarde-rapides",
+"nom": "Salade composée au poulet, pommes et noix, vinaigrette miel-moutarde",
+"type": "volaille",
+"terroir": null,
+"description": "Une grande salade d'automne : poulet grillé encore tiède, pommes croquantes, noix fraîches torréfiées et une vinaigrette miel-moutarde qui l"
+},
+{
+"id": "soupe-express-poulet-petites-pates-legumes-rapides",
+"nom": "Soupe express au poulet, petites pâtes et légumes",
+"type": "volaille",
+"terroir": null,
+"description": "Un bouillon réconfortant prêt en vingt-cinq minutes, avec des dés de poulet, carottes, poireau, céleri et des petites pâtes complètes qui go"
+},
+{
+"id": "galettes-sarrasin-saumon-epinards-chevre-rapides",
+"nom": "Galettes de sarrasin au saumon, épinards et chèvre frais",
+"type": "poisson",
+"terroir": "Bretagne",
+"description": "La galette bretonne complète revisitée : sarrasin croustillant, pavé de saumon émietté, épinards fondus et chèvre frais, pliée à la minute."
+},
+{
+"id": "lieu-noir-moutarde-polenta-poireaux-rapides",
+"nom": "Filets de lieu noir à la moutarde, polenta crémeuse et poireaux fondants",
+"type": "poisson",
+"terroir": null,
+"description": "Un poisson à la poêle doré et nappé d'un trait de moutarde, posé sur une polenta onctueuse et des poireaux fondus au beurre."
+},
+{
+"id": "crevettes-ail-violet-courgettes-riz-basmati-rapides",
+"nom": "Poêlée de crevettes à l'ail violet, courgettes et riz basmati complet",
+"type": "poisson",
+"terroir": null,
+"description": "Des crevettes sautées à l'ail violet de Cadours et au piment d'Espelette, des courgettes croquantes et un riz basmati complet parfumé au cit"
+},
+{
+"id": "oeufs-cocotte-epinards-rocamadour-rapides",
+"nom": "Œufs cocotte aux épinards et Rocamadour, mouillettes grillées",
+"type": "vege",
+"terroir": "Quercy",
+"description": "Des œufs cocotte au four sur un lit d'épinards à la crème, coiffés d'un Rocamadour fondant, à saucer avec des mouillettes de pain grillé."
+},
+{
+"id": "tartines-gratinees-potimarron-tomme-noisettes-rapides",
+"nom": "Tartines gratinées au potimarron, Tomme des Pyrénées et noisettes",
+"type": "vege",
+"terroir": "Pyrénées",
+"description": "Des tranches de potimarron rôties posées sur du pain de campagne, gratinées sous une fine couche de Tomme des Pyrénées et parsemées de noise"
+},
+{
+"id": "poelee-blettes-pois-chiches-cumin-oeufs-plat-rapides",
+"nom": "Poêlée de blettes et pois chiches au cumin, œufs au plat",
+"type": "vege",
+"terroir": "Provence",
+"description": "Côtes et feuilles de blettes sautées à l'ail avec des pois chiches dorés au cumin et au paprika, surmontées d'œufs au plat au jaune coulant."
+},
+{
+"id": "pates-completes-champignons-noix-persil-rapides",
+"nom": "Pâtes complètes aux champignons, noix et persil",
+"type": "vege",
+"terroir": null,
+"description": "Des pâtes complètes enrobées de champignons bien dorés, d'un trait de crème, de noix torréfiées et de persil : un plat de semaine qui sent l"
+},
+{
+"id": "omelette-poireaux-pommes-de-terre-cantal-rapides",
+"nom": "Omelette aux poireaux, pommes de terre et Cantal",
+"type": "vege",
+"terroir": "Auvergne",
+"description": "Une omelette épaisse façon paysanne : dés de pommes de terre dorés, poireau fondu et morceaux de Cantal qui filent, servie avec une salade v"
+},
+{
+"id": "poelee-printaniere-asperges-feves-petits-pois-saisons",
+"nom": "Poêlée printanière d'asperges, fèves et petits pois, œuf mollet",
+"type": "vege",
+"terroir": null,
+"description": "Le printemps dans l'assiette : des légumes verts à peine cuits, une pointe d'oignon nouveau et un œuf mollet coulant, à saucer avec du bon p"
+},
+{
+"id": "saute-poulet-asperges-vertes-citron-saisons",
+"nom": "Sauté de poulet aux asperges vertes et citron, riz basmati complet",
+"type": "volaille",
+"terroir": null,
+"description": "Un sauté minute qui sent le printemps : lanières de poulet dorées, asperges vertes croquantes et une sauce légère au citron et au bouillon."
+},
+{
+"id": "lieu-noir-ecrase-petits-pois-menthe-radis-saisons",
+"nom": "Lieu noir poêlé, écrasé de petits pois à la menthe et radis croquants",
+"type": "poisson",
+"terroir": null,
+"description": "Un filet de lieu noir doré à la poêle sur un écrasé vert de petits pois relevé de menthe, avec des radis roses croquants et des pommes de te"
+},
+{
+"id": "tomates-farcies-chair-saucisse-toulouse-riz-camargue-saisons",
+"nom": "Tomates farcies à la chair de saucisse de Toulouse et riz de Camargue",
+"type": "viande",
+"terroir": "Toulouse",
+"description": "Les grosses tomates d'été évidées et garnies d'une farce à la chair de saucisse de Toulouse, ail et persil, cuites au four sur un lit de riz"
+},
+{
+"id": "sardines-grillees-salade-tomates-poivrons-basilic-saisons",
+"nom": "Sardines grillées, salade de tomates et poivrons grillés au basilic",
+"type": "poisson",
+"terroir": "Méditerranée",
+"description": "Des sardines fraîches juste grillées, servies avec des poivrons confits au four et des tomates au basilic : la table d'été du littoral, avec"
+},
+{
+"id": "salade-melon-quercy-jambon-bayonne-chevre-roquette-saisons",
+"nom": "Salade complète melon du Quercy, jambon de Bayonne, chèvre frais et roquette",
+"type": "viande",
+"terroir": "Quercy et Pays basque",
+"description": "Le mariage melon et jambon cru en version plat complet : roquette poivrée, chèvre frais, noix, vinaigrette au miel et tartines grillées frot"
+},
+{
+"id": "gratin-butternut-chataignes-cantal-saisons",
+"nom": "Gratin de courge butternut aux châtaignes et au Cantal",
+"type": "vege",
+"terroir": "Auvergne",
+"description": "Une courge fondante au four avec des châtaignes, un peu de crème et une croûte de Cantal : le gratin doux et réconfortant de l'automne, avec"
+},
+{
+"id": "fricassee-poulet-cepes-chataignes-saisons",
+"nom": "Fricassée de poulet aux cèpes et châtaignes",
+"type": "volaille",
+"terroir": "Périgord",
+"description": "Des morceaux de poulet fermier dorés puis mijotés avec des cèpes frais, des châtaignes et une pointe d'ail : les saveurs des sous-bois du Su"
+},
+{
+"id": "saumon-four-poelee-champignons-epinards-noisettes-saisons",
+"nom": "Pavé de saumon au four, poêlée de champignons, épinards et noisettes",
+"type": "poisson",
+"terroir": null,
+"description": "Un pavé de saumon rôti doucement au four, posé sur une poêlée de champignons et d'épinards parsemée de noisettes torréfiées, avec du quinoa."
+},
+{
+"id": "salade-tiede-chou-rouge-poire-rotie-noix-roquefort-saisons",
+"nom": "Salade tiède de chou rouge, poire rôtie, noix et Roquefort, tartines grillées",
+"type": "vege",
+"terroir": "Aveyron",
+"description": "Du chou rouge juste tombé au vinaigre, des quartiers de poire rôtis au miel, des noix et des miettes de Roquefort : une salade d'automne tiè"
+},
+{
+"id": "cuisses-poulet-roties-topinambours-panais-clementines-corse-saisons",
+"nom": "Cuisses de poulet rôties aux topinambours, panais et clémentines de Corse",
+"type": "volaille",
+"terroir": null,
+"description": "Un plat tout-en-un au four : cuisses de poulet fermier dorées, racines d'hiver caramélisées au thym et quartiers de clémentines de Corse qui"
+},
+{
+"id": "gratin-poireaux-pommes-de-terre-laguiole-saisons",
+"nom": "Gratin de poireaux et pommes de terre au Laguiole",
+"type": "vege",
+"terroir": "Aubrac",
+"description": "Poireaux fondants et pommes de terre en fines tranches, liés d'un appareil léger au lait et gratinés au Laguiole : un plat d'hiver simple et"
+},
+{
+"id": "salade-hiver-endives-pomelo-corse-noix-oeufs-mollets-tomme-saisons",
+"nom": "Salade d'hiver aux endives, pomelo de Corse, noix, œufs mollets et tomme des Pyrénées",
+"type": "vege",
+"terroir": null,
+"description": "Croquant des endives, acidité douce du pomelo de Corse, noix torréfiées, copeaux de tomme et œufs mollets : une salade-repas lumineuse au cœ"
+}
+]
+}

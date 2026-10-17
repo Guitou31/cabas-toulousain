@@ -131,6 +131,7 @@ main section.tab{padding-top:18px}
 .rec-status{font-size:12.5px; color:var(--muted); margin:0 0 14px; display:flex; flex-wrap:wrap; gap:4px 14px}
 .grid-rec{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px}
 .card-rec{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:14px 15px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:8px; min-width:0}
+.card-rec .rimg{width:calc(100% + 30px); margin:-14px -15px 2px; aspect-ratio:16/9; object-fit:cover; border-radius:13px 13px 0 0; display:block; background:var(--surface2)}
 .card-rec .top{display:flex; justify-content:space-between; gap:8px; align-items:center; font-size:12px; color:var(--muted)}
 .card-rec .top .ter{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 .card-rec h3{font-size:17px; font-weight:650; line-height:1.25; cursor:pointer}
@@ -254,6 +255,44 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
 .modal .close{border:none; background:var(--surface2); border-radius:50%; width:30px; height:30px; font-size:15px; flex:none; line-height:1}
 .modal .mb{padding:12px 20px 20px}
 .modal .meta{display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 12px}
+.modal .mimg{width:100%; max-height:280px; object-fit:cover; border-radius:10px; display:block; margin:4px 0 4px; background:var(--surface2)}
+.credit{font-size:11px; color:var(--muted); display:block}
+.credit a{color:inherit}
+.mactions{display:flex; gap:8px; flex-wrap:wrap; margin-top:16px}
+
+/* ---------- impression ---------- */
+.print-tools{display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; padding:12px 20px; border-bottom:1px solid var(--line)}
+.print-tools .optsub{font-size:13.5px; color:var(--fg)}
+.print-sheet{padding:20px; color:var(--fg); line-height:1.45}
+.print-sheet h1{font-size:24px; margin:0 0 4px; font-family:var(--font-display)}
+.print-sheet .pmeta{color:var(--muted); font-size:13px; margin-bottom:10px}
+.print-sheet .pimg{width:100%; max-height:240px; object-fit:cover; border-radius:8px; margin:6px 0 12px; display:block}
+.print-sheet.sans-images img{display:none !important}
+.print-sheet h2{font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--brique); margin:16px 0 6px}
+.print-sheet ul.ping{margin:0; padding-left:18px; columns:2; column-gap:26px}
+.print-sheet ul.ping li{break-inside:avoid; font-size:13.5px; padding:2px 0}
+.print-sheet ol{margin:0; padding-left:20px}
+.print-sheet ol li{margin-bottom:6px; font-size:14px}
+.print-sheet .pastuce{margin-top:12px; font-size:13px; border-left:3px solid var(--vert); padding-left:10px}
+.print-sheet .pfoot{margin-top:18px; font-size:11px; color:var(--muted); border-top:1px solid var(--line); padding-top:6px}
+.pplan{width:100%; border-collapse:collapse; font-size:13px}
+.pplan th,.pplan td{border:1px solid var(--line); padding:8px; vertical-align:top; text-align:left}
+.pplan th{font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:700}
+.pplan .pj{width:104px; font-weight:700}
+.pplan .pd{color:var(--muted); font-size:11.5px; font-weight:400}
+.pplan .pimg2{width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:6px; margin-top:6px; display:block}
+@media (max-width:620px){ .print-sheet ul.ping{columns:1} }
+@media print{
+  @page{margin:12mm}
+  :root{--bg:#fff; --surface:#fff; --surface2:#f2f2f2; --fg:#111; --muted:#555; --line:#bbb; --brique:#8a3d22; --vert:#2e5f35; color-scheme:light}
+  body{background:#fff}
+  body > *:not(#modal-print){display:none !important}
+  #modal-print{position:static; display:block; padding:0; background:none; overflow:visible}
+  #modal-print .modal{max-width:none; width:100%; border:none; box-shadow:none; border-radius:0; margin:0}
+  #modal-print .mh,#modal-print .print-tools{display:none !important}
+  .print-sheet{padding:0}
+  .pplan tr,.print-sheet ol li{break-inside:avoid}
+}
 .modal h4{font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:16px 0 7px; font-weight:700}
 .ingl{margin:0; padding:0; list-style:none}
 .ingl li{display:flex; flex-wrap:wrap; gap:4px 8px; align-items:baseline; padding:4px 0; border-bottom:1px dotted var(--line); font-size:13.5px}
@@ -382,6 +421,7 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
         <div class="acts">
           <span class="midis-tgl"><input type="checkbox" class="sw" id="opt-midis"><label for="opt-midis">Planifier aussi les midis</label></span>
           <button class="btn prim" id="btn-composer" type="button">Composer ma semaine</button>
+          <button class="btn" id="btn-imprimer-plan" type="button">Imprimer la semaine</button>
           <button class="btn ghost" id="btn-vider" type="button">Tout vider</button>
         </div>
       </div>
@@ -481,6 +521,19 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
   </div>
 </div>
 
+<div class="ovl" id="modal-print" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mpr-titre">
+    <div class="mh"><h2 id="mpr-titre" style="font-size:18px">Aperçu avant impression</h2><button class="close" data-close type="button" aria-label="Fermer">✕</button></div>
+    <div class="print-tools">
+      <label class="optsub"><input type="checkbox" id="pr-images" checked> Avec les images</label>
+      <button class="btn prim" id="pr-imprimer" type="button">Imprimer</button>
+      <a class="btn prim" id="pr-ouvrir" href="#" target="_blank" rel="noopener" hidden>Ouvrir pour imprimer ↗</a>
+      <span class="tr-msg" id="pr-note"></span>
+    </div>
+    <div class="print-sheet" id="print-sheet"></div>
+  </div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
 (function(){
@@ -519,6 +572,7 @@ var state = {
 };
 var currentTab = 'planning';
 var saisonUI = {mois:null, scope:null};
+var pendingPrint = null;
 
 /* ===================== persistance (db artifact + repli localStorage) ===================== */
 var persist = {
@@ -843,6 +897,7 @@ function renderRecettes(){
 
   var html = list.map(function(r){
     return '<article class="card-rec">'
+      + imgHtml(r, 'rimg', true)
       + '<div class="top"><span class="tchip t-'+esc(r.type)+'"><span class="tdot"></span>'+TYPES[r.type]+'</span><span class="ter">'+(r.terroir?esc(r.terroir)+' · ':'')+r.tempsTotalMin+' min</span></div>'
       + '<h3 data-open="'+esc(r.id)+'">'+esc(r.nom)+'</h3>'
       + '<p class="desc">'+esc(r.description||'')+'</p>'
@@ -871,11 +926,13 @@ function openRecette(id){
     + chip('neutre', r.tempsTotalMin+' min')
     + chip('neutre', 'pour '+state.options.personnes+' pers.')
     + badgesRecette(r) + '</div>'
-    + '<p style="margin:0;color:var(--muted)">'+esc(r.description||'')+'</p>'
+    + imgHtml(r, 'mimg', false) + creditHtml(r)
+    + '<p style="margin:8px 0 0;color:var(--muted)">'+esc(r.description||'')+'</p>'
     + '<h4>Ingrédients</h4><ul class="ingl">'+ingHtml+'</ul>'
     + '<h4>Préparation</h4><ol class="etapes">'+etHtml+'</ol>'
     + (r.astuceOptions ? '<div class="astuce"><b>Selon vos options :</b> '+esc(r.astuceOptions)+'</div>' : '')
-    + '<div style="margin-top:16px"><button class="btn prim" data-plan="'+esc(r.id)+'" type="button">+ Planifier cette recette</button></div>';
+    + '<div class="mactions"><button class="btn prim" data-plan="'+esc(r.id)+'" type="button">+ Planifier cette recette</button>'
+    + '<button class="btn" data-print="'+esc(r.id)+'" type="button">Imprimer</button></div>';
   $('#modal-recette').hidden = false;
 }
 
@@ -1343,6 +1400,86 @@ function renderDrive(){
     + '<li>Le bouton « Copier la liste » (onglet Liste de courses) produit un texte propre, quantités et provenances incluses, à coller dans les notes de votre téléphone ou la recherche du drive.</li></ul>';
 }
 
+/* ===================== photos et impression ===================== */
+function imgHtml(r, cls, lazy){
+  if (!r || !r.image || !r.image.fichier) return '';
+  return '<img class="'+cls+'" src="img/'+esc(r.image.fichier)+'" alt=""'+(lazy?' loading="lazy"':'')+'>';
+}
+function creditHtml(r){
+  if (!r || !r.image) return '';
+  var i = r.image;
+  var auteur = i.page ? '<a href="'+esc(i.page)+'" target="_blank" rel="noopener">'+esc(i.auteur||'Wikimedia Commons')+'</a>' : esc(i.auteur||'Wikimedia Commons');
+  var lic = i.licence ? ' · '+(i.licenceUrl ? '<a href="'+esc(i.licenceUrl)+'" target="_blank" rel="noopener">'+esc(i.licence)+'</a>' : esc(i.licence)) : '';
+  return '<span class="credit">Photo'+(i.illustrative?' (illustration)':'')+' : '+auteur+lic+' · Wikimedia Commons</span>';
+}
+function feuilleRecette(r, pers, complets){
+  var k = pers / (r.portions || 4);
+  var ings = (r.ingredients||[]).map(function(ri){
+    var nu = normUnit(ri.quantite*k, ri.unite), g = ingOf(ri);
+    var nom = g ? ((complets && g.versionComplete) ? g.versionComplete : g.nom) : ri.nom;
+    return '<li><b>'+fmtQte(arrondi(nu.q, nu.u), nu.u)+'</b> '+esc(nom)+(ri.optionnel?' <i>(optionnel)</i>':'')+(ri.note?' <span style="color:var(--muted)">— '+esc(ri.note)+'</span>':'')+'</li>';
+  }).join('');
+  var et = (r.etapes||[]).map(function(e){ return '<li>'+esc(e)+'</li>' }).join('');
+  return '<h1>'+esc(r.nom)+'</h1>'
+    + '<div class="pmeta">'+TYPES[r.type]+(r.terroir?' · '+esc(r.terroir):'')+' · '+r.tempsTotalMin+' min · pour '+pers+' personne'+(pers>1?'s':'')+(r.gras===3?' · plat très gras':'')+'</div>'
+    + imgHtml(r, 'pimg', false)
+    + '<p style="margin:0 0 6px;color:var(--muted)">'+esc(r.description||'')+'</p>'
+    + '<h2>Ingrédients</h2><ul class="ping">'+ings+'</ul>'
+    + '<h2>Préparation</h2><ol>'+et+'</ol>'
+    + (r.astuceOptions ? '<div class="pastuce">'+esc(r.astuceOptions)+'</div>' : '')
+    + '<div class="pfoot">Le Cabas Toulousain'+(r.image ? ' — '+creditHtml(r) : '')+'</div>';
+}
+function feuillePlanning(plan, midis, pers){
+  var monday = mondayOfWeek();
+  var meals = midis ? ['midi','soir'] : ['soir'];
+  var rows = JOURS.map(function(j, idx){
+    var d = new Date(mondayOfWeek()); d.setDate(d.getDate()+idx);
+    var cells = meals.map(function(m){
+      var r = plan[j.k+'-'+m] ? recetteById(plan[j.k+'-'+m]) : null;
+      return '<td>'+(r ? '<b>'+esc(r.nom)+'</b><div class="pd">'+TYPES[r.type]+' · '+r.tempsTotalMin+' min'+(r.gras===3?' · très gras':'')+'</div>'+imgHtml(r, 'pimg2', false) : '<span class="pd">—</span>')+'</td>';
+    }).join('');
+    return '<tr><td class="pj">'+j.n+'<div class="pd">'+d.getDate()+' '+MOIS[d.getMonth()]+'</div></td>'+cells+'</tr>';
+  }).join('');
+  return '<h1>Semaine du '+monday.getDate()+' '+MOIS[monday.getMonth()]+'</h1>'
+    + '<div class="pmeta">Planning des repas · '+pers+' personne'+(pers>1?'s':'')+'</div>'
+    + '<table class="pplan"><thead><tr><th></th>'+(midis?'<th>Midi</th>':'')+'<th>Soir</th></tr></thead><tbody>'+rows+'</tbody></table>'
+    + '<div class="pfoot">Le Cabas Toulousain</div>';
+}
+/* ctx : {type:'recette', id, personnes?, complets?} ou {type:'planning', planning?, midis?, personnes?} */
+function ouvrirImpression(ctx, auto){
+  var sheet = $('#print-sheet');
+  var avecImages = true;
+  try{ avecImages = localStorage.getItem('cabas_print_images') !== '0' }catch(e){}
+  $('#pr-images').checked = avecImages;
+  var pers = ctx.personnes || state.options.personnes;
+  if (ctx.type === 'recette'){
+    var r = recetteById(ctx.id);
+    if (!r){ toast('Recette introuvable'); return }
+    sheet.innerHTML = feuilleRecette(r, pers, ctx.complets !== undefined ? ctx.complets : state.options.complets);
+  } else {
+    sheet.innerHTML = feuillePlanning(ctx.planning || state.planning, ctx.midis !== undefined ? ctx.midis : state.options.midis, pers);
+  }
+  sheet.classList.toggle('sans-images', !avecImages);
+  var artifact = !!window.claude;
+  $('#pr-imprimer').hidden = artifact;
+  $('#pr-ouvrir').hidden = !artifact;
+  if (artifact){
+    /* le cadre claude.ai ne peut pas ouvrir la boîte d'impression : on renvoie vers la version installable */
+    var lien = $('#pr-ouvrir');
+    if (ctx.type === 'recette') lien.href = PWA_URL + '#imprimer=recette.' + ctx.id + '.' + pers + '.' + (state.options.complets ? 1 : 0);
+    else { lien.href = PWA_URL + '#imprimer=planning'; encoderEtat().then(function(code){ lien.href = PWA_URL + '#imprimer=planning.' + code }) }
+    $('#pr-note').textContent = 'Ici, l\'impression n\'est pas possible : ce bouton ouvre la fiche sur la version installable (fenelion.fr), prête à imprimer.';
+  } else {
+    $('#pr-note').textContent = '';
+  }
+  $('#modal-print').hidden = false;
+  if (auto && !artifact){
+    var imgs = Array.prototype.slice.call(sheet.querySelectorAll('img'));
+    Promise.all(imgs.map(function(im){ return im.complete ? Promise.resolve() : new Promise(function(res){ im.onload = im.onerror = res }) }))
+      .then(function(){ setTimeout(function(){ try{ window.print() }catch(e){} }, 300) });
+  }
+}
+
 /* ===================== glisser-déposer dans le planning (souris et tactile, via Pointer Events) ===================== */
 var drag = null, dragRaf = 0, DRAG_MARGE = 70;
 function dragCible(x, y){
@@ -1494,11 +1631,17 @@ function wire(){
   });
   $('#mp-search').addEventListener('input', renderPickList);
   $('#btn-transfert').addEventListener('click', openTransfert);
+  $('#btn-imprimer-plan').addEventListener('click', function(){ ouvrirImpression({type:'planning'}) });
+  $('#pr-imprimer').addEventListener('click', function(){ try{ window.print() }catch(e){} });
+  $('#pr-images').addEventListener('change', function(){
+    $('#print-sheet').classList.toggle('sans-images', !this.checked);
+    try{ localStorage.setItem('cabas_print_images', this.checked ? '1' : '0') }catch(e){}
+  });
   $('#tr-copier').addEventListener('click', function(){ copierTexte($('#tr-out').value, 'Code copié') });
   $('#tr-importer').addEventListener('click', importerDepuisChamp);
 
   document.addEventListener('click', function(ev){
-    var t = ev.target.closest ? ev.target.closest('[data-open],[data-plan],[data-rm],[data-pick],[data-slot],[data-choose],[data-rmextra],[data-close],[data-optoggle],[data-scope],[data-mois],#crs-goplan') : null;
+    var t = ev.target.closest ? ev.target.closest('[data-open],[data-plan],[data-print],[data-rm],[data-pick],[data-slot],[data-choose],[data-rmextra],[data-close],[data-optoggle],[data-scope],[data-mois],#crs-goplan') : null;
     if (!t) {
       if (ev.target.classList && ev.target.classList.contains('ovl')) ev.target.hidden = true;
       return;
@@ -1516,6 +1659,10 @@ function wire(){
     if (t.hasAttribute('data-plan')){
       $('#modal-recette').hidden = true;
       openSlots(t.getAttribute('data-plan')); return;
+    }
+    if (t.hasAttribute('data-print')){
+      $('#modal-recette').hidden = true;
+      ouvrirImpression({type:'recette', id:t.getAttribute('data-print')}); return;
     }
     if (t.hasAttribute('data-rm')){
       delete state.planning[t.getAttribute('data-rm')];
@@ -1564,6 +1711,9 @@ function boot(){
 
   var hash = (location.hash||'').replace('#','');
   if (['planning','recettes','saisons','courses','drive'].indexOf(hash)!==-1) currentTab = hash;
+  /* lien d'impression venu de la version claude.ai : #imprimer=recette.<id>.<personnes>.<complets> ou #imprimer=planning.<code> */
+  var mpr = (location.hash||'').match(/^#imprimer=(recette|planning)(?:\.(.+))?$/);
+  if (mpr && !window.claude){ pendingPrint = {type: mpr[1], arg: mpr[2] || ''}; try{ history.replaceState(null, '', location.pathname) }catch(e){} }
   var mt = (location.hash||'').match(/^#t=(.+)$/);
   if (mt){
     try{ history.replaceState(null, '', location.pathname) }catch(e){}
@@ -1593,6 +1743,17 @@ function boot(){
     showTab(currentTab);
     renderAll();
     renderDrive();
+    if (pendingPrint){
+      var pp = pendingPrint; pendingPrint = null;
+      if (pp.type === 'recette'){
+        var parts = pp.arg.split('.');
+        ouvrirImpression({type:'recette', id:parts[0], personnes: parseInt(parts[1],10) || state.options.personnes, complets: parts[2] === undefined ? state.options.complets : parts[2] === '1'}, true);
+      } else if (pp.arg){
+        decoderEtat(pp.arg).then(function(d){
+          ouvrirImpression({type:'planning', planning: d.p || {}, midis: !!(d.o && d.o.midis), personnes: (d.o && d.o.personnes) || state.options.personnes}, true);
+        }).catch(function(e){ toast(e.message) });
+      } else ouvrirImpression({type:'planning'}, true);
+    }
   }).catch(function(e){
     $('#loading').textContent = 'Impossible de charger les données des recettes ('+e.message+'). Rechargez la page.';
   });

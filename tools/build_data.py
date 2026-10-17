@@ -380,6 +380,28 @@ for p in list(GRAS_OVERRIDE) + list(TEMPS_OVERRIDE):
     if not any(k.endswith(':' + p) for k in applied):
         problems.append('correctif sans effet : ' + p)
 
+# ---------- 4c. photos (data/images/<id>.json + fichiers app/img/) ----------
+IMGDIR = os.path.join(D, 'images')
+nimg = 0
+for r in recettes:
+    r['image'] = None
+    pj = os.path.join(IMGDIR, r['id'] + '.json')
+    if not os.path.exists(pj):
+        continue
+    try:
+        with open(pj, encoding='utf-8-sig') as f:
+            m = json.load(f)
+        if os.path.exists(os.path.join(BASE, 'app', 'img', m.get('fichier') or '')):
+            r['image'] = {'fichier': m['fichier'], 'auteur': m.get('auteur') or '', 'licence': m.get('licence') or '',
+                          'licenceUrl': m.get('licenceUrl') or '', 'page': m.get('page') or '',
+                          'illustrative': m.get('qualite') == 'proche'}
+            nimg += 1
+        else:
+            problems.append('photo absente sur disque : ' + r['id'])
+    except Exception as e:
+        problems.append('métadonnées photo invalides %s : %s' % (r['id'], e))
+print('recettes avec photo :', nimg, '/', len(recettes))
+
 # ---------- 5. drive + sortie ----------
 drive = load('drive.json', required=False) or {}
 

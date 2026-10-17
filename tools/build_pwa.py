@@ -66,6 +66,14 @@ with open(DATA, encoding='utf-8') as f:
     data = f.read()
 with open(os.path.join(OUT, 'data.json'), 'w', encoding='utf-8') as f:
     f.write(data)
+import shutil
+src_img = os.path.join(BASE, 'app', 'img')
+dst_img = os.path.join(OUT, 'img')
+if os.path.isdir(dst_img):
+    shutil.rmtree(dst_img)
+if os.path.isdir(src_img):
+    shutil.copytree(src_img, dst_img)
+    print('images copiées :', len(os.listdir(dst_img)))
 with open(os.path.join(OUT, '.nojekyll'), 'w') as f:
     f.write('')
 
