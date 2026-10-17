@@ -30,8 +30,12 @@ html = html.replace(m.group(0), '', 1)
 m = re.search(r'<link rel="stylesheet" href="https://fonts\.googleapis\.com[^>]*>\n', html)
 fonts = m.group(0)
 html = html.replace(fonts, '', 1)
-assert "var PWA_URL = '';" in html, 'PWA_URL introuvable dans app/index.html'
-html = html.replace("var PWA_URL = '';", 'var PWA_URL = %s;' % json.dumps(PWA_URL), 1)
+m = re.search(r"var PWA_URL = '[^']*';", html)
+assert m, 'PWA_URL introuvable dans app/index.html'
+if PWA_URL:
+    html = html.replace(m.group(0), 'var PWA_URL = %s;' % json.dumps(PWA_URL), 1)
+else:
+    PWA_URL = m.group(0).split("'")[1]   # valeur de la source, faute de pwa.config.json
 
 head = f'''<!doctype html>
 <html lang="fr">
