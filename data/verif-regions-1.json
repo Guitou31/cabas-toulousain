@@ -1,0 +1,43 @@
+{
+  "corriges": [
+    {
+      "id": "concombre",
+      "regions": ["Occitanie", "Pays de la Loire", "Provence-Alpes-Côte d'Azur", "Centre-Val de Loire", "Bretagne", "Hauts-de-France", "Nouvelle-Aquitaine", "Auvergne-Rhône-Alpes", "Grand Est"]
+    },
+    {
+      "id": "courgette",
+      "regions": ["Provence-Alpes-Côte d'Azur", "Occitanie", "Nouvelle-Aquitaine", "Auvergne-Rhône-Alpes", "Centre-Val de Loire", "Pays de la Loire"]
+    },
+    {
+      "id": "echalote",
+      "regions": ["Bretagne", "Pays de la Loire"]
+    },
+    {
+      "id": "fraise",
+      "regions": ["Nouvelle-Aquitaine", "Occitanie", "Auvergne-Rhône-Alpes", "Provence-Alpes-Côte d'Azur", "Bretagne", "Pays de la Loire", "Centre-Val de Loire"]
+    }
+  ],
+  "remarques": [
+    "52 ingrédients vérifiés (lot 1). Les 13 noms de régions utilisés dans regions.json sont tous exacts (orthographe, accents, apostrophe) ; aucune région fantaisiste trouvée.",
+    "concombre : Agreste SAA 2024 classe l'Occitanie 1re région (36 182 t, 258 ha) devant les Pays de la Loire et PACA ; le Centre-Val de Loire était 3e en 2019 (18 060 t) et manquait → ajouté. Occitanie placée en tête, utile pour un utilisateur toulousain.",
+    "courgette : les 4 premiers départements producteurs sont Gard, Bouches-du-Rhône, Loir-et-Cher et Lot-et-Garonne (CTIFL/Agreste) ; le Centre-Val de Loire (Sologne) manquait → ajouté.",
+    "échalote : l'interprofession (guide Interfel 2022) ne reconnaît que deux bassins, Bretagne (Finistère, ~250 producteurs) et Anjou (Pays de la Loire) ; Centre-Val de Loire retiré.",
+    "fraise : le Sud-Ouest fait les deux tiers de la production (Lot-et-Garonne, Dordogne, Tarn-et-Garonne, Lot) ; l'AOPn Fraises de France cite ensuite Bretagne, Sud-Est, Auvergne-Rhône-Alpes et Centre-Val de Loire (Sologne) → Centre-Val de Loire ajouté.",
+    "Catégories : toutes cohérentes dans regions.json. ATTENTION cependant : dans app/data.json, abricot, banane, citron, clementine, fraise, kiwi et melon sont en categorie 'legume' (regions.json dit 'fruit', à juste titre) et basilic est 'legume' (regions.json : 'condiment'). À harmoniser avant de construire la page fruits/légumes de saison, sinon ces fruits seront classés en légumes.",
+    "Aucun des 52 ids de ce lot ne figure dans produits-saison.json (ce sont tous des ingrédients existants) : le point 3 (saisonMois / risqueEspagne des nouveaux produits) ne s'applique pas ici. Les saisonMois existants dans data.json sont plausibles ; seul le chou-fleur ([1,2,3,10,11,12]) pourrait être élargi (campagne bretonne de septembre à mai) et le brocoli ([6..10]) jusqu'en novembre.",
+    "AOP Cantal : l'aire comprend 7-8 communes de Corrèze (Nouvelle-Aquitaine) mais la production y est marginale ; Nouvelle-Aquitaine volontairement non ajoutée. Même logique pour Rocamadour (quelques communes de Corrèze et Dordogne) et Ossau-Iraty (3 communes des Hautes-Pyrénées, Occitanie).",
+    "Jambon de Bayonne : élevage sur 22 départements du Sud-Ouest (62 % des éleveurs en Nouvelle-Aquitaine, 38 % en Occitanie), salaison dans le bassin de l'Adour → Nouvelle-Aquitaine + Occitanie confirmé.",
+    "Tomme des Pyrénées (IGP) : Ariège, Hautes-Pyrénées, Pyrénées-Atlantiques, arrondissement de Saint-Gaudens (Haute-Garonne), cantons d'Axat et Belcaire (Aude) → Occitanie + Nouvelle-Aquitaine confirmé. Laguiole : Aubrac (Aveyron, Lozère, Cantal) → Occitanie + Auvergne-Rhône-Alpes confirmé.",
+    "Kiwi : le bassin de l'Adour fait ~75 % de la production, puis Tarn-et-Garonne, vallée du Rhône et Corse (IGP Kiwi de Corse) ; PACA ne pèse qu'environ 1 % → son absence est correcte.",
+    "Melon : Agreste 2025 : Sud-Est 57 % (PACA, Languedoc-Roussillon, Rhône-Alpes, Corse), Centre-Ouest 23 % (Poitou-Charentes, Vendée, Centre-Val de Loire), Sud-Ouest 20 %. Liste actuelle correcte ; Centre-Val de Loire (Touraine) existe mais reste secondaire, non ajouté.",
+    "Mâche : la Loire-Atlantique fournit 83-85 % de la production nationale (IGP Mâche nantaise) → Pays de la Loire seul est correct.",
+    "Chou-fleur : Bretagne 78 %, Nord 9 %, Normandie 6 %, Grand Est ~4 % des surfaces. Le Grand Est pourrait être ajouté si l'on veut être exhaustif ; la présence des Pays de la Loire n'a pas pu être chiffrée (gardée, production nantaise connue).",
+    "Asperge : Landes 1er bassin, Grand Est 3e région (12 % des surfaces), Occitanie, PACA, Centre-Val de Loire, Pays de la Loire confirmés. Auvergne-Rhône-Alpes (Drôme/Ardèche) non chiffré par les sources trouvées : gardé, faible confiance.",
+    "Haricot vert : Bretagne, Hauts-de-France et Nouvelle-Aquitaine (Landes, 8 200 ha) concentrent la production ; Occitanie (Gers, Hautes-Pyrénées) est un bassin mineur mais réel, gardé en dernière position.",
+    "Dinde : Bretagne et Pays de la Loire dominent ; Occitanie gardée car l'IGP Volailles du Gers inclut la dinde ; Centre-Val de Loire gardé (abattoir de Blancafort, Cher) mais en fort déclin.",
+    "Lait de vache (FranceAgriMer 2024) : Occitanie ~2,4 % et Nouvelle-Aquitaine ~3,7 % de la collecte ; gardées car production locale réelle (Aveyron, Lozère, piémont pyrénéen), mais ce sont des régions secondaires.",
+    "Banane : aucune production en France métropolitaine (Guadeloupe, Martinique) → regions [] cohérent ; prévoir que le filtre 'toute la France' accepte la banane française des Antilles.",
+    "Citron : production française confidentielle (Menton ~200 t/an + Corse) → regions PACA + Corse cohérent, et origineFrance=false dans data.json est logique.",
+    "Saucisse de Toulouse : pas de SIQO, dénomination générique fabriquée partout ; Occitanie seule est le bon choix pour un filtre de provenance régionale."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "mappings": [],
+  "nouveauxIngredients": [
+    {
+      "id": "chou-vert",
+      "nom": "Chou vert frisé",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [1, 2, 3, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Légume d'hiver facile en origine France ; des maraîchers d'Occitanie en proposent sur les marchés.",
+      "versionComplete": null
+    },
+    {
+      "id": "amandes",
+      "nom": "Amandes (effilées ou entières)",
+      "rayon": "Épicerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Quasi toujours d'import (Espagne 1er producteur européen, Californie) ; la filière française (Provence) renaît mais reste confidentielle. Petite quantité, import assumé.",
+      "versionComplete": null
+    },
+    {
+      "id": "bouillon-legumes",
+      "nom": "Bouillon de légumes (cubes)",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Simple assaisonnement ; version sans huile de palme et à teneur réduite en sel de préférence, ou bouillon maison avec les épluchures.",
+      "versionComplete": null
+    },
+    {
+      "id": "noix-muscade",
+      "nom": "Noix de muscade",
+      "rayon": "Épices & Condiments",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé (Indonésie), simple assaisonnement.",
+      "versionComplete": null
+    },
+    {
+      "id": "sauce-soja",
+      "nom": "Sauce soja",
+      "rayon": "Épicerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé, simple assaisonnement ; à doser avec parcimonie (très salée).",
+      "versionComplete": null
+    }
+  ],
+  "recettesProblemes": [
+    {
+      "id": "salade-lentilles-truite-complets",
+      "probleme": "Quasi-doublon entre lots avec salade-lentilles-rocamadour-sudouest : même base (lentilles vertes tièdes, vinaigrette moutarde/vinaigre/huile de colza, échalotes, persil, laurier), seule la garniture change (truite fumée vs Rocamadour chaud).",
+      "suggestion": "Fusionner en une seule recette 'Salade tiède de lentilles vertes' avec deux variantes de garniture, ou différencier nettement l'une des deux (autre vinaigrette, autres légumes)."
+    },
+    {
+      "id": "filet-mignon-pruneaux-agen-quotidien",
+      "probleme": "Doublon de concept entre lots avec dinde-pruneaux-agen-sudouest : mijoté sucré-salé aux pruneaux d'Agen avec carottes, oignon, bouillon de volaille et thym/cannelle, seule la viande change.",
+      "suggestion": "Conserver les deux seulement si l'app évite de les proposer la même semaine (tag commun 'pruneaux'), sinon n'en garder qu'une."
+    },
+    {
+      "id": "saucisse-toulouse-lentilles-sudouest",
+      "probleme": "Recette la plus grasse du lot (500 g de saucisse pur porc, ~25-30 % MG, pour 4) ; par ailleurs l'étape 2 dit 'salez seulement en fin de cuisson' alors qu'aucun sel ne figure dans la liste d'ingrédients.",
+      "suggestion": "Le dégraissage prévu aux étapes atténue déjà le gras : passer à 400 g ou proposer une saucisse de Toulouse maigre/au couteau, et ajouter sel-camargue (1 pincée) aux ingrédients."
+    },
+    {
+      "id": "magret-grille-legumes-rotis-sudouest",
+      "probleme": "Plat riche en graisses si la peau des magrets est consommée (2 magrets ~700 g pour 4) ; reste raisonnable grâce au dégraissage en cours de cuisson prévu aux étapes.",
+      "suggestion": "Préciser dans la recette qu'on peut retirer une partie de la peau au service, et réserver le plat à une fréquence occasionnelle."
+    },
+    {
+      "id": "omelette-champignons-persil-quotidien",
+      "probleme": "Étape incohérente : l'étape 3 demande de battre les œufs 'avec du sel et du poivre' alors que le sel est absent de la liste d'ingrédients.",
+      "suggestion": "Ajouter sel-camargue (1 pincée) à la liste d'ingrédients."
+    },
+    {
+      "id": "veloute-potimarron-noix-quotidien",
+      "probleme": "Étape incohérente : l'étape 5 demande de 'rectifier le sel' alors qu'aucun sel n'est listé ; de plus le 'Bouillon de légumes (cube)' n'est pas référencé (idIngredient null).",
+      "suggestion": "Ajouter sel-camargue aux ingrédients et pointer le bouillon vers le nouvel ingrédient bouillon-legumes."
+    },
+    {
+      "id": "minestrone-occitan-complets",
+      "probleme": "Étape incohérente : l'étape 3 demande de 'saler' alors qu'aucun sel ne figure dans la liste d'ingrédients.",
+      "suggestion": "Ajouter sel-camargue (1 pincée) à la liste d'ingrédients."
+    },
+    {
+      "id": "poelee-riz-complet-poulet-complets",
+      "probleme": "La sauce soja est marquée optionnelle mais l'étape 5 l'incorpore sans condition ; elle n'est par ailleurs pas référencée (idIngredient null).",
+      "suggestion": "Reformuler l'étape 5 ('la sauce soja si vous l'utilisez') et pointer vers le nouvel ingrédient sauce-soja."
+    }
+  ]
+}

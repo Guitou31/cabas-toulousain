@@ -1,0 +1,385 @@
+{
+  "recettes": [
+    {
+      "id": "garbure-allegee-sudouest",
+      "nom": "Garbure allégée du Sud-Ouest",
+      "type": "viande",
+      "description": "La grande soupe-repas béarnaise aux légumes, haricots tarbais et jambon de Bayonne, en version légère sans confit.",
+      "tempsTotalMin": 90,
+      "portions": 4,
+      "saisonMois": [10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "haricot-tarbais", "nom": "Haricot tarbais", "quantite": 200, "unite": "g", "optionnel": false, "note": "secs, à tremper 12 h (ou 400 g de haricots cuits en bocal)"},
+        {"idIngredient": null, "nom": "Chou vert frisé", "quantite": 400, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "pomme-de-terre", "nom": "Pomme de terre", "quantite": 400, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "carotte", "nom": "Carotte", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "poireau", "nom": "Poireau", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "navet", "nom": "Navet", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-rose-lautrec", "nom": "Ail rose de Lautrec", "quantite": 3, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "jambon-bayonne", "nom": "Jambon de Bayonne", "quantite": 4, "unite": "tranche", "optionnel": false, "note": "ou un talon de jambon"},
+        {"idIngredient": "laurier", "nom": "Laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "feuille"},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "La veille, faites tremper les haricots tarbais dans un grand volume d'eau froide.",
+        "Égouttez les haricots, placez-les dans un faitout avec 2 litres d'eau froide, le laurier et le thym, portez à frémissement et laissez cuire 30 minutes en écumant.",
+        "Pendant ce temps, épluchez et coupez en gros morceaux les carottes, les navets, les poireaux, les pommes de terre et l'oignon ; émincez le chou.",
+        "Ajoutez dans le faitout les carottes, navets, poireaux, l'oignon, l'ail écrasé et le jambon coupé en lanières ; salez légèrement et poursuivez la cuisson 25 minutes.",
+        "Ajoutez le chou et les pommes de terre, puis laissez mijoter encore 25 minutes, jusqu'à ce que les haricots soient fondants.",
+        "Retirez le laurier, poivrez, rectifiez l'assaisonnement et servez bien chaud dans des assiettes creuses."
+      ],
+      "astuceOptions": "Haricot tarbais Label Rouge et jambon de Bayonne IGP : deux produits du grand Sud-Ouest parfaits pour l'option SIQO.",
+      "tags": ["sud-ouest", "mijoté", "soupe", "hiver", "plat complet"]
+    },
+    {
+      "id": "poule-au-pot-toulousaine-sudouest",
+      "nom": "Poule au pot et ses légumes",
+      "type": "volaille",
+      "description": "La volaille pochée chère à Henri IV, servie avec ses légumes fondants, son bouillon parfumé et un riz de Camargue.",
+      "tempsTotalMin": 95,
+      "portions": 4,
+      "saisonMois": [10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "poulet", "nom": "Poulet fermier entier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "poule ou poulet fermier d'environ 1,8 kg"},
+        {"idIngredient": "carotte", "nom": "Carotte", "quantite": 4, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "poireau", "nom": "Poireau", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "navet", "nom": "Navet", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-violet-cadours", "nom": "Ail violet de Cadours", "quantite": 2, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 200, "unite": "g", "optionnel": false, "note": "complet de préférence"},
+        {"idIngredient": "laurier", "nom": "Laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "feuille"},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "cornichons", "nom": "Cornichons", "quantite": 8, "unite": "pièce", "optionnel": true, "note": "pour le service"},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 1, "unite": "c. à soupe", "optionnel": true, "note": "pour le service"}
+      ],
+      "etapes": [
+        "Déposez la volaille dans un grand faitout, couvrez-la largement d'eau froide, portez à frémissement et écumez soigneusement.",
+        "Ajoutez l'oignon coupé en deux, l'ail, le laurier, le thym, le sel et le poivre, puis laissez frémir à couvert 40 minutes.",
+        "Épluchez les carottes, les navets et les poireaux, coupez-les en tronçons, ajoutez-les dans le bouillon et poursuivez la cuisson 35 minutes.",
+        "Prélevez environ 50 cl de bouillon dans une casserole et faites-y cuire le riz le temps indiqué sur le paquet.",
+        "Découpez la volaille en retirant la peau, disposez les morceaux dans un plat creux avec les légumes et arrosez d'une louche de bouillon bien chaud.",
+        "Servez avec le riz, les cornichons et la moutarde ; le bouillon restant, dégraissé, fera une excellente soupe le lendemain."
+      ],
+      "astuceOptions": "Choisissez un poulet fermier Label Rouge du Gers et un riz de Camargue complet IGP pour cocher les trois options d'un coup.",
+      "tags": ["sud-ouest", "mijoté", "plat complet", "hiver", "familial"]
+    },
+    {
+      "id": "magret-grille-legumes-rotis-sudouest",
+      "nom": "Magret de canard grillé, légumes d'automne rôtis",
+      "type": "volaille",
+      "description": "Un magret rosé et dégraissé, servi sur un lit de potimarron et de carottes rôtis au thym et au miel.",
+      "tempsTotalMin": 35,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1],
+      "ingredients": [
+        {"idIngredient": "magret-canard", "nom": "Magret de canard", "quantite": 2, "unite": "pièce", "optionnel": false, "note": "environ 350 g pièce"},
+        {"idIngredient": "potimarron", "nom": "Potimarron", "quantite": 600, "unite": "g", "optionnel": false, "note": "inutile de l'éplucher"},
+        {"idIngredient": "carotte", "nom": "Carotte", "quantite": 4, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 2, "unite": "pièce", "optionnel": false, "note": "en quartiers"},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "miel", "nom": "Miel", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "piment-espelette", "nom": "Piment d'Espelette", "quantite": 1, "unite": "pincée", "optionnel": true, "note": null}
+      ],
+      "etapes": [
+        "Préchauffez le four à 200 °C. Coupez le potimarron en quartiers, les carottes en bâtonnets et les oignons en quartiers.",
+        "Mélangez les légumes avec l'huile d'olive, le thym, le sel et le poivre, étalez-les sur une plaque et enfournez 25 minutes en remuant à mi-cuisson.",
+        "Quadrillez la peau des magrets au couteau sans entailler la chair, salez et poivrez.",
+        "Déposez les magrets côté peau dans une poêle froide et faites-les cuire 8 minutes à feu moyen en vidant la graisse fondue au fur et à mesure.",
+        "Retournez-les, badigeonnez la chair de miel et poursuivez la cuisson 3 à 4 minutes pour une viande rosée.",
+        "Laissez reposer les magrets 5 minutes sous une feuille d'aluminium, tranchez-les et servez-les sur les légumes rôtis avec une pincée de piment d'Espelette."
+      ],
+      "astuceOptions": "Prenez un magret IGP Canard à foie gras du Sud-Ouest ; vider la graisse en cours de cuisson allège nettement le plat.",
+      "tags": ["sud-ouest", "rapide", "automne", "grillé"]
+    },
+    {
+      "id": "poulet-basquaise-leger-sudouest",
+      "nom": "Poulet basquaise léger",
+      "type": "volaille",
+      "description": "Du poulet mijoté dans une fondue de poivrons, tomates et piment d'Espelette, servi avec un riz de Camargue.",
+      "tempsTotalMin": 50,
+      "portions": 4,
+      "saisonMois": [6, 7, 8, 9, 10],
+      "ingredients": [
+        {"idIngredient": "poulet", "nom": "Poulet", "quantite": 800, "unite": "g", "optionnel": false, "note": "cuisses déjointées ou filets, sans la peau"},
+        {"idIngredient": "poivron", "nom": "Poivron", "quantite": 3, "unite": "pièce", "optionnel": false, "note": "rouges et verts"},
+        {"idIngredient": "tomate", "nom": "Tomate", "quantite": 4, "unite": "pièce", "optionnel": false, "note": "bien mûres"},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-rose-lautrec", "nom": "Ail rose de Lautrec", "quantite": 2, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "jambon-bayonne", "nom": "Jambon de Bayonne", "quantite": 2, "unite": "tranche", "optionnel": true, "note": null},
+        {"idIngredient": "piment-espelette", "nom": "Piment d'Espelette", "quantite": 2, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "laurier", "nom": "Laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "feuille"},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 250, "unite": "g", "optionnel": false, "note": "complet de préférence"},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Faites revenir les oignons émincés 5 minutes dans l'huile d'olive dans une cocotte, puis ajoutez le jambon coupé en lanières.",
+        "Ajoutez les poivrons en lamelles et l'ail émincé, et laissez fondre 5 minutes à feu moyen.",
+        "Poussez les légumes sur le côté, ajoutez les morceaux de poulet et faites-les dorer sur toutes les faces.",
+        "Incorporez les tomates concassées, le thym, le laurier et le piment d'Espelette, salez, couvrez et laissez mijoter 25 minutes.",
+        "Pendant ce temps, faites cuire le riz de Camargue selon les indications du paquet.",
+        "Découvrez la cocotte les 5 dernières minutes pour faire réduire la sauce, puis servez le poulet avec le riz."
+      ],
+      "astuceOptions": "Poulet Label Rouge du Gers, piment d'Espelette AOP et riz de Camargue complet IGP : un plat 100 % grand Sud-Ouest.",
+      "tags": ["sud-ouest", "pays basque", "mijoté", "été", "plat complet"]
+    },
+    {
+      "id": "dinde-pruneaux-agen-sudouest",
+      "nom": "Escalopes de dinde aux pruneaux d'Agen",
+      "type": "volaille",
+      "description": "Un sauté de dinde express aux carottes et aux pruneaux d'Agen, légèrement caramélisé au miel.",
+      "tempsTotalMin": 30,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "dinde", "nom": "Escalope de dinde", "quantite": 500, "unite": "g", "optionnel": false, "note": "4 escalopes"},
+        {"idIngredient": "pruneaux-agen", "nom": "Pruneaux d'Agen", "quantite": 12, "unite": "pièce", "optionnel": false, "note": "dénoyautés"},
+        {"idIngredient": "carotte", "nom": "Carotte", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "miel", "nom": "Miel", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "bouillon-volaille", "nom": "Bouillon de volaille", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "cube, à diluer dans 25 cl d'eau chaude"},
+        {"idIngredient": "cannelle", "nom": "Cannelle", "quantite": 1, "unite": "pincée", "optionnel": true, "note": null},
+        {"idIngredient": "semoule", "nom": "Semoule de blé dur", "quantite": 200, "unite": "g", "optionnel": true, "note": "pour accompagner"},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Coupez les escalopes de dinde en gros morceaux, salez et poivrez.",
+        "Faites-les dorer 3 minutes de chaque côté dans l'huile d'olive dans une sauteuse, puis réservez-les.",
+        "Dans la même sauteuse, faites revenir l'oignon émincé et les carottes en fines rondelles pendant 5 minutes.",
+        "Versez le bouillon dilué, ajoutez le miel, la cannelle et les pruneaux, puis laissez frémir 10 minutes.",
+        "Remettez la dinde dans la sauteuse et laissez mijoter 5 minutes, le temps que la sauce la nappe.",
+        "Servez bien chaud avec la semoule, préparée selon les indications du paquet."
+      ],
+      "astuceOptions": "Les pruneaux d'Agen IGP sont produits à moins de 100 km de Toulouse : une douceur locale et labellisée.",
+      "tags": ["sud-ouest", "rapide", "sucré-salé", "familial"]
+    },
+    {
+      "id": "axoa-veau-leger-sudouest",
+      "nom": "Axoa de veau léger",
+      "type": "viande",
+      "description": "L'émincé de veau basque aux poivrons et au piment d'Espelette, mijoté avec très peu de matière grasse.",
+      "tempsTotalMin": 55,
+      "portions": 4,
+      "saisonMois": [6, 7, 8, 9, 10],
+      "ingredients": [
+        {"idIngredient": "veau", "nom": "Veau", "quantite": 600, "unite": "g", "optionnel": false, "note": "épaule coupée en tout petits dés ou hachée gros"},
+        {"idIngredient": "poivron", "nom": "Poivron", "quantite": 2, "unite": "pièce", "optionnel": false, "note": "verts de préférence"},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-rose-lautrec", "nom": "Ail rose de Lautrec", "quantite": 2, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "piment-espelette", "nom": "Piment d'Espelette", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "bouillon-volaille", "nom": "Bouillon de volaille", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "cube, à diluer dans 20 cl d'eau"},
+        {"idIngredient": "pomme-de-terre", "nom": "Pomme de terre", "quantite": 600, "unite": "g", "optionnel": false, "note": "pour l'accompagnement vapeur"},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Émincez finement les oignons, les poivrons et l'ail.",
+        "Faites-les revenir 8 minutes dans l'huile d'olive dans une sauteuse, à feu moyen.",
+        "Ajoutez le veau et faites-le dorer 5 minutes en remuant.",
+        "Saupoudrez de piment d'Espelette, salez, versez le bouillon dilué et laissez mijoter 30 minutes à couvert.",
+        "Pendant ce temps, faites cuire les pommes de terre à la vapeur 20 minutes.",
+        "Rectifiez l'assaisonnement et servez l'axoa bien chaud avec les pommes de terre vapeur."
+      ],
+      "astuceOptions": "Un veau fermier Label Rouge des Pyrénées et un piment d'Espelette AOP gardent ce plat basque local et labellisé.",
+      "tags": ["sud-ouest", "pays basque", "mijoté", "léger"]
+    },
+    {
+      "id": "saucisse-toulouse-lentilles-sudouest",
+      "nom": "Saucisse de Toulouse grillée aux lentilles vertes",
+      "type": "viande",
+      "description": "La saucisse emblématique de la ville rose, grillée et dégraissée, posée sur des lentilles vertes mijotées aux carottes.",
+      "tempsTotalMin": 45,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "saucisse-toulouse", "nom": "Saucisse de Toulouse", "quantite": 500, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "lentilles-vertes", "nom": "Lentilles vertes", "quantite": 300, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "carotte", "nom": "Carotte", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-violet-cadours", "nom": "Ail violet de Cadours", "quantite": 1, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "laurier", "nom": "Laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "feuille"},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 1, "unite": "c. à soupe", "optionnel": true, "note": null},
+        {"idIngredient": "persil", "nom": "Persil frais", "quantite": 0.5, "unite": "botte", "optionnel": true, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Rincez les lentilles et mettez-les dans une casserole avec trois fois leur volume d'eau froide, le laurier, le thym et l'ail écrasé.",
+        "Ajoutez les carottes en rondelles et l'oignon émincé, portez à ébullition puis laissez frémir 25 à 30 minutes ; salez seulement en fin de cuisson.",
+        "Pendant ce temps, piquez la saucisse et faites-la griller à la poêle ou au four 15 à 20 minutes sans matière grasse, en jetant le gras rendu.",
+        "Égouttez les lentilles en gardant un peu de jus de cuisson et incorporez la moutarde si vous l'utilisez.",
+        "Coupez la saucisse en tronçons, déposez-la sur les lentilles et laissez mijoter ensemble 5 minutes.",
+        "Poivrez généreusement, parsemez de persil ciselé et servez."
+      ],
+      "astuceOptions": "Saucisse de Toulouse d'un boucher artisan et lentilles vertes du Puy AOP (à moins de 350 km) ; la griller sans gras allège le plat.",
+      "tags": ["sud-ouest", "toulouse", "hiver", "plat complet", "légumineuses"]
+    },
+    {
+      "id": "truite-amandes-riz-camargue-sudouest",
+      "nom": "Truite aux amandes, riz de Camargue",
+      "type": "poisson",
+      "description": "Des truites des Pyrénées dorées à la poêle, nappées d'un beurre citronné aux amandes et accompagnées de riz complet.",
+      "tempsTotalMin": 30,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "truite", "nom": "Truite", "quantite": 4, "unite": "pièce", "optionnel": false, "note": "vidées, environ 250 g pièce"},
+        {"idIngredient": null, "nom": "Amandes effilées", "quantite": 40, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 250, "unite": "g", "optionnel": false, "note": "complet de préférence"},
+        {"idIngredient": "beurre", "nom": "Beurre", "quantite": 20, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "citron", "nom": "Citron", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "persil", "nom": "Persil frais", "quantite": 0.5, "unite": "botte", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Faites cuire le riz de Camargue dans un grand volume d'eau salée, le temps indiqué sur le paquet.",
+        "Salez et poivrez les truites, à l'intérieur comme à l'extérieur.",
+        "Faites-les cuire 5 à 6 minutes par face dans une grande poêle avec l'huile d'olive, puis réservez-les au chaud.",
+        "Dans la même poêle, faites blondir le beurre avec les amandes effilées 2 minutes en remuant.",
+        "Déglacez avec le jus du citron et arrosez aussitôt les truites de ce beurre aux amandes.",
+        "Parsemez de persil ciselé et servez sans attendre avec le riz."
+      ],
+      "astuceOptions": "Truite élevée dans les Pyrénées (Banka, Hautes-Pyrénées, Ariège...) et riz de Camargue complet IGP : local et bon pour l'option céréales complètes.",
+      "tags": ["sud-ouest", "rapide", "poisson", "pyrénées"]
+    },
+    {
+      "id": "merlu-ecrase-pdt-epinards-sudouest",
+      "nom": "Merlu rôti, écrasé de pommes de terre aux épinards",
+      "type": "poisson",
+      "description": "Un dos de merlu de Saint-Jean-de-Luz rôti au piment d'Espelette, avec un écrasé de pommes de terre à l'huile d'olive et des épinards.",
+      "tempsTotalMin": 35,
+      "portions": 4,
+      "saisonMois": [10, 11, 12, 1, 2, 3, 4],
+      "ingredients": [
+        {"idIngredient": "merlu", "nom": "Merlu (colin)", "quantite": 600, "unite": "g", "optionnel": false, "note": "4 dos ou pavés"},
+        {"idIngredient": "pomme-de-terre", "nom": "Pomme de terre", "quantite": 800, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "epinard", "nom": "Épinard", "quantite": 400, "unite": "g", "optionnel": false, "note": "frais"},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 3, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "ail-rose-lautrec", "nom": "Ail rose de Lautrec", "quantite": 1, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "citron", "nom": "Citron", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "piment-espelette", "nom": "Piment d'Espelette", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Faites cuire les pommes de terre épluchées et coupées en morceaux 20 minutes dans une casserole d'eau bouillante salée.",
+        "Préchauffez le four à 200 °C. Déposez les dos de merlu dans un plat, arrosez-les d'un filet d'huile d'olive, salez et saupoudrez de piment d'Espelette.",
+        "Enfournez le poisson 12 à 15 minutes selon l'épaisseur.",
+        "Faites tomber les épinards 3 minutes à la poêle avec l'ail émincé et un filet d'huile d'olive.",
+        "Égouttez les pommes de terre et écrasez-les à la fourchette avec le reste d'huile d'olive, du sel et du poivre.",
+        "Servez le merlu sur l'écrasé avec les épinards et un quartier de citron."
+      ],
+      "astuceOptions": "Demandez un merlu de ligne de Saint-Jean-de-Luz : pêché à moins de 300 km de Toulouse, à préférer aux poissons d'import.",
+      "tags": ["sud-ouest", "rapide", "poisson", "léger"]
+    },
+    {
+      "id": "salade-lentilles-rocamadour-sudouest",
+      "nom": "Salade de lentilles au Rocamadour chaud",
+      "type": "vege",
+      "description": "Des lentilles vertes en vinaigrette moutardée, de la mâche, des noix et des toasts de Rocamadour fondant.",
+      "tempsTotalMin": 35,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "lentilles-vertes", "nom": "Lentilles vertes", "quantite": 250, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "rocamadour", "nom": "Rocamadour", "quantite": 4, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "mache", "nom": "Mâche", "quantite": 100, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "echalote", "nom": "Échalote", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "noix", "nom": "Noix", "quantite": 40, "unite": "g", "optionnel": false, "note": "cerneaux"},
+        {"idIngredient": "pain", "nom": "Pain", "quantite": 4, "unite": "tranche", "optionnel": false, "note": "de campagne"},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "vinaigre-vin", "nom": "Vinaigre de vin", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "huile-colza", "nom": "Huile de colza", "quantite": 3, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "persil", "nom": "Persil frais", "quantite": 0.5, "unite": "botte", "optionnel": false, "note": null},
+        {"idIngredient": "laurier", "nom": "Laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "feuille"},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Faites cuire les lentilles 25 minutes dans un grand volume d'eau non salée avec le laurier, puis égouttez-les et salez-les.",
+        "Préparez la vinaigrette en mélangeant la moutarde, le vinaigre, l'huile de colza, le sel et le poivre.",
+        "Mélangez les lentilles tièdes avec la vinaigrette, les échalotes finement ciselées et le persil.",
+        "Faites toaster les tranches de pain, déposez un Rocamadour sur chacune et passez 3 minutes sous le gril du four.",
+        "Répartissez la mâche et les lentilles dans les assiettes, puis parsemez de cerneaux de noix.",
+        "Posez un toast de Rocamadour chaud sur chaque salade et servez aussitôt."
+      ],
+      "astuceOptions": "Rocamadour AOP du Lot et noix du Périgord AOP : deux labels à moins de 200 km de Toulouse.",
+      "tags": ["sud-ouest", "rapide", "végétarien", "salade", "légumineuses"]
+    },
+    {
+      "id": "piperade-oeufs-sudouest",
+      "nom": "Piperade aux œufs",
+      "type": "vege",
+      "description": "La compotée basque de poivrons, tomates et oignons doux, liée à la fin par des œufs crémeux.",
+      "tempsTotalMin": 30,
+      "portions": 4,
+      "saisonMois": [6, 7, 8, 9, 10],
+      "ingredients": [
+        {"idIngredient": "poivron", "nom": "Poivron", "quantite": 4, "unite": "pièce", "optionnel": false, "note": "verts et rouges"},
+        {"idIngredient": "tomate", "nom": "Tomate", "quantite": 5, "unite": "pièce", "optionnel": false, "note": "bien mûres"},
+        {"idIngredient": "oignon-doux-cevennes", "nom": "Oignon doux des Cévennes", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-rose-lautrec", "nom": "Ail rose de Lautrec", "quantite": 2, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "oeufs", "nom": "Œufs", "quantite": 8, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "piment-espelette", "nom": "Piment d'Espelette", "quantite": 2, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "pain", "nom": "Pain", "quantite": 4, "unite": "tranche", "optionnel": true, "note": "de campagne, pour le service"},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Émincez les oignons et l'ail, coupez les poivrons en fines lanières et les tomates en morceaux.",
+        "Faites fondre les oignons 5 minutes dans l'huile d'olive, puis ajoutez les poivrons et l'ail et poursuivez 10 minutes à feu moyen.",
+        "Ajoutez les tomates, le thym et le piment d'Espelette, salez et laissez compoter 10 minutes à découvert.",
+        "Battez les œufs en omelette et versez-les sur les légumes.",
+        "Remuez doucement à feu doux jusqu'à ce que les œufs soient pris mais encore crémeux.",
+        "Servez aussitôt avec le pain de campagne grillé."
+      ],
+      "astuceOptions": "Oignon doux des Cévennes AOP, piment d'Espelette AOP et œufs plein air bio de la région : la piperade coche toutes les options.",
+      "tags": ["sud-ouest", "pays basque", "rapide", "végétarien", "été"]
+    },
+    {
+      "id": "haricots-tarbais-mijotes-sudouest",
+      "nom": "Haricots tarbais mijotés aux légumes",
+      "type": "vege",
+      "description": "Des haricots tarbais fondants mijotés à la tomate, aux carottes et au thym, un plat complet végétarien du piémont pyrénéen.",
+      "tempsTotalMin": 85,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1, 2],
+      "ingredients": [
+        {"idIngredient": "haricot-tarbais", "nom": "Haricot tarbais", "quantite": 300, "unite": "g", "optionnel": false, "note": "secs, à tremper 12 h"},
+        {"idIngredient": "coulis-tomate", "nom": "Coulis de tomate", "quantite": 400, "unite": "ml", "optionnel": false, "note": null},
+        {"idIngredient": "carotte", "nom": "Carotte", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-violet-cadours", "nom": "Ail violet de Cadours", "quantite": 2, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "laurier", "nom": "Laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "feuille"},
+        {"idIngredient": "persil", "nom": "Persil frais", "quantite": 0.5, "unite": "botte", "optionnel": true, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "La veille, faites tremper les haricots tarbais 12 heures dans un grand volume d'eau froide.",
+        "Égouttez-les, couvrez-les largement d'eau froide avec le laurier, portez à frémissement et faites-les cuire 40 minutes ; égouttez.",
+        "Dans une cocotte, faites revenir l'oignon émincé, les carottes en rondelles et l'ail dans l'huile d'olive pendant 5 minutes.",
+        "Ajoutez le coulis de tomate, le thym et 25 cl d'eau, puis incorporez les haricots précuits.",
+        "Laissez mijoter à couvert 30 minutes, jusqu'à ce que les haricots soient bien fondants ; salez à mi-cuisson.",
+        "Poivrez, parsemez de persil ciselé et servez bien chaud."
+      ],
+      "astuceOptions": "Le haricot tarbais Label Rouge et IGP est cultivé au pied des Pyrénées, à 150 km de Toulouse : le produit local par excellence.",
+      "tags": ["sud-ouest", "végétarien", "mijoté", "légumineuses", "hiver"]
+    }
+  ]
+}

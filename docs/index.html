@@ -1,0 +1,1635 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Le Cabas Toulousain</title>
+<meta name="description" content="Planification des repas et liste de courses privilégiant les produits du grand Sud (ou d'Occitanie, ou de France), les fruits et légumes de saison et les pâtes et riz complets.">
+<meta name="theme-color" content="#a84b2c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#201a17" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Cabas">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<style>
+/* Layout : app-outil une colonne (max 1060px), bandeau d'options en tête, onglets collants, contenu par onglet. */
+:root{
+  --bg:#f7f3f0;
+  --surface:#fffdfb;
+  --surface2:#f0e8e2;
+  --fg:#2a211d;
+  --muted:#83756d;
+  --line:#e4d9d2;
+  --brique:#a84b2c;
+  --brique-ink:#fff6f1;
+  --vert:#37703f;
+  --amber:#96661c;
+  --bleu:#35598f;
+  --aop:#9a3b24;
+  --lr:#a31d2b;
+  --ab:#2f6b33;
+  --stg:#8a6a16;
+  --t-viande:#9c4430;
+  --t-volaille:#9c6e23;
+  --t-poisson:#35598f;
+  --t-vege:#37703f;
+  --shadow:0 1px 3px rgba(42,33,29,.08),0 6px 18px rgba(42,33,29,.06);
+  --font-display:"Bricolage Grotesque","Public Sans",system-ui,sans-serif;
+  --font-body:"Public Sans",system-ui,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#201a17; --surface:#2a2320; --surface2:#352c27; --fg:#f0e8e2; --muted:#a79a91;
+    --line:#423831; --brique:#df8a62; --brique-ink:#2a1812; --vert:#8cc794; --amber:#d9a94e;
+    --bleu:#8fb0dd; --aop:#e59c82; --lr:#ef9aa2; --ab:#92c996; --stg:#d7b96a;
+    --t-viande:#df9a7f; --t-volaille:#d6ad67; --t-poisson:#8fb0dd; --t-vege:#8cc794;
+    --shadow:0 1px 3px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.25);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#201a17; --surface:#2a2320; --surface2:#352c27; --fg:#f0e8e2; --muted:#a79a91;
+  --line:#423831; --brique:#df8a62; --brique-ink:#2a1812; --vert:#8cc794; --amber:#d9a94e;
+  --bleu:#8fb0dd; --aop:#e59c82; --lr:#ef9aa2; --ab:#92c996; --stg:#d7b96a;
+  --t-viande:#df9a7f; --t-volaille:#d6ad67; --t-poisson:#8fb0dd; --t-vege:#8cc794;
+  --shadow:0 1px 3px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.25);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--fg);
+  font-family:var(--font-body); font-size:15px; line-height:1.5;
+  margin:0;
+}
+.wrap{max-width:1060px; margin:0 auto; padding-block:0 48px; padding-inline:16px}
+h1,h2,h3{font-family:var(--font-display); text-wrap:balance; margin:0}
+button{font-family:inherit; font-size:inherit; color:inherit; cursor:pointer}
+input,select{font-family:inherit; font-size:inherit; color:inherit}
+:focus-visible{outline:2px solid var(--brique); outline-offset:2px; border-radius:4px}
+@media (prefers-reduced-motion: reduce){ *{transition:none !important; animation:none !important} }
+
+/* ---------- entête ---------- */
+.hdr{padding-block:28px 10px}
+.hdr .sur{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--brique); font-weight:600}
+.hdr h1{font-size:clamp(28px,5vw,40px); font-weight:700; letter-spacing:-.01em}
+.hdr .tagline{margin:6px 0 0; color:var(--muted); max-width:62ch}
+
+/* ---------- bandeau options ---------- */
+.optbar{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:10px; margin-top:16px}
+.optcard{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:12px 14px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:8px}
+.optcard .ttl{font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--brique); font-weight:700}
+.optmain{display:flex; align-items:flex-start; gap:10px}
+.optmain label{font-weight:600; cursor:pointer; min-width:0}
+.optmain .det{display:block; font-weight:400; font-size:12.5px; color:var(--muted)}
+.optsub{display:flex; align-items:center; gap:8px; font-size:13px; color:var(--muted)}
+.optsub input{accent-color:var(--brique); width:15px; height:15px; flex:none}
+.optsub label{cursor:pointer}
+.radio{display:flex; align-items:flex-start; gap:8px; cursor:pointer}
+.radio input{accent-color:var(--brique); width:16px; height:16px; margin:3px 0 0; flex:none}
+.radio span{font-weight:600}
+.radio small{display:block; font-weight:400; font-size:12px; color:var(--muted)}
+.optnote{font-size:12px; color:var(--muted); margin:0}
+input.sw{appearance:none; -webkit-appearance:none; width:40px; height:22px; border-radius:999px; background:var(--line); position:relative; cursor:pointer; transition:background .15s; flex:none; margin:2px 0 0; border:none}
+input.sw:checked{background:var(--vert)}
+input.sw::after{content:''; position:absolute; top:3px; left:3px; width:16px; height:16px; border-radius:50%; background:var(--surface); transition:left .15s; box-shadow:0 1px 2px rgba(0,0,0,.25)}
+input.sw:checked::after{left:21px}
+.linkbtn{border:none; background:none; color:var(--brique); font-weight:600; padding:0; font-size:13px; text-align:left}
+.linkbtn:hover{text-decoration:underline}
+.foyer{justify-content:space-between}
+.foyer .row{display:flex; align-items:center; justify-content:space-between; gap:10px}
+.foyer .lbl{font-weight:600}
+.foyer .lbl .det{display:block; font-weight:400; font-size:12.5px; color:var(--muted)}
+.stepper{display:flex; align-items:center; gap:2px; background:var(--surface2); border-radius:999px; padding:2px}
+.stepper button{width:30px; height:30px; border:none; background:none; border-radius:50%; font-size:17px; line-height:1; color:var(--fg)}
+.stepper button:hover{background:var(--surface)}
+.stepper .val{min-width:26px; text-align:center; font-weight:700; font-variant-numeric:tabular-nums}
+
+/* ---------- onglets ---------- */
+.tabs{position:sticky; top:env(safe-area-inset-top,0px); z-index:30; background:var(--bg); display:flex; gap:4px; padding-block:12px 0; margin-top:18px; border-bottom:1px solid var(--line); overflow-x:auto}
+.tabs button{border:none; background:none; padding:9px 14px 11px; font-weight:600; color:var(--muted); border-radius:9px 9px 0 0; white-space:nowrap; position:relative}
+.tabs button[aria-selected="true"]{color:var(--fg)}
+.tabs button[aria-selected="true"]::after{content:''; position:absolute; left:10px; right:10px; bottom:-1px; height:3px; border-radius:3px 3px 0 0; background:var(--brique)}
+.tabs .cnt{display:inline-block; margin-left:6px; font-size:11.5px; font-weight:700; background:var(--surface2); border-radius:999px; padding:1px 7px; font-variant-numeric:tabular-nums}
+main section.tab{padding-top:18px}
+
+/* ---------- chips & badges ---------- */
+.chip{display:inline-flex; align-items:center; gap:4px; font-size:11.5px; font-weight:600; border-radius:999px; padding:2px 8px; border:1px solid transparent; white-space:nowrap; max-width:100%}
+.chip.lab{letter-spacing:.04em}
+.chip.fr{border-color:var(--line); background:var(--surface); padding-left:12px; position:relative; overflow:hidden}
+.chip.fr::before{content:''; position:absolute; left:0; top:0; bottom:0; width:5px;
+  background:linear-gradient(to bottom,#28408f 33%,#f5f2ee 33% 66%,#b03040 66%)}
+.chip.loc{color:var(--vert); background:color-mix(in srgb,var(--vert) 12%, transparent); border-color:color-mix(in srgb,var(--vert) 30%, transparent)}
+.chip.warn{color:var(--amber); background:color-mix(in srgb,var(--amber) 12%, transparent); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.saison{color:var(--vert); border-color:color-mix(in srgb,var(--vert) 35%, transparent)}
+.chip.hsaison{color:var(--amber); border-color:color-mix(in srgb,var(--amber) 35%, transparent)}
+.chip.gras3{color:var(--brique-ink); background:var(--lr); border-color:var(--lr)}
+.chip.aop{color:var(--aop); background:color-mix(in srgb,var(--aop) 12%, transparent); border-color:color-mix(in srgb,var(--aop) 30%, transparent)}
+.chip.igp{color:var(--bleu); background:color-mix(in srgb,var(--bleu) 12%, transparent); border-color:color-mix(in srgb,var(--bleu) 30%, transparent)}
+.chip.lr{color:var(--lr); background:color-mix(in srgb,var(--lr) 10%, transparent); border-color:color-mix(in srgb,var(--lr) 30%, transparent)}
+.chip.ab{color:var(--ab); background:color-mix(in srgb,var(--ab) 12%, transparent); border-color:color-mix(in srgb,var(--ab) 30%, transparent)}
+.chip.stg{color:var(--stg); background:color-mix(in srgb,var(--stg) 12%, transparent); border-color:color-mix(in srgb,var(--stg) 30%, transparent)}
+.chip.neutre{color:var(--muted); border-color:var(--line)}
+.tdot{display:inline-block; width:8px; height:8px; border-radius:50%; flex:none}
+.t-viande .tdot{background:var(--t-viande)} .t-volaille .tdot{background:var(--t-volaille)}
+.t-poisson .tdot{background:var(--t-poisson)} .t-vege .tdot{background:var(--t-vege)}
+.tchip{display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:600; color:var(--muted)}
+
+/* ---------- recettes ---------- */
+.rec-tools{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:10px}
+.rec-tools input[type="search"]{flex:1 1 180px; min-width:0; border:1px solid var(--line); background:var(--surface); border-radius:9px; padding:8px 12px}
+.fchip{border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:5px 12px; font-size:13px; font-weight:600; color:var(--muted)}
+.fchip[aria-pressed="true"]{background:var(--brique); border-color:var(--brique); color:var(--brique-ink)}
+.rec-status{font-size:12.5px; color:var(--muted); margin:0 0 14px; display:flex; flex-wrap:wrap; gap:4px 14px}
+.grid-rec{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px}
+.card-rec{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:14px 15px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:8px; min-width:0}
+.card-rec .top{display:flex; justify-content:space-between; gap:8px; align-items:center; font-size:12px; color:var(--muted)}
+.card-rec .top .ter{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.card-rec h3{font-size:17px; font-weight:650; line-height:1.25; cursor:pointer}
+.card-rec h3:hover{color:var(--brique)}
+.card-rec .desc{font-size:13px; color:var(--muted); margin:0; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
+.card-rec .badges{display:flex; flex-wrap:wrap; gap:5px}
+.card-rec .foot{display:flex; gap:8px; margin-top:auto; padding-top:4px}
+.btn{border:1px solid var(--line); background:var(--surface); border-radius:9px; padding:7px 13px; font-weight:600; font-size:13.5px}
+.btn:hover{background:var(--surface2)}
+.btn.prim{background:var(--brique); border-color:var(--brique); color:var(--brique-ink)}
+.btn.prim:hover{filter:brightness(1.06)}
+.btn.sm{padding:5px 10px; font-size:12.5px}
+.btn.ghost{border-color:transparent; background:none; color:var(--muted)}
+.btn.ghost:hover{background:var(--surface2); color:var(--fg)}
+
+/* ---------- planning ---------- */
+.plan-head{display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:14px}
+.plan-head .sem{font-family:var(--font-display); font-weight:650; font-size:18px}
+.plan-head .acts{display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+.midis-tgl{display:flex; align-items:center; gap:8px; font-size:13px; color:var(--muted); font-weight:600}
+.plan-grid{display:flex; flex-direction:column; gap:8px}
+.plan-day{display:grid; grid-template-columns:86px 1fr; gap:10px; align-items:stretch; background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:10px 12px}
+.plan-day .jour{font-weight:700; font-family:var(--font-display); padding-top:6px}
+.plan-day .jour .date{display:block; font-family:var(--font-body); font-weight:400; font-size:12px; color:var(--muted)}
+.plan-slots{display:grid; gap:8px; min-width:0}
+.plan-slots.two{grid-template-columns:1fr 1fr}
+.slot{border:1px dashed var(--line); border-radius:10px; min-height:52px; padding:7px 10px; display:flex; align-items:center; gap:8px; min-width:0}
+.slot.filled{border-style:solid; background:var(--surface2)}
+.slot .meal{font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); font-weight:700; flex:none; width:34px}
+.slot .body{min-width:0; flex:1}
+.slot .nomr{font-weight:600; font-size:13.5px; line-height:1.3; cursor:pointer}
+.slot .nomr:hover{color:var(--brique)}
+.slot .sub{font-size:11.5px; color:var(--muted); display:flex; gap:7px; align-items:center; flex-wrap:wrap}
+.slot .add{border:none; background:none; color:var(--muted); font-weight:600; font-size:13px; flex:1; text-align:left; padding:4px}
+.slot .add:hover{color:var(--brique)}
+.slot .rm{border:none; background:none; color:var(--muted); font-size:15px; padding:2px 6px; border-radius:6px; flex:none}
+.slot .rm:hover{background:var(--surface); color:var(--fg)}
+.slot .grip{flex:none; width:24px; align-self:stretch; display:flex; align-items:center; justify-content:center; color:var(--muted); cursor:grab; touch-action:none; user-select:none; -webkit-user-select:none; -webkit-touch-callout:none; border-radius:6px; margin-left:-4px}
+.slot .grip::before{content:''; width:10px; height:17px; background-image:radial-gradient(circle, currentColor 1.4px, transparent 1.7px); background-size:5px 5.6px; background-position:0 0}
+.slot .grip:hover{background:var(--surface); color:var(--fg)}
+.slot.dragging{opacity:.35}
+.slot.over{border-color:var(--brique); border-style:solid; background:color-mix(in srgb,var(--brique) 10%, var(--surface2)); box-shadow:0 0 0 2px color-mix(in srgb,var(--brique) 35%, transparent)}
+.drag-ghost{position:fixed; z-index:60; pointer-events:none; opacity:.92; box-shadow:0 10px 30px rgba(0,0,0,.25); transform:rotate(-1.5deg); margin:0; background:var(--surface2)}
+body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
+.plan-sum{margin-top:12px; font-size:13px; color:var(--muted)}
+.plan-empty{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:26px; text-align:center; color:var(--muted)}
+.plan-empty h3{color:var(--fg); margin-bottom:6px}
+
+/* ---------- saisons ---------- */
+.sai-head{display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; justify-content:space-between; margin-bottom:12px}
+.seg{display:inline-flex; border:1px solid var(--line); border-radius:999px; padding:2px; background:var(--surface); max-width:100%; overflow-x:auto}
+.seg button{border:none; background:none; padding:5px 12px; border-radius:999px; font-weight:600; color:var(--muted); font-size:13px; white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--brique); color:var(--brique-ink)}
+.mois{display:flex; gap:4px; flex-wrap:wrap; margin-bottom:14px}
+.mois button{border:1px solid var(--line); background:var(--surface); border-radius:8px; padding:5px 0; font-size:12.5px; font-weight:600; color:var(--muted); flex:1 1 56px; min-width:0}
+.mois button[aria-pressed="true"]{background:var(--fg); color:var(--bg); border-color:var(--fg)}
+.mois button.now{border-color:var(--brique)}
+.sai-sum{font-family:var(--font-display); font-size:19px; font-weight:650; margin-bottom:14px}
+.sai-cols{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px 28px}
+.sai-cols h3{font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:var(--brique); border-bottom:1px solid var(--line); padding-bottom:6px; margin-bottom:4px; font-weight:700}
+.prow{display:grid; grid-template-columns:minmax(0,1fr) 132px; gap:3px 12px; padding:8px 0; border-bottom:1px dotted var(--line); align-items:center}
+.prow .pn{font-weight:600; min-width:0}
+.prow .pn small{display:block; font-weight:400; font-size:11.5px; color:var(--muted)}
+.prow .preg{grid-column:1/-1; display:flex; flex-wrap:wrap; gap:4px}
+.mstrip{display:grid; grid-template-columns:repeat(12,1fr); gap:2px}
+.mcell{height:10px; border-radius:2px; background:var(--surface2)}
+.mcell.on{background:var(--vert)}
+.mcell.sel{outline:2px solid var(--brique); outline-offset:1px}
+.mcell.all{background:color-mix(in srgb,var(--vert) 40%, var(--surface2))}
+.sai-hors{margin-top:22px}
+.sai-hors summary{cursor:pointer; font-weight:600; color:var(--muted); padding:8px 0}
+.sai-hors .prow{opacity:.75}
+.sai-legend{font-size:12px; color:var(--muted); margin:0 0 10px; display:flex; gap:14px; flex-wrap:wrap; align-items:center}
+.sai-legend .mstrip{width:60px; display:inline-grid}
+
+/* ---------- courses ---------- */
+.crs-head{display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:6px}
+.crs-head .acts{display:flex; gap:8px; flex-wrap:wrap}
+.crs-note{font-size:12.5px; color:var(--muted); margin:0 0 14px}
+.rayon{margin-bottom:18px}
+.rayon h3{font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:var(--brique); border-bottom:1px solid var(--line); padding-bottom:6px; margin-bottom:4px; font-weight:700}
+.item{display:flex; gap:10px; padding:9px 4px; border-bottom:1px dotted var(--line); align-items:flex-start}
+.item input[type="checkbox"]{accent-color:var(--vert); width:17px; height:17px; margin-top:2px; flex:none; cursor:pointer}
+.item .ibody{min-width:0; flex:1}
+.item .iline{display:flex; flex-wrap:wrap; gap:6px 10px; align-items:baseline}
+.item .qte{font-variant-numeric:tabular-nums; font-weight:700; white-space:nowrap}
+.item .inom{font-weight:500}
+.item .ichips{display:flex; flex-wrap:wrap; gap:4px; margin-top:3px}
+.item .iconseil{font-size:12px; color:var(--muted); margin-top:2px}
+.item .iorig{font-size:12px; margin-top:1px}
+.item .iorig.ok{color:var(--vert); font-weight:600}
+.item .iorig.warn{color:var(--amber)}
+.item .iorig.muted{color:var(--muted)}
+.item.done{opacity:.45}
+.item.done .inom,.item.done .qte{text-decoration:line-through}
+.extra-form{display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:12px}
+.extra-form input,.extra-form select{border:1px solid var(--line); background:var(--bg); border-radius:8px; padding:7px 10px; min-width:0}
+.extra-form input[name="nom"]{flex:2 1 160px}
+.extra-form input[name="qte"]{flex:0 1 70px}
+.extra-form select{flex:1 1 120px}
+.crs-empty{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:26px; text-align:center; color:var(--muted)}
+
+/* ---------- drive ---------- */
+.drive-constat{background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--brique); border-radius:10px; padding:14px 16px; margin-bottom:16px}
+.grid-drive{display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:10px; margin-bottom:18px}
+.card-drive{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:13px 14px}
+.card-drive .dn{font-weight:700}
+.card-drive .note{font-size:12.5px; color:var(--muted); margin:4px 0 8px}
+.card-drive a{color:var(--brique); font-weight:600; font-size:13px; text-decoration:none}
+.card-drive a:hover{text-decoration:underline}
+.pistes{background:var(--surface2); border-radius:12px; padding:14px 18px}
+.pistes h3{font-size:15px; margin-bottom:8px}
+.pistes ul{margin:0; padding-left:18px}
+.pistes li{margin-bottom:5px; font-size:13.5px}
+
+/* ---------- modales ---------- */
+.ovl{position:fixed; inset:0; background:rgba(26,18,14,.45); z-index:50; display:flex; align-items:flex-start; justify-content:center; padding:4vh 16px calc(16px + env(safe-area-inset-bottom,0px)); overflow-y:auto}
+.modal{background:var(--surface); border-radius:16px; max-width:640px; width:100%; box-shadow:var(--shadow); border:1px solid var(--line); margin-bottom:4vh}
+.modal .mh{display:flex; justify-content:space-between; gap:10px; align-items:flex-start; padding:18px 20px 0}
+.modal .mh h2{font-size:21px; line-height:1.25; min-width:0}
+.modal .close{border:none; background:var(--surface2); border-radius:50%; width:30px; height:30px; font-size:15px; flex:none; line-height:1}
+.modal .mb{padding:12px 20px 20px}
+.modal .meta{display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 12px}
+.modal h4{font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:16px 0 7px; font-weight:700}
+.ingl{margin:0; padding:0; list-style:none}
+.ingl li{display:flex; flex-wrap:wrap; gap:4px 8px; align-items:baseline; padding:4px 0; border-bottom:1px dotted var(--line); font-size:13.5px}
+.ingl .q{font-variant-numeric:tabular-nums; font-weight:700; min-width:72px; white-space:nowrap}
+.etapes{margin:0; padding-left:20px}
+.etapes li{margin-bottom:7px; font-size:14px}
+.astuce{margin-top:14px; background:color-mix(in srgb,var(--vert) 9%, transparent); border:1px solid color-mix(in srgb,var(--vert) 25%, transparent); border-radius:10px; padding:10px 13px; font-size:13px}
+.astuce b{color:var(--vert)}
+.pick-list{max-height:56vh; overflow-y:auto; display:flex; flex-direction:column; gap:4px}
+.pick-row{display:flex; gap:10px; align-items:center; border:1px solid var(--line); background:var(--bg); border-radius:10px; padding:9px 12px; text-align:left; width:100%}
+.pick-row:hover{border-color:var(--brique)}
+.pick-row .pn{font-weight:600; min-width:0; flex:1}
+.pick-row .pm{font-size:12px; color:var(--muted); white-space:nowrap}
+.slot-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:8px}
+.slot-btn{border:1px dashed var(--line); background:var(--bg); border-radius:10px; padding:10px; text-align:left; min-height:56px}
+.slot-btn:hover{border-color:var(--brique)}
+.slot-btn .sj{font-weight:700; font-size:13px}
+.slot-btn .sc{font-size:11.5px; color:var(--muted); display:block; margin-top:2px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.slot-btn.occ{border-style:solid; background:var(--surface2)}
+
+/* ---------- transfert ---------- */
+.tr-help{font-size:13px; color:var(--muted); margin:0 0 10px}
+.tr-send{display:flex; gap:14px; flex-wrap:wrap; align-items:flex-start}
+.tr-qr{flex:none; background:#fff; padding:8px; border-radius:10px; line-height:0}
+.tr-qr:empty{display:none}
+.tr-qr img,.tr-qr canvas{display:block; max-width:100%; height:auto}
+.tr-code{flex:1 1 200px; min-width:0; display:flex; flex-direction:column; gap:6px}
+.modal textarea{font-family:ui-monospace,Consolas,monospace; font-size:11px; width:100%; border:1px solid var(--line); background:var(--bg); border-radius:8px; padding:8px; color:var(--fg); resize:vertical; word-break:break-all}
+.tr-actions{display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap}
+.tr-msg{font-size:13px; color:var(--amber)}
+
+/* ---------- divers ---------- */
+.toast{position:fixed; left:50%; transform:translateX(-50%); bottom:calc(22px + env(safe-area-inset-bottom,0px)); background:var(--fg); color:var(--bg); border-radius:999px; padding:9px 18px; font-weight:600; font-size:13.5px; z-index:80; box-shadow:var(--shadow); pointer-events:none}
+.foot{margin-top:40px; padding-top:14px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 16px; justify-content:space-between}
+.sync{display:inline-flex; align-items:center; gap:6px}
+.sync .dot{width:7px; height:7px; border-radius:50%; background:var(--line)}
+.sync.on .dot{background:var(--vert)}
+.load-card{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:30px; text-align:center; color:var(--muted); margin-top:24px}
+@media (max-width:620px){
+  .plan-day{grid-template-columns:1fr}
+  .plan-day .jour{padding-top:0}
+  .plan-slots.two{grid-template-columns:1fr}
+}
+</style>
+
+<div class="wrap">
+  <header class="hdr">
+    <span class="sur">Repas &amp; courses — Toulouse et le grand Sud</span>
+    <h1>Le Cabas Toulousain</h1>
+    <p class="tagline">Planifiez vos repas de la semaine et générez la liste de courses, en privilégiant les produits de votre région, les fruits et légumes de saison, et les pâtes et riz complets.</p>
+  </header>
+
+  <div class="optbar" id="optbar">
+    <div class="optcard">
+      <span class="ttl">Provenance des ingrédients principaux</span>
+      <label class="radio"><input type="radio" name="zone" value="occitanie" id="zone-occitanie"><span>Occitanie uniquement</span></label>
+      <label class="radio"><input type="radio" name="zone" value="sud" id="zone-sud"><span>Le grand Sud<small>Nouvelle-Aquitaine, Occitanie, Provence-Alpes-Côte d'Azur, Auvergne-Rhône-Alpes</small></span></label>
+      <label class="radio"><input type="radio" name="zone" value="france" id="zone-france"><span>Toute la France</span></label>
+      <div class="optsub">
+        <input type="checkbox" id="opt-espagne">
+        <label for="opt-espagne">Signaler les produits souvent importés d'Espagne</label>
+      </div>
+      <p class="optnote">Fruits, légumes, viandes, féculents et crèmerie sont concernés ; le poisson ne l'est pas (souvent pêché en Bretagne).</p>
+    </div>
+    <div class="optcard">
+      <span class="ttl">Saison</span>
+      <div class="optmain">
+        <input type="checkbox" class="sw" id="opt-saison">
+        <label for="opt-saison">Fruits &amp; légumes de saison uniquement
+          <span class="det">Les recettes avec un produit hors saison sont masquées</span>
+        </label>
+      </div>
+      <button class="linkbtn" id="btn-voir-saisons" type="button">Voir le calendrier des saisons →</button>
+    </div>
+    <div class="optcard">
+      <span class="ttl">Assiette</span>
+      <div class="optmain">
+        <input type="checkbox" class="sw" id="opt-complets">
+        <label for="opt-complets">Pâtes &amp; riz complets
+          <span class="det">Substitution automatique dans les recettes et la liste</span>
+        </label>
+      </div>
+      <div class="optmain">
+        <input type="checkbox" class="sw" id="opt-gras">
+        <label for="opt-gras">Afficher aussi les plats très gras
+          <span class="det">Raclette, tartiflette, welsh… signalés par une pastille</span>
+        </label>
+      </div>
+      <div class="optsub">
+        <input type="checkbox" id="opt-siqo">
+        <label for="opt-siqo">Mettre en avant les labels (AOP, IGP, Label Rouge…)</label>
+      </div>
+    </div>
+    <div class="optcard foyer">
+      <span class="ttl">Foyer</span>
+      <div class="row">
+        <span class="lbl">Personnes à table
+          <span class="det">Les quantités s'ajustent</span>
+        </span>
+        <div class="stepper">
+          <button type="button" id="pers-moins" aria-label="Moins de personnes">−</button>
+          <span class="val" id="pers-val">2</span>
+          <button type="button" id="pers-plus" aria-label="Plus de personnes">+</button>
+        </div>
+      </div>
+      <button class="linkbtn" id="btn-transfert" type="button">Transférer vers un autre appareil →</button>
+      <button class="btn sm prim" id="btn-installer" type="button" hidden>Installer l'application sur cet appareil</button>
+      <p class="optnote" id="install-hint" hidden></p>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist" id="tabs">
+    <button role="tab" data-tab="planning" aria-selected="true" id="tabbtn-planning">Planning <span class="cnt" id="cnt-plan" hidden>0</span></button>
+    <button role="tab" data-tab="recettes" aria-selected="false" id="tabbtn-recettes">Recettes <span class="cnt" id="cnt-rec" hidden>0</span></button>
+    <button role="tab" data-tab="saisons" aria-selected="false" id="tabbtn-saisons">Saisons</button>
+    <button role="tab" data-tab="courses" aria-selected="false" id="tabbtn-courses">Liste de courses <span class="cnt" id="cnt-crs" hidden>0</span></button>
+    <button role="tab" data-tab="drive" aria-selected="false" id="tabbtn-drive" hidden>Drive &amp; export</button>
+  </nav>
+
+  <main>
+    <div class="load-card" id="loading">Chargement des recettes…</div>
+
+    <section class="tab" id="tab-planning" hidden>
+      <div class="plan-head">
+        <span class="sem" id="sem-label">Ma semaine</span>
+        <div class="acts">
+          <span class="midis-tgl"><input type="checkbox" class="sw" id="opt-midis"><label for="opt-midis">Planifier aussi les midis</label></span>
+          <button class="btn prim" id="btn-composer" type="button">Composer ma semaine</button>
+          <button class="btn ghost" id="btn-vider" type="button">Tout vider</button>
+        </div>
+      </div>
+      <div id="plan-zone"></div>
+      <p class="plan-sum" id="plan-sum"></p>
+    </section>
+
+    <section class="tab" id="tab-recettes" hidden>
+      <div class="rec-tools">
+        <input type="search" id="rec-search" placeholder="Chercher une recette ou un ingrédient…" aria-label="Recherche de recettes">
+        <button class="fchip" data-f="rapide" aria-pressed="false" type="button">≤ 35 min</button>
+        <button class="fchip" data-f="leger" aria-pressed="false" type="button">Léger</button>
+        <button class="fchip" data-f="viande" aria-pressed="false" type="button">Viande</button>
+        <button class="fchip" data-f="volaille" aria-pressed="false" type="button">Volaille</button>
+        <button class="fchip" data-f="poisson" aria-pressed="false" type="button">Poisson</button>
+        <button class="fchip" data-f="vege" aria-pressed="false" type="button">Végétarien</button>
+      </div>
+      <p class="rec-status" id="rec-status"></p>
+      <div class="grid-rec" id="rec-grid"></div>
+    </section>
+
+    <section class="tab" id="tab-saisons" hidden>
+      <div id="sai-zone"></div>
+    </section>
+
+    <section class="tab" id="tab-courses" hidden>
+      <div class="crs-head">
+        <h2 style="font-size:19px">Liste générée depuis le planning</h2>
+        <div class="acts">
+          <button class="btn prim" id="btn-copier" type="button">Copier</button>
+          <button class="btn" id="btn-partager" type="button" hidden>Partager…</button>
+          <button class="btn" id="btn-telecharger" type="button">Télécharger (.txt)</button>
+          <button class="btn ghost" id="btn-decocher" type="button">Tout décocher</button>
+        </div>
+      </div>
+      <p class="crs-note">Les cases cochées sont enregistrées automatiquement sur cet appareil : fermez l'application, rouvrez-la en magasin, elles sont toujours là. L'export produit un texte à cases à cocher (« - [ ] ») lisible partout, et reconnu comme liste par les applications de notes compatibles Markdown. Les ingrédients optionnels des recettes ne sont pas comptés.</p>
+      <div id="crs-zone"></div>
+      <form class="extra-form" id="extra-form">
+        <input name="nom" placeholder="Ajouter un article (savon, café…)" aria-label="Nom de l'article" required>
+        <input name="qte" placeholder="Qté" aria-label="Quantité">
+        <select name="rayon" aria-label="Rayon"></select>
+        <button class="btn" type="submit">Ajouter</button>
+      </form>
+    </section>
+
+    <section class="tab" id="tab-drive" hidden>
+      <div class="drive-constat" id="drive-constat"></div>
+      <div class="grid-drive" id="drive-grid"></div>
+      <div class="pistes" id="drive-pistes"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Base v2 du 16 octobre 2026 : labels contrôlés via les registres officiels (INAO), régions de production et saisons vérifiées par recherche documentaire. L'origine réelle se vérifie toujours sur l'étiquette.</span>
+    <span class="sync" id="sync-pill"><span class="dot"></span><span id="sync-txt">Sauvegarde locale</span><span id="save-time"></span></span>
+  </footer>
+</div>
+
+<div class="ovl" id="modal-recette" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mr-titre">
+    <div class="mh"><h2 id="mr-titre"></h2><button class="close" data-close type="button" aria-label="Fermer">✕</button></div>
+    <div class="mb" id="mr-body"></div>
+  </div>
+</div>
+<div class="ovl" id="modal-slots" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="ms-titre">
+    <div class="mh"><h2 id="ms-titre" style="font-size:18px">Planifier pour…</h2><button class="close" data-close type="button" aria-label="Fermer">✕</button></div>
+    <div class="mb"><div class="slot-grid" id="ms-grid"></div></div>
+  </div>
+</div>
+<div class="ovl" id="modal-pick" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mp-titre">
+    <div class="mh"><h2 id="mp-titre" style="font-size:18px">Choisir une recette</h2><button class="close" data-close type="button" aria-label="Fermer">✕</button></div>
+    <div class="mb">
+      <input type="search" id="mp-search" placeholder="Filtrer…" aria-label="Filtrer les recettes" style="width:100%;border:1px solid var(--line);background:var(--bg);border-radius:9px;padding:8px 12px;margin-bottom:10px">
+      <div class="pick-list" id="mp-list"></div>
+    </div>
+  </div>
+</div>
+<div class="ovl" id="modal-transfert" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mt-titre">
+    <div class="mh"><h2 id="mt-titre" style="font-size:18px">Transférer mes données</h2><button class="close" data-close type="button" aria-label="Fermer">✕</button></div>
+    <div class="mb">
+      <h4>Envoyer vers un autre appareil</h4>
+      <p class="tr-help" id="tr-help">Scannez ce code avec l'appareil photo du téléphone : l'application s'ouvre et importe le planning, la liste de courses et les options. Ou copiez le code texte et collez-le dans « Recevoir » sur l'autre appareil.</p>
+      <div class="tr-send">
+        <div id="tr-qr" class="tr-qr"></div>
+        <div class="tr-code">
+          <textarea id="tr-out" readonly rows="4" aria-label="Code de transfert"></textarea>
+          <button class="btn sm" id="tr-copier" type="button">Copier le code</button>
+        </div>
+      </div>
+      <h4>Recevoir</h4>
+      <textarea id="tr-in" rows="3" placeholder="Collez ici le code reçu…" aria-label="Code à importer"></textarea>
+      <div class="tr-actions"><button class="btn prim sm" id="tr-importer" type="button">Importer</button><span id="tr-msg" class="tr-msg"></span></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+'use strict';
+var $ = function(s){ return document.querySelector(s) };
+var $$ = function(s){ return Array.prototype.slice.call(document.querySelectorAll(s)) };
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c] }) }
+function chip(cls, txt, title){ return '<span class="chip '+cls+'"'+(title?' title="'+esc(title)+'"':'')+'>'+esc(txt)+'</span>' }
+
+var JOURS = [
+  {k:'lun', n:'Lundi'}, {k:'mar', n:'Mardi'}, {k:'mer', n:'Mercredi'}, {k:'jeu', n:'Jeudi'},
+  {k:'ven', n:'Vendredi'}, {k:'sam', n:'Samedi'}, {k:'dim', n:'Dimanche'}
+];
+var MOIS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+var MOIS_C = ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+var RAYONS = ['Fruits & Légumes','Boucherie & Volaille','Poissonnerie','Crèmerie & Fromages','Boulangerie','Épicerie','Épices & Condiments','Autres'];
+var TYPES = {viande:'Viande', volaille:'Volaille', poisson:'Poisson', vege:'Végétarien'};
+var LABCLS = {'AOP':'aop','IGP':'igp','Label Rouge':'lr','AB':'ab','STG':'stg'};
+var ZONES_DEF = {
+  occitanie: ['Occitanie'],
+  sud: ['Nouvelle-Aquitaine','Occitanie',"Provence-Alpes-Côte d'Azur",'Auvergne-Rhône-Alpes'],
+  france: ['Auvergne-Rhône-Alpes','Bourgogne-Franche-Comté','Bretagne','Centre-Val de Loire','Corse','Grand Est','Hauts-de-France','Île-de-France','Normandie','Nouvelle-Aquitaine','Occitanie','Pays de la Loire',"Provence-Alpes-Côte d'Azur"]
+};
+var ZONE_LABEL = {occitanie:'Occitanie', sud:'Sud', france:'France'};
+var ZONE_LONG = {occitanie:'en Occitanie', sud:'dans le grand Sud', france:'en France'};
+var PRINCIPAL = {fruit:1, legume:1, viande:1, cremerie:1, feculent:1};
+
+var DATA = null, ING = {}, RECS = [];
+var PWA_URL = "";   /* adresse de la version installable (renseignée par tools/build_pwa.py) */
+var DEFAULTS = {v:3, zone:'sud', eviterEspagne:true, saisonUniquement:true, complets:true, tresGras:false, siqo:false, personnes:2, midis:true};
+var state = {
+  options: Object.assign({}, DEFAULTS),
+  planning: {},   /* "lun-soir" -> id recette */
+  checks: {},     /* clé article -> true */
+  extras: []      /* articles ajoutés à la main */
+};
+var currentTab = 'planning';
+var saisonUI = {mois:null, scope:null};
+
+/* ===================== persistance (db artifact + repli localStorage) ===================== */
+var persist = {
+  db:null, lastJson:{}, timers:{}, chains:{}, dirty:{},
+  loadLocal: function(key){
+    try{
+      if (localStorage.getItem('cabas_dirty_'+key)) this.dirty[key] = true;
+      var v = localStorage.getItem('cabas_'+key); return v ? JSON.parse(v) : null;
+    }catch(e){ return null }
+  },
+  statut: function(txt){ var st = document.getElementById('save-time'); if (st) st.textContent = txt ? ' · '+txt : '' },
+  heure: function(){ var t = new Date(); return ('0'+t.getHours()).slice(-2)+':'+('0'+t.getMinutes()).slice(-2) },
+  save: function(key, data){
+    var j = JSON.stringify(data);
+    if (j === this.lastJson[key]) return;
+    this.lastJson[key] = j;
+    this.dirty[key] = true;   /* modification locale pas encore confirmée par la base partagée */
+    var okLocal = false;
+    try{ localStorage.setItem('cabas_'+key, j); localStorage.setItem('cabas_dirty_'+key, '1'); okLocal = true }catch(e){}
+    this.statut(okLocal ? 'enregistré à '+this.heure() : 'non enregistré');
+    if (this.db) this.push(key);
+  },
+  push: function(key){
+    var self = this;
+    clearTimeout(this.timers[key]);
+    this.timers[key] = setTimeout(function(){
+      var payload = self.lastJson[key];
+      if (!payload || !self.db) return;
+      function propre(){ if (self.lastJson[key] === payload){ self.dirty[key] = false; try{ localStorage.removeItem('cabas_dirty_'+key) }catch(e){} } }
+      self.chains[key] = (self.chains[key] || Promise.resolve()).then(function(){
+        return self.db.doc('app/'+key).set(JSON.parse(payload));
+      }).then(propre).catch(function(){
+        /* écriture refusée (lecteur seul, quota…) : on laisse la version distante reprendre la main */
+        self.dirty[key] = false; try{ localStorage.removeItem('cabas_dirty_'+key) }catch(e){}
+      });
+    }, 600);
+  },
+  init: function(onRemote){
+    var self = this;
+    var use = (window.claude && window.claude.use) ? window.claude.use('db') : Promise.resolve(null);
+    return use.then(function(db){
+      self.db = db || null;
+      if (!self.db) return false;
+      ['options','planning','courses'].forEach(function(key){
+        if (self.dirty[key] && self.lastJson[key]) self.push(key);   /* modifications faites avant la connexion */
+        self.db.doc('app/'+key).onSnapshot(function(snap){
+          if (!snap.exists) return;
+          var j = JSON.stringify(snap.data());
+          if (j === self.lastJson[key]) return;
+          if (self.dirty[key]){ self.push(key); return }   /* l'état local non encore envoyé a priorité sur le distant */
+          self.lastJson[key] = j;
+          try{ localStorage.setItem('cabas_'+key, j) }catch(e){}
+          onRemote(key, JSON.parse(j));   /* copie profonde : les documents livrés par la base sont gelés */
+        }, function(){});
+      });
+      return true;
+    }).catch(function(){ return false });
+  }
+};
+
+function applyDoc(key, data){
+  if (key === 'options'){
+    var ver = (data && data.v) || 1;
+    state.options = Object.assign({}, state.options, data || {});
+    if (ver < 2){
+      /* migration v1 -> v2 : nouveaux défauts voulus (labels décochés, zone Sud, saison, plats gras masqués) */
+      state.options.zone = 'sud'; state.options.siqo = false; state.options.saisonUniquement = true; state.options.tresGras = false;
+    }
+    if (ver < 3){
+      /* v2 -> v3 : les midis sont planifiés par défaut */
+      state.options.midis = true;
+    }
+    state.options.v = 3;
+    delete state.options.france; delete state.options.local;
+    if (!ZONES_DEF[state.options.zone]) state.options.zone = 'sud';
+  }
+  else if (key === 'planning'){ state.planning = (data && data.slots) || {}; nettoyerPlanning(false) }
+  else if (key === 'courses'){ state.checks = (data && data.checks) || {}; state.extras = (data && data.extras) || [] }
+}
+/* retire du planning les identifiants de recette inconnus (base mise à jour, code de transfert d'une autre version) */
+function nettoyerPlanning(sauver){
+  if (!RECS.length) return false;
+  var change = false;
+  Object.keys(state.planning).forEach(function(k){ if (!recetteById(state.planning[k])){ delete state.planning[k]; change = true } });
+  if (change && sauver !== false) savePlanning();
+  return change;
+}
+function saveOptions(){ persist.save('options', state.options) }
+function savePlanning(){ persist.save('planning', {slots: state.planning}) }
+function saveCourses(){ persist.save('courses', {checks: state.checks, extras: state.extras}) }
+
+/* ===================== aides métier ===================== */
+function moisCourant(){ return new Date().getMonth()+1 }
+function zoneRegions(z){
+  var zs = (DATA && DATA.meta && DATA.meta.zones) || ZONES_DEF;
+  return zs[z || state.options.zone] || zs.sud;
+}
+function regionsDansZone(g, z){
+  var zr = zoneRegions(z);
+  return (g.regions||[]).filter(function(r){ return zr.indexOf(r) !== -1 });
+}
+function conformeZone(g, z){
+  z = z || state.options.zone;
+  if (!g || !PRINCIPAL[g.categorie]) return null;
+  if (z === 'france') return !!(g.origineFrance || (g.regions && g.regions.length));
+  return regionsDansZone(g, z).length > 0;
+}
+/* un produit "de garde" (ail, noix...) a des mois de récolte mais reste disponible toute l'année : il n'est jamais filtré */
+function produitSaisonnier(g){ return !!(g && (g.categorie==='fruit' || g.categorie==='legume') && g.saisonMois && g.saisonMois.length && !g.garde) }
+function enSaison(g, m){ m = m || moisCourant(); return !produitSaisonnier(g) || g.saisonMois.indexOf(m) !== -1 }
+function ingOf(ri){ return ri.idIngredient ? ING[ri.idIngredient] : null }
+function nomAffiche(ri){
+  var g = ingOf(ri);
+  if (!g) return ri.nom;
+  if (state.options.complets && g.versionComplete) return g.versionComplete;
+  return g.nom || ri.nom;
+}
+function recetteById(id){ for (var i=0;i<RECS.length;i++){ if (RECS[i].id===id) return RECS[i] } return null }
+
+function horsSaison(r){
+  var out = [];
+  (r.ingredients||[]).forEach(function(ri){
+    if (ri.optionnel) return;
+    var g = ingOf(ri);
+    if (g && !enSaison(g) && out.indexOf(g.nom)===-1) out.push(g.nom);
+  });
+  return out;
+}
+function recetteEnSaison(r){ return horsSaison(r).length === 0 }
+function conformite(r, z){
+  var ok=0, tot=0;
+  (r.ingredients||[]).forEach(function(ri){
+    if (ri.optionnel) return;
+    var g = ingOf(ri);
+    var c = conformeZone(g, z);
+    if (c === null) return;
+    tot++; if (c) ok++;
+  });
+  return {ok:ok, tot:tot};
+}
+function raisonMasquee(r){
+  if (r.gras === 3 && !state.options.tresGras) return 'gras';
+  if (state.options.saisonUniquement && !recetteEnSaison(r)) return 'saison';
+  return null;
+}
+function recettesVisibles(){ return RECS.filter(function(r){ return !raisonMasquee(r) }) }
+
+function scoreRecette(r){
+  var s = 0, o = state.options;
+  var c = conformite(r);
+  if (c.tot) s += 2.5*(c.ok/c.tot);
+  s += recetteEnSaison(r) ? 1.5 : -2;
+  if (r.gras === 1) s += 0.3;
+  if (r.gras === 3) s -= 0.5;
+  var ings = (r.ingredients||[]).filter(function(i){ return !i.optionnel }).map(ingOf).filter(Boolean);
+  if (ings.length){
+    var nlab=0, nesp=0;
+    ings.forEach(function(g){
+      if (g.siqo && g.siqo.length) nlab++;
+      if (g.risqueEspagne && !enSaison(g)) nesp++;
+    });
+    if (o.siqo) s += 0.6*Math.min(1, nlab/3);
+    if (o.eviterEspagne) s -= 1.2*(nesp/ings.length);
+  }
+  if (o.complets && (r.ingredients||[]).some(function(i){ var g=ingOf(i); return g && g.versionComplete })) s += 0.4;
+  if (r.tempsTotalMin <= 35) s += 0.3;
+  return s;
+}
+
+function badgesRecette(r){
+  var o = state.options, out = [];
+  var c = conformite(r), zl = ZONE_LABEL[o.zone];
+  if (c.tot){
+    var ratio = c.ok/c.tot;
+    out.push(chip(ratio===1 ? 'loc' : (ratio>=0.5 ? 'neutre' : 'warn'), zl+' '+c.ok+'/'+c.tot, c.ok+' ingrédients principaux sur '+c.tot+' disponibles '+ZONE_LONG[o.zone]));
+  }
+  var hs = horsSaison(r);
+  if (!hs.length) out.push(chip('saison', 'de saison'));
+  else out.push(chip('hsaison', 'hors saison : '+hs.slice(0,2).join(', ')+(hs.length>2?'…':''), hs.join(', ')));
+  if (r.gras === 3) out.push(chip('gras3', 'très gras'));
+  else if (r.gras === 1) out.push(chip('neutre', 'léger'));
+  if (o.siqo){
+    var labs = {};
+    (r.ingredients||[]).forEach(function(ri){ var g=ingOf(ri); if (g) (g.siqo||[]).forEach(function(l){ labs[l.label]=1 }) });
+    Object.keys(labs).slice(0,3).forEach(function(l){ out.push(chip('lab '+(LABCLS[l]||'neutre'), l)) });
+  }
+  return out.join('');
+}
+
+/* chips d'un ingrédient : provenance (zone), labels, saison, Espagne — partagé entre modale et liste */
+function chipsIngredient(g, sansOrigine){
+  if (!g) return '';
+  var o = state.options, out = [];
+  var regs = g.regions || [];
+  if (sansOrigine){
+    /* l'origine est donnée en sous-titre (liste de courses) : seuls labels, saison et Espagne restent en puces */
+  } else if (PRINCIPAL[g.categorie]){
+    if (o.zone === 'france'){
+      if (g.origineFrance || regs.length) out.push(chip('fr', 'origine France'+(g.provenanceLocale?' · '+g.provenanceLocale:''), regs.join(', ')));
+      else out.push(chip('neutre', 'import'));
+    } else {
+      var rz = regionsDansZone(g);
+      if (rz.length) out.push(chip('loc', rz.slice(0,2).join(' · ')+(rz.length>2?' +'+(rz.length-2):''), (g.provenanceLocale?g.provenanceLocale+' — ':'')+regs.join(', ')));
+      else if (regs.length) out.push(chip('warn', 'hors zone · '+regs.slice(0,2).join(', ')+(regs.length>2?'…':''), 'Produit surtout en '+regs.join(', ')));
+      else if (!g.origineFrance) out.push(chip('neutre', 'import'));
+    }
+  } else if (g.categorie === 'poisson'){
+    if (g.origineFrance) out.push(chip('neutre', 'pêche française'+(regs.length?' · '+regs.slice(0,2).join(', '):''), regs.join(', ')));
+  } else if (!g.origineFrance){
+    out.push(chip('neutre', 'import assumé'));
+  }
+  if (o.siqo) (g.siqo||[]).forEach(function(l){
+    out.push(chip('lab '+(LABCLS[l.label]||'neutre'), l.label+(l.denomination?' · '+l.denomination:'')));
+  });
+  if (produitSaisonnier(g) && !enSaison(g)) out.push(chip('hsaison', 'hors saison'));
+  if (o.eviterEspagne && g.risqueEspagne) out.push(chip('warn', 'souvent importé d\'Espagne — vérifier l\'étiquette'));
+  return out.join('');
+}
+
+/* sous-titre d'origine d'un article de la liste : région(s) et terroir à privilégier, ou mention honnête du hors-zone / import */
+function origineTexte(g){
+  if (!g) return null;
+  var o = state.options, regs = g.regions || [], terroir = g.provenanceLocale;
+  if (PRINCIPAL[g.categorie]){
+    if (o.zone === 'france'){
+      if (g.origineFrance || regs.length) return {k:'ok', t:'À privilégier : origine France'+(terroir ? ' — '+terroir : (regs.length ? ' ('+regs.slice(0,3).join(', ')+')' : ''))};
+      return {k:'muted', t:'Pas de production française notable : import'};
+    }
+    var rz = regionsDansZone(g);
+    if (rz.length) return {k:'ok', t:'À privilégier : '+rz.join(', ')+(terroir ? ' — '+terroir : '')};
+    if (regs.length) return {k:'warn', t:'Hors zone — produit surtout en '+regs.slice(0,3).join(', ')};
+    return g.origineFrance ? {k:'muted', t:'Origine France, région non précisée'} : {k:'muted', t:'Import'};
+  }
+  if (g.categorie === 'poisson') return g.origineFrance ? {k:'ok', t:'Pêche française'+(regs.length ? ' — '+regs.slice(0,3).join(', ') : '')} : {k:'muted', t:'Import'};
+  return g.origineFrance ? null : {k:'muted', t:'Import assumé (assaisonnement)'};
+}
+
+function ratio(r){ return state.options.personnes / (r.portions || 4) }
+function arrondi(q, unite){
+  if (unite==='g' || unite==='ml') return Math.round(q/5)*5 || Math.round(q);
+  if (unite==='pièce') return Math.round(q*2)/2;
+  return Math.round(q*10)/10;
+}
+function fmtNombre(x){ return String(Math.round(x*100)/100).replace('.', ',') }
+function fmtQte(q, unite){
+  if (unite==='g' && q>=1000) return fmtNombre(q/1000)+' kg';
+  if (unite==='ml' && q>=1000) return fmtNombre(q/1000)+' l';
+  if (unite==='ml' && q>=100 && q%10===0) return fmtNombre(q/10)+' cl';
+  if (!unite || unite==='pièce') return fmtNombre(q);
+  return fmtNombre(q)+' '+unite;
+}
+function normUnit(q, u){
+  if (u==='kg') return {q:q*1000, u:'g'};
+  if (u==='l') return {q:q*1000, u:'ml'};
+  if (u==='cl') return {q:q*10, u:'ml'};
+  return {q:q, u:u||'pièce'};
+}
+function slug(s){
+  return String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+}
+
+/* ===================== onglets ===================== */
+function showTab(name){
+  currentTab = name;
+  $$('.tabs button').forEach(function(b){ b.setAttribute('aria-selected', b.dataset.tab===name ? 'true':'false') });
+  $$('main section.tab').forEach(function(s){ s.hidden = (s.id !== 'tab-'+name) });
+}
+
+/* ===================== options ===================== */
+function renderOptions(){
+  var o = state.options;
+  $$('input[name="zone"]').forEach(function(r){ r.checked = (r.value === o.zone) });
+  $('#opt-espagne').checked = !!o.eviterEspagne;
+  $('#opt-saison').checked = !!o.saisonUniquement;
+  $('#opt-complets').checked = !!o.complets;
+  $('#opt-gras').checked = !!o.tresGras;
+  $('#opt-siqo').checked = !!o.siqo;
+  $('#opt-midis').checked = !!o.midis;
+  $('#pers-val').textContent = o.personnes;
+}
+function onOptionChange(){
+  var o = state.options;
+  var z = $$('input[name="zone"]').filter(function(r){ return r.checked })[0];
+  o.zone = z ? z.value : 'sud';
+  o.eviterEspagne = $('#opt-espagne').checked;
+  o.saisonUniquement = $('#opt-saison').checked;
+  o.complets = $('#opt-complets').checked;
+  o.tresGras = $('#opt-gras').checked;
+  o.siqo = $('#opt-siqo').checked;
+  o.midis = $('#opt-midis').checked;
+  o.v = 3;
+  saveOptions();
+  renderAll();
+}
+
+/* ===================== recettes ===================== */
+var recFilters = {rapide:false, leger:false, viande:false, volaille:false, poisson:false, vege:false};
+function filtreLocal(r, q){
+  if (recFilters.rapide && r.tempsTotalMin > 35) return false;
+  if (recFilters.leger && r.gras !== 1) return false;
+  var types = ['viande','volaille','poisson','vege'].filter(function(t){ return recFilters[t] });
+  if (types.length && types.indexOf(r.type)===-1) return false;
+  if (q){
+    var hay = (r.nom+' '+(r.description||'')+' '+(r.terroir||'')+' '+(r.tags||[]).join(' ')+' '+(r.ingredients||[]).map(function(i){ return i.nom }).join(' ')).toLowerCase();
+    if (hay.indexOf(q.toLowerCase())===-1) return false;
+  }
+  return true;
+}
+function renderRecettes(){
+  var q = $('#rec-search').value.trim();
+  var nSaison=0, nGras=0;
+  RECS.forEach(function(r){ var m = raisonMasquee(r); if (m==='saison') nSaison++; else if (m==='gras') nGras++ });
+  var visibles = recettesVisibles();
+  var list = visibles.filter(function(r){ return filtreLocal(r, q) });
+  list.sort(function(a,b){ return scoreRecette(b)-scoreRecette(a) });
+  $('#cnt-rec').hidden = false; $('#cnt-rec').textContent = visibles.length;
+
+  var st = ['<span>'+list.length+' recette'+(list.length>1?'s':'')+' affichée'+(list.length>1?'s':'')+' sur '+RECS.length+'</span>'];
+  if (nSaison) st.push('<span>'+nSaison+' masquée'+(nSaison>1?'s':'')+' (hors saison) <button class="linkbtn" data-optoggle="saison" type="button">afficher</button></span>');
+  if (nGras) st.push('<span>'+nGras+' masquée'+(nGras>1?'s':'')+' (très grasses) <button class="linkbtn" data-optoggle="gras" type="button">afficher</button></span>');
+  $('#rec-status').innerHTML = st.join('');
+
+  var html = list.map(function(r){
+    return '<article class="card-rec">'
+      + '<div class="top"><span class="tchip t-'+esc(r.type)+'"><span class="tdot"></span>'+TYPES[r.type]+'</span><span class="ter">'+(r.terroir?esc(r.terroir)+' · ':'')+r.tempsTotalMin+' min</span></div>'
+      + '<h3 data-open="'+esc(r.id)+'">'+esc(r.nom)+'</h3>'
+      + '<p class="desc">'+esc(r.description||'')+'</p>'
+      + '<div class="badges">'+badgesRecette(r)+'</div>'
+      + '<div class="foot"><button class="btn sm" data-open="'+esc(r.id)+'" type="button">Voir</button>'
+      + '<button class="btn sm prim" data-plan="'+esc(r.id)+'" type="button">+ Planifier</button></div>'
+      + '</article>';
+  }).join('');
+  $('#rec-grid').innerHTML = html || '<p style="color:var(--muted)">Aucune recette ne correspond à ces filtres.</p>';
+}
+
+/* ===================== modale recette ===================== */
+function openRecette(id){
+  var r = recetteById(id); if (!r) return;
+  $('#mr-titre').textContent = r.nom;
+  var k = ratio(r);
+  var ingHtml = (r.ingredients||[]).map(function(ri){
+    var nu = normUnit(ri.quantite*k, ri.unite);
+    var g = ingOf(ri);
+    return '<li><span class="q">'+fmtQte(arrondi(nu.q, nu.u), nu.u)+'</span><span>'+esc(nomAffiche(ri))+(ri.optionnel?' <em style="color:var(--muted)">(optionnel)</em>':'')+(ri.note?' <span style="color:var(--muted)">— '+esc(ri.note)+'</span>':'')+'</span>'+chipsIngredient(g)+'</li>';
+  }).join('');
+  var etHtml = (r.etapes||[]).map(function(e){ return '<li>'+esc(e)+'</li>' }).join('');
+  $('#mr-body').innerHTML =
+    '<div class="meta"><span class="tchip t-'+esc(r.type)+'"><span class="tdot"></span>'+TYPES[r.type]+'</span>'
+    + (r.terroir ? chip('neutre', r.terroir) : '')
+    + chip('neutre', r.tempsTotalMin+' min')
+    + chip('neutre', 'pour '+state.options.personnes+' pers.')
+    + badgesRecette(r) + '</div>'
+    + '<p style="margin:0;color:var(--muted)">'+esc(r.description||'')+'</p>'
+    + '<h4>Ingrédients</h4><ul class="ingl">'+ingHtml+'</ul>'
+    + '<h4>Préparation</h4><ol class="etapes">'+etHtml+'</ol>'
+    + (r.astuceOptions ? '<div class="astuce"><b>Selon vos options :</b> '+esc(r.astuceOptions)+'</div>' : '')
+    + '<div style="margin-top:16px"><button class="btn prim" data-plan="'+esc(r.id)+'" type="button">+ Planifier cette recette</button></div>';
+  $('#modal-recette').hidden = false;
+}
+
+/* ===================== planning ===================== */
+function slotsActifs(){
+  var out = [];
+  JOURS.forEach(function(j){
+    if (state.options.midis) out.push(j.k+'-midi');
+    out.push(j.k+'-soir');
+  });
+  return out;
+}
+function mondayOfWeek(){
+  var d = new Date(); var day = (d.getDay()+6)%7;
+  d.setDate(d.getDate()-day); return d;
+}
+function renderPlanning(){
+  if (drag) dragAnnuler();   /* le DOM va être remplacé (ex. synchronisation distante) : on annule un glissement en cours */
+  var monday = mondayOfWeek();
+  $('#sem-label').textContent = 'Semaine du '+monday.getDate()+' '+MOIS[monday.getMonth()];
+  var planned = slotsActifs().filter(function(s){ return state.planning[s] });
+  $('#cnt-plan').hidden = !planned.length;
+  $('#cnt-plan').textContent = planned.length;
+
+  if (!planned.length && !Object.keys(state.planning).length){
+    $('#plan-zone').innerHTML = '<div class="plan-empty"><h3>Semaine vide pour l\'instant</h3>'
+      + '<p>Cliquez sur « Composer ma semaine » pour une proposition équilibrée, de saison et conforme à vos options, ou piochez dans l\'onglet Recettes.</p></div>';
+  } else {
+    var html = JOURS.map(function(j, idx){
+      var d = new Date(mondayOfWeek()); d.setDate(d.getDate()+idx);
+      var meals = state.options.midis ? ['midi','soir'] : ['soir'];
+      var slots = meals.map(function(m){
+        var key = j.k+'-'+m;
+        var rid = state.planning[key];
+        var r = rid ? recetteById(rid) : null;
+        if (r){
+          return '<div class="slot filled" data-slotkey="'+key+'"><span class="grip" data-drag="'+key+'" role="button" aria-label="Déplacer ce repas" title="Glisser vers un autre créneau (échange si occupé)"></span><span class="meal">'+(m==='midi'?'Midi':'Soir')+'</span>'
+            + '<div class="body"><span class="nomr" data-open="'+esc(r.id)+'">'+esc(r.nom)+'</span>'
+            + '<span class="sub"><span class="tchip t-'+esc(r.type)+'"><span class="tdot"></span>'+TYPES[r.type]+'</span><span>'+r.tempsTotalMin+' min</span>'+(r.gras===3?chip('gras3','très gras'):'')+'</span></div>'
+            + '<button class="rm" data-rm="'+key+'" type="button" aria-label="Retirer">✕</button></div>';
+        }
+        return '<div class="slot" data-slotkey="'+key+'"><span class="meal">'+(m==='midi'?'Midi':'Soir')+'</span>'
+          + '<button class="add" data-pick="'+key+'" type="button">+ choisir une recette</button></div>';
+      }).join('');
+      return '<div class="plan-day"><div class="jour">'+j.n+'<span class="date">'+d.getDate()+' '+MOIS[d.getMonth()]+'</span></div>'
+        + '<div class="plan-slots'+(state.options.midis?' two':'')+'">'+slots+'</div></div>';
+    }).join('');
+    $('#plan-zone').innerHTML = '<div class="plan-grid">'+html+'</div>';
+  }
+
+  var counts = {viande:0, volaille:0, poisson:0, vege:0}, ok=0, tot=0;
+  planned.forEach(function(s){
+    var r = recetteById(state.planning[s]);
+    if (r){ counts[r.type]++; var c = conformite(r); ok += c.ok; tot += c.tot }
+  });
+  var parts = Object.keys(counts).filter(function(t){ return counts[t] }).map(function(t){ return counts[t]+' '+TYPES[t].toLowerCase() });
+  var prov = tot ? ' · '+Math.round(100*ok/tot)+' % des ingrédients principaux disponibles '+ZONE_LONG[state.options.zone] : '';
+  $('#plan-sum').textContent = planned.length ? ('Équilibre de la semaine : '+parts.join(' · ')+prov+'.') : '';
+}
+
+function composerSemaine(){
+  var vides = slotsActifs().filter(function(s){ return !state.planning[s] });
+  if (!vides.length) return toast('La semaine est déjà complète');
+  var used = {};
+  slotsActifs().forEach(function(s){ if (state.planning[s]) used[state.planning[s]] = 1 });
+  var n = vides.length;
+  var cible = { viande: Math.max(0, Math.round(n*0.15)), volaille: Math.round(n*0.25), poisson: Math.round(n*0.25), vege: n };
+  var cands = recettesVisibles().filter(function(r){ return !used[r.id] })
+    .map(function(r){ return {r:r, s: scoreRecette(r) + Math.random()*0.8} })
+    .sort(function(a,b){ return b.s-a.s });
+  var pris = {viande:0, volaille:0, poisson:0, vege:0};
+  var choisies = [];
+  cands.forEach(function(c){
+    if (choisies.length >= n) return;
+    var t = c.r.type;
+    if (t !== 'vege' && pris[t] >= cible[t]) return;
+    pris[t]++; choisies.push(c.r);
+  });
+  cands.forEach(function(c){ if (choisies.length < n && choisies.indexOf(c.r)===-1) choisies.push(c.r) });
+  var i = 0;
+  vides.forEach(function(s){ if (choisies[i]) state.planning[s] = choisies[i++].id });
+  savePlanning();
+  renderAll();
+  toast('Semaine composée selon vos options');
+}
+
+/* --- choisir un créneau pour une recette --- */
+var planTarget = null;
+function openSlots(recId){
+  planTarget = recId;
+  var r = recetteById(recId);
+  $('#ms-titre').textContent = 'Planifier « '+(r?r.nom:'')+' »';
+  var html = JOURS.map(function(j){
+    var meals = state.options.midis ? ['midi','soir'] : ['soir'];
+    return meals.map(function(m){
+      var key = j.k+'-'+m;
+      var occ = state.planning[key] ? recetteById(state.planning[key]) : null;
+      return '<button class="slot-btn'+(occ?' occ':'')+'" data-slot="'+key+'" type="button">'
+        + '<span class="sj">'+j.n+(state.options.midis?' — '+(m==='midi'?'midi':'soir'):'')+'</span>'
+        + '<span class="sc">'+(occ?esc(occ.nom):'libre')+'</span></button>';
+    }).join('');
+  }).join('');
+  $('#ms-grid').innerHTML = html;
+  $('#modal-slots').hidden = false;
+}
+/* --- choisir une recette pour un créneau --- */
+var pickTarget = null;
+function openPick(slotKey){
+  pickTarget = slotKey;
+  $('#mp-search').value = '';
+  renderPickList();
+  $('#modal-pick').hidden = false;
+  $('#mp-search').focus();
+}
+function renderPickList(){
+  var q = $('#mp-search').value.trim().toLowerCase();
+  var list = recettesVisibles().sort(function(a,b){ return scoreRecette(b)-scoreRecette(a) });
+  if (q) list = list.filter(function(r){ return (r.nom+' '+(r.terroir||'')+' '+(r.tags||[]).join(' ')).toLowerCase().indexOf(q)!==-1 });
+  $('#mp-list').innerHTML = list.map(function(r){
+    var c = conformite(r);
+    return '<button class="pick-row" data-choose="'+esc(r.id)+'" type="button">'
+      + '<span class="tchip t-'+esc(r.type)+'"><span class="tdot"></span></span>'
+      + '<span class="pn">'+esc(r.nom)+'</span>'
+      + '<span class="pm">'+r.tempsTotalMin+' min'+(c.tot?' · '+ZONE_LABEL[state.options.zone]+' '+c.ok+'/'+c.tot:'')+'</span></button>';
+  }).join('') || '<p style="color:var(--muted)">Aucune recette visible avec ces options.</p>';
+}
+
+/* ===================== saisons ===================== */
+function produitsPourScope(z){
+  return Object.keys(ING).map(function(k){ return ING[k] }).filter(function(g){
+    if (g.categorie !== 'fruit' && g.categorie !== 'legume') return false;
+    if (z === 'france') return g.origineFrance || (g.regions && g.regions.length);
+    return regionsDansZone(g, z).length > 0;
+  });
+}
+function stripMois(g, m){
+  var cells = '';
+  for (var i=1;i<=12;i++){
+    var on = g.saisonMois.length ? g.saisonMois.indexOf(i)!==-1 : false;
+    cells += '<span class="mcell'+(on?' on':'')+(!g.saisonMois.length?' all':'')+(i===m?' sel':'')+'"></span>';
+  }
+  return '<span class="mstrip" title="'+(g.saisonMois.length ? 'Saison : '+g.saisonMois.map(function(x){ return MOIS_C[x-1] }).join(', ') : 'Disponible toute l\'année (conservation)')+'">'+cells+'</span>';
+}
+function rowProduit(g, m, z){
+  var rz = z==='france' ? (g.regions||[]) : regionsDansZone(g, z);
+  var regs = rz.slice(0,3).map(function(r){ return chip('loc', r) }).join('') + (rz.length>3 ? chip('neutre', '+'+(rz.length-3)) : '');
+  return '<div class="prow"><div class="pn">'+esc(g.nom)+(g.provenanceLocale?'<small>'+esc(g.provenanceLocale)+'</small>':'')+'</div>'
+    + stripMois(g, m)
+    + '<div class="preg">'+regs+(g.garde ? chip('neutre', 'de garde · récolte '+(g.saisonMois||[]).map(function(x){ return MOIS_C[x-1] }).join('-'), 'Récolté sur quelques mois mais disponible toute l\'année') : '')+(g.risqueEspagne && state.options.eviterEspagne ? chip('warn','souvent importé d\'Espagne') : '')+(state.options.siqo ? (g.siqo||[]).map(function(l){ return chip('lab '+(LABCLS[l.label]||'neutre'), l.label+(l.denomination?' · '+l.denomination:'')) }).join('') : '')+'</div></div>';
+}
+function renderSaisons(){
+  var m = saisonUI.mois || moisCourant();
+  var z = saisonUI.scope || state.options.zone;
+  var prods = produitsPourScope(z);
+  var enS = prods.filter(function(g){ return enSaison(g, m) });
+  var hors = prods.filter(function(g){ return !enSaison(g, m) });
+  function tri(a,b){ return a.nom.localeCompare(b.nom,'fr') }
+  var fruits = enS.filter(function(g){ return g.categorie==='fruit' }).sort(tri);
+  var legumes = enS.filter(function(g){ return g.categorie==='legume' }).sort(tri);
+
+  var seg = '<div class="seg" role="group" aria-label="Zone">'
+    + ['occitanie','sud','france'].map(function(k){ return '<button type="button" data-scope="'+k+'" aria-pressed="'+(z===k?'true':'false')+'">'+({occitanie:'Occitanie',sud:'Grand Sud',france:'Toute la France'})[k]+'</button>' }).join('')
+    + '</div>';
+  var mois = '<div class="mois" role="group" aria-label="Mois">'
+    + MOIS_C.map(function(lbl, i){ var n=i+1; return '<button type="button" data-mois="'+n+'" aria-pressed="'+(n===m?'true':'false')+'" class="'+(n===moisCourant()?'now':'')+'">'+lbl+'</button>' }).join('')
+    + '</div>';
+  var sum = '<div class="sai-sum">En '+MOIS[m-1]+', '+ZONE_LONG[z]+' : '+fruits.length+' fruit'+(fruits.length>1?'s':'')+' et '+legumes.length+' légume'+(legumes.length>1?'s':'')+' de saison.</div>';
+  var legend = '<p class="sai-legend"><span><span class="mstrip"><span class="mcell"></span><span class="mcell on"></span><span class="mcell on"></span><span class="mcell on"></span><span class="mcell"></span><span class="mcell"></span><span class="mcell"></span><span class="mcell"></span><span class="mcell"></span><span class="mcell"></span><span class="mcell"></span><span class="mcell"></span></span> mois de pleine saison (janvier → décembre)</span><span><span class="mstrip"><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span><span class="mcell all"></span></span> disponible toute l\'année</span></p>';
+  var cols = '<div class="sai-cols">'
+    + '<div><h3>Fruits ('+fruits.length+')</h3>'+(fruits.map(function(g){ return rowProduit(g, m, z) }).join('') || '<p style="color:var(--muted);font-size:13px">Aucun fruit de saison ce mois-ci dans cette zone.</p>')+'</div>'
+    + '<div><h3>Légumes ('+legumes.length+')</h3>'+(legumes.map(function(g){ return rowProduit(g, m, z) }).join('') || '<p style="color:var(--muted);font-size:13px">Aucun légume de saison ce mois-ci dans cette zone.</p>')+'</div>'
+    + '</div>';
+  var horsHtml = hors.length ? '<details class="sai-hors"><summary>Pas de saison en '+MOIS[m-1]+' ('+hors.length+')</summary><div class="sai-cols">'
+    + '<div>'+hors.filter(function(g){ return g.categorie==='fruit' }).sort(tri).map(function(g){ return rowProduit(g, m, z) }).join('')+'</div>'
+    + '<div>'+hors.filter(function(g){ return g.categorie==='legume' }).sort(tri).map(function(g){ return rowProduit(g, m, z) }).join('')+'</div>'
+    + '</div></details>' : '';
+  $('#sai-zone').innerHTML = '<div class="sai-head"><h2 style="font-size:19px">Calendrier des fruits &amp; légumes</h2>'+seg+'</div>'+mois+sum+legend+cols+horsHtml;
+}
+
+/* ===================== liste de courses ===================== */
+function itemKeyOf(ri){
+  var nu = normUnit(1, ri.unite);
+  return (ri.idIngredient || 'x-'+slug(ri.nom)) + '|' + nu.u;
+}
+function buildListe(){
+  var agg = {};
+  slotsActifs().forEach(function(s){
+    var r = state.planning[s] ? recetteById(state.planning[s]) : null;
+    if (!r) return;
+    var k = ratio(r);
+    (r.ingredients||[]).forEach(function(ri){
+      if (ri.optionnel) return;
+      var nu = normUnit((ri.quantite||0)*k, ri.unite);
+      var key = itemKeyOf(ri);
+      if (!agg[key]){
+        var g = ingOf(ri);
+        agg[key] = {key:key, q:0, u:nu.u, ing:g, nom: g ? null : ri.nom, recettes:[]};
+      }
+      agg[key].q += nu.q;
+      if (agg[key].recettes.indexOf(r.nom)===-1) agg[key].recettes.push(r.nom);
+    });
+  });
+  var items = Object.keys(agg).map(function(k){ return agg[k] });
+  state.extras.forEach(function(e){
+    items.push({key:'extra-'+e.id, q:e.qte||0, u:'', ing:null, nom:e.nom, rayon:e.rayon||'Autres', extra:true});
+  });
+  items.forEach(function(it){
+    it.rayon = it.rayon || (it.ing ? it.ing.rayon : 'Autres');
+    if (RAYONS.indexOf(it.rayon)===-1) it.rayon = 'Autres';
+    it.label = it.ing ? (state.options.complets && it.ing.versionComplete ? it.ing.versionComplete : it.ing.nom) : it.nom;
+  });
+  return items;
+}
+function renderCourses(){
+  var items = buildListe();
+  var actifs = items.filter(function(it){ return !state.checks[it.key] });
+  $('#cnt-crs').hidden = !items.length;
+  $('#cnt-crs').textContent = actifs.length;
+
+  var sel = $('#extra-form select[name="rayon"]');
+  if (!sel.options.length) sel.innerHTML = RAYONS.map(function(r){ return '<option>'+esc(r)+'</option>' }).join('');
+
+  if (!items.length){
+    $('#crs-zone').innerHTML = '<div class="crs-empty"><p>La liste se remplit automatiquement dès que des repas sont planifiés.</p>'
+      + '<button class="btn prim" id="crs-goplan" type="button">Composer ma semaine</button></div>';
+    return;
+  }
+  var html = RAYONS.map(function(ray){
+    var sub = items.filter(function(it){ return it.rayon===ray });
+    if (!sub.length) return '';
+    sub.sort(function(a,b){
+      var ca = state.checks[a.key]?1:0, cb = state.checks[b.key]?1:0;
+      if (ca!==cb) return ca-cb;
+      return a.label.localeCompare(b.label,'fr');
+    });
+    var lignes = sub.map(function(it){
+      var done = !!state.checks[it.key];
+      var q = it.q ? fmtQte(arrondi(it.q, it.u), it.u) : '';
+      var conseil = (it.ing && it.ing.conseil) ? '<div class="iconseil">'+esc(it.ing.conseil)+'</div>' : '';
+      var orig = origineTexte(it.ing);
+      return '<div class="item'+(done?' done':'')+'">'
+        + '<input type="checkbox" data-chk="'+esc(it.key)+'" id="chk-'+esc(it.key).replace(/[^a-zA-Z0-9_-]/g,'_')+'" '+(done?'checked':'')+'>'
+        + '<div class="ibody"><div class="iline">'
+        + (q?'<span class="qte">'+q+'</span>':'')
+        + '<span class="inom">'+esc(it.label)+'</span>'
+        + (it.extra?'<button class="btn ghost sm" data-rmextra="'+esc(it.key)+'" type="button">retirer</button>':'')
+        + '</div>'+(orig ? '<div class="iorig '+orig.k+'">'+esc(orig.t)+'</div>' : '')
+        + '<div class="ichips">'+chipsIngredient(it.ing, true)+'</div>'+conseil+'</div></div>';
+    }).join('');
+    return '<div class="rayon"><h3>'+esc(ray)+'</h3>'+lignes+'</div>';
+  }).join('');
+  $('#crs-zone').innerHTML = html;
+}
+function texteListe(){
+  var items = buildListe();
+  var monday = mondayOfWeek();
+  var o = state.options;
+  var out = ['Courses — semaine du '+monday.getDate()+' '+MOIS[monday.getMonth()]+' (provenance : '+ZONE_LONG[o.zone]+')', ''];
+  RAYONS.forEach(function(ray){
+    var sub = items.filter(function(it){ return it.rayon===ray && !state.checks[it.key] });
+    if (!sub.length) return;
+    out.push(ray.toUpperCase());
+    sub.forEach(function(it){
+      var g = it.ing, extra = [];
+      if (g){
+        var og = origineTexte(g);   /* même règle que le sous-titre affiché à l'écran */
+        if (og && og.k !== 'muted') extra.push(og.t.replace(/^À privilégier : /, ''));
+        if (o.siqo) (g.siqo||[]).forEach(function(l){ extra.push(l.label+(l.denomination?' '+l.denomination:'')) });
+        if (produitSaisonnier(g) && !enSaison(g)) extra.push('hors saison');
+        if (o.eviterEspagne && g.risqueEspagne) extra.push('éviter provenance Espagne');
+      }
+      var q = it.q ? fmtQte(arrondi(it.q,it.u), it.u)+' ' : '';
+      out.push('- [ ] '+q+it.label+(extra.length?' ('+extra.join(', ')+')':''));
+    });
+    out.push('');
+  });
+  out.push('Générée par Le Cabas Toulousain');
+  return out.join('\n');
+}
+function nomFichierListe(){
+  var m = mondayOfWeek();
+  return 'courses-semaine-du-'+m.getDate()+'-'+MOIS[m.getMonth()].normalize('NFD').replace(/[̀-ͯ]/g,'')+'.txt';
+}
+function telechargerListe(){
+  var txt = texteListe(), nom = nomFichierListe();
+  if (window.claude && window.claude.use){
+    /* dans l'artifact claude.ai, le téléchargement passe par la capacité "downloads" */
+    window.claude.use('downloads').then(function(dl){
+      if (!dl){ toast('Téléchargement indisponible ici — utilisez Copier'); return }
+      return dl.save({filename: nom, data: txt}).then(function(){ toast('Liste enregistrée') })
+        .catch(function(e){ if (!e || e.code !== 'declined') toast('Téléchargement impossible — utilisez Copier') });
+    });
+    return;
+  }
+  var blob = new Blob([txt], {type:'text/plain;charset=utf-8'});
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = nom;
+  document.body.appendChild(a); a.click();
+  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 1500);
+}
+function partagerListe(){
+  if (!navigator.share) return copier();
+  navigator.share({title: 'Liste de courses', text: texteListe()}).catch(function(){});
+}
+function copierTexte(txt, msg){
+  function fallback(){
+    var ta = document.createElement('textarea');
+    ta.value = txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    var ok = false;
+    try{ ok = document.execCommand('copy') }catch(e){}
+    toast(ok ? msg : 'Copie impossible — sélectionnez le texte');
+    document.body.removeChild(ta);
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){ toast(msg) }, fallback);
+  } else fallback();
+}
+function copier(){ copierTexte(texteListe(), 'Liste copiée — collez-la où vous voulez') }
+
+/* ===================== transfert entre appareils (code texte ou QR) ===================== */
+function b64urlEncode(bytes){
+  var s = '';
+  for (var i=0;i<bytes.length;i++) s += String.fromCharCode(bytes[i]);
+  return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+}
+function b64urlDecode(str){
+  str = str.replace(/-/g,'+').replace(/_/g,'/');
+  while (str.length % 4) str += '=';
+  var bin = atob(str), out = new Uint8Array(bin.length);
+  for (var i=0;i<bin.length;i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+function encoderEtat(){
+  var json = JSON.stringify({o: state.options, p: state.planning, c: Object.keys(state.checks), x: state.extras});
+  var bytes = new TextEncoder().encode(json);
+  var cs = null;
+  try{ cs = new CompressionStream('deflate-raw') }catch(e){ cs = null }   /* classe absente ou format inconnu : code non compressé */
+  if (cs){
+    var w = cs.writable.getWriter(); w.write(bytes); w.close();
+    return new Response(cs.readable).arrayBuffer().then(function(buf){ return 'z.'+b64urlEncode(new Uint8Array(buf)) });
+  }
+  return Promise.resolve('j.'+b64urlEncode(bytes));
+}
+function decoderEtat(code){
+  code = String(code||'').trim();
+  var m = code.match(/#t=([A-Za-z0-9_.\-]+)/);
+  if (m) code = m[1];
+  var kind = code.slice(0,2), body = code.slice(2);
+  if ((kind !== 'z.' && kind !== 'j.') || !body) return Promise.reject(new Error('Ce code n\'est pas un code de transfert.'));
+  var bytes, p;
+  try{ bytes = b64urlDecode(body) }catch(e){ return Promise.reject(new Error('Code incomplet ou altéré.')) }
+  if (kind === 'z.'){
+    var ds = null;
+    try{ ds = new DecompressionStream('deflate-raw') }catch(e){ return Promise.reject(new Error('Ce navigateur ne sait pas lire les codes compressés.')) }
+    var w = ds.writable.getWriter(); w.write(bytes); w.close();
+    p = new Response(ds.readable).arrayBuffer().then(function(buf){ return new TextDecoder().decode(buf) });
+  } else p = Promise.resolve(new TextDecoder().decode(bytes));
+  return p.then(function(json){
+    var d = JSON.parse(json);
+    if (!d || typeof d !== 'object' || !d.o) throw new Error('contenu');
+    return d;
+  }).catch(function(){ throw new Error('Code incomplet ou altéré.') });
+}
+function importerEtat(d){
+  applyDoc('options', d.o || {});
+  state.planning = d.p || {};
+  nettoyerPlanning(false);
+  state.checks = {};
+  (d.c || []).forEach(function(k){ state.checks[k] = true });
+  state.extras = d.x || [];
+  saveOptions(); savePlanning(); saveCourses();
+  if (RECS.length) renderAll(); else renderOptions();
+}
+function urlTransfert(code){
+  var base = PWA_URL || (location.origin + location.pathname);
+  return base + '#t=' + code;
+}
+/* capacité (octets, correction L, mode octet) des versions QR 1 à 40 : l'URL est en ASCII, un caractère = un octet */
+var QR_CAP_L = [17,32,53,78,106,134,154,192,230,271,321,367,425,458,520,586,644,718,792,858,929,1003,1091,1171,1273,1367,1465,1528,1628,1732,1840,1952,2068,2188,2303,2431,2563,2699,2809,2953];
+function qrModules(len){ for (var v=0; v<QR_CAP_L.length; v++){ if (len <= QR_CAP_L[v]) return 21+4*v } return 177 }
+var trConfirm = false;
+function openTransfert(){
+  trConfirm = false;
+  $('#tr-msg').textContent = ''; $('#tr-in').value = ''; $('#tr-out').value = '…';
+  var qr = $('#tr-qr'); qr.innerHTML = '';
+  $('#modal-transfert').hidden = false;
+  encoderEtat().then(function(code){
+    $('#tr-out').value = code;
+    var url = urlTransfert(code);
+    var peutQR = window.QRCode && url.length <= 1500 && (PWA_URL || !window.claude);
+    if (peutQR){
+      try{
+        /* côté = multiple entier du nombre de modules (4 px), sinon la bibliothèque dessine des modules flous de 1 à 2 px */
+        var n = qrModules(url.length);
+        new QRCode(qr, {text:url, width:n*4, height:n*4, correctLevel: QRCode.CorrectLevel.L});
+      }catch(e){ qr.innerHTML = ''; peutQR = false }
+    }
+    $('#tr-help').textContent = peutQR
+      ? 'Scannez ce code avec l\'appareil photo du téléphone : l\'application s\'ouvre et importe le planning, la liste de courses et les options. Ou copiez le code texte et collez-le dans « Recevoir » sur l\'autre appareil.'
+      : 'Copiez le code texte (par exemple dans un message ou une note que vous vous envoyez), puis collez-le dans « Recevoir » sur l\'autre appareil.';
+  });
+}
+function importerDepuisChamp(){
+  var code = $('#tr-in').value;
+  if (!code.trim()){ $('#tr-msg').textContent = 'Collez d\'abord un code.'; return }
+  if (!trConfirm){
+    trConfirm = true;
+    $('#tr-msg').textContent = 'Cela remplace le planning, la liste et les options de cet appareil. Cliquez encore sur Importer pour confirmer.';
+    return;
+  }
+  decoderEtat(code).then(function(d){
+    importerEtat(d);
+    $('#modal-transfert').hidden = true;
+    toast('Données importées');
+  }).catch(function(e){ trConfirm = false; $('#tr-msg').textContent = e.message });
+}
+
+/* ===================== version installable (hors claude.ai) ===================== */
+var installEvt = null;
+function initPWA(){
+  if (window.claude) return;   /* dans l'artifact claude.ai : rien à installer */
+  /* demande au navigateur de ne pas purger les données locales (accordé d'office aux apps installées) */
+  if (navigator.storage && navigator.storage.persist){ try{ navigator.storage.persist().catch(function(){}) }catch(e){} }
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')){
+    var avaitControleur = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.register('sw.js').catch(function(){});
+    navigator.serviceWorker.addEventListener('controllerchange', function(){
+      if (avaitControleur) toast('Nouvelle version installée — rechargez la page');
+      avaitControleur = true;
+    });
+  }
+  window.addEventListener('beforeinstallprompt', function(e){
+    e.preventDefault(); installEvt = e; $('#btn-installer').hidden = false;
+  });
+  window.addEventListener('appinstalled', function(){ $('#btn-installer').hidden = true; toast('Application installée') });
+  $('#btn-installer').addEventListener('click', function(){
+    if (!installEvt) return;
+    installEvt.prompt();
+    installEvt.userChoice.then(function(){ installEvt = null; $('#btn-installer').hidden = true });
+  });
+  var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  var ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  if (ios && !standalone){
+    var h = $('#install-hint'); h.hidden = false;
+    h.textContent = 'Sur iPhone : bouton Partager, puis « Sur l\'écran d\'accueil » pour installer l\'application.';
+  }
+  $('#sync-txt').textContent = 'Données enregistrées sur cet appareil';
+}
+
+/* ===================== drive ===================== */
+function renderDrive(){
+  var d = (DATA && DATA.drive) || {};
+  $('#drive-constat').innerHTML = '<strong style="font-family:var(--font-display)">Envoyer la liste vers un drive ?</strong><p style="margin:6px 0 0">'+esc(d.constat || "Les drives français n'offrent pas d'API publique : la liste se copie puis se colle dans la recherche du drive, produit par produit.")+'</p>';
+  var ens = (d.enseignes||[]).filter(function(e){ return e.presentToulouse !== false });
+  $('#drive-grid').innerHTML = ens.map(function(e){
+    var url = /^https:\/\//.test(e.url||'') ? e.url : null;
+    return '<div class="card-drive"><div class="dn">'+esc(e.nom)+'</div>'
+      + '<p class="note">'+esc(e.note||'')+'</p>'
+      + (url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">Ouvrir le drive ↗</a>':'')
+      + '</div>';
+  }).join('') || '<p style="color:var(--muted)">Pas de données drive disponibles.</p>';
+  var pistes = (d.pistes||[]).map(function(p){ return '<li>'+esc(p)+'</li>' }).join('');
+  $('#drive-pistes').innerHTML = '<h3>Comment s\'en servir concrètement</h3><ul>'+pistes
+    + '<li>Le bouton « Copier la liste » (onglet Liste de courses) produit un texte propre, quantités et provenances incluses, à coller dans les notes de votre téléphone ou la recherche du drive.</li></ul>';
+}
+
+/* ===================== glisser-déposer dans le planning (souris et tactile, via Pointer Events) ===================== */
+var drag = null, dragRaf = 0, DRAG_MARGE = 70;
+function dragCible(x, y){
+  if (!drag) return;
+  var el = document.elementFromPoint(x, y);
+  var slot = (el && el.closest) ? el.closest('.slot[data-slotkey]') : null;
+  var key = slot ? slot.getAttribute('data-slotkey') : null;
+  if (key === drag.from){ key = null; slot = null }
+  if (key !== drag.over){
+    $$('.slot.over').forEach(function(s){ s.classList.remove('over') });
+    if (slot) slot.classList.add('over');
+    drag.over = key;
+  }
+}
+/* au tactile la page ne défile pas pendant un glissement : on défile nous-mêmes quand le doigt s'approche d'un bord */
+function dragAutoScroll(){
+  dragRaf = 0;
+  if (!drag) return;
+  var h = window.innerHeight, y = drag.y, v = 0;
+  if (y < DRAG_MARGE) v = -(2 + Math.ceil((DRAG_MARGE - y) / 4));
+  else if (y > h - DRAG_MARGE) v = 2 + Math.ceil((y - (h - DRAG_MARGE)) / 4);
+  if (!v) return;
+  var avant = window.pageYOffset;
+  window.scrollBy(0, v);
+  if (window.pageYOffset === avant) return;   /* butée haut ou bas */
+  dragCible(drag.x, drag.y);                  /* le contenu a bougé sous le doigt immobile */
+  dragRaf = requestAnimationFrame(dragAutoScroll);
+}
+function dragAnnuler(){
+  if (!drag) return;
+  if (dragRaf){ cancelAnimationFrame(dragRaf); dragRaf = 0 }
+  if (drag.ghost.parentNode) drag.ghost.parentNode.removeChild(drag.ghost);
+  $$('.slot.dragging,.slot.over').forEach(function(s){ s.classList.remove('dragging'); s.classList.remove('over') });
+  document.body.classList.remove('is-dragging');
+  try{ if (drag.grip.hasPointerCapture && drag.grip.hasPointerCapture(drag.pointerId)) drag.grip.releasePointerCapture(drag.pointerId) }catch(e){}
+  drag = null;
+}
+function dragStart(ev, grip){
+  if (drag) return;   /* un seul glissement à la fois : un second doigt est ignoré */
+  var key = grip.getAttribute('data-drag');
+  var slot = grip.closest('.slot');
+  if (!key || !slot) return;
+  ev.preventDefault();
+  $$('.drag-ghost').forEach(function(g){ if (g.parentNode) g.parentNode.removeChild(g) });
+  try{ grip.setPointerCapture(ev.pointerId) }catch(e){}
+  var r = slot.getBoundingClientRect();
+  var ghost = slot.cloneNode(true);
+  ghost.className = 'slot filled drag-ghost';
+  ghost.removeAttribute('data-slotkey');
+  ghost.style.width = r.width+'px'; ghost.style.left = r.left+'px'; ghost.style.top = r.top+'px';
+  document.body.appendChild(ghost);
+  slot.classList.add('dragging');
+  document.body.classList.add('is-dragging');
+  drag = {from:key, ghost:ghost, grip:grip, pointerId:ev.pointerId, dx:ev.clientX - r.left, dy:ev.clientY - r.top, x:ev.clientX, y:ev.clientY, over:null};
+}
+function dragMove(ev){
+  if (!drag || ev.pointerId !== drag.pointerId) return;
+  ev.preventDefault();
+  drag.x = ev.clientX; drag.y = ev.clientY;
+  drag.ghost.style.left = (ev.clientX - drag.dx)+'px';
+  drag.ghost.style.top = (ev.clientY - drag.dy)+'px';
+  dragCible(ev.clientX, ev.clientY);
+  if ((ev.clientY < DRAG_MARGE || ev.clientY > window.innerHeight - DRAG_MARGE) && !dragRaf) dragRaf = requestAnimationFrame(dragAutoScroll);
+}
+function dragEnd(ev){
+  if (!drag || (ev && ev.pointerId !== drag.pointerId)) return;
+  var from = drag.from, to = drag.over;
+  var annule = !!(ev && ev.type === 'pointercancel');   /* geste interrompu par le système : on n'applique rien */
+  dragAnnuler();
+  if (annule || !to || to === from) return;
+  var a = state.planning[from], b = state.planning[to];
+  if (!a) return;
+  state.planning[to] = a;
+  if (b) state.planning[from] = b; else delete state.planning[from];
+  savePlanning(); renderAll();
+  toast(b ? 'Repas échangés' : 'Repas déplacé');
+}
+
+/* ===================== divers ===================== */
+var toastTimer = null;
+function toast(msg){
+  var t = $('#toast-el');
+  if (!t){ t = document.createElement('div'); t.id='toast-el'; t.className='toast'; document.body.appendChild(t) }
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ t.hidden = true }, 2600);
+}
+function renderAll(){
+  renderOptions();
+  renderPlanning();
+  renderRecettes();
+  renderSaisons();
+  renderCourses();
+}
+
+/* ===================== événements ===================== */
+function wire(){
+  $$('.tabs button').forEach(function(b){
+    b.addEventListener('click', function(){ showTab(b.dataset.tab) });
+  });
+  ['opt-espagne','opt-saison','opt-complets','opt-gras','opt-siqo','opt-midis'].forEach(function(id){
+    $('#'+id).addEventListener('change', onOptionChange);
+  });
+  $$('input[name="zone"]').forEach(function(r){ r.addEventListener('change', onOptionChange) });
+  $('#btn-voir-saisons').addEventListener('click', function(){ showTab('saisons') });
+  $('#pers-moins').addEventListener('click', function(){
+    state.options.personnes = Math.max(1, state.options.personnes-1); saveOptions(); renderAll();
+  });
+  $('#pers-plus').addEventListener('click', function(){
+    state.options.personnes = Math.min(10, state.options.personnes+1); saveOptions(); renderAll();
+  });
+  $('#rec-search').addEventListener('input', renderRecettes);
+  $$('.fchip').forEach(function(b){
+    b.addEventListener('click', function(){
+      recFilters[b.dataset.f] = !recFilters[b.dataset.f];
+      b.setAttribute('aria-pressed', recFilters[b.dataset.f]?'true':'false');
+      renderRecettes();
+    });
+  });
+  $('#btn-composer').addEventListener('click', composerSemaine);
+  $('#btn-vider').addEventListener('click', function(){
+    if (!Object.keys(state.planning).length) return;
+    state.planning = {}; savePlanning(); renderAll(); toast('Semaine vidée');
+  });
+  $('#btn-copier').addEventListener('click', copier);
+  $('#btn-partager').addEventListener('click', partagerListe);
+  $('#btn-telecharger').addEventListener('click', telechargerListe);
+  $('#btn-partager').hidden = !(navigator.share && !window.claude);
+  document.addEventListener('pointerdown', function(ev){
+    var g = (ev.target && ev.target.closest) ? ev.target.closest('.grip[data-drag]') : null;
+    if (g && (ev.pointerType !== 'mouse' || ev.button === 0)) dragStart(ev, g);
+  });
+  document.addEventListener('pointermove', dragMove);
+  document.addEventListener('pointerup', dragEnd);
+  document.addEventListener('pointercancel', dragEnd);
+  document.addEventListener('contextmenu', function(ev){
+    if (drag || (ev.target && ev.target.closest && ev.target.closest('.grip'))) ev.preventDefault();
+  });
+  $('#btn-decocher').addEventListener('click', function(){
+    state.checks = {}; saveCourses(); renderCourses();
+  });
+  $('#extra-form').addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var f = ev.target;
+    var nom = f.nom.value.trim(); if (!nom) return;
+    state.extras.push({id: Date.now().toString(36), nom:nom, qte: parseFloat((f.qte.value||'').replace(',','.'))||0, rayon: f.rayon.value});
+    f.nom.value=''; f.qte.value='';
+    saveCourses(); renderCourses();
+  });
+  $('#mp-search').addEventListener('input', renderPickList);
+  $('#btn-transfert').addEventListener('click', openTransfert);
+  $('#tr-copier').addEventListener('click', function(){ copierTexte($('#tr-out').value, 'Code copié') });
+  $('#tr-importer').addEventListener('click', importerDepuisChamp);
+
+  document.addEventListener('click', function(ev){
+    var t = ev.target.closest ? ev.target.closest('[data-open],[data-plan],[data-rm],[data-pick],[data-slot],[data-choose],[data-rmextra],[data-close],[data-optoggle],[data-scope],[data-mois],#crs-goplan') : null;
+    if (!t) {
+      if (ev.target.classList && ev.target.classList.contains('ovl')) ev.target.hidden = true;
+      return;
+    }
+    if (t.hasAttribute('data-close')){ t.closest('.ovl').hidden = true; return }
+    if (t.id === 'crs-goplan'){ showTab('planning'); composerSemaine(); return }
+    if (t.hasAttribute('data-optoggle')){
+      if (t.getAttribute('data-optoggle')==='saison') state.options.saisonUniquement = false;
+      else state.options.tresGras = true;
+      saveOptions(); renderAll(); return;
+    }
+    if (t.hasAttribute('data-scope')){ saisonUI.scope = t.getAttribute('data-scope'); renderSaisons(); return }
+    if (t.hasAttribute('data-mois')){ saisonUI.mois = parseInt(t.getAttribute('data-mois'),10); renderSaisons(); return }
+    if (t.hasAttribute('data-open')){ openRecette(t.getAttribute('data-open')); return }
+    if (t.hasAttribute('data-plan')){
+      $('#modal-recette').hidden = true;
+      openSlots(t.getAttribute('data-plan')); return;
+    }
+    if (t.hasAttribute('data-rm')){
+      delete state.planning[t.getAttribute('data-rm')];
+      savePlanning(); renderAll(); return;
+    }
+    if (t.hasAttribute('data-pick')){ openPick(t.getAttribute('data-pick')); return }
+    if (t.hasAttribute('data-slot')){
+      if (planTarget){ state.planning[t.getAttribute('data-slot')] = planTarget; planTarget=null }
+      $('#modal-slots').hidden = true;
+      savePlanning(); renderAll(); showTab('planning'); return;
+    }
+    if (t.hasAttribute('data-choose')){
+      if (pickTarget){ state.planning[pickTarget] = t.getAttribute('data-choose'); pickTarget=null }
+      $('#modal-pick').hidden = true;
+      savePlanning(); renderAll(); return;
+    }
+    if (t.hasAttribute('data-rmextra')){
+      var key = t.getAttribute('data-rmextra');
+      state.extras = state.extras.filter(function(e){ return 'extra-'+e.id !== key });
+      delete state.checks[key];
+      saveCourses(); renderCourses(); return;
+    }
+  });
+  document.addEventListener('change', function(ev){
+    var t = ev.target;
+    if (t.hasAttribute && t.hasAttribute('data-chk')){
+      var key = t.getAttribute('data-chk');
+      if (t.checked) state.checks[key] = true; else delete state.checks[key];
+      saveCourses(); renderCourses();
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape') $$('.ovl').forEach(function(o){ o.hidden = true });
+  });
+}
+
+/* ===================== démarrage ===================== */
+function boot(){
+  ['options','planning','courses'].forEach(function(key){
+    var v = persist.loadLocal(key);
+    if (v){ persist.lastJson[key] = JSON.stringify(v); applyDoc(key, v) }
+  });
+  renderOptions();
+  wire();
+  initPWA();
+
+  var hash = (location.hash||'').replace('#','');
+  if (['planning','recettes','saisons','courses','drive'].indexOf(hash)!==-1) currentTab = hash;
+  var mt = (location.hash||'').match(/^#t=(.+)$/);
+  if (mt){
+    try{ history.replaceState(null, '', location.pathname) }catch(e){}
+    decoderEtat(mt[1]).then(function(d){
+      importerEtat(d); toast('Données importées depuis l\'autre appareil');
+      var ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+      var standalone = navigator.standalone === true || (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+      if (ios && !standalone && !window.claude){
+        /* iOS ouvre un lien scanné dans Safari, dont le stockage est séparé de l'application installée : on garde le code sous la main */
+        $('#tr-out').value = mt[1]; $('#tr-qr').innerHTML = ''; $('#tr-in').value = ''; $('#tr-msg').textContent = '';
+        $('#tr-help').textContent = 'Données importées ici, dans Safari. Si vous utilisez l\'application installée sur l\'écran d\'accueil, copiez ce code puis collez-le dans « Recevoir » depuis l\'application.';
+        $('#modal-transfert').hidden = false;
+      }
+    }).catch(function(e){ toast(e.message) });
+  }
+
+  fetch('data.json').then(function(r){
+    if (!r.ok) throw new Error('http '+r.status);
+    return r.json();
+  }).then(function(d){
+    DATA = d;
+    (d.ingredients||[]).forEach(function(g){ g.regions = g.regions || []; g.saisonMois = g.saisonMois || []; ING[g.id] = g });
+    RECS = (d.recettes || []).map(function(r){ r.gras = r.gras || 2; return r });
+    nettoyerPlanning(true);
+    $('#loading').hidden = true;
+    if (!Object.keys(state.planning).length && currentTab==='planning' && !location.hash) currentTab = 'recettes';
+    showTab(currentTab);
+    renderAll();
+    renderDrive();
+  }).catch(function(e){
+    $('#loading').textContent = 'Impossible de charger les données des recettes ('+e.message+'). Rechargez la page.';
+  });
+
+  persist.init(function(key, data){
+    applyDoc(key, data);
+    if (RECS.length) renderAll(); else renderOptions();
+  }).then(function(ok){
+    if (ok){
+      $('#sync-pill').classList.add('on');
+      $('#sync-txt').textContent = 'Synchronisé entre vos appareils';
+    } else if (window.claude){
+      $('#sync-txt').textContent = 'Sauvegarde locale à cet appareil';
+    }
+  });
+}
+boot();
+})();
+</script>
+
+</body>
+</html>

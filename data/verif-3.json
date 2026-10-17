@@ -1,0 +1,89 @@
+{
+  "corriges": [
+    {
+      "id": "haricots-lingots",
+      "nom": "Haricots blancs (lingots)",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Lauragais (Castelnaudary, Aude)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Haricot de Castelnaudary" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le lingot de Castelnaudary est une IGP depuis fin 2020 : l'idéal pour le cassoulet ; sinon vérifier l'origine France sur les lingots génériques.",
+      "versionComplete": null
+    },
+    {
+      "id": "sel-camargue",
+      "nom": "Sel de Camargue",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "salins d'Aigues-Mortes (Camargue, Gard)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Sel de Camargue / Fleur de sel de Camargue" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Sel marin récolté en Camargue, IGP depuis février 2024 : alternative locale au sel d'import.",
+      "versionComplete": null
+    },
+    {
+      "id": "herbes-provence",
+      "nom": "Herbes de Provence",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "Label Rouge", "denomination": "Herbes de Provence" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le Label Rouge garantit la qualité (composition, teneur en huiles essentielles) mais pas l'origine Provence : l'essentiel du marché est importé (Pologne, Maroc, Albanie). Vérifier la provenance affichée, ou préférer le thym IGP de Provence / un producteur local.",
+      "versionComplete": null
+    },
+    {
+      "id": "chevre-frais",
+      "nom": "Chèvre frais (bûche)",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "chèvreries d'Occitanie",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Les bûches industrielles de grande surface incorporent une part de lait ou de caillé de chèvre importé (surtout Espagne et Pays-Bas) : vérifier la mention 'lait origine France' ou acheter fermier sur les marchés toulousains.",
+      "versionComplete": null
+    },
+    {
+      "id": "riz-camargue",
+      "nom": "Riz de Camargue",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Camargue (Bouches-du-Rhône, Gard)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Riz de Camargue" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le riz complet de Camargue coche toutes les cases : local, IGP et complet.",
+      "versionComplete": "Riz complet de Camargue IGP"
+    }
+  ],
+  "remarques": [
+    "Les 14 dénominations SIQO présentes sur les 25 ingrédients contrôlés sont toutes exactes (vérifiées via INAO / info.agriculture.gouv.fr) : Comté AOP, Riz de Camargue IGP, Lentille verte du Puy AOP (1ère AOP légume, 1996), Haricot tarbais IGP (2000) + Label Rouge (LA 19/97), Petit épeautre de Haute Provence IGP (2009), Huile d'olive de Nîmes AOP (2004), Moutarde de Bourgogne IGP (2009, graines et vin blanc de Bourgogne), Miel des Cévennes IGP (2015), Noix du Périgord AOP (2002), Pruneaux d'Agen IGP (2002), Lucques du Languedoc AOP (2015/2017), Piment d'Espelette AOP, Thym de Provence IGP (2018), Herbes de Provence Label Rouge. Aucune suppression nécessaire.",
+    "Deux IGP manquaient dans la base et ont été ajoutées : 'Haricot de Castelnaudary' (IGP enregistrée par la Commission européenne le 22/12/2020, zone = ouest de l'Aude, type lingot — correspond exactement à l'entrée haricots-lingots) et 'Sel de Camargue / Fleur de sel de Camargue' (IGP enregistrée le 31/01/2024, JO UE du 02/02/2024, production à Aigues-Mortes).",
+    "herbes-provence : conseil corrigé. Le Label Rouge (LA 02/03, porté par l'AIHP) certifie la qualité (teneur minimale en huiles essentielles, composition du mélange) mais n'est PAS un signe d'origine : des herbes Label Rouge peuvent légalement ne pas venir de Provence. L'affirmation 'seul le Label Rouge garantit des herbes réellement de Provence' était fausse ; seule l'IGP Thym de Provence garantit une origine.",
+    "chevre-frais : risqueEspagne passé de false à true. FranceAgriMer (Observatoire prix et marges) documente ~54 millions d'équivalents litres de lait/caillé de chèvre importés, principalement d'Espagne et des Pays-Bas, utilisés dans les bûchettes industrielles (le lait français ne représente que ~57,5 % du coût lait d'une bûchette). Pour un achat en grande surface, le risque d'ingrédient espagnol est réel.",
+    "riz-camargue : provenanceLocale précisée en 'Camargue (Bouches-du-Rhône, Gard)' — la zone IGP couvre les deux départements et le cœur de production est autour d'Arles (Bouches-du-Rhône), pas seulement le Gard. Distance Toulouse inchangée (~280-300 km), local=true reste valide.",
+    "Distances vérifiées, local=true confirmé mais proche de la limite des 400 km pour deux entrées : Lentille verte du Puy (Le Puy-en-Velay, ~250 km à vol d'oiseau, ~330 km par la route) et Petit épeautre de Haute Provence (zone Drôme/Vaucluse/Alpes-de-Haute-Provence/Hautes-Alpes, ~330 km à vol d'oiseau, >400 km par la route pour certaines communes).",
+    "comte : local=false confirmé (massif jurassien, ~550 km de Toulouse) ; le conseil proposant Laguiole ou Cantal en substitution locale est pertinent.",
+    "Cohérence risqueEspagne/conseil validée sans modification pour : huile-olive (marché GMS en effet dominé par l'Espagne), olives (idem, la Lucques est bien l'exception locale), paprika (pimentón espagnol), safran (safran 'espagnol' courant en GMS), miel (l'Espagne est le 1er fournisseur de miel de la France), coulis-tomate (Italie/Espagne). pois-chiches laissé à risqueEspagne=false : les imports viennent surtout du Mexique, de Turquie, du Canada et d'Argentine.",
+    "saisonMois plausibles pour le Sud-Ouest : noix [10,11] (noix fraîches) et safran [10,11] (récolte des fleurs de crocus) sont corrects ; les autres entrées vérifiées n'ont pas de saisonnalité (champs vides cohérents).",
+    "Sources principales : inao.gouv.fr (fiches produits et communiqués IGP Haricot de Castelnaudary 22/12/2020 et IGP Sel de Camargue 02/02/2024), info.agriculture.gouv.fr (cahiers des charges), extranet.inao.gouv.fr (CDC Riz de Camargue, Thym de Provence, Herbes de Provence LA 02/03), FranceAgriMer / Observatoire des prix et des marges (lait de chèvre, importations Espagne/Pays-Bas)."
+  ]
+}

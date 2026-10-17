@@ -1,0 +1,33 @@
+{
+  "corriges": [
+    {"id": "chataigne", "regions": ["Auvergne-Rhône-Alpes", "Occitanie", "Nouvelle-Aquitaine", "Provence-Alpes-Côte d'Azur", "Corse"]},
+    {"id": "myrtille", "regions": ["Nouvelle-Aquitaine", "Centre-Val de Loire", "Pays de la Loire", "Grand Est", "Auvergne-Rhône-Alpes", "Occitanie"]},
+    {"id": "quetsche", "regions": ["Grand Est", "Bourgogne-Franche-Comté"]},
+    {"id": "celeri-rave", "regions": ["Bretagne", "Pays de la Loire", "Grand Est", "Hauts-de-France", "Normandie", "Centre-Val de Loire"]},
+    {"id": "haricot-coco-frais", "regions": ["Bretagne", "Occitanie", "Nouvelle-Aquitaine", "Pays de la Loire"]},
+    {"id": "artichaut", "saisonMois": [3, 4, 5, 6, 7, 8, 9, 10, 11]},
+    {"id": "pasteque", "saisonMois": [7, 8, 9]},
+    {"id": "pomelo-corse", "saisonMois": [2, 3, 4, 5, 6]}
+  ],
+  "remarques": [
+    "50 ingrédients vérifiés : tous les noms de régions sont exacts (orthographe et accents) et toutes les catégories sont cohérentes avec la liste (condiments en 'condiment', rhubarbe en 'fruit' par usage culinaire, cèpe en 'legume' comme champignon-paris).",
+    "Épices importées (curry, noix-muscade, paprika, poivre-noir) : regions [] correct, aucune production française notable.",
+    "chataigne : la fiche filière du ministère (Agreste 2023) cite le Var et la Haute-Corse parmi les départements à plus de 400 t/an (Ardèche 44 % du national, Dordogne 13 %) ; PACA (massif des Maures, Collobrières) ajoutée. Les premières variétés ardéchoises arrivent mi-septembre, saison [10,11] conservée mais 9 serait défendable.",
+    "myrtille : bassins cultivés = Landes/Limousin (Nouvelle-Aquitaine), Val de Loire (Sologne en Centre-Val de Loire, Saumurois en Pays de la Loire), Alsace-Lorraine (Grand Est) ; myrtille sauvage Ardèche/Lozère/Vosges. Centre-Val de Loire et Pays de la Loire ajoutés, Bourgogne-Franche-Comté retirée (aucun bassin notable). Origine France présente d'avril à octobre mais part française maximale en juillet (53 %) et août (46 %) : saison [7,8] conservée. Bretagne (production émergente juillet-septembre) non ajoutée.",
+    "quetsche : bassins historiques Alsace, Lorraine et Franche-Comté ; Auvergne-Rhône-Alpes retirée (aucune source). Les quetsches ne pèsent que 6 % des prunes de table françaises ; pas de source trouvée sur une production de quetsche dans le Sud-Ouest.",
+    "prune-reine-claude : le Tarn-et-Garonne fait près de 60 % des prunes de table françaises (~45 000 t), Lot-et-Garonne ensuite ; reine-claude = 27 % des prunes du frais. Régions conservées.",
+    "celeri-rave : production concentrée en Bretagne, Champagne-Ardenne et Pays de la Loire, Hauts-de-France 4e (~10 % des surfaces) ; Grand Est ajoutée, Auvergne-Rhône-Alpes retirée. Légume du Nord : il sort logiquement du filtre 4 régions du Sud.",
+    "haricot-coco-frais : la Bretagne fait la moitié du haricot à écosser français (Coco de Paimpol AOP, 6 000 t), la Mogette de Vendée IGP se vend fraîche dès août : Pays de la Loire ajoutée, Auvergne-Rhône-Alpes retirée (pas de bassin). Le coco rose d'Eyragues (PACA) existe mais reste confidentiel, non ajouté.",
+    "artichaut : artichaut du Roussillon récolté de mars à fin mai (plus une récolte d'automne pour le violet), Bretagne de mai à novembre (Prince de Bretagne) : saison étendue à mars-novembre. Le conseil 'violet du Roussillon arrive en avril' pourrait dire mars.",
+    "pasteque : juillet concentre plus de 30 % des volumes et août près d'un quart, commercialisation française jusqu'en septembre (Vaucluse 3e département producteur) : 9 ajouté.",
+    "pomelo-corse : récolte IGP de février-mars à juin, commercialisation sur 4 à 5 mois : 6 ajouté.",
+    "noisette : Lot-et-Garonne ~46 % des surfaces nationales ; l'IGP Noisette de Cervione (Corse) ne fait que 50-60 t sur ~11 000 t nationales, non ajoutée. Le conseil est juste : l'essentiel du rayon vient de Turquie.",
+    "radis : Pays de la Loire = 40 % des surfaces et de la production nationale (2024) ; le Nord est probablement un bassin notable mais non confirmé par les sources, régions conservées.",
+    "betterave : Hauts-de-France 2e bassin (12 % des surfaces, 2015), culture 'moitié nord, Bretagne, Centre' ; la présence de Nouvelle-Aquitaine, Occitanie et Auvergne-Rhône-Alpes n'a pu être ni confirmée ni infirmée, à surveiller car elle fait passer la betterave dans le filtre Sud.",
+    "fenouil : saison française mai-décembre selon les sources grand public, essais GRAB dans le Gard au printemps (récolte juin) et en automne (octobre), abris PACA en hiver ; [6..10] conservé, extensible à [5..11].",
+    "endive : 94 % des surfaces en Hauts-de-France ; Bretagne et Normandie marginales mais conservées. framboise : Auvergne-Rhône-Alpes > 1/3 du national, puis Corrèze, Val de Loire, Normandie, Île-de-France ; Occitanie (Tarn-et-Garonne) mineure mais conservée.",
+    "safran : 37 ha en France (FranceAgriMer), Quercy et Gâtinais/Touraine : régions correctes. moutarde : graines essentiellement bourguignonnes (IGP Moutarde de Bourgogne), Grand Est et Île-de-France correspondent aux fabrications alsacienne et de Meaux.",
+    "Hors périmètre de ce fichier mais à corriger dans app/data.json : thym porte 'IGP Thym de Provence' avec provenanceLocale 'garrigues du Languedoc (Hérault, Gard)', or l'aire IGP couvre PACA, Drôme, Ardèche et le Gard mais pas l'Hérault.",
+    "Limites : les PDF Agreste/DRAAF n'ont pas pu être extraits en texte dans cet environnement ; kaki, coing, mûre, cresson, cèpe, maïs doux, fèves et les choux reposent sur les connaissances générales et aucune contradiction n'a été trouvée."
+  ]
+}

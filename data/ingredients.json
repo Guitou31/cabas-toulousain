@@ -1,0 +1,1529 @@
+{
+  "ingredients": [
+    {
+      "id": "carotte",
+      "nom": "Carotte",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Landes",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Origine France toute l'année, souvent des sables des Landes.",
+      "versionComplete": null
+    },
+    {
+      "id": "pomme-de-terre",
+      "nom": "Pomme de terre",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Origine France très facile à trouver toute l'année.",
+      "versionComplete": null
+    },
+    {
+      "id": "tomate",
+      "nom": "Tomate",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Marmande (Lot-et-Garonne)",
+      "siqo": [],
+      "saisonMois": [6, 7, 8, 9],
+      "risqueEspagne": true,
+      "conseil": "Hors été, quasi toujours d'Espagne ou de serre chauffée : à réserver à la pleine saison.",
+      "versionComplete": null
+    },
+    {
+      "id": "courgette",
+      "nom": "Courgette",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Occitanie (Gard, Tarn-et-Garonne)",
+      "siqo": [],
+      "saisonMois": [5, 6, 7, 8, 9],
+      "risqueEspagne": true,
+      "conseil": "Import espagnol massif d'octobre à mai : privilégier l'été local.",
+      "versionComplete": null
+    },
+    {
+      "id": "poivron",
+      "nom": "Poivron",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Gard, Roussillon (Pyrénées-Orientales)",
+      "siqo": [],
+      "saisonMois": [7, 8, 9, 10],
+      "risqueEspagne": true,
+      "conseil": "Très majoritairement espagnol hors été : vérifier l'origine en rayon.",
+      "versionComplete": null
+    },
+    {
+      "id": "aubergine",
+      "nom": "Aubergine",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Occitanie (Gard, Hérault)",
+      "siqo": [],
+      "saisonMois": [6, 7, 8, 9],
+      "risqueEspagne": true,
+      "conseil": "Légume d'été : hors saison, presque toujours d'Espagne.",
+      "versionComplete": null
+    },
+    {
+      "id": "concombre",
+      "nom": "Concombre",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [5, 6, 7, 8, 9],
+      "risqueEspagne": true,
+      "conseil": "Français de serre d'avril à octobre, espagnol l'hiver.",
+      "versionComplete": null
+    },
+    {
+      "id": "salade-verte",
+      "nom": "Salade verte (laitue, batavia)",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "maraîchers d'Occitanie",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Production locale toute l'année autour de Toulouse ; l'iceberg d'hiver vient souvent d'Espagne.",
+      "versionComplete": null
+    },
+    {
+      "id": "epinard",
+      "nom": "Épinard",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [1, 2, 3, 4, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Légume de saison fraîche, frais ou surgelé origine France.",
+      "versionComplete": null
+    },
+    {
+      "id": "poireau",
+      "nom": "Poireau",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [1, 2, 3, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "chou-fleur",
+      "nom": "Chou-fleur",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [1, 2, 3, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Surtout breton : origine France facile en hiver.",
+      "versionComplete": null
+    },
+    {
+      "id": "brocoli",
+      "nom": "Brocoli",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [6, 7, 8, 9, 10],
+      "risqueEspagne": true,
+      "conseil": "Hors saison, souvent espagnol : préférer le chou-fleur breton l'hiver.",
+      "versionComplete": null
+    },
+    {
+      "id": "potimarron",
+      "nom": "Potimarron / courge",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Lauragais (Aude, Haute-Garonne)",
+      "siqo": [],
+      "saisonMois": [9, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Courges locales abondantes de septembre à décembre.",
+      "versionComplete": null
+    },
+    {
+      "id": "haricot-vert",
+      "nom": "Haricot vert",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Sud-Ouest (Lot-et-Garonne, Landes)",
+      "siqo": [],
+      "saisonMois": [6, 7, 8, 9],
+      "risqueEspagne": false,
+      "conseil": "Hors saison, import lointain (Maroc, Kenya) : frais l'été, sinon conserve ou surgelé français.",
+      "versionComplete": null
+    },
+    {
+      "id": "petits-pois",
+      "nom": "Petits pois",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [5, 6],
+      "risqueEspagne": false,
+      "conseil": "Frais en mai-juin, sinon surgelés ou conserve origine France.",
+      "versionComplete": null
+    },
+    {
+      "id": "navet",
+      "nom": "Navet",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [1, 2, 3, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "champignon-paris",
+      "nom": "Champignon de Paris",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "La mention 'origine France' existe en rayon ; sinon souvent Pologne ou Pays-Bas.",
+      "versionComplete": null
+    },
+    {
+      "id": "asperge",
+      "nom": "Asperge",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "sables des Landes",
+      "siqo": [
+        { "label": "IGP", "denomination": "Asperges des sables des Landes" }
+      ],
+      "saisonMois": [3, 4, 5, 6],
+      "risqueEspagne": true,
+      "conseil": "L'asperge espagnole arrive dès février : attendre la landaise de mars à juin.",
+      "versionComplete": null
+    },
+    {
+      "id": "patate-douce",
+      "nom": "Patate douce",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Landes",
+      "siqo": [],
+      "saisonMois": [9, 10, 11, 12],
+      "risqueEspagne": true,
+      "conseil": "Production française récente dans les Landes : vérifier l'étiquette (souvent Espagne ou Égypte).",
+      "versionComplete": null
+    },
+    {
+      "id": "mache",
+      "nom": "Mâche",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "IGP", "denomination": "Mâche nantaise" }
+      ],
+      "saisonMois": [1, 2, 3, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Salade d'hiver française par excellence (région nantaise).",
+      "versionComplete": null
+    },
+    {
+      "id": "ail-rose-lautrec",
+      "nom": "Ail rose de Lautrec",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Lautrec (Tarn)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Ail rose de Lautrec" },
+        { "label": "Label Rouge", "denomination": "Ail rose de Lautrec" }
+      ],
+      "saisonMois": [7, 8, 9, 10, 11, 12],
+      "risqueEspagne": true,
+      "conseil": "L'ail d'entrée de gamme est souvent espagnol ou chinois : le Lautrec se conserve tout l'hiver.",
+      "versionComplete": null
+    },
+    {
+      "id": "ail-violet-cadours",
+      "nom": "Ail violet de Cadours",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Cadours (Haute-Garonne)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Ail violet de Cadours" }
+      ],
+      "saisonMois": [7, 8, 9, 10, 11, 12],
+      "risqueEspagne": true,
+      "conseil": "AOP cultivée à 30 km de Toulouse : le premier ail de la saison.",
+      "versionComplete": null
+    },
+    {
+      "id": "oignon-jaune",
+      "nom": "Oignon jaune",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Origine France disponible toute l'année.",
+      "versionComplete": null
+    },
+    {
+      "id": "oignon-doux-cevennes",
+      "nom": "Oignon doux des Cévennes",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Cévennes (Gard)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Oignon doux des Cévennes" }
+      ],
+      "saisonMois": [8, 9, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Parfait cru ou confit, de la fin d'été à l'hiver.",
+      "versionComplete": null
+    },
+    {
+      "id": "echalote",
+      "nom": "Échalote",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "L'échalote de tradition française vient surtout de Bretagne.",
+      "versionComplete": null
+    },
+    {
+      "id": "persil",
+      "nom": "Persil frais",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "basilic",
+      "nom": "Basilic frais",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [5, 6, 7, 8, 9],
+      "risqueEspagne": false,
+      "conseil": "En pot français ou au marché l'été.",
+      "versionComplete": null
+    },
+    {
+      "id": "pomme",
+      "nom": "Pomme",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Tarn-et-Garonne, Limousin",
+      "siqo": [
+        { "label": "AOP", "denomination": "Pomme du Limousin" }
+      ],
+      "saisonMois": [1, 2, 3, 4, 9, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Le Tarn-et-Garonne est un grand verger : facile en local presque toute l'année.",
+      "versionComplete": null
+    },
+    {
+      "id": "poire",
+      "nom": "Poire",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Tarn-et-Garonne",
+      "siqo": [],
+      "saisonMois": [8, 9, 10, 11, 12],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "peche-nectarine",
+      "nom": "Pêche / nectarine",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Roussillon (Pyrénées-Orientales), Gard",
+      "siqo": [],
+      "saisonMois": [6, 7, 8],
+      "risqueEspagne": true,
+      "conseil": "La pêche espagnole domine les rayons : chercher Roussillon ou Gard en été.",
+      "versionComplete": null
+    },
+    {
+      "id": "abricot",
+      "nom": "Abricot",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Roussillon (Pyrénées-Orientales)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Abricots rouges du Roussillon" }
+      ],
+      "saisonMois": [6, 7],
+      "risqueEspagne": true,
+      "conseil": "Saison courte : éviter l'abricot espagnol de mai, attendre juin.",
+      "versionComplete": null
+    },
+    {
+      "id": "fraise",
+      "nom": "Fraise",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Périgord (Dordogne), Lot-et-Garonne",
+      "siqo": [
+        { "label": "IGP", "denomination": "Fraise du Périgord" }
+      ],
+      "saisonMois": [4, 5, 6],
+      "risqueEspagne": true,
+      "conseil": "Éviter la fraise espagnole de Huelva en hiver : attendre avril et le Périgord.",
+      "versionComplete": null
+    },
+    {
+      "id": "melon",
+      "nom": "Melon",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Quercy (Lot, Tarn-et-Garonne)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Melon du Quercy" }
+      ],
+      "saisonMois": [7, 8, 9],
+      "risqueEspagne": true,
+      "conseil": "Espagnol ou marocain en début de saison : le Quercy arrive en juillet.",
+      "versionComplete": null
+    },
+    {
+      "id": "raisin-chasselas",
+      "nom": "Raisin de table",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Moissac (Tarn-et-Garonne)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Chasselas de Moissac" }
+      ],
+      "saisonMois": [9, 10],
+      "risqueEspagne": true,
+      "conseil": "Raisin souvent italien ou espagnol hors septembre-octobre : viser le chasselas de Moissac.",
+      "versionComplete": null
+    },
+    {
+      "id": "kiwi",
+      "nom": "Kiwi",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "vallée de l'Adour (Landes, Pyrénées-Atlantiques)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Kiwi de l'Adour" }
+      ],
+      "saisonMois": [1, 2, 3, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Kiwi français de novembre à mai ; Nouvelle-Zélande le reste de l'année.",
+      "versionComplete": null
+    },
+    {
+      "id": "clementine",
+      "nom": "Clémentine",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "IGP", "denomination": "Clémentine de Corse" }
+      ],
+      "saisonMois": [1, 2, 11, 12],
+      "risqueEspagne": true,
+      "conseil": "Choisir la Corse (feuille attachée) plutôt que la clémentine espagnole.",
+      "versionComplete": null
+    },
+    {
+      "id": "citron",
+      "nom": "Citron",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Quasi toujours d'import (souvent Espagne) ; citron de Menton ou de Corse si disponible.",
+      "versionComplete": null
+    },
+    {
+      "id": "orange",
+      "nom": "Orange",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [1, 2, 11, 12],
+      "risqueEspagne": true,
+      "conseil": "Pas de production française significative : import assumé, plutôt en hiver.",
+      "versionComplete": null
+    },
+    {
+      "id": "banane",
+      "nom": "Banane",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Choisir la banane de Guadeloupe & Martinique (production française).",
+      "versionComplete": null
+    },
+    {
+      "id": "boeuf",
+      "nom": "Bœuf (steak, rôti, bourguignon)",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Aubrac (Aveyron), Gascogne",
+      "siqo": [
+        { "label": "Label Rouge", "denomination": "Bœuf fermier Aubrac" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Viande bovine française (VBF), races locales Aubrac ou Blonde d'Aquitaine.",
+      "versionComplete": null
+    },
+    {
+      "id": "veau",
+      "nom": "Veau",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Aveyron (Ségala)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Veau d'Aveyron et du Ségala" },
+        { "label": "Label Rouge", "denomination": "Veau d'Aveyron et du Ségala" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le veau élevé sous la mère de l'Aveyron est une référence nationale.",
+      "versionComplete": null
+    },
+    {
+      "id": "agneau",
+      "nom": "Agneau",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Quercy (Lot)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Agneau du Quercy" },
+        { "label": "Label Rouge", "denomination": "Agneau fermier du Quercy" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Éviter l'agneau d'import (Irlande, Nouvelle-Zélande) : le Quercy est à côté.",
+      "versionComplete": null
+    },
+    {
+      "id": "porc",
+      "nom": "Porc (côtes, rôti, filet mignon)",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Bigorre (Hautes-Pyrénées)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Porc noir de Bigorre" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Au quotidien, logo 'Le Porc Français' ; le noir de Bigorre AOP pour les grandes occasions.",
+      "versionComplete": null
+    },
+    {
+      "id": "poulet",
+      "nom": "Poulet",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Gers",
+      "siqo": [
+        { "label": "IGP", "denomination": "Volailles du Gers" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Poulet fermier Label Rouge du Gers ou des Landes plutôt que poulet standard.",
+      "versionComplete": null
+    },
+    {
+      "id": "magret-canard",
+      "nom": "Magret de canard",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Gers, Landes",
+      "siqo": [
+        { "label": "IGP", "denomination": "Canard à foie gras du Sud-Ouest" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Produit emblématique du Sud-Ouest : origine locale très facile.",
+      "versionComplete": null
+    },
+    {
+      "id": "dinde",
+      "nom": "Escalope de dinde",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Vérifier la mention 'Volaille française'.",
+      "versionComplete": null
+    },
+    {
+      "id": "lapin",
+      "nom": "Lapin",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Viande maigre, production française courante.",
+      "versionComplete": null
+    },
+    {
+      "id": "jambon-blanc",
+      "nom": "Jambon blanc",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Beaucoup de jambons sont faits de porc espagnol : vérifier 'Porc origine France'.",
+      "versionComplete": null
+    },
+    {
+      "id": "jambon-bayonne",
+      "nom": "Jambon de Bayonne",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "bassin de l'Adour (Pyrénées-Atlantiques)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Jambon de Bayonne" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Préférer le Bayonne IGP au serrano espagnol omniprésent en rayon.",
+      "versionComplete": null
+    },
+    {
+      "id": "saucisse-toulouse",
+      "nom": "Saucisse de Toulouse",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Toulouse (Haute-Garonne)",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Chez l'artisan boucher, en vérifiant le porc origine France.",
+      "versionComplete": null
+    },
+    {
+      "id": "truite",
+      "nom": "Truite",
+      "rayon": "Poissonnerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "piscicultures d'Aquitaine et des Pyrénées",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "La meilleure alternative locale au saumon, élevée en France.",
+      "versionComplete": null
+    },
+    {
+      "id": "cabillaud",
+      "nom": "Cabillaud",
+      "rayon": "Poissonnerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Pêché en Atlantique nord (import) : préférer le merlu du golfe de Gascogne.",
+      "versionComplete": null
+    },
+    {
+      "id": "lieu-noir",
+      "nom": "Lieu noir",
+      "rayon": "Poissonnerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Essentiellement mer du Nord et Norvège : option correcte mais non locale.",
+      "versionComplete": null
+    },
+    {
+      "id": "merlu",
+      "nom": "Merlu (colin)",
+      "rayon": "Poissonnerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Saint-Jean-de-Luz, golfe de Gascogne",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Beaucoup de merlu vendu vient d'Espagne : demander la pêche française du golfe de Gascogne.",
+      "versionComplete": null
+    },
+    {
+      "id": "sardine",
+      "nom": "Sardine",
+      "rayon": "Poissonnerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Méditerranée (Sète), golfe de Gascogne",
+      "siqo": [],
+      "saisonMois": [5, 6, 7, 8, 9],
+      "risqueEspagne": false,
+      "conseil": "Petit poisson local, économique et riche en oméga-3.",
+      "versionComplete": null
+    },
+    {
+      "id": "maquereau",
+      "nom": "Maquereau",
+      "rayon": "Poissonnerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "golfe de Gascogne",
+      "siqo": [],
+      "saisonMois": [4, 5, 6, 7, 8, 9],
+      "risqueEspagne": false,
+      "conseil": "Frais au printemps-été, sinon en conserve de fabrication française.",
+      "versionComplete": null
+    },
+    {
+      "id": "saumon",
+      "nom": "Saumon",
+      "rayon": "Poissonnerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Norvège ou Écosse : la truite française est l'équivalent local.",
+      "versionComplete": null
+    },
+    {
+      "id": "moules",
+      "nom": "Moules",
+      "rayon": "Poissonnerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Bouzigues, étang de Thau (Hérault)",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Préférer Bouzigues (étang de Thau) aux moules d'Espagne ou du Chili.",
+      "versionComplete": null
+    },
+    {
+      "id": "crevettes",
+      "nom": "Crevettes",
+      "rayon": "Poissonnerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Quasi toujours d'import (Équateur, Asie, Madagascar) : achat occasionnel.",
+      "versionComplete": null
+    },
+    {
+      "id": "lait",
+      "nom": "Lait demi-écrémé",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Aveyron, piémont pyrénéen",
+      "siqo": [
+        { "label": "AB", "denomination": null }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Marques équitables ou laiteries locales disponibles en grande surface.",
+      "versionComplete": null
+    },
+    {
+      "id": "beurre",
+      "nom": "Beurre",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Charentes",
+      "siqo": [
+        { "label": "AOP", "denomination": "Beurre Charentes-Poitou" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "creme-fraiche",
+      "nom": "Crème fraîche",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Lait origine France quasi systématique ; en version légère pour limiter le gras.",
+      "versionComplete": null
+    },
+    {
+      "id": "yaourt-nature",
+      "nom": "Yaourt nature",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "AB", "denomination": null }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Vérifier 'lait origine France' ; des yaourts fermiers locaux existent en rayon.",
+      "versionComplete": null
+    },
+    {
+      "id": "oeufs",
+      "nom": "Œufs",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "élevages d'Occitanie",
+      "siqo": [
+        { "label": "Label Rouge", "denomination": "Œufs de poules élevées en plein air" },
+        { "label": "AB", "denomination": null }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Code 1FR (plein air) ou 0FR (bio) imprimé sur la coquille.",
+      "versionComplete": null
+    },
+    {
+      "id": "roquefort",
+      "nom": "Roquefort",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Roquefort-sur-Soulzon (Aveyron)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Roquefort" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "L'AOP locale par excellence : brebis de l'Aveyron, caves de Roquefort.",
+      "versionComplete": null
+    },
+    {
+      "id": "rocamadour",
+      "nom": "Rocamadour",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Rocamadour (Lot)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Rocamadour" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Petit chèvre AOP du Lot, parfait en salade tiède.",
+      "versionComplete": null
+    },
+    {
+      "id": "cantal",
+      "nom": "Cantal",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Cantal (Auvergne)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Cantal" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "laguiole",
+      "nom": "Laguiole",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "plateau de l'Aubrac (Aveyron)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Laguiole" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "La base de l'aligot, avec la tome fraîche de l'Aubrac.",
+      "versionComplete": null
+    },
+    {
+      "id": "ossau-iraty",
+      "nom": "Ossau-Iraty",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Béarn et Pays basque (Pyrénées-Atlantiques)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Ossau-Iraty" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Brebis des Pyrénées, à servir avec un peu de confiture de cerise noire.",
+      "versionComplete": null
+    },
+    {
+      "id": "tomme-pyrenees",
+      "nom": "Tomme des Pyrénées",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Pyrénées",
+      "siqo": [
+        { "label": "IGP", "denomination": "Tomme des Pyrénées" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": null,
+      "versionComplete": null
+    },
+    {
+      "id": "pelardon",
+      "nom": "Pélardon",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Cévennes (Gard, Hérault, Lozère)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Pélardon" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Chèvre AOP des Cévennes, moins connu que le Rocamadour.",
+      "versionComplete": null
+    },
+    {
+      "id": "chevre-frais",
+      "nom": "Chèvre frais (bûche)",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "chèvreries d'Occitanie",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Nombreux producteurs fermiers sur les marchés toulousains.",
+      "versionComplete": null
+    },
+    {
+      "id": "comte",
+      "nom": "Comté",
+      "rayon": "Crèmerie & Fromages",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "AOP", "denomination": "Comté" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "AOP française mais du Jura : hors zone locale, Laguiole ou Cantal en remplacement.",
+      "versionComplete": null
+    },
+    {
+      "id": "pates",
+      "nom": "Pâtes",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Choisir des pâtes au blé dur 100 % français, en version complète ou semi-complète.",
+      "versionComplete": "Pâtes complètes"
+    },
+    {
+      "id": "riz-camargue",
+      "nom": "Riz de Camargue",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Camargue (Gard)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Riz de Camargue" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le riz complet de Camargue coche toutes les cases : local, IGP et complet.",
+      "versionComplete": "Riz complet de Camargue IGP"
+    },
+    {
+      "id": "riz-basmati",
+      "nom": "Riz basmati",
+      "rayon": "Épicerie",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé (Inde, Pakistan) ; alternative locale : riz de Camargue.",
+      "versionComplete": "Riz basmati complet"
+    },
+    {
+      "id": "lentilles-vertes",
+      "nom": "Lentilles vertes",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Le Puy-en-Velay (Haute-Loire)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Lentille verte du Puy" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Vérifier l'origine : beaucoup de lentilles viennent du Canada ; le Puy et le Gers produisent.",
+      "versionComplete": null
+    },
+    {
+      "id": "pois-chiches",
+      "nom": "Pois chiches",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Lauragais, Gers",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Souvent importés (Mexique, Turquie) : les filières Sud-Ouest se développent, lire l'étiquette.",
+      "versionComplete": null
+    },
+    {
+      "id": "haricot-tarbais",
+      "nom": "Haricot tarbais",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Tarbes (Hautes-Pyrénées)",
+      "siqo": [
+        { "label": "Label Rouge", "denomination": "Haricot tarbais" },
+        { "label": "IGP", "denomination": "Haricot tarbais" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le haricot du cassoulet et de la garbure.",
+      "versionComplete": null
+    },
+    {
+      "id": "haricots-lingots",
+      "nom": "Haricots blancs (lingots)",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Lauragais (Castelnaudary, Aude)",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Lingot de Castelnaudary pour le cassoulet ; sinon vérifier l'origine France.",
+      "versionComplete": null
+    },
+    {
+      "id": "petit-epeautre",
+      "nom": "Petit épeautre",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Haute-Provence",
+      "siqo": [
+        { "label": "IGP", "denomination": "Petit épeautre de Haute-Provence" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Céréale complète rustique, souvent bio, cuisson type risotto.",
+      "versionComplete": null
+    },
+    {
+      "id": "quinoa",
+      "nom": "Quinoa",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Préférer le quinoa d'Anjou au quinoa d'Amérique du Sud.",
+      "versionComplete": null
+    },
+    {
+      "id": "semoule",
+      "nom": "Semoule de blé dur",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le blé dur pousse notamment dans le Lauragais : chercher la mention France.",
+      "versionComplete": "Semoule de blé dur complète"
+    },
+    {
+      "id": "polenta",
+      "nom": "Polenta (semoule de maïs)",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Souvent italienne alors que le Sud-Ouest regorge de maïs : chercher une semoule de maïs française.",
+      "versionComplete": null
+    },
+    {
+      "id": "farine-ble",
+      "nom": "Farine de blé",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "AB", "denomination": null }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Des moulins d'Occitanie vendent en grande surface et en magasin bio.",
+      "versionComplete": "Farine de blé complète (T110-T150)"
+    },
+    {
+      "id": "flocons-avoine",
+      "nom": "Flocons d'avoine",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "L'avoine française existe : vérifier l'origine, souvent simplement 'UE'.",
+      "versionComplete": null
+    },
+    {
+      "id": "pain",
+      "nom": "Pain",
+      "rayon": "Boulangerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "boulangeries artisanales locales",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Boulanger artisanal, farine locale si possible ; la version complète rassasie mieux.",
+      "versionComplete": "Pain complet ou semi-complet"
+    },
+    {
+      "id": "huile-olive",
+      "nom": "Huile d'olive",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Gard, Hérault",
+      "siqo": [
+        { "label": "AOP", "denomination": "Huile d'olive de Nîmes" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "L'essentiel des huiles d'olive de grande surface est espagnol : la française est rare et chère, à doser.",
+      "versionComplete": null
+    },
+    {
+      "id": "huile-colza",
+      "nom": "Huile de colza",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Bonne huile du quotidien (oméga-3), production française courante.",
+      "versionComplete": null
+    },
+    {
+      "id": "huile-tournesol",
+      "nom": "Huile de tournesol",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Gers, Lauragais",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Le tournesol est une culture emblématique du Sud-Ouest.",
+      "versionComplete": null
+    },
+    {
+      "id": "vinaigre-vin",
+      "nom": "Vinaigre de vin",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Un vinaigre de vin français, voire issu de vins du Sud-Ouest.",
+      "versionComplete": null
+    },
+    {
+      "id": "coulis-tomate",
+      "nom": "Coulis et conserves de tomate",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Souvent Italie ou Espagne : chercher 'tomates de France' (Provence, Marmande).",
+      "versionComplete": null
+    },
+    {
+      "id": "bouillon-volaille",
+      "nom": "Bouillon de volaille (cubes)",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Simple assaisonnement ; version sans huile de palme de préférence.",
+      "versionComplete": null
+    },
+    {
+      "id": "moutarde",
+      "nom": "Moutarde",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "IGP", "denomination": "Moutarde de Bourgogne" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "La plupart des graines viennent du Canada : l'IGP Bourgogne garantit graines et fabrication françaises.",
+      "versionComplete": null
+    },
+    {
+      "id": "miel",
+      "nom": "Miel",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Pyrénées, Montagne Noire, Cévennes",
+      "siqo": [
+        { "label": "IGP", "denomination": "Miel des Cévennes" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Fuir les mélanges 'UE / hors UE' : miel de producteur local ou IGP.",
+      "versionComplete": null
+    },
+    {
+      "id": "noix",
+      "nom": "Noix",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Périgord (Dordogne)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Noix du Périgord" }
+      ],
+      "saisonMois": [10, 11],
+      "risqueEspagne": false,
+      "conseil": "Fraîches à l'automne, sèches toute l'année ; éviter les cerneaux de Californie ou du Chili.",
+      "versionComplete": null
+    },
+    {
+      "id": "pruneaux-agen",
+      "nom": "Pruneaux d'Agen",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Agen (Lot-et-Garonne)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Pruneaux d'Agen" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Produit local emblématique, parfait dans les plats mijotés.",
+      "versionComplete": null
+    },
+    {
+      "id": "olives",
+      "nom": "Olives de table",
+      "rayon": "Épicerie",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Hérault, Aude",
+      "siqo": [
+        { "label": "AOP", "denomination": "Lucques du Languedoc" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Les olives de table sont massivement espagnoles : la Lucques du Languedoc est l'exception locale.",
+      "versionComplete": null
+    },
+    {
+      "id": "piment-espelette",
+      "nom": "Piment d'Espelette",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Espelette (Pays basque, Pyrénées-Atlantiques)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Piment d'Espelette" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Remplace avantageusement paprika et poivre dans beaucoup de plats.",
+      "versionComplete": null
+    },
+    {
+      "id": "safran",
+      "nom": "Safran",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Quercy (Lot)",
+      "siqo": [],
+      "saisonMois": [10, 11],
+      "risqueEspagne": true,
+      "conseil": "Le safran du Quercy existe en direct producteur ; sinon import assumé, simple assaisonnement.",
+      "versionComplete": null
+    },
+    {
+      "id": "curry",
+      "nom": "Curry",
+      "rayon": "Épices & Condiments",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé, simple assaisonnement.",
+      "versionComplete": null
+    },
+    {
+      "id": "poivre-noir",
+      "nom": "Poivre noir",
+      "rayon": "Épices & Condiments",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé, simple assaisonnement.",
+      "versionComplete": null
+    },
+    {
+      "id": "cumin",
+      "nom": "Cumin",
+      "rayon": "Épices & Condiments",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé, simple assaisonnement.",
+      "versionComplete": null
+    },
+    {
+      "id": "paprika",
+      "nom": "Paprika",
+      "rayon": "Épices & Condiments",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Import assumé (souvent pimentón espagnol) ; alternative locale : piment d'Espelette.",
+      "versionComplete": null
+    },
+    {
+      "id": "cannelle",
+      "nom": "Cannelle",
+      "rayon": "Épices & Condiments",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Import assumé, simple assaisonnement.",
+      "versionComplete": null
+    },
+    {
+      "id": "laurier",
+      "nom": "Laurier",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "jardins et garrigues d'Occitanie",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Pousse partout dans la région : souvent gratuit au jardin ou chez le voisin.",
+      "versionComplete": null
+    },
+    {
+      "id": "thym",
+      "nom": "Thym",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "garrigues du Languedoc (Hérault, Gard)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Thym de Provence" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Beaucoup de thym vendu en France est importé (Maroc, Pologne) : viser l'IGP ou un producteur local.",
+      "versionComplete": null
+    },
+    {
+      "id": "herbes-provence",
+      "nom": "Herbes de Provence",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "Label Rouge", "denomination": "Herbes de Provence" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Seul le Label Rouge garantit des herbes réellement de Provence : l'essentiel du marché est importé.",
+      "versionComplete": null
+    },
+    {
+      "id": "cornichons",
+      "nom": "Cornichons",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "L'immense majorité vient d'Inde : chercher le cornichon français, filière relancée.",
+      "versionComplete": null
+    },
+    {
+      "id": "sel-camargue",
+      "nom": "Sel de Camargue",
+      "rayon": "Épices & Condiments",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "salins d'Aigues-Mortes (Camargue, Gard)",
+      "siqo": [],
+      "saisonMois": [],
+      "risqueEspagne": false,
+      "conseil": "Sel marin récolté en Camargue, alternative locale au sel d'import.",
+      "versionComplete": null
+    }
+  ]
+}

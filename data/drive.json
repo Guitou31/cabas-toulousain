@@ -1,0 +1,48 @@
+{
+  "enseignes": [
+    {
+      "nom": "E.Leclerc Drive",
+      "presentToulouse": true,
+      "url": "https://www.leclercdrive.fr",
+      "note": "Plusieurs drives dans l'agglomération toulousaine (Toulouse-Lespinet, Roques-sur-Garonne, Blagnac, Saint-Orens...), enseigne leader du drive en France."
+    },
+    {
+      "nom": "Carrefour Drive",
+      "presentToulouse": true,
+      "url": "https://www.carrefour.fr/livraison-courses/drive",
+      "note": "Drives rattachés aux hypermarchés et supermarchés (dont Toulouse Purpan) plus des drives piétons en ville, commande sur carrefour.fr."
+    },
+    {
+      "nom": "Auchan Drive",
+      "presentToulouse": true,
+      "url": "https://www.auchan.fr",
+      "note": "Drives et points de retrait Auchan à Toulouse et dans l'agglomération, commande sur auchan.fr après choix du point de retrait."
+    },
+    {
+      "nom": "Intermarché Drive",
+      "presentToulouse": true,
+      "url": "https://www.intermarche.com",
+      "note": "Nombreux magasins Intermarché avec service drive en Haute-Garonne et autour de Toulouse, commande sur intermarche.com."
+    },
+    {
+      "nom": "Courses U (Super U / Hyper U)",
+      "presentToulouse": true,
+      "url": "https://www.coursesu.com",
+      "note": "Les magasins U de l'agglomération proposent le retrait drive via coursesu.com."
+    },
+    {
+      "nom": "Chronodrive",
+      "presentToulouse": true,
+      "url": "https://www.chronodrive.com",
+      "note": "Drives dédiés sans magasin (groupe Auchan) à Toulouse et Ramonville-Saint-Agne, retrait annoncé en 30 minutes environ."
+    }
+  ],
+  "constat": "Aucune enseigne de drive française n'expose d'API publique permettant à une application personnelle de remplir un panier : les applis comme Jow fonctionnent via des partenariats privés négociés avec chaque distributeur, l'utilisateur se connectant à son compte enseigne depuis leur app. Une app perso peut donc générer et organiser la liste de courses, ouvrir des liens de recherche produit vers le site du drive choisi, mais l'ajout au panier et le paiement restent manuels chez l'enseigne. C'est une limite structurelle (pas de fonction d'import de liste publique connue chez ces enseignes), pas un défaut de l'app.",
+  "pistes": [
+    "Copier-coller la liste générée (format texte simple) et rechercher les produits un par un sur le site du drive choisi.",
+    "Depuis l'app, ouvrir pour chaque ingrédient un lien de recherche sur le site de l'enseigne (ex. https://www.carrefour.fr/s?q=riz+complet ou https://www.auchan.fr/recherche?text=riz+complet) : l'utilisateur n'a plus qu'à cliquer 'Ajouter au panier'.",
+    "Utiliser la fonction 'liste de courses' intégrée aux apps des enseignes (Leclerc, Carrefour, Intermarché...) en y recopiant la liste générée.",
+    "Pour un envoi réellement automatique au panier, passer par une app partenaire existante type Jow (connexion au compte drive, frais de service ~0,99 euro par commande) et garder l'app perso pour la planification et les critères origine France / SIQO / local.",
+    "Exporter la liste en texte ou PDF sur le téléphone pour le retrait drive ou les courses en magasin."
+  ]
+}

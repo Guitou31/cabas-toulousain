@@ -1,0 +1,31 @@
+{
+  "corriges": [
+    {
+      "id": "porc",
+      "nom": "Porc (côtes, rôti, filet mignon)",
+      "rayon": "Boucherie & Volaille",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Bigorre (Hautes-Pyrénées)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Porc noir de Bigorre" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "L'Espagne est le 1er fournisseur de porc importé en France : vérifier le logo 'Le Porc Français' ; le noir de Bigorre AOP pour les grandes occasions.",
+      "versionComplete": null
+    }
+  ],
+  "remarques": [
+    "26 ingrédients vérifiés (viandes, charcuterie, poissons, crèmerie, fromages, orange). Tous les SIQO listés existent avec le bon label : Bœuf fermier Aubrac = Label Rouge (LA/01/99, pas d'IGP), Veau d'Aveyron et du Ségala = IGP 1996 + Label Rouge 1993, Agneau du Quercy = IGP 1996 et Agneau fermier du Quercy = Label Rouge 1990, Porc noir de Bigorre = AOP 2017 (règlement UE 2017/1552), Volailles du Gers = IGP, Canard à foie gras du Sud-Ouest = IGP 2000, Jambon de Bayonne = IGP, Tomme des Pyrénées = IGP 1996 (IG/50/94), Beurre Charentes-Poitou = AOP, et Roquefort, Rocamadour, Cantal, Laguiole, Ossau-Iraty, Pélardon = AOP. Aucune entrée siqo supprimée.",
+    "porc : seule correction appliquée — risqueEspagne passé de false à true. L'Espagne est le 1er producteur porcin de l'UE (51,3 M de porcs en 2024) et la France sa 2e destination d'export de pièces fraîches désossées (17 % en 2023, FranceAgriMer/IFIP) ; des barquettes d'origine espagnole en rayon ont fait l'objet de controverses d'étiquetage. Incohérent avec jambon-blanc (même matière première) déjà flaggé true. Conseil ajusté en conséquence.",
+    "saucisse-toulouse : confirmé sans IGP ni AOP (seulement une charte artisanale et une marque INPI) — le siqo vide est correct, ne pas ajouter d'IGP.",
+    "agneau : risqueEspagne=false conservé — ~50 % de l'agneau consommé en France est importé, mais surtout du Royaume-Uni (~41 % des imports) et d'Irlande ; l'Espagne ne pèse qu'environ 10 % des imports. Le conseil (Irlande, Nouvelle-Zélande) reste pertinent.",
+    "Distances à Toulouse validées pour local=true : Roquefort ~140 km, Rocamadour ~130 km, Laguiole (Aubrac) ~200 km, Cantal ~220 km, Ossau-Iraty et bassin de l'Adour (Bayonne) ~280-300 km, Bouzigues/étang de Thau ~230 km, Saint-Jean-de-Luz ~290 km, Bigorre ~150 km, Gers ~80 km, Quercy ~120 km : tout est sous ~400 km.",
+    "beurre : Charentes (Angoulême ~290 km par la route) reste sous ~400 km, local=true conservé ; à noter que la zone AOP Charentes-Poitou s'étend aussi à la Vendée, aux Deux-Sèvres et à la Vienne (au-delà de 400 km) — la mention provenanceLocale 'Charentes' est la partie la plus proche.",
+    "magret-canard : le nom complet enregistré de l'IGP est 'Canard à foie gras du Sud-Ouest (Chalosse, Gascogne, Gers, Landes, Périgord, Quercy)' ; la forme courte de la base est acceptable.",
+    "poulet : en plus de l'IGP Volailles du Gers, le Label Rouge 'Poulet jaune fermier élevé en plein air' (LA 12/77, Gers) existe et pourrait être ajouté au siqo — non ajouté car hors périmètre strict de la vérification.",
+    "saisonMois plausibles pour le Sud-Ouest : orange [11-2] (agrume d'hiver, import assumé), sardine [5-9] et maquereau [4-9] (pleine saison printemps-été dans le golfe de Gascogne) — rien à corriger.",
+    "Sources principales : INAO (inao.gouv.fr, fiches LA/01/99, IG/50/94, AOP Porc noir de Bigorre), info.agriculture.gouv.fr (cahiers des charges Tomme des Pyrénées, Agneau du Quercy), FranceAgriMer/IFIP (filière porcine espagnole, 2026), FNH/Réussir (imports agneau)."
+  ]
+}

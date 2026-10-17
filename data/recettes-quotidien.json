@@ -1,0 +1,362 @@
+{
+  "recettes": [
+    {
+      "id": "poulet-roti-thym-ail-rose-quotidien",
+      "nom": "Poulet rôti au thym, ail rose de Lautrec et pommes de terre",
+      "type": "volaille",
+      "description": "Le grand classique du dimanche : un poulet fermier doré au four, parfumé au thym et à l'ail rose, avec des pommes de terre fondantes.",
+      "tempsTotalMin": 80,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "poulet", "nom": "Poulet fermier entier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "environ 1,5 kg, Label Rouge de préférence"},
+        {"idIngredient": "pomme-de-terre", "nom": "Pommes de terre", "quantite": 800, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "ail-rose-lautrec", "nom": "Ail rose de Lautrec", "quantite": 4, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "citron", "nom": "Citron", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Préchauffer le four à 200 °C. Sortir le poulet du réfrigérateur 20 minutes avant la cuisson.",
+        "Glisser le citron coupé en deux et le thym dans le poulet, badigeonner la peau d'une cuillère d'huile d'olive, saler et poivrer.",
+        "Laver les pommes de terre et les couper en quartiers sans les éplucher ; les mélanger dans un plat avec le reste d'huile, les gousses d'ail rose en chemise, sel et poivre.",
+        "Poser le poulet sur les pommes de terre et enfourner pour 60 à 70 minutes, en arrosant du jus de cuisson à mi-parcours.",
+        "Vérifier la cuisson : le jus qui s'écoule de la cuisse doit être clair.",
+        "Laisser reposer le poulet 10 minutes sous une feuille d'aluminium avant de le découper et servir avec les pommes de terre."
+      ],
+      "astuceOptions": "Choisissez un poulet fermier Label Rouge du Gers ou des Landes : élevé à moins de 150 km de Toulouse, il coche les options origine et label.",
+      "tags": ["classique", "familial", "four", "sud-ouest", "dimanche"]
+    },
+    {
+      "id": "escalopes-dinde-moutarde-champignons-quotidien",
+      "nom": "Escalopes de dinde à la moutarde et aux champignons",
+      "type": "volaille",
+      "description": "Des escalopes moelleuses nappées d'une sauce moutarde légère aux champignons, prêtes en une demi-heure avec leur riz de Camargue.",
+      "tempsTotalMin": 30,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "dinde", "nom": "Escalopes de dinde", "quantite": 4, "unite": "pièce", "optionnel": false, "note": "environ 130 g chacune"},
+        {"idIngredient": "champignon-paris", "nom": "Champignons de Paris", "quantite": 300, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "echalote", "nom": "Échalotes", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "creme-fraiche", "nom": "Crème fraîche", "quantite": 3, "unite": "c. à soupe", "optionnel": false, "note": "légère si possible"},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 250, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "huile-colza", "nom": "Huile de colza", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "persil", "nom": "Persil frais", "quantite": 0.5, "unite": "botte", "optionnel": true, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Lancer la cuisson du riz de Camargue dans un grand volume d'eau salée selon le temps indiqué sur le paquet.",
+        "Émincer les échalotes et les champignons.",
+        "Dans une sauteuse, faire dorer les escalopes 3 minutes par face dans l'huile de colza, puis les réserver.",
+        "Dans la même sauteuse, faire revenir échalotes et champignons 5 minutes jusqu'à évaporation de leur eau.",
+        "Ajouter la moutarde et la crème, délayer avec 10 cl d'eau, remettre les escalopes et laisser mijoter 5 minutes à feu doux.",
+        "Poivrer, parsemer de persil ciselé et servir avec le riz égoutté."
+      ],
+      "astuceOptions": "Avec l'option céréales complètes, prenez un riz de Camargue complet IGP : il cuit un peu plus longtemps, lancez-le en premier.",
+      "tags": ["rapide", "semaine", "sauce-légère", "une-poêle"]
+    },
+    {
+      "id": "blanquette-volaille-allegee-quotidien",
+      "nom": "Blanquette de volaille allégée aux petits légumes",
+      "type": "volaille",
+      "description": "Toute la douceur de la blanquette, en version légère : la crème est en partie remplacée par du yaourt et les légumes sont à l'honneur.",
+      "tempsTotalMin": 50,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "poulet", "nom": "Blancs de poulet", "quantite": 600, "unite": "g", "optionnel": false, "note": "coupés en gros cubes"},
+        {"idIngredient": "carotte", "nom": "Carottes", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "poireau", "nom": "Poireau", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "champignon-paris", "nom": "Champignons de Paris", "quantite": 250, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "bouillon-volaille", "nom": "Bouillon de volaille (cube)", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "laurier", "nom": "Feuille de laurier", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "farine-ble", "nom": "Farine de blé", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "creme-fraiche", "nom": "Crème fraîche", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "yaourt-nature", "nom": "Yaourt nature", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "citron", "nom": "Citron", "quantite": 0.5, "unite": "pièce", "optionnel": false, "note": "pour le jus"},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 250, "unite": "g", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Éplucher et couper les carottes en rondelles, émincer le poireau et l'oignon, couper les champignons en quartiers.",
+        "Dans une cocotte, faire revenir l'oignon et les cubes de poulet 5 minutes sans coloration, puis saupoudrer de farine et mélanger.",
+        "Ajouter carottes, poireau, laurier, le cube de bouillon et 50 cl d'eau chaude ; couvrir et laisser mijoter 25 minutes à feu doux.",
+        "Pendant ce temps, cuire le riz de Camargue dans un grand volume d'eau salée.",
+        "Ajouter les champignons dans la cocotte pour les 10 dernières minutes de cuisson.",
+        "Hors du feu, incorporer la crème, le yaourt et le jus du demi-citron ; rectifier l'assaisonnement et servir avec le riz."
+      ],
+      "astuceOptions": "Version allégée oblige : le yaourt remplace la moitié de la crème, et le riz de Camargue complet IGP s'impose avec l'option céréales complètes.",
+      "tags": ["mijoté", "réconfortant", "allégé", "automne-hiver"]
+    },
+    {
+      "id": "filet-mignon-pruneaux-agen-quotidien",
+      "nom": "Filet mignon de porc aux pruneaux d'Agen",
+      "type": "viande",
+      "description": "Un sucré-salé emblématique du Sud-Ouest : le filet mignon mijote doucement avec les pruneaux d'Agen et les carottes.",
+      "tempsTotalMin": 50,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "porc", "nom": "Filet mignon de porc", "quantite": 600, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "pruneaux-agen", "nom": "Pruneaux d'Agen", "quantite": 150, "unite": "g", "optionnel": false, "note": "dénoyautés"},
+        {"idIngredient": "oignon-jaune", "nom": "Oignons jaunes", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "carotte", "nom": "Carottes", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "bouillon-volaille", "nom": "Bouillon de volaille (cube)", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "pomme-de-terre", "nom": "Pommes de terre", "quantite": 600, "unite": "g", "optionnel": false, "note": "pour l'accompagnement vapeur"},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Couper le filet mignon en médaillons épais, émincer les oignons et couper les carottes en rondelles.",
+        "Dans une cocotte, faire dorer les médaillons 2 minutes par face dans l'huile d'olive, puis les réserver.",
+        "Faire revenir oignons et carottes 5 minutes, remettre la viande, ajouter les pruneaux, le thym, le cube de bouillon et 25 cl d'eau chaude.",
+        "Couvrir et laisser mijoter 25 minutes à feu doux, en remuant une ou deux fois.",
+        "Pendant ce temps, cuire les pommes de terre à la vapeur 20 minutes.",
+        "Poivrer, laisser la sauce réduire 5 minutes à découvert si besoin, et servir bien chaud avec les pommes de terre."
+      ],
+      "astuceOptions": "Pruneaux d'Agen IGP et porc fermier Label Rouge du Sud-Ouest : un plat qui coche les options origine, label et local.",
+      "tags": ["sud-ouest", "sucré-salé", "mijoté", "familial"]
+    },
+    {
+      "id": "salade-mache-bayonne-tomme-quotidien",
+      "nom": "Salade-repas de mâche au jambon de Bayonne, pomme et tomme",
+      "type": "viande",
+      "description": "Une assiette complète et croquante : mâche, copeaux de tomme des Pyrénées, jambon de Bayonne, pomme et noix.",
+      "tempsTotalMin": 15,
+      "portions": 4,
+      "saisonMois": [10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "mache", "nom": "Mâche", "quantite": 150, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "jambon-bayonne", "nom": "Jambon de Bayonne", "quantite": 8, "unite": "tranche", "optionnel": false, "note": "tranches fines"},
+        {"idIngredient": "tomme-pyrenees", "nom": "Tomme des Pyrénées", "quantite": 120, "unite": "g", "optionnel": false, "note": "en copeaux"},
+        {"idIngredient": "pomme", "nom": "Pomme", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "noix", "nom": "Cerneaux de noix", "quantite": 40, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "echalote", "nom": "Échalote", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "vinaigre-vin", "nom": "Vinaigre de vin", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "huile-colza", "nom": "Huile de colza", "quantite": 3, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "pain", "nom": "Pain de campagne", "quantite": 4, "unite": "tranche", "optionnel": true, "note": "légèrement toasté"}
+      ],
+      "etapes": [
+        "Laver et essorer soigneusement la mâche.",
+        "Préparer la vinaigrette : mélanger la moutarde, le vinaigre, l'échalote finement ciselée, puis l'huile de colza.",
+        "Couper la pomme en fines lamelles et détailler la tomme en copeaux à l'économe.",
+        "Répartir la mâche dans les assiettes, ajouter pomme, copeaux de tomme, noix et tranches de jambon de Bayonne.",
+        "Arroser de vinaigrette au dernier moment et servir avec le pain toasté."
+      ],
+      "astuceOptions": "Jambon de Bayonne IGP, tomme des Pyrénées IGP et noix du Périgord AOP : une salade 100 % zone des 400 km autour de Toulouse.",
+      "tags": ["rapide", "sans-cuisson", "salade-repas", "sud-ouest"]
+    },
+    {
+      "id": "papillote-truite-legumes-quotidien",
+      "nom": "Papillotes de truite aux petits légumes et citron",
+      "type": "poisson",
+      "description": "Des filets de truite cuits en papillote sur une julienne de poireau et carotte, un plat léger qui se prépare en dix minutes.",
+      "tempsTotalMin": 35,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "truite", "nom": "Filets de truite", "quantite": 4, "unite": "pièce", "optionnel": false, "note": "environ 140 g chacun"},
+        {"idIngredient": "poireau", "nom": "Poireau", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "carotte", "nom": "Carottes", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "citron", "nom": "Citron", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 250, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Préchauffer le four à 190 °C et lancer la cuisson du riz de Camargue dans l'eau salée.",
+        "Tailler le poireau et les carottes en fine julienne.",
+        "Sur quatre feuilles de papier cuisson, répartir la julienne, poser un filet de truite, ajouter une rondelle de citron, un filet d'huile d'olive, le thym, sel et poivre.",
+        "Fermer hermétiquement les papillotes et enfourner 15 minutes.",
+        "Ouvrir les papillotes à table pour profiter des parfums et servir avec le riz égoutté."
+      ],
+      "astuceOptions": "Privilégiez une truite élevée dans les Pyrénées (Banka, Pyrénées ariégeoises...) et un riz de Camargue complet IGP avec l'option céréales.",
+      "tags": ["rapide", "léger", "four", "papillote"]
+    },
+    {
+      "id": "cabillaud-espelette-riz-camargue-quotidien",
+      "nom": "Dos de cabillaud à la tomate et au piment d'Espelette, riz de Camargue",
+      "type": "poisson",
+      "description": "Un poisson blanc poché dans une sauce tomate relevée d'une pointe de piment d'Espelette, servi sur un lit de riz camarguais.",
+      "tempsTotalMin": 30,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "cabillaud", "nom": "Dos de cabillaud", "quantite": 600, "unite": "g", "optionnel": false, "note": "en 4 portions"},
+        {"idIngredient": "coulis-tomate", "nom": "Coulis de tomate", "quantite": 400, "unite": "ml", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "ail-violet-cadours", "nom": "Ail violet de Cadours", "quantite": 2, "unite": "gousse", "optionnel": false, "note": null},
+        {"idIngredient": "piment-espelette", "nom": "Piment d'Espelette", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "riz-camargue", "nom": "Riz de Camargue", "quantite": 250, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "thym", "nom": "Thym", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Cuire le riz de Camargue dans un grand volume d'eau salée.",
+        "Faire revenir l'oignon émincé et l'ail haché dans l'huile d'olive 3 minutes.",
+        "Verser le coulis de tomate, ajouter le thym et le piment d'Espelette, laisser mijoter 5 minutes.",
+        "Déposer les portions de cabillaud dans la sauce, couvrir et cuire 8 à 10 minutes à feu doux : la chair doit se détacher en feuillets.",
+        "Rectifier l'assaisonnement et servir le poisson nappé de sauce sur le riz."
+      ],
+      "astuceOptions": "Le piment d'Espelette AOP et le riz de Camargue IGP sont les stars du placard local ; cochez l'option complète pour un riz plus rassasiant.",
+      "tags": ["rapide", "léger", "une-casserole", "pays-basque"]
+    },
+    {
+      "id": "maquereau-moutarde-fondue-poireaux-quotidien",
+      "nom": "Filets de maquereau à la moutarde, fondue de poireaux",
+      "type": "poisson",
+      "description": "Un poisson de la côte atlantique riche en oméga-3, rôti à la moutarde et posé sur une fondue de poireaux toute douce.",
+      "tempsTotalMin": 35,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1, 2],
+      "ingredients": [
+        {"idIngredient": "maquereau", "nom": "Filets de maquereau", "quantite": 8, "unite": "pièce", "optionnel": false, "note": "demandez-les levés par le poissonnier"},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "poireau", "nom": "Poireaux", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "creme-fraiche", "nom": "Crème fraîche", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "pomme-de-terre", "nom": "Pommes de terre", "quantite": 600, "unite": "g", "optionnel": false, "note": "vapeur"},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "citron", "nom": "Citron", "quantite": 0.5, "unite": "pièce", "optionnel": true, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Cuire les pommes de terre à la vapeur 20 minutes et préchauffer le four à 200 °C.",
+        "Émincer finement les poireaux et les faire fondre 15 minutes à feu doux dans l'huile d'olive avec un fond d'eau, à couvert.",
+        "Tartiner le côté chair des filets de maquereau d'une fine couche de moutarde, poivrer.",
+        "Enfourner les filets 8 à 10 minutes sur une plaque recouverte de papier cuisson, peau vers le bas.",
+        "Incorporer la crème à la fondue de poireaux et rectifier l'assaisonnement.",
+        "Dresser la fondue, poser les filets dessus, ajouter un trait de citron et servir avec les pommes de terre."
+      ],
+      "astuceOptions": "Le maquereau pêché dans le golfe de Gascogne (criées de Saint-Jean-de-Luz ou Capbreton) reste dans votre zone des 400 km.",
+      "tags": ["oméga-3", "four", "automne", "petit-budget"]
+    },
+    {
+      "id": "veloute-potimarron-noix-quotidien",
+      "nom": "Velouté de potimarron aux noix",
+      "type": "vege",
+      "description": "Un velouté d'automne soyeux et coloré, relevé d'une touche de crème et du croquant des noix.",
+      "tempsTotalMin": 35,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12],
+      "ingredients": [
+        {"idIngredient": "potimarron", "nom": "Potimarron", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "environ 800 g"},
+        {"idIngredient": "carotte", "nom": "Carottes", "quantite": 2, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "oignon-jaune", "nom": "Oignon jaune", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": null, "nom": "Bouillon de légumes (cube)", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "creme-fraiche", "nom": "Crème fraîche", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "noix", "nom": "Cerneaux de noix", "quantite": 30, "unite": "g", "optionnel": false, "note": "concassés, pour le service"},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "pain", "nom": "Pain de campagne", "quantite": 4, "unite": "tranche", "optionnel": true, "note": null}
+      ],
+      "etapes": [
+        "Laver le potimarron (inutile de l'éplucher), retirer les graines et le couper en cubes ; éplucher et couper les carottes.",
+        "Faire revenir l'oignon émincé dans l'huile d'olive 3 minutes dans un faitout.",
+        "Ajouter potimarron, carottes, le cube de bouillon et 80 cl d'eau chaude ; cuire 20 minutes à couvert.",
+        "Mixer finement jusqu'à obtenir un velouté lisse, en ajustant la texture avec un peu d'eau si besoin.",
+        "Incorporer la crème, poivrer et rectifier le sel.",
+        "Servir avec les noix concassées et le pain toasté."
+      ],
+      "astuceOptions": "En octobre, le potimarron bio (label AB) abonde sur les marchés d'Occitanie ; ajoutez des noix du Périgord AOP pour rester local.",
+      "tags": ["soupe", "automne", "végétarien", "rapide"]
+    },
+    {
+      "id": "gratin-chou-fleur-cantal-quotidien",
+      "nom": "Gratin de chou-fleur au Cantal",
+      "type": "vege",
+      "description": "Un gratin doré et réconfortant : chou-fleur croquant-fondant et béchamel légère gratinée au Cantal.",
+      "tempsTotalMin": 45,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "chou-fleur", "nom": "Chou-fleur", "quantite": 1, "unite": "pièce", "optionnel": false, "note": "un beau chou-fleur"},
+        {"idIngredient": "lait", "nom": "Lait demi-écrémé", "quantite": 40, "unite": "cl", "optionnel": false, "note": null},
+        {"idIngredient": "farine-ble", "nom": "Farine de blé", "quantite": 30, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "beurre", "nom": "Beurre", "quantite": 30, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "cantal", "nom": "Cantal", "quantite": 100, "unite": "g", "optionnel": false, "note": "râpé"},
+        {"idIngredient": null, "nom": "Noix de muscade", "quantite": 1, "unite": "pincée", "optionnel": true, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Préchauffer le four à 200 °C. Détailler le chou-fleur en bouquets et les cuire 8 minutes à la vapeur ou à l'eau bouillante salée : ils doivent rester légèrement fermes.",
+        "Préparer la béchamel légère : faire fondre le beurre, ajouter la farine, cuire 1 minute puis verser le lait froid en fouettant jusqu'à épaississement.",
+        "Assaisonner la béchamel de sel, poivre et muscade, puis y incorporer la moitié du Cantal râpé.",
+        "Égoutter soigneusement les bouquets, les ranger dans un plat à gratin et napper de béchamel.",
+        "Parsemer du reste de Cantal et enfourner 20 minutes jusqu'à ce que le dessus soit bien doré.",
+        "Servir chaud, accompagné d'une salade verte."
+      ],
+      "astuceOptions": "Le Cantal AOP, affiné à moins de 250 km de Toulouse, remplace avantageusement l'emmental dans tous vos gratins.",
+      "tags": ["gratin", "végétarien", "familial", "automne-hiver"]
+    },
+    {
+      "id": "omelette-champignons-persil-quotidien",
+      "nom": "Omelette aux champignons et persil, salade verte",
+      "type": "vege",
+      "description": "L'omelette baveuse du soir, garnie de champignons poêlés et de persil, avec sa salade croquante en vinaigrette.",
+      "tempsTotalMin": 15,
+      "portions": 4,
+      "saisonMois": [],
+      "ingredients": [
+        {"idIngredient": "oeufs", "nom": "Œufs", "quantite": 8, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "champignon-paris", "nom": "Champignons de Paris", "quantite": 250, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "persil", "nom": "Persil frais", "quantite": 0.5, "unite": "botte", "optionnel": false, "note": null},
+        {"idIngredient": "echalote", "nom": "Échalote", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "salade-verte", "nom": "Salade verte", "quantite": 1, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "moutarde", "nom": "Moutarde", "quantite": 1, "unite": "c. à café", "optionnel": false, "note": null},
+        {"idIngredient": "vinaigre-vin", "nom": "Vinaigre de vin", "quantite": 1, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "huile-colza", "nom": "Huile de colza", "quantite": 2, "unite": "c. à soupe", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Laver et essorer la salade, préparer la vinaigrette avec moutarde, vinaigre et huile de colza.",
+        "Émincer les champignons et l'échalote, les faire sauter 5 minutes à feu vif dans l'huile d'olive.",
+        "Battre les œufs avec le persil ciselé, du sel et du poivre.",
+        "Verser les œufs sur les champignons, cuire à feu moyen en ramenant les bords vers le centre.",
+        "Plier l'omelette encore baveuse et servir aussitôt avec la salade assaisonnée."
+      ],
+      "astuceOptions": "Choisissez des œufs bio (label AB) d'un élevage de plein air d'Occitanie : le code 0FR sur la coquille est votre repère.",
+      "tags": ["express", "végétarien", "soir", "économique"]
+    },
+    {
+      "id": "quiche-legere-poireaux-chevre-quotidien",
+      "nom": "Quiche légère aux poireaux et chèvre frais",
+      "type": "vege",
+      "description": "Une quiche à la pâte maison à l'huile d'olive et à l'appareil au lait, sans crème, garnie de poireaux fondants et de chèvre frais.",
+      "tempsTotalMin": 55,
+      "portions": 4,
+      "saisonMois": [9, 10, 11, 12, 1, 2, 3],
+      "ingredients": [
+        {"idIngredient": "farine-ble", "nom": "Farine de blé", "quantite": 200, "unite": "g", "optionnel": false, "note": "pour la pâte"},
+        {"idIngredient": "huile-olive", "nom": "Huile d'olive", "quantite": 5, "unite": "cl", "optionnel": false, "note": "pour la pâte"},
+        {"idIngredient": "poireau", "nom": "Poireaux", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "chevre-frais", "nom": "Chèvre frais (bûche)", "quantite": 150, "unite": "g", "optionnel": false, "note": null},
+        {"idIngredient": "oeufs", "nom": "Œufs", "quantite": 3, "unite": "pièce", "optionnel": false, "note": null},
+        {"idIngredient": "lait", "nom": "Lait demi-écrémé", "quantite": 20, "unite": "cl", "optionnel": false, "note": null},
+        {"idIngredient": null, "nom": "Noix de muscade", "quantite": 1, "unite": "pincée", "optionnel": true, "note": null},
+        {"idIngredient": "sel-camargue", "nom": "Sel de Camargue", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null},
+        {"idIngredient": "poivre-noir", "nom": "Poivre noir", "quantite": 1, "unite": "pincée", "optionnel": false, "note": null}
+      ],
+      "etapes": [
+        "Préparer la pâte : mélanger la farine, une pincée de sel, l'huile d'olive et 8 cl d'eau tiède jusqu'à former une boule ; laisser reposer 10 minutes.",
+        "Préchauffer le four à 190 °C. Émincer les poireaux et les faire fondre 12 minutes à couvert avec un fond d'eau.",
+        "Étaler la pâte et en garnir un moule à tarte ; piquer le fond à la fourchette.",
+        "Battre les œufs avec le lait, sel, poivre et muscade.",
+        "Répartir les poireaux sur le fond de tarte, émietter le chèvre frais, verser l'appareil.",
+        "Enfourner 30 minutes jusqu'à ce que la quiche soit prise et dorée ; servir tiède avec une salade."
+      ],
+      "astuceOptions": "Sans crème et avec une pâte à l'huile d'olive, cette quiche reste légère ; pour la touche label, remplacez le chèvre frais par un Pélardon AOP des Cévennes.",
+      "tags": ["quiche", "végétarien", "léger", "à-emporter"]
+    }
+  ]
+}

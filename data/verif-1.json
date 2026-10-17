@@ -1,0 +1,62 @@
+{
+  "corriges": [
+    {
+      "id": "abricot",
+      "nom": "Abricot",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "Roussillon (Pyrénées-Orientales)",
+      "siqo": [
+        { "label": "AOP", "denomination": "Abricots rouges du Roussillon" }
+      ],
+      "saisonMois": [6, 7, 8],
+      "risqueEspagne": true,
+      "conseil": "Saison courte : éviter l'abricot espagnol de mai, attendre juin.",
+      "versionComplete": null
+    },
+    {
+      "id": "kiwi",
+      "nom": "Kiwi",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": true,
+      "local": true,
+      "provenanceLocale": "vallée de l'Adour (Landes, Pyrénées-Atlantiques)",
+      "siqo": [
+        { "label": "IGP", "denomination": "Kiwi de l'Adour" },
+        { "label": "Label Rouge", "denomination": "Kiwi de l'Adour" }
+      ],
+      "saisonMois": [1, 2, 3, 4, 5, 11, 12],
+      "risqueEspagne": false,
+      "conseil": "Kiwi français de novembre à mai ; Nouvelle-Zélande le reste de l'année.",
+      "versionComplete": null
+    },
+    {
+      "id": "citron",
+      "nom": "Citron",
+      "rayon": "Fruits & Légumes",
+      "origineFrance": false,
+      "local": false,
+      "provenanceLocale": null,
+      "siqo": [
+        { "label": "IGP", "denomination": "Citron de Menton" }
+      ],
+      "saisonMois": [],
+      "risqueEspagne": true,
+      "conseil": "Quasi toujours d'import (souvent Espagne) ; citron de Menton ou de Corse si disponible.",
+      "versionComplete": null
+    }
+  ],
+  "remarques": [
+    "26 ingrédients vérifiés (recherche web, référence INAO / info.agriculture.gouv.fr). Les 13 dénominations SIQO présentes existent toutes avec exactement le bon label : IGP Asperge des sables des Landes (2005), IGP Mâche nantaise, IGP (1996) + Label Rouge (1966) Ail rose de Lautrec, AOP Ail violet de Cadours (2017), AOP Oignon doux des Cévennes (AOC 2003, AOP 2008), AOP Pomme du Limousin (2004), AOP Abricots rouges du Roussillon (2016), IGP Fraise du Périgord (2004), IGP Melon du Quercy, AOP Chasselas de Moissac (AOC 1971), IGP Kiwi de l'Adour (2009), IGP Clémentine de Corse (2007). Aucune entrée siqo à supprimer.",
+    "abricot : la fiche INAO de l'AOP Abricots rouges du Roussillon indique une présence sur les marchés de mi-juin à mi-août → saisonMois corrigé de [6,7] en [6,7,8].",
+    "kiwi : saisonMois [1,2,3,11,12] était incohérent avec le conseil (« novembre à mai ») et la fiche INAO (commercialisation de décembre à mi-juin) → corrigé en [1,2,3,4,5,11,12]. Le Kiwi de l'Adour détient aussi le Label Rouge (confirmé INAO/Interfel) → entrée siqo ajoutée.",
+    "citron : l'IGP Citron de Menton existe (règlement UE 2015/1756, INAO) → ajoutée au siqo. Production confidentielle (~140 t/an), quasi introuvable en drive : origineFrance reste false et le conseil existant reste valable.",
+    "Asperge : l'orthographe officielle varie entre « Asperge des Sables des Landes » (fiche INAO, singulier) et le pluriel utilisé au registre UE ; le label IGP est correct, entrée conservée telle quelle.",
+    "Zones locales : toutes les provenanceLocale déclarées sont bien à moins de 400 km de Toulouse (Cadours ~40 km, Lautrec et Moissac ~70 km, Marmande ~110 km, Landes ~130-150 km, vallée de l'Adour ~150 km, Roussillon ~200 km, Périgord ~200 km, zone AOP Pomme du Limousin (Corrèze/Haute-Vienne) ~230-290 km, Cévennes gardoises ~280 km). mâche (région nantaise, >500 km) et clémentine (Corse) sont correctement en local=false, de même que concombre et brocoli (production surtout Centre-Ouest/Bretagne).",
+    "risqueEspagne cohérent sur les 26 : true à raison pour tomate, courgette, poivron, aubergine, concombre, salade d'hiver, brocoli hors saison, asperge précoce, patate douce, pêche-nectarine, abricot, fraise (Huelva), melon, raisin de table, ails génériques, clémentine et citron ; false à raison pour carotte, haricot vert (imports hors saison plutôt Maroc/Kenya), potimarron, mâche, pomme, poire, kiwi (imports surtout Nouvelle-Zélande/Italie) et oignon doux.",
+    "patate-douce : la production landaise est réelle mais récente et encore marginale (diversification sur les sables des Landes, presse 2024+) ; local=true est acceptable car le conseil invite déjà à vérifier l'étiquette (souvent Espagne ou Égypte).",
+    "Clémentine de Corse : détient aussi un Label Rouge depuis 2014 (dossier INAO « Clémentine » LA/03/14) ; non ajouté car la dénomination exacte du Label Rouge diffère de celle de l'IGP.",
+    "saisonMois plausibles pour le Sud-Ouest sur tout le lot ; seuls écarts mineurs non corrigés : concombre (le conseil évoque avril-octobre pour la serre française alors que saisonMois = mai-septembre) et fraise du Périgord (l'IGP court au-delà de juin avec les variétés remontantes) — choix conservateurs défendables."
+  ]
+}
