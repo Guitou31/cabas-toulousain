@@ -150,6 +150,7 @@ main section.tab{padding-top:18px}
 .grid-rec{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px}
 .card-rec{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:14px 15px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:8px; min-width:0}
 .card-rec .rimg{width:calc(100% + 30px); margin:-14px -15px 2px; aspect-ratio:16/9; object-fit:cover; border-radius:13px 13px 0 0; display:block; background:var(--surface2)}
+.card-rec .rimg.ph{display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, color-mix(in srgb, var(--tc) 30%, var(--surface2)), var(--surface2) 75%); font-family:var(--font-display); font-weight:800; font-size:64px; color:color-mix(in srgb, var(--tc) 45%, transparent); user-select:none}
 .card-rec .top{display:flex; justify-content:space-between; gap:8px; align-items:center; font-size:12px; color:var(--muted)}
 .card-rec .top .ter{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 .card-rec h3{font-size:17px; font-weight:650; line-height:1.25; cursor:pointer}
@@ -1420,7 +1421,10 @@ function renderDrive(){
 
 /* ===================== photos et impression ===================== */
 function imgHtml(r, cls, lazy){
-  if (!r || !r.image || !r.image.fichier) return '';
+  if (!r || !r.image || !r.image.fichier){
+    /* sans photo : bandeau neutre à la couleur du type, pour garder des cartes alignées */
+    return cls === 'rimg' ? '<div class="rimg ph" style="--tc:var(--t-'+esc(r.type)+')" aria-hidden="true">'+esc((r.nom||'?').charAt(0).toUpperCase())+'</div>' : '';
+  }
   return '<img class="'+cls+'" src="img/'+esc(r.image.fichier)+'" alt=""'+(lazy?' loading="lazy"':'')+'>';
 }
 function creditHtml(r){
