@@ -1,0 +1,2116 @@
+{
+ "recettes": [
+  {
+   "id": "spaghetti-complets-carbonara-legere-jambon-petits-pois-rapides-famille",
+   "nom": "Spaghetti complets à la carbonara légère au jambon blanc, yaourt et petits pois",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Une carbonara de semaine allégée : jambon blanc doré, œufs et yaourt en guise de crème, Comté râpé, beaucoup de poivre et des petits pois pour la couleur.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Spaghetti complets",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "jambon-blanc",
+     "nom": "Jambon blanc (talon ou tranches épaisses)",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en dés ou en lanières"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "2 entiers + 1 jaune"
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "125 g, brassé de préférence"
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "petits-pois",
+     "nom": "Petits pois",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "écossés, ou surgelés hors saison"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "du moulin, généreux"
+    }
+   ],
+   "etapes": [
+    "Portez une grande casserole d'eau salée à ébullition et faites cuire les spaghetti complets le temps indiqué sur le paquet (10 à 12 minutes) ; ajoutez les petits pois 3 minutes avant la fin.",
+    "Pendant ce temps, fouettez dans un saladier les 2 œufs entiers, le jaune, le yaourt, 60 g de Comté et beaucoup de poivre.",
+    "Faites dorer les dés de jambon 3 à 4 minutes dans une grande poêle avec l'huile d'olive et la gousse d'ail écrasée ; retirez l'ail et coupez le feu.",
+    "Prélevez une louche d'eau de cuisson, égouttez les pâtes et les petits pois et versez-les dans la poêle hors du feu.",
+    "Ajoutez le mélange aux œufs et mélangez vivement 1 minute : la chaleur des pâtes suffit à lier la sauce sans la coaguler ; détendez avec un peu d'eau de cuisson si besoin.",
+    "Servez aussitôt avec le reste de Comté et un tour de moulin à poivre."
+   ],
+   "astuceOptions": "Pour un goût plus proche de la pancetta, remplacez le jambon blanc par 120 g de jambon de Bayonne IGP en lanières dorées à sec ; le Comté AOP peut céder la place à une Tomme des Pyrénées IGP bien affinée.",
+   "tags": [
+    "rapide",
+    "semaine",
+    "enfants",
+    "une-poêle",
+    "italie",
+    "pâtes"
+   ]
+  },
+  {
+   "id": "pates-completes-bolognaise-maison-express-rapides-famille",
+   "nom": "Pâtes complètes à la bolognaise maison express",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Une vraie sauce à la viande mijotée une demi-heure avec oignon, carotte et céleri : bien plus parfumée qu'un pot du commerce, et les enfants en redemandent.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bœuf haché 5 % MG",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "celeri-branche",
+     "nom": "Céleri branche",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "1 branche, en saison"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 500,
+     "unite": "ml",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "1 feuille"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pates",
+     "nom": "Pâtes complètes (tagliatelles ou penne)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Hachez finement l'oignon, l'ail, les carottes et le céleri (ou râpez les légumes pour une sauce plus lisse que les enfants ne trieront pas).",
+    "Faites-les suer 5 minutes à feu moyen dans une sauteuse avec l'huile d'olive, sans coloration.",
+    "Montez le feu, ajoutez le bœuf haché et faites-le revenir 4 à 5 minutes en l'émiettant à la cuillère, jusqu'à ce qu'il ne soit plus rosé.",
+    "Versez le coulis de tomate, ajoutez le laurier, le thym, du sel et du poivre ; couvrez à moitié et laissez mijoter 20 minutes à feu doux en remuant de temps en temps.",
+    "Pendant ce temps, faites cuire les pâtes complètes dans un grand volume d'eau salée le temps indiqué sur le paquet, puis égouttez-les en gardant une louche d'eau de cuisson.",
+    "Retirez le laurier, rectifiez l'assaisonnement, détendez la sauce avec un peu d'eau des pâtes si elle a trop réduit et servez-la sur les pâtes, avec le Comté râpé."
+   ],
+   "astuceOptions": "Choisissez un bœuf Label Rouge haché à la demande chez le boucher, moins gras ; le dimanche, doublez la sauce et congelez la moitié pour un soir pressé.",
+   "tags": [
+    "semaine",
+    "enfants",
+    "familial",
+    "mijoté",
+    "italie",
+    "batch-cooking"
+   ]
+  },
+  {
+   "id": "pates-completes-courgettes-chevre-frais-basilic-rapides-famille",
+   "nom": "Pâtes complètes aux courgettes, chèvre frais et basilic",
+   "type": "vege",
+   "gras": 2,
+   "terroir": null,
+   "description": "Des courgettes sautées à l'ail jusqu'à fondre, liées au chèvre frais et à un peu d'eau des pâtes en sauce crémeuse, parfumées au basilic et au citron.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Pâtes complètes (penne ou fusilli)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 800 g"
+    },
+    {
+     "idIngredient": "chevre-frais",
+     "nom": "Chèvre frais (bûche)",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "zeste"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pignons",
+     "nom": "Pignons de pin",
+     "quantite": 30,
+     "unite": "g",
+     "optionnel": true,
+     "note": "grillés à sec"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Faites cuire les pâtes complètes dans un grand volume d'eau salée le temps indiqué sur le paquet ; prélevez une louche d'eau de cuisson avant d'égoutter.",
+    "Pendant ce temps, coupez les courgettes en demi-rondelles fines et hachez l'ail ; faites-les sauter 8 à 10 minutes à feu vif dans une grande poêle avec l'huile d'olive, en remuant, jusqu'à ce qu'elles soient dorées et fondantes. Salez, poivrez.",
+    "Faites griller les pignons 2 minutes dans une petite poêle sèche.",
+    "Baissez le feu, émiettez le chèvre frais sur les courgettes, ajoutez la louche d'eau de cuisson et mélangez pour obtenir une sauce crémeuse.",
+    "Versez les pâtes dans la poêle, ajoutez le zeste de citron et le basilic ciselé, mélangez 1 minute et servez parsemé de pignons."
+   ],
+   "astuceOptions": "Un chèvre frais fermier du Tarn ou un Pélardon AOP jeune ; hors saison des courgettes, le même plat se fait avec des poireaux fondus ou du brocoli.",
+   "tags": [
+    "rapide",
+    "été",
+    "végétarien",
+    "semaine",
+    "une-poêle",
+    "enfants"
+   ]
+  },
+  {
+   "id": "pates-completes-thon-tomate-olives-rapides-famille",
+   "nom": "Pâtes complètes au thon, tomate et olives",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Le plat de placard qui ne déçoit jamais : sauce tomate à l'oignon et à l'ail, thon au naturel émietté, olives noires et persil, le tout prêt en vingt minutes.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Pâtes complètes (penne ou spaghetti)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thon-conserve",
+     "nom": "Thon au naturel en conserve",
+     "quantite": 2,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "2 × 140 g égouttés"
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 400,
+     "unite": "ml",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires dénoyautées",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "zeste et un trait de jus"
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mettez une grande casserole d'eau salée à chauffer et faites-y cuire les pâtes complètes le temps indiqué sur le paquet.",
+    "Pendant ce temps, émincez l'oignon et hachez l'ail ; faites-les fondre 4 minutes à feu moyen dans une sauteuse avec l'huile d'olive.",
+    "Versez le coulis de tomate, ajoutez les olives et le zeste du citron, salez légèrement, poivrez et laissez mijoter 8 minutes.",
+    "Égouttez le thon, émiettez-le grossièrement à la fourchette et incorporez-le à la sauce avec le persil et un trait de jus de citron ; réchauffez 2 minutes sans plus.",
+    "Égouttez les pâtes, mélangez-les à la sauce dans la sauteuse et servez, avec le piment d'Espelette pour les grands."
+   ],
+   "astuceOptions": "Prenez un thon germon au naturel d'une conserverie basque (Saint-Jean-de-Luz) ou bretonne et des olives noires de Nyons AOP ; pour plus de légumes, ajoutez une courgette en dés avec l'oignon en été.",
+   "tags": [
+    "rapide",
+    "semaine",
+    "économique",
+    "sans-four",
+    "enfants",
+    "pâtes"
+   ]
+  },
+  {
+   "id": "riz-camargue-complet-poulet-petits-pois-pilaf-rapides-famille",
+   "nom": "Riz complet de Camargue au poulet et aux petits pois, façon pilaf",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Un seul faitout : le poulet doré, le riz complet de Camargue qui cuit dans le bouillon avec carottes et petits pois, et un parfum de thym et de paprika doux.",
+   "tempsTotalMin": 55,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Hauts de cuisse de poulet désossés sans peau (ou blancs)",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en gros dés"
+    },
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz complet de Camargue",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "petits-pois",
+     "nom": "Petits pois",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": "écossés, ou surgelés hors saison"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille (cube)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour 80 cl d'eau"
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika doux",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "1 feuille"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Coupez le poulet en gros dés, émincez l'oignon, hachez l'ail et détaillez les carottes en petits dés. Préparez 80 cl de bouillon chaud avec le cube.",
+    "Dans un faitout, faites dorer le poulet 5 minutes à feu vif dans l'huile d'olive avec le paprika ; salez, poivrez et réservez-le.",
+    "Dans le même faitout, faites fondre l'oignon, l'ail et les carottes 3 minutes, puis ajoutez le riz complet et remuez 1 minute pour le nacrer.",
+    "Versez le bouillon chaud, ajoutez le thym, le laurier et le poulet ; portez à ébullition, couvrez et laissez cuire 30 minutes à feu doux sans remuer.",
+    "Répartissez les petits pois sur le dessus, couvrez à nouveau et poursuivez 5 à 8 minutes, jusqu'à ce que le riz ait absorbé tout le liquide.",
+    "Laissez reposer 5 minutes hors du feu, retirez le laurier, égrenez à la fourchette et servez parsemé de persil."
+   ],
+   "astuceOptions": "Riz de Camargue IGP et poulet fermier Label Rouge du Gers ; avec un riz semi-complet, la cuisson tombe à 20 minutes et le plat tient dans les 40 minutes.",
+   "tags": [
+    "familial",
+    "enfants",
+    "plat complet",
+    "one-pot",
+    "riz",
+    "économique"
+   ]
+  },
+  {
+   "id": "nuggets-poulet-maison-four-batonnets-legumes-sauce-yaourt-rapides-famille",
+   "nom": "Nuggets de poulet maison au four, bâtonnets de légumes et sauce au yaourt",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des nuggets de vrai blanc de poulet panés et dorés au four sans friture, avec des bâtonnets de légumes à tremper dans une sauce fraîche yaourt-moutarde.",
+   "tempsTotalMin": 30,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Blancs de poulet",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en morceaux de 3 cm"
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chapelure",
+     "nom": "Chapelure",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika doux",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "en bâtonnets"
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "en saison ; sinon radis ou bouquets de chou-fleur cru"
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourts nature",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "le jus d'une moitié"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain complet",
+     "quantite": 4,
+     "unite": "tranche",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 210 °C et huilez légèrement une plaque avec 1 cuillère d'huile d'olive.",
+    "Coupez les blancs de poulet en morceaux de 3 cm. Préparez trois assiettes creuses : la farine salée et poivrée, les œufs battus, la chapelure mélangée au paprika.",
+    "Passez chaque morceau dans la farine, puis dans l'œuf, puis dans la chapelure en pressant bien ; rangez les nuggets sur la plaque et arrosez-les du reste d'huile.",
+    "Enfournez 15 minutes en retournant à mi-cuisson, jusqu'à ce qu'ils soient dorés et croustillants.",
+    "Pendant ce temps, épluchez et taillez les carottes et le concombre en bâtonnets ; mélangez les yaourts, la moutarde, le jus de citron, le persil, du sel et du poivre pour la sauce.",
+    "Servez les nuggets chauds avec les bâtonnets, la sauce et une tranche de pain complet."
+   ],
+   "astuceOptions": "Un poulet fermier Label Rouge du Gers ou des Landes fait toute la différence ; pour un repas plus copieux, ajoutez des quartiers de pommes de terre rôtis sur la même plaque, enfournés 10 minutes avant les nuggets.",
+   "tags": [
+    "enfants",
+    "four",
+    "rapide",
+    "familial",
+    "semaine",
+    "léger"
+   ]
+  },
+  {
+   "id": "boulettes-dinde-herbes-sauce-tomate-polenta-cremeuse-rapides-famille",
+   "nom": "Boulettes de dinde aux herbes, sauce tomate aux carottes et polenta crémeuse",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des boulettes moelleuses de dinde au persil et au thym, mijotées dans une sauce tomate douce aux carottes râpées, servies sur une polenta crémeuse au Comté.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "dinde",
+     "nom": "Dinde hachée (ou escalopes hachées au couteau)",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chapelure",
+     "nom": "Chapelure",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "râpées"
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 500,
+     "unite": "ml",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "polenta",
+     "nom": "Polenta (semoule de maïs) à cuisson rapide",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait demi-écrémé",
+     "quantite": 50,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Hachez finement l'oignon et l'ail. Mélangez la dinde hachée avec la moitié de l'oignon, 1 gousse d'ail, l'œuf, la chapelure, le persil, le thym, du sel et du poivre ; façonnez 16 boulettes avec les mains mouillées.",
+    "Faites-les dorer 5 minutes sur toutes les faces dans une sauteuse avec l'huile d'olive, puis réservez-les.",
+    "Dans la même sauteuse, faites fondre le reste d'oignon et d'ail avec les carottes râpées 3 minutes ; versez le coulis, salez, poivrez, remettez les boulettes et laissez mijoter 15 minutes à couvert.",
+    "Pendant ce temps, portez le lait et 50 cl d'eau à ébullition avec une pincée de sel ; versez la polenta en pluie en fouettant et faites cuire 3 à 5 minutes (selon le paquet) sans cesser de remuer.",
+    "Hors du feu, incorporez le Comté à la polenta ; servez-la dans des assiettes creuses avec les boulettes et leur sauce."
+   ],
+   "astuceOptions": "Pour rester en Occitanie, choisissez une dinde fermière Label Rouge et remplacez le Comté par du Laguiole AOP ; la polenta peut laisser place à une semoule complète gonflée en 5 minutes.",
+   "tags": [
+    "enfants",
+    "familial",
+    "semaine",
+    "une-poêle",
+    "mijoté",
+    "économique"
+   ]
+  },
+  {
+   "id": "croquettes-pommes-de-terre-cantal-four-salade-rapides-famille",
+   "nom": "Croquettes de pommes de terre au Cantal dorées au four, salade verte et carottes râpées",
+   "type": "vege",
+   "gras": 2,
+   "terroir": null,
+   "description": "Une purée maison enrichie de Cantal, façonnée en croquettes, panée et dorée au four plutôt que frite, servie avec une salade verte et des carottes râpées.",
+   "tempsTotalMin": 60,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à purée (type Bintje)",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cantal",
+     "nom": "Cantal râpé",
+     "quantite": 120,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "1 pour la purée, 2 pour la panure"
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chapelure",
+     "nom": "Chapelure",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "râpées"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour les carottes"
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Épluchez les pommes de terre, coupez-les en morceaux et faites-les cuire 20 minutes à l'eau salée ; égouttez-les bien et laissez-les sécher 2 minutes dans la casserole chaude.",
+    "Écrasez-les au presse-purée sans ajouter de liquide, incorporez le Cantal, 1 œuf, le persil, la muscade, sel et poivre ; laissez tiédir 5 minutes.",
+    "Préchauffez le four à 200 °C. Façonnez 12 croquettes allongées avec les mains farinées, passez-les dans la farine, puis dans les 2 œufs battus, puis dans la chapelure.",
+    "Rangez-les sur une plaque huilée, arrosez-les du reste d'huile d'olive et enfournez 20 minutes en les retournant à mi-cuisson, jusqu'à ce qu'elles soient bien dorées.",
+    "Pendant ce temps, râpez les carottes et assaisonnez-les du jus de citron et d'une pincée de sel ; préparez la vinaigrette (huile de colza, vinaigre, sel, poivre) pour la salade.",
+    "Servez les croquettes chaudes avec la salade et les carottes râpées."
+   ],
+   "astuceOptions": "Cantal AOP entre-deux ou, plus près de Toulouse, Laguiole AOP ; glissez une poignée d'épinards hachés dans la purée pour y cacher encore plus de légumes.",
+   "tags": [
+    "enfants",
+    "four",
+    "végétarien",
+    "familial",
+    "économique"
+   ]
+  },
+  {
+   "id": "steak-hache-maison-persil-puree-carottes-pommes-de-terre-rapides-famille",
+   "nom": "Steaks hachés maison au persil, purée de carottes et pommes de terre",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Le steak-purée des enfants fait maison : un bœuf haché façonné à la main avec persil et oignon, et une purée orange toute douce de carottes et pommes de terre.",
+   "tempsTotalMin": 30,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bœuf haché 5 % MG",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "petit, haché très fin"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait demi-écrémé",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Épluchez les carottes et les pommes de terre, coupez-les en morceaux et faites-les cuire 20 minutes dans une casserole d'eau salée, jusqu'à ce qu'elles s'écrasent facilement.",
+    "Pendant ce temps, mélangez le bœuf haché avec l'oignon, le persil, la moutarde, du sel et du poivre ; façonnez 4 steaks épais sans trop les tasser et gardez-les au frais.",
+    "Égouttez les légumes et écrasez-les au presse-purée avec le beurre, le lait chaud et la muscade ; rectifiez l'assaisonnement et gardez au chaud.",
+    "Chauffez l'huile dans une poêle à feu vif et saisissez les steaks 3 à 4 minutes par face (un peu plus pour les enfants, bien cuits à cœur).",
+    "Servez les steaks avec la purée et le jus de cuisson."
+   ],
+   "astuceOptions": "Demandez au boucher un bœuf Label Rouge (Blonde d'Aquitaine ou Gasconne) haché à la demande ; en hiver, la purée se fait aussi avec du panais ou du potimarron.",
+   "tags": [
+    "enfants",
+    "familial",
+    "semaine",
+    "rapide",
+    "économique",
+    "sans-four"
+   ]
+  },
+  {
+   "id": "galette-complete-sarrasin-jambon-oeuf-emmental-rapides-famille",
+   "nom": "Galettes de sarrasin complètes jambon, œuf et Emmental, salade verte",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Bretagne",
+   "description": "La complète de crêperie faite maison : pâte au blé noir, jambon, Emmental fondu et œuf au plat au centre, pliée en carré et servie avec une salade croquante.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "farine-sarrasin",
+     "nom": "Farine de sarrasin (blé noir)",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "pâte à préparer idéalement 1 h à l'avance ou la veille (repos non compté dans le temps)"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "1 pour la pâte, 4 pour la garniture"
+    },
+    {
+     "idIngredient": "jambon-blanc",
+     "nom": "Jambon blanc",
+     "quantite": 4,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "emmental",
+     "nom": "Emmental râpé",
+     "quantite": 120,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 30,
+     "unite": "g",
+     "optionnel": false,
+     "note": "demi-sel de préférence"
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "1 cuillère rase pour la pâte, une pincée pour la vinaigrette"
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez la farine de sarrasin et 1 cuillère à café rase de sel, creusez un puits, ajoutez 1 œuf et versez 40 cl d'eau froide peu à peu en fouettant jusqu'à obtenir une pâte lisse et fluide. Laissez reposer 30 minutes si vous en avez le temps (1 heure ou une nuit au frais, c'est encore mieux ; sans repos, les galettes seront simplement un peu moins souples).",
+    "Lavez et essorez la salade ; préparez la vinaigrette avec la moutarde, le vinaigre, l'huile, sel et poivre.",
+    "Chauffez une grande poêle antiadhésive (ou une crêpière) à feu vif, graissez-la avec un peu de beurre et versez une louche de pâte en la répartissant finement ; laissez cuire 2 minutes jusqu'à ce que les bords se décollent.",
+    "Retournez la galette, baissez à feu moyen, cassez un œuf au centre, étalez le blanc à la spatule, répartissez autour une tranche de jambon et un quart de l'Emmental ; poivrez.",
+    "Laissez cuire 2 à 3 minutes jusqu'à ce que le blanc soit pris et le fromage fondu, puis repliez les quatre bords vers le centre en carré. Faites de même pour les 3 autres galettes ; le reste de pâte donne une ou deux galettes au beurre pour les plus gourmands.",
+    "Servez chaque galette dès qu'elle est prête, avec une noisette de beurre dessus et la salade assaisonnée."
+   ],
+   "astuceOptions": "Farine de blé noir de Bretagne IGP et jambon blanc Label Rouge ; pour rester dans le Sud, remplacez l'Emmental par de la Tomme des Pyrénées IGP et le beurre demi-sel par un filet d'huile d'olive pour la cuisson.",
+   "tags": [
+    "enfants",
+    "familial",
+    "bretagne",
+    "une-poêle",
+    "économique",
+    "sans-four"
+   ]
+  },
+  {
+   "id": "salade-tiede-pommes-de-terre-saucisse-toulouse-cornichons-rapides-famille",
+   "nom": "Salade tiède de pommes de terre à la saucisse de Toulouse, cornichons et moutarde",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Pommes de terre vapeur tièdes, rondelles de saucisse de Toulouse grillée, cornichons et échalote dans une vinaigrette moutardée : simple et apprécié de tous.",
+   "tempsTotalMin": 30,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à chair ferme",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "saucisse-toulouse",
+     "nom": "Saucisse de Toulouse",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cornichons",
+     "nom": "Cornichons",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "ou mâche en hiver"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Lavez les pommes de terre et faites-les cuire avec la peau à la vapeur (ou à l'eau salée) 20 à 25 minutes, jusqu'à ce que la pointe d'un couteau s'enfonce sans résistance.",
+    "Pendant ce temps, préparez la vinaigrette dans un grand saladier : moutarde, vinaigre, sel, poivre, puis l'huile en filet ; ajoutez les échalotes émincées et les cornichons en rondelles.",
+    "Piquez la saucisse de Toulouse et faites-la griller 12 à 15 minutes à feu moyen dans une poêle sans matière grasse en la retournant, puis coupez-la en rondelles épaisses.",
+    "Pelez les pommes de terre encore chaudes (ou gardez la peau si elle est fine), coupez-les en rondelles et mélangez-les tièdes à la vinaigrette pour qu'elles s'imprègnent.",
+    "Ajoutez les rondelles de saucisse et le persil, mélangez délicatement et servez tiède avec la salade verte."
+   ],
+   "astuceOptions": "Saucisse de Toulouse artisanale du boucher, au porc fermier du Sud-Ouest Label Rouge, et pommes de terre du Tarn ou du Lot ; pour alléger, épongez la saucisse grillée sur du papier absorbant et doublez la salade verte.",
+   "tags": [
+    "sud-ouest",
+    "familial",
+    "économique",
+    "sans-four",
+    "salade",
+    "semaine"
+   ]
+  },
+  {
+   "id": "rosti-pommes-de-terre-oeuf-plat-salade-rapides-famille",
+   "nom": "Rösti de pommes de terre, œuf au plat et salade verte",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Suisse",
+   "description": "La grande galette suisse de pommes de terre râpées, croustillante dehors et fondante dedans, coiffée d'un œuf au plat et servie avec une salade croquante.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à chair ferme",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "Charlotte, Amandine ou Nicola"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 30,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "2 pour la galette, 2 pour la vinaigrette"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Épluchez les pommes de terre et râpez-les à la grosse râpe avec l'oignon ; pressez-les fortement dans un torchon pour retirer le maximum d'eau, puis salez et poivrez.",
+    "Chauffez le beurre et 2 cuillères d'huile dans une grande poêle antiadhésive (26 à 28 cm) à feu moyen ; versez les pommes de terre, tassez-les en galette avec la spatule, couvrez et laissez cuire 15 minutes à feu moyen-doux sans y toucher, jusqu'à ce que le dessous soit bien doré.",
+    "Retournez le rösti à l'aide d'une assiette posée sur la poêle, faites-le glisser à nouveau dans la poêle et poursuivez 12 minutes de l'autre côté, à découvert, jusqu'à ce que la pointe d'un couteau traverse la galette sans résistance.",
+    "Pendant ce temps, lavez la salade et préparez la vinaigrette avec la moutarde, le vinaigre, 2 cuillères d'huile, sel et poivre.",
+    "Dans une seconde poêle, faites cuire les 4 œufs au plat 3 minutes à feu doux ; salez, poivrez.",
+    "Coupez le rösti en quartiers, posez un œuf sur chacun, parsemez de persil et servez avec la salade."
+   ],
+   "astuceOptions": "Prenez des pommes de terre à chair ferme et des œufs plein air de l'Aveyron ou du Tarn ; une poignée de Comté râpé mêlée aux pommes de terre en fait une version plus gourmande.",
+   "tags": [
+    "végétarien",
+    "économique",
+    "une-poêle",
+    "enfants",
+    "sans-four",
+    "familial"
+   ]
+  },
+  {
+   "id": "oeufs-durs-mayonnaise-maison-crudites-rapides-famille",
+   "nom": "Œufs durs mayonnaise maison et assiette de crudités",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Paris",
+   "description": "Le classique du bistrot parisien en plat du soir : œufs durs et mayonnaise montée à la main, carottes râpées, radis, concombre et pain de campagne.",
+   "tempsTotalMin": 25,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs extra-frais",
+     "quantite": 9,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "8 durs + 1 jaune pour la mayonnaise"
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "ou tournesol ; dont une cuillère pour les carottes"
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "râpées"
+    },
+    {
+     "idIngredient": "radis",
+     "nom": "Radis",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "mais-doux-conserve",
+     "nom": "Maïs doux en conserve",
+     "quantite": 1,
+     "unite": "boîte",
+     "optionnel": true,
+     "note": "petite boîte, pour les enfants"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne",
+     "quantite": 8,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Plongez 8 œufs dans une casserole d'eau bouillante et faites-les cuire 9 minutes ; passez-les sous l'eau froide et écalez-les.",
+    "Montez la mayonnaise : dans un bol, mélangez le jaune du 9e œuf, la moutarde, une pincée de sel et de poivre ; versez l'huile d'abord goutte à goutte puis en filet en fouettant sans arrêt, et terminez par le vinaigre.",
+    "Râpez les carottes et assaisonnez-les avec le jus du citron, une cuillère d'huile, du sel et le persil ; lavez les radis, coupez le concombre en rondelles et la salade en lanières.",
+    "Dressez les assiettes : œufs coupés en deux et nappés de mayonnaise, carottes râpées, radis, concombre, salade et maïs.",
+    "Servez avec le pain de campagne."
+   ],
+   "astuceOptions": "Œufs plein air ou bio d'un producteur occitan et huile de colza du Lauragais ; pour alléger, coupez la mayonnaise à moitié avec un yaourt nature.",
+   "tags": [
+    "sans-four",
+    "rapide",
+    "végétarien",
+    "économique",
+    "été",
+    "bistrot"
+   ]
+  },
+  {
+   "id": "oeufs-plat-haricots-blancs-tomate-paprika-pain-grille-rapides-famille",
+   "nom": "Œufs au plat sur haricots blancs à la tomate et au paprika, pain grillé",
+   "type": "vege",
+   "gras": 1,
+   "terroir": null,
+   "description": "Le breakfast-dîner qui cale : des haricots lingots mijotés à la tomate, à l'oignon et au paprika, deux œufs au plat par-dessus et du pain grillé pour saucer.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "haricots-lingots",
+     "nom": "Haricots blancs lingots en conserve",
+     "quantite": 2,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "2 × 400 g, égouttés"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 300,
+     "unite": "ml",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika doux",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "epinard",
+     "nom": "Épinards frais",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": true,
+     "note": "en hiver, à faire tomber dans les haricots"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne",
+     "quantite": 8,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Émincez l'oignon et hachez l'ail ; faites-les fondre 4 minutes dans une grande poêle avec 1 cuillère d'huile d'olive.",
+    "Ajoutez le paprika, le thym, le coulis de tomate et les haricots égouttés ; salez, poivrez et laissez mijoter 8 minutes à feu doux, en ajoutant les épinards 2 minutes avant la fin pour qu'ils tombent.",
+    "Faites griller les tranches de pain.",
+    "Dans une seconde poêle, faites cuire les œufs au plat 3 minutes à feu doux avec le reste d'huile ; salez, poivrez.",
+    "Répartissez les haricots dans les assiettes, posez 2 œufs au plat par personne, parsemez de persil et servez avec le pain grillé."
+   ],
+   "astuceOptions": "Haricots tarbais Label Rouge en bocal ou lingots en conserve, au choix ; pour une version carnée, faites griller 4 saucisses de Toulouse et servez-les à côté.",
+   "tags": [
+    "rapide",
+    "végétarien",
+    "légumineuses",
+    "une-poêle",
+    "économique",
+    "sans-four"
+   ]
+  },
+  {
+   "id": "gnocchis-poeles-epinards-champignons-comte-rapides-famille",
+   "nom": "Poêlée de gnocchis aux épinards, champignons et Comté",
+   "type": "vege",
+   "gras": 2,
+   "terroir": null,
+   "description": "Des gnocchis de pommes de terre dorés à la poêle, enrobés d'épinards tombés et de champignons dans un soupçon de crème, avec du Comté râpé pour finir.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "gnocchis-pommes-de-terre",
+     "nom": "Gnocchis de pommes de terre frais",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "2 sachets de 400 g"
+    },
+    {
+     "idIngredient": "epinard",
+     "nom": "Épinards frais",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "champignon-paris",
+     "nom": "Champignons de Paris",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "creme-fraiche",
+     "nom": "Crème fraîche",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Lavez et équeutez les épinards ; émincez les champignons, les échalotes et l'ail.",
+    "Dans une grande poêle, faites sauter les champignons 5 minutes à feu vif avec 1 cuillère d'huile jusqu'à ce qu'ils soient dorés ; ajoutez les échalotes et l'ail 1 minute, puis les épinards par poignées et laissez-les tomber 2 minutes. Salez, poivrez et réservez.",
+    "Pendant ce temps, plongez les gnocchis dans une casserole d'eau bouillante salée et égouttez-les dès qu'ils remontent à la surface (1 à 2 minutes).",
+    "Faites dorer les gnocchis 4 minutes dans la poêle essuyée avec le reste d'huile, sans trop les remuer.",
+    "Remettez les légumes, ajoutez la crème et la muscade, mélangez 1 minute pour napper, rectifiez l'assaisonnement et servez avec le Comté râpé."
+   ],
+   "astuceOptions": "Comté AOP ou, pour rester dans le Sud, copeaux de Laguiole AOP ; le dimanche, préparez vos gnocchis maison avec des pommes de terre du Tarn et congelez-les pour les soirs de semaine.",
+   "tags": [
+    "rapide",
+    "végétarien",
+    "une-poêle",
+    "hiver",
+    "enfants",
+    "semaine"
+   ]
+  },
+  {
+   "id": "pates-completes-saumon-fume-epinards-citron-rapides-famille",
+   "nom": "Pâtes complètes au saumon fumé, épinards et citron",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": null,
+   "description": "Des tagliatelles complètes liées d'une crème légère au citron, des épinards juste tombés et des lanières de saumon fumé ajoutées hors du feu, en vingt minutes.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Tagliatelles complètes",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "saumon",
+     "nom": "Saumon fumé",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "4 à 6 tranches, en lanières"
+    },
+    {
+     "idIngredient": "epinard",
+     "nom": "Épinards frais",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "creme-fraiche",
+     "nom": "Crème fraîche légère (15 %)",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "zeste et jus d'une moitié"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais ciselé",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": "pour l'eau des pâtes seulement"
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Portez une grande casserole d'eau salée à ébullition et faites cuire les tagliatelles complètes le temps indiqué sur le paquet ; prélevez une louche d'eau de cuisson avant d'égoutter.",
+    "Pendant ce temps, lavez et équeutez les épinards, émincez l'échalote et coupez le saumon fumé en lanières ; râpez le zeste du citron et pressez-en la moitié.",
+    "Faites fondre l'échalote 2 minutes à feu moyen dans une grande sauteuse avec l'huile d'olive, ajoutez les épinards par poignées et laissez-les tomber 3 minutes ; poivrez.",
+    "Baissez le feu, versez la crème, le zeste et le jus de citron, puis ajoutez les pâtes égouttées avec un peu d'eau de cuisson et mélangez 1 minute pour bien napper.",
+    "Hors du feu, incorporez les lanières de saumon fumé et le persil ; rectifiez le poivre sans resaler (le saumon sale déjà le plat) et servez aussitôt."
+   ],
+   "astuceOptions": "Choisissez un saumon fumé Label Rouge ou, pour un circuit plus court, une truite fumée des Pyrénées ou d'Aquitaine, à poids égal ; la crème légère à 15 % suffit à lier la sauce.",
+   "tags": [
+    "rapide",
+    "semaine",
+    "une-poêle",
+    "hiver",
+    "pâtes",
+    "enfants"
+   ]
+  }
+ ],
+ "nouveauxIngredients": [
+  {
+   "id": "thon-conserve",
+   "nom": "Thon au naturel en conserve",
+   "rayon": "Épicerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe de Gascogne (Saint-Jean-de-Luz, Capbreton), thon germon",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Préférez un thon germon (thon blanc) pêché à la ligne ou à la canne et mis en boîte par une conserverie basque ou bretonne ; beaucoup de boîtes de grande surface sont fabriquées en Espagne, vérifiez le pays sur l'étiquette.",
+   "versionComplete": null,
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Bretagne"
+   ]
+  },
+  {
+   "id": "gnocchis-pommes-de-terre",
+   "nom": "Gnocchis de pommes de terre (frais, nature)",
+   "rayon": "Épicerie",
+   "categorie": "feculent",
+   "origineFrance": true,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Au rayon frais, choisissez des gnocchis à plus de 70 % de pommes de terre avec une liste d'ingrédients courte, fabriqués en France plutôt qu'importés ; ou faites-les maison le week-end et congelez-les.",
+   "versionComplete": null,
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ]
+  }
+ ],
+ "mappings": []
+}

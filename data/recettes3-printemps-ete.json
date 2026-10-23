@@ -1,0 +1,2670 @@
+{
+ "recettes": [
+  {
+   "id": "gaspacho-andalou-tartines-chevre-frais-printemps-ete",
+   "nom": "Gaspacho andalou et tartines au chèvre frais",
+   "type": "vege",
+   "gras": 1,
+   "terroir": "Espagne",
+   "description": "La soupe froide andalouse de tomates mûres, concombre et poivron, liée au pain et à l'huile d'olive, servie glacée avec des tartines au chèvre frais.",
+   "tempsTotalMin": 25,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates bien mûres",
+     "quantite": 1.2,
+     "unite": "kg",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivron vert",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": "80 g de pain rassis pour la soupe, le reste en tartines"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "ou vinaigre de xérès"
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour la garniture"
+    },
+    {
+     "idIngredient": "chevre-frais",
+     "nom": "Chèvre frais",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Faites tremper 80 g de pain rassis 10 minutes dans un peu d'eau. Pelez et épépinez le concombre, épépinez le poivron, retirez le pédoncule des tomates ; gardez un quart du concombre et du poivron pour la garniture.",
+    "Mixez les tomates, le concombre, le poivron, l'ail, le pain essoré, 4 c. à soupe d'huile d'olive, le vinaigre, le cumin, du sel et du poivre jusqu'à obtenir une soupe lisse ; allongez de 10 à 20 cl d'eau très froide selon l'épaisseur souhaitée.",
+    "Passez éventuellement au tamis pour plus de finesse, rectifiez sel et vinaigre, puis placez au réfrigérateur au moins 2 heures : le gaspacho se sert glacé.",
+    "Coupez le reste de concombre et de poivron en petits dés, émincez très finement l'échalote.",
+    "Faites griller 8 tranches de pain. Écrasez le chèvre frais avec la dernière cuillère d'huile, du poivre et la moitié du basilic ciselé, puis tartinez le pain grillé.",
+    "Servez le gaspacho dans des bols bien froids, parsemé des dés de légumes, de l'échalote et du reste de basilic, avec les tartines."
+   ],
+   "astuceOptions": "Les tomates et le concombre doivent être de pleine saison et bien mûrs : c'est tout le goût du plat. Le chèvre frais peut être un Pélardon jeune ou un Rocamadour AOP pour rester en Occitanie.",
+   "tags": [
+    "soupe",
+    "été",
+    "sans-four",
+    "rapide",
+    "végétarien",
+    "monde"
+   ]
+  },
+  {
+   "id": "soupe-glacee-concombre-menthe-tartines-truite-fumee-printemps-ete",
+   "nom": "Soupe glacée de concombre à la menthe, tartines de truite fumée",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Un velouté glacé de concombre au yaourt et à la menthe, servi avec des tartines de pain grillé à la truite fumée des Pyrénées, aux radis et à l'échalote.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombres",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou yaourt grec"
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "radis",
+     "nom": "Radis",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "truite",
+     "nom": "Truite fumée en tranches",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "truite des Pyrénées"
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne en tranches",
+     "quantite": 8,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Pelez un concombre et demi, fendez-les, épépinez-les et coupez-les en morceaux ; coupez la demi-portion restante en petits dés pour la garniture.",
+    "Mixez les morceaux de concombre avec le yaourt, la moitié des feuilles de menthe, l'ail, le jus d'un demi-citron, 2 c. à soupe d'huile d'olive, du sel et du poivre jusqu'à obtenir un velouté lisse ; allongez d'un peu d'eau froide si nécessaire.",
+    "Rectifiez l'assaisonnement et placez la soupe au réfrigérateur au moins 1 heure, ou 20 minutes au congélateur si vous êtes pressé.",
+    "Faites griller les tranches de pain. Répartissez la truite fumée, des rondelles fines de radis, l'échalote émincée finement et quelques feuilles de menthe ; arrosez du reste de citron et d'huile, poivrez.",
+    "Servez la soupe glacée dans des bols, parsemée des dés de concombre et de menthe ciselée, avec les tartines à côté."
+   ],
+   "astuceOptions": "Choisissez une truite fumée des Pyrénées (Ariège, Hautes-Pyrénées) plutôt qu'un saumon fumé d'import ; les radis et les concombres du marché toulousain sont au mieux de mai à septembre.",
+   "tags": [
+    "soupe",
+    "été",
+    "sans-four",
+    "rapide",
+    "léger",
+    "tartines"
+   ]
+  },
+  {
+   "id": "salade-nicoise-thon-feves-artichauts-printemps-ete",
+   "nom": "Salade niçoise au thon, fèves et petits artichauts",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": "Nice",
+   "description": "La vraie salade de Nice, crue et croquante : tomates, fèves, petits artichauts, radis, œufs durs, thon et olives noires, à l'huile d'olive et au basilic.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 6,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "bien mûres mais fermes"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thon-conserve",
+     "nom": "Thon germon au naturel",
+     "quantite": 3,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "3 x 140 g égouttés"
+    },
+    {
+     "idIngredient": "feves",
+     "nom": "Fèves fraîches à écosser",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": true,
+     "note": "en mai-juin ; sinon omettre"
+    },
+    {
+     "idIngredient": "artichaut",
+     "nom": "Petits artichauts violets (poivrade)",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "radis",
+     "nom": "Radis",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivron vert",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "petit et fin ; en plein été"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Petits oignons blancs ou rouges",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires de Nice",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "anchois-collioure",
+     "nom": "Filets d'anchois de Collioure",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour citronner les artichauts"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 6,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne en tranches",
+     "quantite": 4,
+     "unite": "tranche",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Faites durcir les œufs 9 minutes dans l'eau bouillante, rafraîchissez-les, écalez-les et coupez-les en quartiers.",
+    "Écossez les fèves, plongez-les 1 minute dans l'eau bouillante puis retirez leur peau. Tournez les artichauts : retirez les feuilles dures, coupez le haut, émincez-les finement et citronnez-les aussitôt.",
+    "Coupez les tomates en quartiers et salez-les légèrement 10 minutes dans une passoire. Émincez le poivron en fines lanières, les radis en rondelles, les oignons en anneaux fins.",
+    "Disposez dans un grand plat les tomates, le poivron, les radis, les fèves, les artichauts et les oignons ; ajoutez le thon égoutté et émietté, les quartiers d'œufs, les olives et les filets d'anchois.",
+    "Arrosez d'huile d'olive, poivrez, parsemez de basilic déchiré à la main. Servez à température ambiante, avec le pain pour saucer."
+   ],
+   "astuceOptions": "Ici, pas de haricots verts ni de pommes de terre, comme à Nice. Préférez un thon germon pêché à la ligne dans le golfe de Gascogne et des anchois de Collioure IGP pour rester dans le Sud.",
+   "tags": [
+    "salade",
+    "été",
+    "printemps",
+    "sans-four",
+    "plat complet",
+    "provence"
+   ]
+  },
+  {
+   "id": "ratatouille-nicoise-riz-camargue-complet-oeufs-printemps-ete",
+   "nom": "Ratatouille niçoise, riz de Camargue complet et œufs au plat",
+   "type": "vege",
+   "gras": 1,
+   "terroir": "Provence",
+   "description": "Les légumes du soleil dorés séparément puis mijotés ensemble à la tomate et au thym, servis sur un riz de Camargue complet avec un œuf au plat par personne.",
+   "tempsTotalMin": 75,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "aubergine",
+     "nom": "Aubergines",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivrons (rouge et jaune)",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates bien mûres",
+     "quantite": 5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 6,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz de Camargue complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Coupez les aubergines et les courgettes en cubes de 2 cm, les poivrons en lanières, les oignons en lamelles. Ébouillantez les tomates 30 secondes, pelez-les et concassez-les.",
+    "Dans une grande sauteuse, faites dorer séparément les aubergines (2 c. à soupe d'huile, 8 minutes), puis les courgettes (1 c. à soupe, 6 minutes), puis les poivrons (1 c. à soupe, 6 minutes) ; réservez chaque légume.",
+    "Faites fondre les oignons et l'ail émincé 5 minutes dans le reste d'huile, ajoutez les tomates, le thym, le laurier et du sel ; laissez compoter 10 minutes.",
+    "Remettez tous les légumes dans la sauteuse, couvrez et laissez mijoter 30 minutes à feu doux en remuant de temps en temps ; découvrez les 10 dernières minutes pour que le jus réduise.",
+    "Pendant ce temps, faites cuire le riz complet 35 à 40 minutes dans deux fois son volume d'eau salée, puis égouttez.",
+    "Faites cuire les œufs au plat dans une poêle antiadhésive. Servez la ratatouille poivrée et parsemée de basilic sur le riz, avec un œuf par personne."
+   ],
+   "astuceOptions": "Le riz de Camargue IGP complet tient bien avec les légumes ; la ratatouille est encore meilleure réchauffée le lendemain, prévoyez-en le double pour un repas de batch-cooking.",
+   "tags": [
+    "mijoté",
+    "été",
+    "végétarien",
+    "provence",
+    "batch-cooking",
+    "familial"
+   ]
+  },
+  {
+   "id": "taboule-petit-epeautre-herbes-pois-chiches-printemps-ete",
+   "nom": "Taboulé de petit épeautre aux herbes et aux pois chiches",
+   "type": "vege",
+   "gras": 1,
+   "terroir": "Haute-Provence",
+   "description": "Le taboulé au petit épeautre de Haute-Provence : grains fermes, tomates, concombre, radis, pois chiches et une avalanche de menthe et de persil citronnés.",
+   "tempsTotalMin": 65,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "petit-epeautre",
+     "nom": "Petit épeautre de Haute-Provence",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pois-chiches",
+     "nom": "Pois chiches en conserve",
+     "quantite": 1,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "environ 240 g égouttés"
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "radis",
+     "nom": "Radis",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chevre-frais",
+     "nom": "Chèvre frais",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": true,
+     "note": "à émietter au service"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez le petit épeautre et faites-le cuire 40 à 45 minutes dans un grand volume d'eau salée frémissante : il doit être tendre mais encore ferme sous la dent. Égouttez et laissez tiédir.",
+    "Coupez les tomates épépinées et le concombre en petits dés, les radis en rondelles fines ; émincez finement l'oignon rouge.",
+    "Ciselez finement la menthe et le persil en gardant quelques feuilles entières. Rincez et égouttez les pois chiches.",
+    "Préparez l'assaisonnement en fouettant le jus des citrons avec l'huile d'olive, le cumin, du sel et du poivre.",
+    "Mélangez l'épeautre tiède, les légumes, les pois chiches et les herbes avec l'assaisonnement ; laissez reposer 15 minutes au frais (davantage si vous avez le temps) pour que les grains s'imprègnent.",
+    "Servez frais, parsemé des feuilles réservées et, si vous le souhaitez, de chèvre frais émietté."
+   ],
+   "astuceOptions": "Le petit épeautre de Haute-Provence IGP est une céréale complète par nature : pas besoin de version « complète ». Les pois chiches secs du Lauragais, cuits la veille, remplacent avantageusement la conserve.",
+   "tags": [
+    "salade",
+    "été",
+    "végétarien",
+    "légumineuses",
+    "sans-four",
+    "pique-nique"
+   ]
+  },
+  {
+   "id": "tarte-fine-tomates-moutarde-chevre-frais-printemps-ete",
+   "nom": "Tarte fine aux tomates, moutarde et chèvre frais",
+   "type": "vege",
+   "gras": 2,
+   "terroir": null,
+   "description": "Pâte fine à l'huile d'olive, couche de moutarde, rondelles de tomates confites au four et chèvre frais : la tarte d'été de toutes les tables françaises.",
+   "tempsTotalMin": 65,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "T65 ou semi-complète"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "4 pour la pâte, 1 pour la garniture"
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates fermes",
+     "quantite": 6,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "variétés mélangées si possible"
+    },
+    {
+     "idIngredient": "chevre-frais",
+     "nom": "Chèvre frais",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "herbes-provence",
+     "nom": "Herbes de Provence",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte (batavia)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préparez la pâte : mélangez la farine, une pincée de sel, 4 c. à soupe d'huile d'olive et 8 cl d'eau tiède ; formez une boule sans trop pétrir et laissez reposer 15 minutes sous un torchon.",
+    "Préchauffez le four à 200 °C. Coupez les tomates en rondelles de 5 mm, posez-les sur du papier absorbant avec une pincée de sel pendant 10 minutes pour les dégorger.",
+    "Étalez la pâte finement (3 mm) sur une plaque recouverte de papier cuisson, piquez-la à la fourchette et tartinez-la de moutarde en laissant un bord de 1 cm.",
+    "Rangez les rondelles de tomates en les faisant se chevaucher, émiettez le chèvre frais par-dessus, saupoudrez d'herbes de Provence, poivrez et arrosez de la dernière cuillère d'huile.",
+    "Enfournez 30 à 35 minutes, jusqu'à ce que la pâte soit dorée et croustillante et les tomates légèrement confites.",
+    "Préparez une vinaigrette avec l'huile de colza, le vinaigre, du sel et du poivre, assaisonnez la salade. Servez la tarte tiède, parsemée de basilic, avec la salade."
+   ],
+   "astuceOptions": "Avec une farine semi-complète T110, la pâte gagne en goût et en fibres. Pour un chèvre d'Occitanie, prenez un Pélardon AOP jeune écrasé à la fourchette.",
+   "tags": [
+    "tarte",
+    "four",
+    "été",
+    "végétarien",
+    "familial",
+    "économique"
+   ]
+  },
+  {
+   "id": "artichauts-barigoule-pommes-de-terre-nouvelles-printemps-ete",
+   "nom": "Artichauts à la barigoule et pommes de terre nouvelles",
+   "type": "vege",
+   "gras": 1,
+   "terroir": "Provence",
+   "description": "Petits artichauts violets braisés au vin blanc avec carottes, oignons nouveaux et pommes de terre grenaille : un plat provençal de printemps tout en douceur.",
+   "tempsTotalMin": 75,
+   "portions": 4,
+   "saisonMois": [
+    4,
+    5,
+    6
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "artichaut",
+     "nom": "Petits artichauts violets (poivrade)",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes nouvelles",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-nouveau",
+     "nom": "Oignons nouveaux",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre nouvelles (grenaille)",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-legumes",
+     "nom": "Bouillon de légumes",
+     "quantite": 25,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "un demi-cube"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Tournez les artichauts : cassez la queue, retirez les feuilles dures extérieures, coupez le tiers supérieur des feuilles, fendez-les en deux ou en quatre, ôtez le foin s'il y en a et frottez-les de citron.",
+    "Émincez les oignons nouveaux (bulbes et une partie du vert), coupez les carottes en rondelles fines, lavez les pommes de terre sans les peler et coupez les plus grosses en deux.",
+    "Dans une cocotte, faites fondre à feu moyen les oignons, les carottes, l'ail émincé 5 minutes dans l'huile d'olive.",
+    "Ajoutez les artichauts, faites-les revenir 3 minutes, versez le vin blanc et laissez-le réduire de moitié.",
+    "Ajoutez les pommes de terre, le bouillon, le thym et le laurier, salez peu, poivrez ; couvrez et laissez mijoter 35 à 40 minutes à feu doux, jusqu'à ce qu'un couteau traverse les artichauts et les pommes de terre sans résistance.",
+    "Servez dans des assiettes creuses avec le jus de cuisson, le persil ciselé et un trait de jus de citron."
+   ],
+   "astuceOptions": "Les artichauts violets poivrade se trouvent sur les marchés d'avril à juin ; hors saison, prenez de gros artichauts bretons coupés en quartiers. Pour un plat plus complet, ajoutez un œuf mollet par personne ou, en version non végétarienne, 100 g de lardons avec les oignons.",
+   "tags": [
+    "mijoté",
+    "printemps",
+    "végétarien",
+    "provence",
+    "léger",
+    "une-poêle"
+   ]
+  },
+  {
+   "id": "pates-completes-pistou-haricots-verts-pommes-de-terre-printemps-ete",
+   "nom": "Pâtes complètes au pistou, haricots verts et pommes de terre",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Le plat du dimanche en Ligurie : pâtes complètes, haricots verts et dés de pommes de terre cuits ensemble, enrobés d'un pistou de basilic, d'ail et de pignons.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Pâtes complètes (trofie ou linguine)",
+     "quantite": 350,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "haricot-vert",
+     "nom": "Haricots verts",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 2,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "environ 60 g de feuilles"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pignons",
+     "nom": "Pignons de pin",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté vieux râpé",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à la place du parmesan"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préparez le pistou : au mortier ou au mixeur, réduisez en pâte l'ail, les pignons, les feuilles de basilic et une pincée de sel ; incorporez le Comté râpé puis l'huile d'olive en filet jusqu'à obtenir une crème verte.",
+    "Pelez les pommes de terre et coupez-les en dés de 1,5 cm ; équeutez les haricots verts et coupez-les en deux.",
+    "Portez une grande casserole d'eau salée à ébullition, plongez-y les pommes de terre 5 minutes, puis ajoutez les pâtes et les haricots verts ensemble et poursuivez le temps de cuisson indiqué pour les pâtes (10 à 12 minutes).",
+    "Prélevez une louche d'eau de cuisson, puis égouttez le tout.",
+    "Dans un grand saladier, mélangez pâtes, légumes et pistou en ajoutant un peu d'eau de cuisson pour obtenir une sauce onctueuse ; poivrez et servez aussitôt."
+   ],
+   "astuceOptions": "Des pâtes complètes de blé dur français (ou des linguine au petit épeautre) font un plat vraiment rassasiant ; le Comté AOP remplace le parmesan, une Tomme des Pyrénées IGP vieille fonctionne aussi.",
+   "tags": [
+    "pâtes",
+    "été",
+    "végétarien",
+    "italie",
+    "rapide",
+    "une-poêle"
+   ]
+  },
+  {
+   "id": "navarin-agneau-printanier-legumes-nouveaux-printemps-ete",
+   "nom": "Navarin d'agneau printanier aux légumes nouveaux",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Le grand mijoté du printemps : l'épaule d'agneau fondante dans son jus tomaté, avec carottes et navets nouveaux, pommes de terre primeur et petits pois.",
+   "tempsTotalMin": 120,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "agneau",
+     "nom": "Épaule d'agneau désossée, en morceaux",
+     "quantite": 900,
+     "unite": "g",
+     "optionnel": false,
+     "note": "agneau des Pyrénées ou du Quercy"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Concentré ou coulis de tomate",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 50,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "un cube"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes nouvelles",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "navet",
+     "nom": "Navets nouveaux",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": true,
+     "note": "petits navets primeur, selon arrivage"
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre nouvelles",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "petits-pois",
+     "nom": "Petits pois à écosser",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en cosses, soit environ 150 g écossés"
+    },
+    {
+     "idIngredient": "oignon-nouveau",
+     "nom": "Oignons nouveaux",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Salez et poivrez les morceaux d'agneau. Dans une cocotte, faites-les dorer sur toutes les faces dans l'huile, en deux fois (8 minutes en tout). Remettez toute la viande, saupoudrez de farine et mélangez 2 minutes.",
+    "Ajoutez l'ail écrasé et le coulis de tomate, versez le vin blanc puis le bouillon chaud presque à hauteur, ajoutez thym et laurier. Portez à frémissement, couvrez et laissez mijoter 1 heure à feu doux.",
+    "Pendant ce temps, grattez les carottes et les navets nouveaux et coupez-les en deux ou en tronçons, lavez les pommes de terre, écossez les petits pois, parez les oignons nouveaux en gardant 3 cm de vert.",
+    "Ajoutez les carottes, les navets et les pommes de terre dans la cocotte, couvrez et poursuivez la cuisson 25 minutes.",
+    "Ajoutez les petits pois et les oignons nouveaux, laissez cuire encore 10 minutes à découvert pour que la sauce épaississe légèrement.",
+    "Rectifiez l'assaisonnement, parsemez de persil ciselé et servez directement dans la cocotte."
+   ],
+   "astuceOptions": "Choisissez un agneau du Sud-Ouest sous signe de qualité (Agneau du Quercy IGP et Label Rouge, Agneau de Lozère IGP, Agneau de lait des Pyrénées IGP) et dégraissez bien l'épaule : le plat reste alors raisonnable malgré son allure de festin.",
+   "tags": [
+    "mijoté",
+    "printemps",
+    "dimanche",
+    "familial",
+    "convivial",
+    "sud-ouest"
+   ]
+  },
+  {
+   "id": "petits-farcis-nicois-courgettes-oignons-tomates-printemps-ete",
+   "nom": "Petits farcis niçois (courgettes rondes, oignons et tomates)",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Nice",
+   "description": "Courgettes rondes, oignons et tomates évidés puis garnis d'une farce de veau et de porc aux herbes, dorés au four jusqu'à devenir fondants : l'été à la niçoise.",
+   "tempsTotalMin": 95,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes rondes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes moyens",
+     "quantite": 5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "4 à farcir, 1 pour la farce"
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates moyennes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "veau",
+     "nom": "Veau haché",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "porc",
+     "nom": "Porc haché (échine)",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Mie de pain rassis",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 50,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à la place du parmesan"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chapelure",
+     "nom": "Chapelure",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": true,
+     "note": "pour la salade"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 180 °C. Faites tremper la mie de pain dans le lait. Coupez un chapeau aux courgettes, aux tomates et à 4 oignons pelés ; évidez-les à la petite cuillère en gardant la chair (salez l'intérieur des tomates et retournez-les sur une grille).",
+    "Faites blanchir les coques de courgettes et d'oignons 5 minutes dans l'eau bouillante salée, égouttez-les à l'envers sur un linge.",
+    "Hachez la chair des courgettes et des oignons avec le cinquième oignon, faites-la revenir 5 minutes dans 1 c. à soupe d'huile avec l'ail haché, jusqu'à ce que l'eau soit évaporée.",
+    "Mélangez dans un saladier le veau, le porc, la chair revenue, le pain essoré, l'œuf, le persil et le basilic ciselés, le Comté, le thym, du sel et du poivre.",
+    "Garnissez généreusement les légumes de farce en formant un dôme, saupoudrez de chapelure, arrosez de 2 c. à soupe d'huile et rangez-les dans un plat huilé avec les chapeaux à côté.",
+    "Enfournez 45 à 50 minutes, jusqu'à ce que la farce soit dorée et les légumes fondants. Servez tièdes avec la salade verte assaisonnée d'un trait de vinaigre et de la dernière cuillère d'huile d'olive."
+   ],
+   "astuceOptions": "Les Niçois utilisent les restes de daube ou de rôti pour la farce : recyclez une viande de la veille. Prenez du veau d'Aveyron et du Ségala Label Rouge et du porc fermier du Sud-Ouest.",
+   "tags": [
+    "four",
+    "été",
+    "provence",
+    "familial",
+    "convivial",
+    "farcis"
+   ]
+  },
+  {
+   "id": "cake-sale-olives-jambon-comte-salade-tomates-printemps-ete",
+   "nom": "Cake salé aux olives, jambon et Comté, salade de tomates et concombre",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Le cake salé du pique-nique : moelleux au Comté, truffé de jambon et d'olives vertes, à trancher froid sur une salade de tomates et de concombre au basilic.",
+   "tempsTotalMin": 60,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "levure-chimique",
+     "nom": "Levure chimique",
+     "quantite": 1,
+     "unite": "sachet",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 8,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "jambon-blanc",
+     "nom": "Jambon blanc en dés",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives vertes dénoyautées",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "herbes-provence",
+     "nom": "Herbes de Provence",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 180 °C. Dans un saladier, fouettez les œufs avec le lait et l'huile d'olive.",
+    "Ajoutez la farine, la levure, les herbes de Provence, une pincée de sel et du poivre ; mélangez juste assez pour obtenir une pâte lisse.",
+    "Incorporez le jambon en dés, les olives coupées en deux et le Comté râpé.",
+    "Versez dans un moule à cake chemisé de papier cuisson et enfournez 40 à 45 minutes : la lame d'un couteau doit ressortir sèche. Laissez tiédir 10 minutes avant de démouler.",
+    "Coupez les tomates en quartiers et le concombre en rondelles ; assaisonnez d'huile de colza, de vinaigre, de sel, de poivre et de basilic ciselé.",
+    "Servez le cake en tranches épaisses, tiède ou froid, avec la salade."
+   ],
+   "astuceOptions": "Parfait pour un pique-nique ou une lunchbox, il se garde 3 jours au frais. Pour une version d'Occitanie, remplacez le Comté par de la Tomme des Pyrénées IGP et le jambon blanc par du jambon de Bayonne IGP en lanières.",
+   "tags": [
+    "four",
+    "été",
+    "pique-nique",
+    "enfants",
+    "économique",
+    "batch-cooking"
+   ]
+  },
+  {
+   "id": "asperges-blanches-landes-oeufs-mollets-jambon-bayonne-printemps-ete",
+   "nom": "Asperges blanches des Landes, œufs mollets et jambon de Bayonne",
+   "type": "viande",
+   "gras": 1,
+   "terroir": "Landes",
+   "description": "Des asperges blanches des Landes juste pochées, un œuf mollet coulant, du jambon de Bayonne et des pommes de terre nouvelles sous une vinaigrette aux herbes.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "asperge",
+     "nom": "Asperges blanches des Landes",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "extra-frais"
+    },
+    {
+     "idIngredient": "jambon-bayonne",
+     "nom": "Jambon de Bayonne",
+     "quantite": 4,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre nouvelles",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "estragon",
+     "nom": "Estragon frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "ou cerfeuil"
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Pelez les asperges blanches à l'économe de la tête vers le pied et coupez 2 cm du talon. Lavez les pommes de terre nouvelles sans les peler.",
+    "Faites cuire les pommes de terre 20 minutes à la vapeur ou dans l'eau salée, jusqu'à ce qu'elles soient tendres.",
+    "Plongez les asperges liées en botte dans une grande casserole d'eau bouillante salée 12 à 15 minutes selon leur grosseur : la pointe d'un couteau doit traverser la base sans résistance. Égouttez-les sur un linge.",
+    "Faites cuire les œufs 6 minutes dans l'eau bouillante, rafraîchissez-les et écalez-les délicatement.",
+    "Préparez la vinaigrette : fouettez la moutarde, le vinaigre, du sel et du poivre, ajoutez l'huile de colza en filet, puis le persil, l'estragon et l'échalote finement ciselés.",
+    "Dressez les asperges tièdes, posez dessus l'œuf mollet ouvert, une tranche de jambon de Bayonne roulée et les pommes de terre ; nappez de vinaigrette aux herbes."
+   ],
+   "astuceOptions": "L'Asperge des sables des Landes IGP se trouve de mars à mi-juin ; l'option labels privilégiera aussi le Jambon de Bayonne IGP. Avec un yaourt fouetté à la place d'une partie de l'huile, la sauce s'allège encore.",
+   "tags": [
+    "printemps",
+    "sud-ouest",
+    "léger",
+    "rapide",
+    "sans-four",
+    "vapeur"
+   ]
+  },
+  {
+   "id": "poulet-grille-citron-herbes-salade-pasteque-concombre-menthe-printemps-ete",
+   "nom": "Poulet grillé au citron et aux herbes, salade de pastèque, concombre et menthe",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Du poulet mariné au citron, à l'ail et au thym, saisi à la plancha, avec une salade glacée de pastèque, concombre et menthe : le dîner d'été par excellence.",
+   "tempsTotalMin": 55,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Hauts de cuisses de poulet désossés",
+     "quantite": 700,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou blancs de poulet"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pasteque",
+     "nom": "Pastèque",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "chair, soit un quart de pastèque"
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Petit oignon rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chevre-frais",
+     "nom": "Chèvre frais",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": true,
+     "note": "à émietter sur la salade"
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne en tranches",
+     "quantite": 4,
+     "unite": "tranche",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez le jus et le zeste d'un citron, l'ail écrasé, le thym, le piment d'Espelette, 2 c. à soupe d'huile d'olive, du sel et du poivre ; enrobez-en le poulet et laissez mariner 30 minutes (ou jusqu'à 2 heures au frais).",
+    "Coupez la pastèque en cubes en retirant les pépins, le concombre en demi-rondelles fines, émincez finement l'oignon rouge ; réservez au frais.",
+    "Faites chauffer une plancha, un gril ou une poêle-gril à feu vif ; grillez le poulet 6 à 7 minutes par face, jusqu'à ce qu'il soit bien doré et cuit à cœur. Laissez reposer 3 minutes puis tranchez.",
+    "Assaisonnez la salade au dernier moment avec le jus du second citron, 2 c. à soupe d'huile, du sel, du poivre et la menthe ciselée ; ajoutez le chèvre frais émietté si vous le souhaitez.",
+    "Servez le poulet grillé avec la salade bien froide et des tranches de pain passées sur le gril."
+   ],
+   "astuceOptions": "Un poulet fermier Label Rouge du Gers reste juteux à la plancha ; la pastèque du Gard et les concombres d'Occitanie sont à leur meilleur en juillet-août. La salade peut aussi accueillir du melon du Quercy.",
+   "tags": [
+    "plancha",
+    "grillé",
+    "été",
+    "léger",
+    "rapide",
+    "sans-four"
+   ]
+  },
+  {
+   "id": "poulet-froid-estragon-salade-pommes-de-terre-nouvelles-radis-petits-pois-printemps-ete",
+   "nom": "Poulet froid à l'estragon, salade de pommes de terre nouvelles, radis et petits pois",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des blancs de poulet pochés, servis froids avec une sauce légère yaourt-estragon sur une salade de pommes de terre nouvelles, radis et petits pois.",
+   "tempsTotalMin": 45,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Blancs de poulet",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "4 filets de 150 g"
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 1,
+     "unite": "l",
+     "optionnel": false,
+     "note": "un cube dilué dans 1 l d'eau"
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "estragon",
+     "nom": "Estragon frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourts nature",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre nouvelles",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "petits-pois",
+     "nom": "Petits pois à écosser",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en cosses, soit environ 200 g écossés"
+    },
+    {
+     "idIngredient": "radis",
+     "nom": "Radis",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-nouveau",
+     "nom": "Oignons nouveaux",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Portez le bouillon à frémissement avec le laurier et les tiges d'estragon (gardez les feuilles). Plongez-y les blancs de poulet, couvrez et laissez pocher 12 à 15 minutes à feu très doux, sans ébullition ; laissez-les tiédir dans le bouillon puis égouttez-les.",
+    "Faites cuire les pommes de terre nouvelles lavées, non pelées, 20 minutes à la vapeur ou dans l'eau salée. Écossez les petits pois et faites-les cuire 3 à 4 minutes dans l'eau bouillante salée, puis rafraîchissez-les.",
+    "Préparez la sauce : fouettez les yaourts avec la moutarde, le jus d'un demi-citron, 1 c. à soupe d'huile de colza, les feuilles d'estragon ciselées (gardez-en quelques-unes), du sel et du poivre.",
+    "Coupez les pommes de terre tièdes en rondelles épaisses et assaisonnez-les aussitôt avec le vinaigre, le reste du jus de citron, 2 c. à soupe d'huile de colza, du sel et du poivre ; ajoutez les radis en rondelles, les petits pois et les oignons nouveaux émincés avec leur vert.",
+    "Tranchez les blancs de poulet refroidis en biais, dressez-les sur la salade, nappez d'une partie de la sauce à l'estragon et servez le reste à part, avec les feuilles d'estragon réservées."
+   ],
+   "astuceOptions": "Un poulet fermier Label Rouge du Gers ou des Landes reste moelleux une fois poché ; la sauce au yaourt remplace la mayonnaise traditionnelle. Tout se prépare la veille et se transporte au frais pour le pique-nique.",
+   "tags": [
+    "printemps",
+    "froid",
+    "pique-nique",
+    "léger",
+    "sans-four",
+    "plat complet"
+   ]
+  },
+  {
+   "id": "brochettes-dinde-yaourt-paprika-legumes-grilles-semoule-complete-printemps-ete",
+   "nom": "Brochettes de dinde marinées au yaourt et paprika, légumes grillés et semoule complète",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des cubes de dinde marinés au yaourt, paprika et cumin, grillés avec courgettes et poivrons, servis sur une semoule complète avec une sauce yaourt-menthe.",
+   "tempsTotalMin": 50,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "dinde",
+     "nom": "Escalopes de dinde épaisses",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourts nature",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "un pour la marinade, un pour la sauce"
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "fumé si possible"
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon (rouge de préférence)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "semoule",
+     "nom": "Semoule complète",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Coupez la dinde en cubes de 3 cm. Mélangez un yaourt avec le paprika, le cumin, l'ail écrasé, le zeste et la moitié du jus du citron, 1 c. à soupe d'huile, du sel et du poivre ; enrobez-en la dinde et laissez mariner 30 minutes au moins (jusqu'à 12 heures au frais).",
+    "Coupez les courgettes en rondelles épaisses, les poivrons en carrés, l'oignon en quartiers ; enfilez viande et légumes en alternance sur 8 brochettes et badigeonnez les légumes d'1 c. à soupe d'huile.",
+    "Versez 30 cl d'eau bouillante salée sur la semoule complète, couvrez 5 minutes, puis égrenez à la fourchette avec la dernière cuillère d'huile.",
+    "Faites griller les brochettes 10 à 12 minutes au barbecue, à la plancha ou sous le gril du four, en les tournant régulièrement, jusqu'à ce que la dinde soit dorée et cuite à cœur.",
+    "Mélangez le second yaourt avec la menthe ciselée, le reste du jus de citron, du sel et du poivre.",
+    "Servez les brochettes sur la semoule, avec la sauce au yaourt à la menthe."
+   ],
+   "astuceOptions": "La marinade au yaourt garde la dinde moelleuse ; une dinde fermière Label Rouge ou du poulet fermier du Gers conviennent aussi. La semoule complète (ou du boulgour complet) complète le repas.",
+   "tags": [
+    "grillé",
+    "plancha",
+    "été",
+    "brochettes",
+    "léger",
+    "semaine"
+   ]
+  },
+  {
+   "id": "maquereaux-grilles-citron-laurier-salade-pommes-de-terre-fenouil-printemps-ete",
+   "nom": "Maquereaux grillés au citron et au laurier, salade tiède de pommes de terre nouvelles et fenouil",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des maquereaux entiers grillés à la plancha, le ventre garni de citron et de laurier, avec une salade tiède de pommes de terre nouvelles et fenouil croquant.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "maquereau",
+     "nom": "Maquereaux entiers vidés",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 300 g chacun"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuilles de laurier",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre nouvelles",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "fenouil",
+     "nom": "Bulbes de fenouil",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "avec leurs fanes"
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Faites cuire les pommes de terre nouvelles lavées, non pelées, 20 minutes à la vapeur ou dans l'eau salée ; égouttez-les et coupez-les en rondelles épaisses encore tièdes.",
+    "Préparez la vinaigrette : fouettez la moutarde, le vinaigre, le jus d'un demi-citron, du sel et du poivre, puis 3 c. à soupe d'huile d'olive. Émincez très finement les bulbes de fenouil et les échalotes, mélangez-les aux pommes de terre avec la vinaigrette, le persil et les fanes de fenouil ciselés ; laissez mariner le temps de griller le poisson.",
+    "Entaillez les maquereaux trois fois de chaque côté, salez et poivrez dedans et dehors, glissez dans chaque ventre une feuille de laurier, une demi-gousse d'ail écrasée et une rondelle de citron ; badigeonnez-les de la dernière cuillère d'huile.",
+    "Faites chauffer la plancha, le barbecue ou une poêle-gril à feu vif. Posez les maquereaux et laissez-les 4 à 5 minutes par face sans les bouger : la peau doit être dorée et croustillante et la chair se détacher de l'arête.",
+    "Servez les maquereaux brûlants avec le reste du citron en quartiers, une pointe de piment d'Espelette et la salade tiède de pommes de terre et fenouil."
+   ],
+   "astuceOptions": "Le maquereau de ligne de l'Atlantique (Saint-Jean-de-Luz, Bretagne) est un poisson de saison, bon marché et riche en oméga-3 ; sans plancha, comptez 15 minutes au four à 220 °C sur une plaque huilée.",
+   "tags": [
+    "grillé",
+    "plancha",
+    "été",
+    "léger",
+    "économique",
+    "sans-four"
+   ]
+  },
+  {
+   "id": "papillotes-merlu-tomates-cerises-courgettes-basilic-quinoa-printemps-ete",
+   "nom": "Papillotes de merlu aux tomates cerises, courgettes et basilic, quinoa",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des dos de merlu cuits en papillote sur des courgettes, des tomates cerises et du basilic, qui rendent un jus parfumé à verser sur un quinoa tout simple.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "merlu",
+     "nom": "Dos de merlu",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "150 g chacun, merlu de ligne de Saint-Jean-de-Luz"
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates cerises",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "quinoa",
+     "nom": "Quinoa",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": "quinoa français (Anjou ou Lauragais)"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Rincez le quinoa, faites-le cuire 15 minutes dans 1,5 fois son volume d'eau salée, puis laissez-le gonfler à couvert hors du feu.",
+    "Taillez les courgettes en fines demi-rondelles, coupez les tomates cerises en deux, émincez l'échalote et l'ail.",
+    "Découpez 4 grands carrés de papier cuisson. Répartissez au centre les courgettes, les tomates, l'échalote et l'ail, posez un dos de merlu dessus, salez et poivrez.",
+    "Ajoutez sur chaque papillote deux rondelles de citron, quelques feuilles de basilic et un filet d'huile d'olive ; refermez hermétiquement en pliant les bords.",
+    "Enfournez 15 minutes sur une plaque : le poisson doit être nacré et les légumes à peine tendres.",
+    "Ouvrez les papillotes à table, parsemez du reste de basilic et servez avec le quinoa arrosé du jus de cuisson."
+   ],
+   "astuceOptions": "Le merlu de ligne de Saint-Jean-de-Luz est la version Sud-Ouest de ce plat ; du lieu ou du cabillaud conviennent aussi. Le quinoa peut être remplacé par du riz de Camargue complet cuit à l'avance.",
+   "tags": [
+    "four",
+    "papillote",
+    "été",
+    "léger",
+    "rapide",
+    "semaine"
+   ]
+  },
+  {
+   "id": "pissaladiere-nicoise-oignons-anchois-collioure-printemps-ete",
+   "nom": "Pissaladière niçoise aux oignons confits et anchois de Collioure",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Nice",
+   "description": "La tarte à pain de Nice couverte d'oignons longuement compotés au thym, d'anchois de Collioure et d'olives noires, à manger tiède ou froide avec une salade.",
+   "tempsTotalMin": 110,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé T65",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "levure-boulanger",
+     "nom": "Levure de boulanger sèche",
+     "quantite": 1,
+     "unite": "sachet",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "2 pour la pâte, 3 pour les oignons"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 1.2,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "ou oignons doux des Cévennes en fin d'été"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuilles de laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "anchois-collioure",
+     "nom": "Filets d'anchois de Collioure",
+     "quantite": 12,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "à l'huile"
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires de Nice",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préparez la pâte : mélangez la farine, la levure, une pincée de sel, 2 c. à soupe d'huile d'olive et 15 cl d'eau tiède ; pétrissez 8 minutes, couvrez et laissez lever 1 heure dans un endroit tiède.",
+    "Émincez finement les oignons. Faites-les compoter dans 3 c. à soupe d'huile avec le thym et le laurier, à feu doux et à couvert, 40 à 45 minutes en remuant souvent : ils doivent fondre sans colorer. Retirez le laurier, poivrez et salez à peine, les anchois s'en chargent.",
+    "Préchauffez le four à 220 °C. Étalez la pâte en un rectangle de 5 mm d'épaisseur sur une plaque huilée et laissez-la détendre 15 minutes.",
+    "Étalez les oignons sur la pâte en laissant un bord d'1 cm, disposez les filets d'anchois en croisillons et une olive au centre de chaque losange.",
+    "Enfournez 20 à 25 minutes, jusqu'à ce que les bords soient dorés et croustillants.",
+    "Assaisonnez la salade avec l'huile de colza, le vinaigre, du sel et du poivre ; servez la pissaladière tiède ou froide, en parts, avec la salade."
+   ],
+   "astuceOptions": "Les anchois de Collioure IGP (Pyrénées-Orientales) gardent le plat en Occitanie ; en août-septembre, l'Oignon doux des Cévennes AOP donne une compotée encore plus fondante. La part froide fait un excellent pique-nique.",
+   "tags": [
+    "tarte",
+    "four",
+    "provence",
+    "pique-nique",
+    "économique",
+    "été"
+   ]
+  }
+ ],
+ "nouveauxIngredients": [
+  {
+   "id": "thon-conserve",
+   "nom": "Thon germon au naturel (conserve)",
+   "rayon": "Épicerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe de Gascogne (Saint-Jean-de-Luz, Capbreton), germon pêché à la ligne",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Préférez le thon blanc germon pêché à la canne dans le golfe de Gascogne et mis en boîte par une conserverie basque ou bretonne, plutôt que le thon tropical d'import ; vérifiez l'origine sur la boîte.",
+   "versionComplete": null,
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Bretagne"
+   ]
+  },
+  {
+   "id": "anchois-collioure",
+   "nom": "Anchois de Collioure (filets à l'huile)",
+   "rayon": "Épicerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Collioure (Pyrénées-Orientales)",
+   "siqo": [
+    {
+     "label": "IGP",
+     "denomination": "Anchois de Collioure"
+    }
+   ],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Prenez les filets à l'huile d'olive des salaisons de Collioure (IGP) plutôt que les anchois de la Cantabrique ; s'ils sont au sel, rincez-les et séchez-les avant usage.",
+   "versionComplete": null,
+   "regions": [
+    "Occitanie"
+   ]
+  },
+  {
+   "id": "levure-chimique",
+   "nom": "Levure chimique (poudre à lever)",
+   "rayon": "Épicerie",
+   "categorie": "epicerie",
+   "origineFrance": true,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Un sachet de 11 g suffit pour 150 à 200 g de farine ; vérifiez la date, une levure éventée ne fait pas lever le cake.",
+   "versionComplete": null,
+   "regions": []
+  }
+ ],
+ "mappings": []
+}

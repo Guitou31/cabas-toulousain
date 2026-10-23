@@ -1,5 +1,5 @@
-/* Le Cabas Toulousain — cache hors ligne. Version : 264d71ac54 */
-var VERSION = 'cabas-264d71ac54';
+/* Le Cabas Toulousain — cache hors ligne. Version : b46ce55624 */
+var VERSION = 'cabas-b46ce55624';
 var SHELL = ['./', './index.html', './data.json', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-512-maskable.png', './icons/icon-180.png', './icons/icon-32.png'];
 

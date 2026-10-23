@@ -2,6 +2,7 @@
 v1 : data/ingredients.json, data/verif-1..3.json, data/recettes-*.json, data/mappings.json, data/drive.json
 v2 : data/regions.json (catégorie + régions), data/produits-saison.json (fruits & légumes ajoutés),
      data/verif-regions-1..3.json, data/gras-existants.json, data/recettes2-*.json, data/mappings2.json
+v3 : data/recettes3-*.json (recettes + nouveauxIngredients + mappings par lot), data/images/<id>.json
 Nettoie, applique, valide, et signale tout problème restant."""
 import json, os, sys, unicodedata
 
@@ -199,10 +200,14 @@ print('corrections v2 (régions/saisons) appliquées :', ncorr2)
 
 # ---------- 3. mappings v1 + v2, nouveaux ingrédients v2 ----------
 mp2 = load('mappings2.json', required=False) or {}
-for g in (mp2.get('nouveauxIngredients') or []):
-    c = clean_ing(g)
-    if c and c['id'] not in ings:
-        ings[c['id']] = c
+# v3 : chaque lot data/recettes3-<theme>.json porte ses propres nouveauxIngredients et mappings
+LOTS3 = ('printemps-ete', 'monde', 'poisson-mer', 'viandes-volailles', 'vege-legumes', 'rapides-famille')
+mp3 = [m for m in (load('recettes3-%s.json' % k, required=False) for k in LOTS3) if m]
+for src in [mp2] + mp3:
+    for g in (src.get('nouveauxIngredients') or []):
+        c = clean_ing(g)
+        if c and c['id'] not in ings:
+            ings[c['id']] = c
 
 # valeurs par défaut
 for g in ings.values():
@@ -222,13 +227,13 @@ mappings = {
     norm('Bouillon de légumes (cube)'): 'bouillon-legumes',
     norm('Amandes effilées'): 'amandes',
 }
-for src in (mp1, mp2):
+for src in [mp1, mp2] + mp3:
     for m in (src.get('mappings') or []):
         if isinstance(m, dict) and m.get('nomDansRecette') and m.get('idIngredient'):
             mappings[norm(m['nomDansRecette'])] = m['idIngredient']
 mappings = {k: v for k, v in mappings.items() if v in ings}
 print('mappings :', len(mappings), '| nouveaux ingrédients synthèse :',
-      len(mp1.get('nouveauxIngredients') or []) + len(mp2.get('nouveauxIngredients') or []))
+      sum(len(m.get('nouveauxIngredients') or []) for m in [mp1, mp2] + mp3))
 
 # ---------- 4. recettes v1 + v2 ----------
 gras_exist = (load('gras-existants.json', required=False) or {}).get('gras') or {}
@@ -286,7 +291,8 @@ def clean_recette(r, default_gras):
 
 
 LOTS = [('recettes-%s.json', ('sudouest', 'quotidien', 'complets')),
-        ('recettes2-%s.json', ('gourmand', 'classiques', 'sud', 'rapides', 'saisons'))]
+        ('recettes2-%s.json', ('gourmand', 'classiques', 'sud', 'rapides', 'saisons')),
+        ('recettes3-%s.json', LOTS3)]
 for pattern, keys in LOTS:
     for lot in keys:
         data = load(pattern % lot, required=(pattern.startswith('recettes-')))
@@ -310,7 +316,9 @@ if unresolved:
 # ---------- 4b. décisions éditoriales (issues de la synthèse des agents) ----------
 # produits de garde : récoltés sur quelques mois mais disponibles toute l'année -> jamais filtrés par la saison
 GARDE = {'ail-rose-lautrec', 'ail-violet-cadours', 'noix', 'noisette', 'pignons', 'amandes'}
-SAISON_OVERRIDE = {'potimarron': [1, 2, 9, 10, 11, 12], 'poire': [1, 2, 3, 8, 9, 10, 11, 12]}
+SAISON_OVERRIDE = {'potimarron': [1, 2, 9, 10, 11, 12], 'poire': [1, 2, 3, 8, 9, 10, 11, 12],
+                   'navet': [1, 2, 3, 4, 5, 6, 10, 11, 12],        # navets nouveaux au printemps
+                   'raisin-chasselas': [9, 10, 11]}                # chasselas de Moissac vendu jusqu'en novembre
 PROVENANCE_OVERRIDE = {'thym': 'Provence (aire IGP)'}
 for g in ings.values():
     g['garde'] = g['id'] in GARDE

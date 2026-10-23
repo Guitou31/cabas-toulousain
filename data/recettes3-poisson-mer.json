@@ -1,0 +1,2408 @@
+{
+ "recettes": [
+  {
+   "id": "bar-croute-de-sel-pommes-vapeur-poisson-mer",
+   "nom": "Bar en croûte de sel, pommes de terre vapeur et huile citronnée aux herbes",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": "Golfe du Lion",
+   "description": "Un bar entier enfermé dans une coque de gros sel qui garde sa chair nacrée et moelleuse, avec des pommes de terre vapeur et une huile citronnée aux herbes.",
+   "tempsTotalMin": 55,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "bar",
+     "nom": "Bar entier (1,2 à 1,5 kg)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "vidé par les ouïes, non écaillé"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Gros sel de Camargue",
+     "quantite": 2,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "pour la croûte"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs (blancs)",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "seuls les blancs servent ; gardez les jaunes pour une autre recette"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "ou quelques branches fraîches"
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "feuilles"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à chair ferme",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Rincez le bar, épongez-le et garnissez son ventre de rondelles d'un citron, du thym, du laurier et de quelques tiges de persil. Ne l'écaillez pas : la peau protège la chair du sel.",
+    "Mélangez le gros sel avec les blancs d'œufs (et 2 c. à soupe d'eau si besoin) jusqu'à obtenir une texture de sable mouillé. Étalez un tiers du mélange sur une plaque, posez le bar dessus et recouvrez-le entièrement du reste en tassant bien, sur 1 cm d'épaisseur.",
+    "Enfournez 30 à 35 minutes pour un bar de 1,2 à 1,5 kg (ajoutez 5 minutes au-delà). Sortez-le et laissez reposer 5 minutes dans sa croûte.",
+    "Pendant la cuisson, faites cuire les pommes de terre à la vapeur 20 à 25 minutes. Hachez le reste de persil et mélangez-le avec l'huile d'olive, le jus et le zeste du second citron et du poivre.",
+    "Cassez la croûte en tapant avec le dos d'une cuillère, retirez-la avec la peau, puis prélevez les filets à la cuillère en écartant l'arête centrale.",
+    "Servez le bar avec les pommes de terre, la moitié de l'huile citronnée, et la salade assaisonnée du reste de cette huile."
+   ],
+   "astuceOptions": "Choisissez un bar de ligne étiqueté « pêché en France » (Golfe du Lion, Arcachon, Pays basque) plutôt qu'un bar d'élevage importé ; la recette fonctionne aussi avec une grosse dorade royale de Sète.",
+   "tags": [
+    "four",
+    "convivial",
+    "dimanche",
+    "léger",
+    "méditerranée"
+   ]
+  },
+  {
+   "id": "dorade-royale-four-provencale-tomates-courgettes-olives-poisson-mer",
+   "nom": "Dorade royale au four à la provençale, tomates, courgettes et olives",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": "Provence",
+   "description": "Deux dorades rôties sur un lit de courgettes, tomates et olives noires, arrosées de vin blanc : la Provence au four, servie avec un riz de Camargue complet.",
+   "tempsTotalMin": 50,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "dorade",
+     "nom": "Dorade royale entière",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "500 à 600 g chacune, écaillées et vidées"
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz de Camargue complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Coupez les courgettes en rondelles épaisses, l'oignon en lamelles et les tomates en quartiers, écrasez l'ail. Étalez le tout dans un grand plat, arrosez de 2 c. à soupe d'huile, salez, poivrez, parsemez de thym et enfournez 15 minutes.",
+    "Rincez le riz complet et faites-le cuire 35 à 40 minutes dans un grand volume d'eau salée, puis égouttez-le.",
+    "Incisez la peau des dorades deux fois de chaque côté, glissez des rondelles de citron dans les ventres, salez, poivrez et badigeonnez-les du reste d'huile.",
+    "Posez les dorades sur les légumes précuits, répartissez les olives, versez le vin blanc et enfournez 20 à 25 minutes : la chair du dos doit se détacher de l'arête.",
+    "Servez les dorades sur leurs légumes avec le riz, arrosées du jus du plat."
+   ],
+   "astuceOptions": "Préférez une dorade royale de pêche (Golfe du Lion, bassin d'Arcachon) ou, en élevage, la Daurade d'aquaculture marine Label Rouge ; des olives de Nyons AOP ou de Nîmes AOP donnent le vrai accent provençal.",
+   "tags": [
+    "four",
+    "été",
+    "provence",
+    "léger",
+    "convivial"
+   ]
+  },
+  {
+   "id": "bourride-setoise-lotte-aioli-poisson-mer",
+   "nom": "Bourride sétoise de lotte à l'aïoli",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Sète",
+   "description": "La grande soupe-repas de Sète : lotte pochée avec poireaux, carottes et pommes de terre, bouillon lié à l'aïoli et croûtons de pain grillé.",
+   "tempsTotalMin": 60,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "lotte",
+     "nom": "Queue de lotte (en tronçons)",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "dépouillée, coupée en 8 tronçons par le poissonnier"
+    },
+    {
+     "idIngredient": "poireau",
+     "nom": "Blancs de poireau",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "celeri-branche",
+     "nom": "Céleri branche",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "une branche"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 5,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": "4 pour l'aïoli, 1 pour le bouillon"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs (jaunes)",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour l'aïoli"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "12 cl pour l'aïoli"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "safran",
+     "nom": "Safran",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "feuille"
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne",
+     "quantite": 8,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": "de la veille"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Montez l'aïoli : pilez 4 gousses d'ail avec une pincée de sel, ajoutez les jaunes d'œufs, puis versez 12 cl d'huile d'olive en filet en fouettant sans arrêt jusqu'à une pommade ferme ; terminez par quelques gouttes de citron et réservez au frais.",
+    "Émincez les poireaux, l'oignon et la branche de céleri, coupez les carottes en rondelles et les pommes de terre en gros cubes. Faites-les suer 5 minutes dans une cocotte avec le reste d'huile, le thym, le laurier et la gousse d'ail restante écrasée.",
+    "Mouillez avec le vin blanc et 1 litre d'eau chaude, salez, poivrez, ajoutez le safran et laissez mijoter 20 minutes à couvert.",
+    "Posez les tronçons de lotte sur les légumes et poursuivez 12 à 15 minutes à frémissement : la chair doit être opaque et ferme.",
+    "Retirez poisson et légumes dans un plat creux au chaud. Hors du feu, délayez la moitié de l'aïoli avec deux louches de bouillon, reversez dans la cocotte et faites épaissir 2 à 3 minutes à feu très doux, sans bouillir, en remuant.",
+    "Faites griller les tranches de pain. Versez la sauce liée sur le poisson et les légumes, servez avec les croûtons et le reste d'aïoli à part."
+   ],
+   "astuceOptions": "La lotte vient idéalement de la criée de Sète ou du Golfe de Gascogne (Saint-Jean-de-Luz) ; prenez un ail rose de Lautrec Label Rouge et, pour alléger, remplacez un tiers de l'huile de l'aïoli par du yaourt ajouté à la fin.",
+   "tags": [
+    "mijoté",
+    "hiver",
+    "sud",
+    "convivial",
+    "dimanche",
+    "occitanie"
+   ]
+  },
+  {
+   "id": "lieu-jaune-court-bouillon-legumes-vapeur-aneth-poisson-mer",
+   "nom": "Lieu jaune au court-bouillon, légumes vapeur et sauce yaourt-aneth",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des filets de lieu jaune pochés au court-bouillon, légumes vapeur et sauce fraîche au yaourt, à l'aneth et au citron : le plat léger par excellence.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "lieu-jaune",
+     "nom": "Filets de lieu jaune",
+     "quantite": 700,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou dos, en 4 portions"
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chou-fleur",
+     "nom": "Chou-fleur",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "petit, ou la moitié d'un gros"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour le court-bouillon"
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "feuilles"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "aneth",
+     "nom": "Aneth frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "frais, ou surgelé en hiver"
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir (grains et moulu)",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préparez le court-bouillon : dans une sauteuse, portez à ébullition 1,5 litre d'eau avec le vin blanc, l'oignon émincé, le laurier, le thym, quelques grains de poivre, la moitié du citron en rondelles et 1 c. à café de sel ; laissez frémir 10 minutes.",
+    "Pelez les carottes et les pommes de terre, coupez-les en morceaux réguliers, détaillez le chou-fleur en bouquets. Faites cuire pommes de terre et carottes 15 minutes à la vapeur, en ajoutant le chou-fleur pour les 8 dernières minutes.",
+    "Mélangez les yaourts avec la moutarde, l'huile d'olive, l'aneth ciselé, le jus de l'autre moitié du citron, une pincée de sel et du poivre moulu.",
+    "Baissez le court-bouillon à frémissement, plongez-y les filets de lieu jaune et pochez-les 6 à 8 minutes selon l'épaisseur : la chair doit se feuilleter à la fourchette.",
+    "Égouttez délicatement le poisson, dressez-le avec les légumes vapeur, nappez d'un peu de sauce yaourt-aneth et servez le reste à part."
+   ],
+   "astuceOptions": "Choisissez un lieu jaune de ligne étiqueté « pêché en France » (Bretagne ou Golfe de Gascogne), au meilleur en hiver ; un merlu de Saint-Jean-de-Luz ou un dos de cabillaud se pochent exactement de la même façon.",
+   "tags": [
+    "léger",
+    "vapeur",
+    "semaine",
+    "sans-four",
+    "familial",
+    "hiver"
+   ]
+  },
+  {
+   "id": "cabillaud-roti-pois-chiches-epinards-citron-poisson-mer",
+   "nom": "Dos de cabillaud rôti aux pois chiches, épinards et citron",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des dos de cabillaud rôtis sur des pois chiches à la tomate, au cumin et au paprika, avec des épinards juste tombés et du citron : tout cuit dans un seul plat.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "cabillaud",
+     "nom": "Dos de cabillaud",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en 4 portions"
+    },
+    {
+     "idIngredient": "pois-chiches",
+     "nom": "Pois chiches cuits",
+     "quantite": 2,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "265 g égouttés chacune, ou 180 g de pois chiches secs trempés et cuits la veille"
+    },
+    {
+     "idIngredient": "epinard",
+     "nom": "Épinards frais",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Tomates concassées (conserve)",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 210 °C. Égouttez et rincez les pois chiches, émincez les échalotes et l'ail.",
+    "Dans un plat allant au four, mélangez les pois chiches, les échalotes, l'ail, le cumin, le paprika, les tomates concassées, 2 c. à soupe d'huile, du sel et du poivre. Enfournez 12 minutes.",
+    "Salez et poivrez les dos de cabillaud, posez-les sur les pois chiches, arrosez du reste d'huile et du jus d'un demi-citron. Enfournez 12 à 15 minutes selon l'épaisseur : la chair devient opaque et se détache en feuillets.",
+    "Pendant ce temps, faites tomber les épinards 3 minutes dans une grande poêle chaude sans matière grasse, salez légèrement et pressez-les pour retirer l'eau.",
+    "Servez le cabillaud sur son lit de pois chiches avec les épinards, le persil ciselé et le reste du citron en quartiers."
+   ],
+   "astuceOptions": "Le cabillaud est importé (Norvège, Islande) : pour rester en pêche française, prenez un dos de merlu de ligne de Saint-Jean-de-Luz ou de lieu jaune, qui se rôtissent de la même façon ; des pois chiches du Lauragais ou de Provence évitent l'import.",
+   "tags": [
+    "four",
+    "légumineuses",
+    "léger",
+    "semaine",
+    "hiver",
+    "plat complet"
+   ]
+  },
+  {
+   "id": "merlu-pane-maison-four-puree-carottes-poisson-mer",
+   "nom": "Filets de merlu panés maison au four, purée de carottes et sauce tartare au yaourt",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Le poisson pané fait maison : merlu dans une chapelure au citron et au persil, doré au four sans friture, avec une purée de carottes et une tartare au yaourt.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "merlu",
+     "nom": "Filets de merlu (colin) sans peau",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chapelure",
+     "nom": "Chapelure",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": "de pain complet si possible"
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait demi-écrémé",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cornichons",
+     "nom": "Cornichons",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Pelez les carottes et les pommes de terre, coupez-les en morceaux et faites-les cuire 20 minutes dans de l'eau salée. Égouttez et écrasez-les avec le lait chaud, la muscade, du sel et du poivre.",
+    "Préchauffez le four à 220 °C. Mélangez la chapelure avec le zeste du citron, la moitié du persil haché, 2 c. à soupe d'huile, du sel et du poivre. Préparez trois assiettes : farine, œuf battu, chapelure.",
+    "Coupez les filets de merlu en 8 portions, épongez-les, passez-les dans la farine, puis dans l'œuf, puis dans la chapelure en pressant bien.",
+    "Posez-les sur une plaque huilée avec la dernière cuillère d'huile et enfournez 12 à 15 minutes, en les retournant à mi-cuisson, jusqu'à ce que la panure soit dorée.",
+    "Mélangez le yaourt, les cornichons hachés, la moutarde, le reste de persil et quelques gouttes de jus de citron pour une sauce tartare légère.",
+    "Servez le poisson pané avec la purée, la sauce et le reste du citron en quartiers."
+   ],
+   "astuceOptions": "Un merlu de ligne du Pays basque (Saint-Jean-de-Luz) ou du Golfe de Gascogne, vendu sans peau, remplace avantageusement les bâtonnets industriels ; prenez une chapelure de pain complet pour la version céréales complètes.",
+   "tags": [
+    "enfants",
+    "four",
+    "familial",
+    "économique",
+    "semaine"
+   ]
+  },
+  {
+   "id": "marmitako-thon-germon-pommes-de-terre-poivrons-poisson-mer",
+   "nom": "Marmitako de thon germon aux pommes de terre et poivrons",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": "Pays basque",
+   "description": "Le ragoût des pêcheurs basques : thon germon poché au dernier moment dans un mijoté de pommes de terre, poivrons, tomates et piment d'Espelette.",
+   "tempsTotalMin": 50,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "thon",
+     "nom": "Longe de thon germon (thon blanc)",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": "sans peau ni arête"
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivrons (1 vert, 1 rouge)",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "bien mûres"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika doux",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-legumes",
+     "nom": "Bouillon de légumes (cube)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour 75 cl d'eau"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "feuille"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Émincez les oignons, coupez les poivrons en lanières, hachez l'ail, pelez et concassez les tomates. Pelez les pommes de terre et « cassez-les » en morceaux irréguliers en fendant au couteau : elles libèrent ainsi leur amidon et lient la sauce.",
+    "Dans une cocotte, faites fondre 8 minutes les oignons, les poivrons et l'ail dans l'huile sans coloration. Ajoutez les tomates, le piment d'Espelette, le paprika et le laurier, laissez compoter 5 minutes.",
+    "Ajoutez les pommes de terre, versez le vin blanc puis 75 cl de bouillon chaud, à hauteur ; salez, poivrez. Laissez mijoter 25 minutes à couvert, jusqu'à ce que les pommes de terre soient tendres et la sauce légèrement liée.",
+    "Coupez le thon en cubes de 3 cm et salez-les. Éteignez le feu, plongez les cubes dans le ragoût brûlant, couvrez et laissez pocher 5 minutes hors du feu : le thon reste rosé et fondant.",
+    "Parsemez de persil ciselé et servez aussitôt dans des assiettes creuses."
+   ],
+   "astuceOptions": "Le thon germon de ligne débarqué à Saint-Jean-de-Luz en été est le choix durable ; piment d'Espelette AOP obligatoire, et le thon peut être remplacé par de gros tronçons de maquereau de l'Atlantique.",
+   "tags": [
+    "mijoté",
+    "sud-ouest",
+    "été",
+    "plat complet",
+    "pays basque"
+   ]
+  },
+  {
+   "id": "salade-riz-complet-thon-oeufs-legumes-ete-poisson-mer",
+   "nom": "Salade de riz de Camargue complet au thon, œufs durs et légumes d'été",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "La salade de riz de l'été en version complète : riz de Camargue, thon au naturel, œufs durs, tomates, concombre, maïs et olives, relevés de basilic.",
+   "tempsTotalMin": 45,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz de Camargue complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thon-conserve",
+     "nom": "Thon au naturel (boîtes)",
+     "quantite": 2,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "environ 140 g égoutté chacune"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivron rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "mais-doux-conserve",
+     "nom": "Maïs doux (petite boîte)",
+     "quantite": 1,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "140 g égoutté"
+    },
+    {
+     "idIngredient": "oignon-nouveau",
+     "nom": "Oignon nouveau / cébette",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "ou une échalote"
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires",
+     "quantite": 50,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez le riz complet et faites-le cuire 35 à 40 minutes dans un grand volume d'eau salée, en le gardant légèrement ferme. Égouttez-le, étalez-le sur un plat et laissez-le tiédir.",
+    "Faites cuire les œufs 9 minutes dans l'eau bouillante, rafraîchissez-les, écalez-les et coupez-les en quartiers.",
+    "Coupez les tomates en dés, le concombre en demi-rondelles, le poivron en petits dés ; égouttez le maïs et le thon, émiettez-le grossièrement ; émincez l'oignon nouveau.",
+    "Préparez la vinaigrette : moutarde, vinaigre, sel et poivre, puis l'huile en fouettant.",
+    "Mélangez le riz tiède avec la vinaigrette, les légumes, le maïs, les olives et le thon. Ajoutez les quartiers d'œufs et le basilic ciselé au moment de servir, frais mais pas glacé."
+   ],
+   "astuceOptions": "Un riz de Camargue IGP complet et un thon germon de ligne en boîte des conserveries basques ou bretonnes font toute la différence ; la base se prépare la veille pour un pique-nique ou un repas de batch-cooking.",
+   "tags": [
+    "salade",
+    "été",
+    "plat complet",
+    "batch-cooking",
+    "sans-four",
+    "économique"
+   ]
+  },
+  {
+   "id": "rougets-poeles-petit-epeautre-aubergines-tapenade-poisson-mer",
+   "nom": "Filets de rouget poêlés, petit épeautre aux aubergines rôties et tapenade",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Provence",
+   "description": "Des filets de rouget saisis côté peau, posés sur un petit épeautre aux aubergines rôties et aux tomates, avec une tapenade maison au basilic.",
+   "tempsTotalMin": 55,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "rouget",
+     "nom": "Filets de rouget barbet",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 600 g, désarêtés par le poissonnier"
+    },
+    {
+     "idIngredient": "petit-epeautre",
+     "nom": "Petit épeautre",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "aubergine",
+     "nom": "Aubergines",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-legumes",
+     "nom": "Bouillon de légumes (cube)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour 90 cl d'eau"
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires dénoyautées",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": "pour la tapenade"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 6,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez le petit épeautre. Faites-le revenir 2 minutes avec l'oignon émincé dans 1 c. à soupe d'huile, couvrez de 90 cl de bouillon chaud et laissez cuire 35 à 40 minutes à petit feu jusqu'à absorption, le grain tendre mais encore ferme.",
+    "Préchauffez le four à 220 °C. Coupez les aubergines en dés de 2 cm, mélangez-les avec 2 c. à soupe d'huile, le thym, une gousse d'ail hachée, du sel et du poivre ; rôtissez-les 25 minutes sur une plaque, en remuant à mi-cuisson.",
+    "Préparez la tapenade : mixez (ou pilez) les olives avec l'autre gousse d'ail, le jus d'un demi-citron, 2 c. à soupe d'huile et la moitié du basilic jusqu'à une pâte grossière.",
+    "Coupez les tomates en dés et mélangez-les à l'épeautre cuit avec les aubergines rôties et le reste du basilic ciselé ; rectifiez sel et poivre.",
+    "Épongez les filets de rouget, salez, poivrez. Chauffez la dernière cuillère d'huile dans une poêle, saisissez-les 2 minutes côté peau en appuyant avec une spatule pour qu'ils ne se rétractent pas, puis 30 secondes côté chair.",
+    "Dressez l'épeautre aux aubergines, posez deux filets par assiette, ajoutez une quenelle de tapenade et un quartier du reste de citron."
+   ],
+   "astuceOptions": "Le rouget barbet du Golfe du Lion (criées de Sète et du Grau-du-Roi) est plus fin que le rouget importé d'Afrique de l'Ouest ; le petit épeautre de Haute-Provence IGP et les olives de Nyons AOP signent la version 100 % Provence.",
+   "tags": [
+    "provence",
+    "été",
+    "four",
+    "plat complet",
+    "méditerranée"
+   ]
+  },
+  {
+   "id": "encornets-plancha-persillade-haricots-blancs-poisson-mer",
+   "nom": "Encornets à la plancha, persillade et salade tiède de haricots blancs",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": "Golfe du Lion",
+   "description": "Des encornets juste saisis à la plancha, enrobés d'une persillade au citron et servis sur des haricots blancs tièdes : le bord de mer prêt en une demi-heure.",
+   "tempsTotalMin": 30,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "encornets",
+     "nom": "Encornets nettoyés (blancs et tentacules)",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou seiches de Méditerranée"
+    },
+    {
+     "idIngredient": "haricots-lingots",
+     "nom": "Haricots blancs (lingots) cuits",
+     "quantite": 2,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "400 g égouttés chacune, ou 250 g de haricots secs trempés la veille et cuits 1 h"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Égouttez et rincez les haricots. Faites-les chauffer doucement 5 minutes dans une casserole avec 2 c. à soupe d'huile, l'échalote ciselée, une gousse d'ail écrasée, le jus d'un citron, du sel et du poivre ; gardez au chaud.",
+    "Hachez le persil avec les deux gousses d'ail restantes pour la persillade ; mélangez-en la moitié avec 2 c. à soupe d'huile.",
+    "Épongez soigneusement les encornets, fendez les blancs en deux et quadrillez-les légèrement au couteau ; salez, poivrez.",
+    "Chauffez la plancha (ou une grande poêle en fonte) très fort avec la dernière cuillère d'huile. Saisissez les encornets 1 à 2 minutes par face, pas plus : ils doivent juste blanchir et dorer, sinon ils deviennent caoutchouteux.",
+    "Hors du feu, enrobez-les de la persillade à l'huile et saupoudrez de piment d'Espelette. Servez-les sur les haricots blancs tièdes mélangés au reste de persillade, avec le second citron en quartiers."
+   ],
+   "astuceOptions": "Demandez des encornets ou des seiches de Méditerranée (Sète, Le Grau-du-Roi) plutôt que des calamars surgelés d'import ; le haricot tarbais Label Rouge, cuit la veille, remplace les lingots en conserve pour une version Sud-Ouest.",
+   "tags": [
+    "plancha",
+    "rapide",
+    "léger",
+    "légumineuses",
+    "sans-four",
+    "méditerranée"
+   ]
+  },
+  {
+   "id": "brochettes-crevettes-espelette-taboule-semoule-complete-poisson-mer",
+   "nom": "Brochettes de crevettes au piment d'Espelette, taboulé de semoule complète à la menthe",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des crevettes marinées au citron et au piment d'Espelette, grillées en brochettes avec poivrons et oignon, sur un taboulé de semoule complète à la menthe.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "crevettes",
+     "nom": "Gambas crues décortiquées (queues)",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "surgelées : à décongeler la veille au réfrigérateur"
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivrons (rouge et jaune)",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune ou rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "semoule",
+     "nom": "Semoule complète de blé dur",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez les crevettes avec 2 c. à soupe d'huile, le jus d'un citron, l'ail haché, le piment d'Espelette, du sel et du poivre ; laissez mariner 20 minutes au frais.",
+    "Versez la semoule complète dans un saladier avec 1 c. à soupe d'huile et une pincée de sel, couvrez de 30 cl d'eau bouillante, laissez gonfler 10 minutes puis égrenez à la fourchette.",
+    "Coupez les tomates et le concombre en petits dés, ciselez la menthe et le persil ; mélangez-les à la semoule tiède avec le jus du second citron et 2 c. à soupe d'huile, poivrez.",
+    "Coupez les poivrons et l'oignon en morceaux de 3 cm. Enfilez crevettes, poivrons et oignon en alternance sur 8 brochettes (en bois, trempées 10 minutes dans l'eau).",
+    "Faites griller les brochettes 2 à 3 minutes par face sur un gril, une plancha ou sous le gril du four, jusqu'à ce que les crevettes soient roses et nacrées.",
+    "Servez les brochettes sur le taboulé, arrosées de leur jus de cuisson."
+   ],
+   "astuceOptions": "Les crevettes sont importées : choisissez des gambas sauvages ou d'élevage certifié (ASC, AB), ou remplacez-les par des cubes de lotte ou de thon germon de ligne français ; semoule complète et piment d'Espelette AOP restent la base.",
+   "tags": [
+    "grillé",
+    "été",
+    "plancha",
+    "léger",
+    "convivial",
+    "plat complet"
+   ]
+  },
+  {
+   "id": "soupe-poissons-roche-rouille-croutons-poisson-mer",
+   "nom": "Soupe de poissons de roche, rouille et croûtons",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Provence",
+   "description": "La soupe de poissons de roche passée au moulin, parfumée au safran et à l'orange, avec sa rouille montée à la pomme de terre, des croûtons et de l'emmental.",
+   "tempsTotalMin": 75,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "poisson-soupe",
+     "nom": "Poissons de roche pour soupe",
+     "quantite": 1.2,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "mélange rascasse, girelle, grondin, petits rougets ; ou 1 kg de têtes et parures de poisson blanc"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "fenouil",
+     "nom": "Fenouil",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 6,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": "2 pour la soupe, 4 pour la rouille"
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Tomates concassées (conserve)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "orange",
+     "nom": "Orange (zeste)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "non traitée"
+    },
+    {
+     "idIngredient": "safran",
+     "nom": "Safran",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": "1 pour la soupe, 1 pour la rouille"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "feuilles"
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 13,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "dont 10 cl pour la rouille"
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pomme de terre (petite)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour la rouille"
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf (jaune)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "pour la rouille"
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne ou baguette rassise",
+     "quantite": 8,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "emmental",
+     "nom": "Emmental râpé",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez les poissons de roche (inutile de vider les tout petits ; retirez les ouïes des plus gros). Émincez les oignons et le fenouil, écrasez 2 gousses d'ail.",
+    "Dans une grande marmite, faites revenir oignons, fenouil et ail 5 minutes dans 2 c. à soupe d'huile. Ajoutez les poissons et faites-les revenir 5 minutes en les écrasant à la cuillère, puis versez le vin blanc, les tomates, le thym, le laurier, le zeste d'orange, une pincée de safran, du sel et du poivre.",
+    "Couvrez de 2 litres d'eau chaude et laissez bouillir 30 minutes à découvert. Pendant ce temps, faites cuire la pomme de terre pelée 15 minutes dans un peu de bouillon prélevé.",
+    "Passez la soupe au moulin à légumes (grille fine) en pressant bien les chairs, puis au chinois ; remettez-la sur le feu 10 minutes et rectifiez l'assaisonnement.",
+    "Préparez la rouille : pilez les 4 gousses d'ail restantes avec une pincée de sel, le piment d'Espelette et l'autre pincée de safran, écrasez-y la pomme de terre cuite, ajoutez le jaune d'œuf puis montez avec 10 cl d'huile versée en filet, en fouettant.",
+    "Faites griller les tranches de pain au four. Servez la soupe brûlante : chacun tartine ses croûtons de rouille, les parsème d'emmental et les laisse flotter dans le bol."
+   ],
+   "astuceOptions": "Demandez à votre poissonnier un « mélange soupe » de poissons de roche de Méditerranée (criées de Sète, du Grau-du-Roi ou de Marseille) ; un safran du Quercy et un emmental de Savoie IGP complètent la version française.",
+   "tags": [
+    "soupe",
+    "provence",
+    "convivial",
+    "hiver",
+    "méditerranée",
+    "dimanche"
+   ]
+  },
+  {
+   "id": "merlu-vapeur-sauce-vierge-haricots-verts-pommes-nouvelles-poisson-mer",
+   "nom": "Filets de merlu à la vapeur, sauce vierge aux tomates et basilic, haricots verts et pommes de terre nouvelles",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Du merlu cuit doucement à la vapeur, nappé d'une sauce vierge crue aux tomates, basilic et citron, avec haricots verts croquants et pommes de terre nouvelles.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "merlu",
+     "nom": "Filets de merlu (colin) avec peau",
+     "quantite": 700,
+     "unite": "g",
+     "optionnel": false,
+     "note": "en 4 portions"
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates bien mûres",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "non traité, pour le zeste"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 5,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "haricot-vert",
+     "nom": "Haricots verts",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre nouvelles (grenaille)",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Lavez les pommes de terre nouvelles sans les peler, coupez les plus grosses en deux et faites-les cuire 20 minutes à la vapeur (ou dans l'eau bouillante salée). Équeutez les haricots verts.",
+    "Préparez la sauce vierge : plongez les tomates 30 secondes dans l'eau bouillante, pelez-les, épépinez-les et coupez la chair en petits dés. Mélangez-les avec l'échalote finement ciselée, l'ail haché très fin, le zeste et le jus du citron, 4 c. à soupe d'huile d'olive, du sel et du poivre ; laissez reposer 15 minutes à température ambiante.",
+    "Faites cuire les haricots verts 6 à 8 minutes à la vapeur (ou dans l'eau bouillante salée) : ils doivent rester croquants. Égouttez-les et arrosez-les de la dernière cuillère d'huile.",
+    "Salez et poivrez les filets de merlu, posez-les peau dessous dans le panier vapeur et faites-les cuire 6 à 8 minutes selon l'épaisseur, jusqu'à ce que la chair soit nacrée et se détache en feuillets.",
+    "Ajoutez le basilic ciselé à la sauce vierge au dernier moment. Dressez le merlu, nappez-le de sauce vierge et servez avec les haricots verts et les pommes de terre nouvelles."
+   ],
+   "astuceOptions": "Merlu de ligne de Saint-Jean-de-Luz ou du Golfe de Gascogne, pêché en France ; la sauce vierge accompagne aussi des filets de lieu jaune ou de dorade, et une huile d'olive AOP de Provence ou de Nyons la rend inoubliable.",
+   "tags": [
+    "vapeur",
+    "léger",
+    "été",
+    "semaine",
+    "sans-four",
+    "rapide"
+   ]
+  },
+  {
+   "id": "rillettes-maquereau-citron-tartines-radis-poisson-mer",
+   "nom": "Rillettes de maquereau au citron, tartines de pain complet et salade de radis",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des filets de maquereau pochés puis émiettés avec yaourt, moutarde, citron et aneth, à tartiner sur du pain complet grillé avec une salade de radis.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "maquereau",
+     "nom": "Filets de maquereau frais",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": "4 maquereaux levés en filets par le poissonnier"
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "ou 200 g de fromage blanc"
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "non traité, pour le zeste"
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalote",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "aneth",
+     "nom": "Aneth frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "ou ciboulette"
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "pour pocher"
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "feuille"
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain complet au levain",
+     "quantite": 8,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "radis",
+     "nom": "Radis",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Pochez les filets de maquereau 5 minutes dans de l'eau frémissante avec le vin blanc, le laurier et une pincée de sel. Égouttez-les, laissez-les tiédir, puis retirez la peau et les arêtes.",
+    "Émiettez la chair à la fourchette et mélangez-la avec les yaourts, la moutarde, le jus et le zeste du citron, l'échalote ciselée, l'aneth haché, le piment d'Espelette, du sel et du poivre. Réservez 20 minutes au frais (les rillettes se gardent 2 jours).",
+    "Lavez la salade et les radis, coupez les radis en fines rondelles et préparez la vinaigrette avec l'huile de colza, le vinaigre, du sel et du poivre.",
+    "Faites griller les tranches de pain complet.",
+    "Servez les rillettes à tartiner sur le pain grillé, avec la salade et les radis assaisonnés."
+   ],
+   "astuceOptions": "Maquereau de ligne de l'Atlantique (Saint-Jean-de-Luz, Bretagne) au printemps et en été, riche en oméga-3 et bon marché ; en hiver, la même recette se fait avec de la truite des Pyrénées pochée ou fumée.",
+   "tags": [
+    "léger",
+    "économique",
+    "sans-four",
+    "été",
+    "tartines",
+    "printemps"
+   ]
+  },
+  {
+   "id": "sardines-farcies-blettes-nicoise-pommes-de-terre-four-poisson-mer",
+   "nom": "Sardines farcies aux blettes à la niçoise, pommes de terre au four",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Nice",
+   "description": "Des sardines ouvertes en portefeuille, garnies d'une farce au vert de blette, Comté et chapelure, rôties au four avec des pommes de terre : un classique niçois.",
+   "tempsTotalMin": 50,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "sardine",
+     "nom": "Sardines fraîches (grosses)",
+     "quantite": 16,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 800 g ; demandez-les ouvertes en portefeuille, sans tête ni arête"
+    },
+    {
+     "idIngredient": "blette",
+     "nom": "Blettes",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "environ 600 g, on n'utilise que le vert"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chapelure",
+     "nom": "Chapelure",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "comte",
+     "nom": "Comté râpé",
+     "quantite": 50,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou parmesan, comme à Nice"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "non traité"
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Coupez les pommes de terre en quartiers, mélangez-les avec 2 c. à soupe d'huile, le thym, du sel et du poivre, étalez-les sur une plaque et enfournez 35 minutes.",
+    "Séparez le vert des blettes des côtes (gardez les côtes pour un gratin le lendemain), lavez-le et faites-le tomber 3 minutes dans une poêle avec 1 c. à soupe d'huile, l'oignon et l'ail hachés. Pressez-le bien et hachez-le.",
+    "Mélangez le vert de blette avec l'œuf, les deux tiers de la chapelure, le Comté, le persil haché, la muscade, le zeste du citron, du sel et du poivre.",
+    "Ouvrez les sardines en portefeuille sur le plan de travail, peau dessous. Déposez une cuillère de farce sur la moitié des sardines et recouvrez chacune d'une seconde sardine, peau dessus.",
+    "Rangez-les dans un plat huilé, saupoudrez du reste de chapelure, arrosez de la dernière cuillère d'huile et enfournez 12 à 15 minutes, à côté des pommes de terre.",
+    "Servez bien chaud avec les pommes de terre rôties et le jus du citron."
+   ],
+   "astuceOptions": "Sardines de Méditerranée (Sète, Marseille) ou de l'Atlantique (Saint-Gilles-Croix-de-Vie) en pleine saison ; les côtes des blettes mises de côté feront un gratin le lendemain, et la farce se fait aussi avec des épinards hors saison.",
+   "tags": [
+    "four",
+    "été",
+    "provence",
+    "économique",
+    "méditerranée",
+    "familial"
+   ]
+  }
+ ],
+ "nouveauxIngredients": [
+  {
+   "id": "bar",
+   "nom": "Bar (loup)",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe du Lion (loup de Sète), bassin d'Arcachon, Pays basque",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Bar de ligne sauvage étiqueté « pêché en France » (Atlantique Nord-Est ou Méditerranée), œil bombé et brillant, ouïes rouges ; le bar d'élevage vient surtout de Grèce, de Turquie ou d'Espagne.",
+   "versionComplete": null,
+   "regions": [
+    "Bretagne",
+    "Normandie",
+    "Nouvelle-Aquitaine",
+    "Pays de la Loire",
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur",
+    "Corse"
+   ]
+  },
+  {
+   "id": "dorade",
+   "nom": "Dorade royale",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe du Lion (Sète, Le Grau-du-Roi), bassin d'Arcachon",
+   "siqo": [
+    {
+     "label": "Label Rouge",
+     "denomination": "Daurade d'aquaculture marine"
+    }
+   ],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Dorade royale de pêche française (Méditerranée, Arcachon), comptez 500 à 600 g par poisson entier pour deux ; en élevage, préférez la Daurade d'aquaculture marine Label Rouge ou une dorade de Corse à l'import grec ou turc.",
+   "versionComplete": null,
+   "regions": [
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur",
+    "Corse",
+    "Nouvelle-Aquitaine",
+    "Bretagne"
+   ]
+  },
+  {
+   "id": "lotte",
+   "nom": "Lotte (baudroie)",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe de Gascogne (Saint-Jean-de-Luz, Arcachon), criée de Sète",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Queue de lotte dépouillée, chair blanche et ferme sans odeur ; l'étiquette « Atlantique Nord-Est, pêché en France » (Bretagne, Golfe de Gascogne) ou « Méditerranée » garantit une pêche française.",
+   "versionComplete": null,
+   "regions": [
+    "Bretagne",
+    "Nouvelle-Aquitaine",
+    "Normandie",
+    "Pays de la Loire",
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur"
+   ]
+  },
+  {
+   "id": "lieu-jaune",
+   "nom": "Lieu jaune",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe de Gascogne (ligneurs d'Arcachon et de Saint-Jean-de-Luz)",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Lieu jaune de ligne étiqueté « pêché en France » (Bretagne ou Golfe de Gascogne), surtout en hiver ; le stock est surveillé, remplacez-le par du merlu de ligne quand il manque.",
+   "versionComplete": null,
+   "regions": [
+    "Bretagne",
+    "Normandie",
+    "Nouvelle-Aquitaine",
+    "Pays de la Loire"
+   ]
+  },
+  {
+   "id": "thon",
+   "nom": "Thon frais (germon, thon rouge)",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Saint-Jean-de-Luz (germon de ligne), Sète (thon rouge de Méditerranée)",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Thon germon (thon blanc) de ligne ou à la canne du Golfe de Gascogne, de juin à octobre, ou thon rouge de Méditerranée sous quota ; évitez le thon tropical d'import et les tranches à la chair brune.",
+   "versionComplete": null,
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Bretagne",
+    "Pays de la Loire",
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur"
+   ]
+  },
+  {
+   "id": "thon-conserve",
+   "nom": "Thon au naturel en conserve",
+   "rayon": "Épicerie",
+   "categorie": "epicerie",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Conserveries basques de Saint-Jean-de-Luz",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Thon germon ou listao « pêché à la ligne ou à la canne », au naturel, mis en boîte par une conserverie française (Saint-Jean-de-Luz, Douarnenez, Concarneau) plutôt que par les grandes marques d'import espagnol.",
+   "versionComplete": null,
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Bretagne"
+   ]
+  },
+  {
+   "id": "rouget",
+   "nom": "Rouget barbet",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Golfe du Lion (criées de Sète et du Grau-du-Roi)",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Rouget barbet de roche de Méditerranée ou de l'Atlantique, étiqueté « pêché en France », rouge vif et ferme ; le rouget bon marché vient souvent du Sénégal ou de Mauritanie.",
+   "versionComplete": null,
+   "regions": [
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur",
+    "Corse",
+    "Bretagne",
+    "Nouvelle-Aquitaine",
+    "Normandie"
+   ]
+  },
+  {
+   "id": "aneth",
+   "nom": "Aneth frais",
+   "rayon": "Fruits & Légumes",
+   "categorie": "condiment",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Maraîchers de Provence et du Sud-Ouest (herbes en botte)",
+   "siqo": [],
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "risqueEspagne": false,
+   "conseil": "En botte fraîche de mai à octobre sur les marchés ; le reste de l'année, un pot d'aneth ou de l'aneth surgelé, bien plus parfumé que séché.",
+   "versionComplete": null,
+   "regions": [
+    "Provence-Alpes-Côte d'Azur",
+    "Occitanie",
+    "Pays de la Loire",
+    "Île-de-France"
+   ]
+  },
+  {
+   "id": "poisson-soupe",
+   "nom": "Poissons de roche pour soupe",
+   "rayon": "Poissonnerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Criées de Sète, du Grau-du-Roi et de Marseille",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Demandez un « mélange soupe » (rascasse, girelle, grondin, petits rougets, vive) de Méditerranée, ou des têtes et parures de poisson blanc chez le poissonnier ; à défaut, un bocal de soupe de poisson artisanale.",
+   "versionComplete": null,
+   "regions": [
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur",
+    "Corse",
+    "Bretagne"
+   ]
+  }
+ ],
+ "mappings": []
+}

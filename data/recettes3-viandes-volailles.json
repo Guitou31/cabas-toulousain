@@ -1,0 +1,2165 @@
+{
+ "recettes": [
+  {
+   "id": "epaule-agneau-confite-haricots-tarbais-viandes-volailles",
+   "nom": "Épaule d'agneau confite au four aux haricots tarbais et à l'ail rose",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Bigorre",
+   "description": "Une épaule d'agneau entière cuite 3 heures à four doux jusqu'à s'effilocher, posée sur des haricots tarbais mijotés à l'ail rose, à la tomate et au thym.",
+   "tempsTotalMin": 230,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "agneau",
+     "nom": "Épaule d'agneau entière, avec os",
+     "quantite": 1.5,
+     "unite": "kg",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "haricot-tarbais",
+     "nom": "Haricots tarbais secs",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à tremper 12 h la veille"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 8,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 50,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1 cube"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuilles de laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil haché",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "La veille, mettez les haricots tarbais à tremper dans un grand volume d'eau froide. Le jour même, égouttez-les, couvrez-les d'eau froide, portez à ébullition 5 minutes et égouttez à nouveau.",
+    "Remettez les haricots dans la casserole avec 1 oignon entier, 1 carotte en rondelles, 1 feuille de laurier et 1 c. à café de thym ; couvrez largement d'eau et laissez frémir 1 h 15 à 1 h 30 sans saler, jusqu'à ce qu'ils soient tendres. Égouttez en gardant 25 cl du jus.",
+    "Préchauffez le four à 150 °C. Frottez l'épaule avec 2 c. à soupe d'huile, le reste du thym, du sel et du poivre. Dans une grande cocotte allant au four, faites-la dorer 4 minutes de chaque côté à feu vif.",
+    "Ajoutez autour de l'épaule le second oignon émincé, la seconde carotte en dés et 6 gousses d'ail en chemise ; versez le vin blanc puis le bouillon, ajoutez la seconde feuille de laurier. Couvrez et enfournez 3 heures en arrosant toutes les heures.",
+    "Sortez l'épaule et dégraissez soigneusement le jus de cuisson à la cuillère. Mélangez-y les haricots égouttés, le coulis de tomate, les 2 gousses d'ail restantes hachées, le jus de cuisson des haricots réservé et la dernière cuillère d'huile d'olive ; salez, poivrez.",
+    "Reposez l'épaule sur les haricots et remettez au four 20 minutes à découvert à 180 °C pour dorer le dessus. Parsemez de persil et servez l'épaule effilochée à la cuillère avec les haricots."
+   ],
+   "astuceOptions": "Haricot tarbais Label Rouge et IGP, ail rose de Lautrec Label Rouge et Agneau de Lozère IGP : le plat coche tous les labels du Sud-Ouest. Dégraissez bien le jus, l'épaule rend beaucoup de gras.",
+   "tags": [
+    "four",
+    "dimanche",
+    "sud-ouest",
+    "légumineuses",
+    "convivial",
+    "mijoté"
+   ]
+  },
+  {
+   "id": "souris-agneau-braisees-miel-thym-polenta-cremeuse-viandes-volailles",
+   "nom": "Souris d'agneau braisées au miel et au thym, légumes racines et polenta crémeuse",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Des souris d'agneau dorées puis braisées 2 heures au four dans un jus au vin blanc, miel et thym, avec carottes et panais fondants, sur une polenta crémeuse.",
+   "tempsTotalMin": 150,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "agneau",
+     "nom": "Souris d'agneau",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 350 g chacune"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "panais",
+     "nom": "Panais",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 400 g"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 4,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 40,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1 cube"
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "ou 4 branches fraîches"
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "polenta",
+     "nom": "Polenta (semoule de maïs)",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "précuite, cuisson rapide"
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait demi-écrémé",
+     "quantite": 25,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 15,
+     "unite": "g",
+     "optionnel": true,
+     "note": "pour la polenta"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 160 °C. Salez et poivrez les souris. Dans une cocotte allant au four, faites-les dorer sur toutes les faces dans l'huile d'olive, 10 minutes à feu vif, puis réservez-les.",
+    "Dans la cocotte, faites revenir 5 minutes les oignons émincés, les carottes et les panais coupés en tronçons et les gousses d'ail en chemise. Versez le vin blanc et laissez-le réduire de moitié en grattant les sucs.",
+    "Remettez les souris, ajoutez le miel, le bouillon, le thym et le laurier. Couvrez et enfournez 2 heures, en retournant la viande à mi-cuisson ; découvrez les 15 dernières minutes pour la colorer : la chair doit se détacher de l'os.",
+    "Posez les souris et les légumes sur un plat chaud. Dégraissez soigneusement le jus à la cuillère, retirez le laurier et faites-le réduire 5 minutes à feu vif ; rectifiez l'assaisonnement.",
+    "Pendant ce temps, portez à ébullition 60 cl d'eau avec le lait et 1 c. à café de sel. Versez la polenta en pluie en fouettant et laissez cuire à feu doux en remuant, 5 à 10 minutes selon le paquet, puis incorporez le beurre et du poivre.",
+    "Servez une souris par personne sur la polenta, entourée des légumes, nappée de jus et parsemée de persil."
+   ],
+   "astuceOptions": "Agneau du Quercy IGP ou Agneau de Lozère IGP ; la souris est un morceau gras, dégraissez bien le jus et faites la part belle aux légumes. Pour une version aux céréales complètes, remplacez la polenta par du petit épeautre.",
+   "tags": [
+    "four",
+    "mijoté",
+    "hiver",
+    "dimanche",
+    "convivial",
+    "bistrot"
+   ]
+  },
+  {
+   "id": "brochettes-agneau-citron-menthe-tzatziki-viandes-volailles",
+   "nom": "Brochettes d'agneau au citron et à la menthe, tzatziki et pains pita",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Grèce",
+   "description": "Des cubes de gigot marinés au citron et à l'ail puis grillés, servis dans des pains pita avec un tzatziki à la menthe, des tomates et du concombre.",
+   "tempsTotalMin": 35,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "agneau",
+     "nom": "Gigot d'agneau désossé, en cubes",
+     "quantite": 700,
+     "unite": "g",
+     "optionnel": false,
+     "note": "cubes de 3 cm ; à mariner 30 min à 2 h (non compté dans le temps)"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourts nature",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "ou 300 g de yaourt grec"
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pains pita",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "ou pain libanais"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez dans un saladier le jus d'un citron, 3 c. à soupe d'huile d'olive, 2 gousses d'ail hachées, le thym, le paprika, la moitié de la menthe ciselée et du poivre. Enrobez-en les cubes d'agneau et laissez mariner au frais 2 heures (30 minutes si vous êtes pressé).",
+    "Pour le tzatziki, râpez la moitié du concombre, salez-le et pressez-le dans un torchon pour en extraire l'eau. Mélangez-le aux yaourts avec la dernière gousse d'ail pressée, le reste de menthe ciselée, 1 c. à soupe d'huile d'olive, du sel et du poivre ; réservez au frais.",
+    "Enfilez les cubes d'agneau sur 8 brochettes (si elles sont en bois, trempez-les 20 minutes dans l'eau). Coupez les tomates en quartiers et le reste du concombre en bâtonnets.",
+    "Faites chauffer le gril, la plancha ou une poêle-gril à feu vif. Salez les brochettes et faites-les griller 8 à 10 minutes en les tournant régulièrement, pour une viande rosée à cœur.",
+    "Passez les pains pita 1 minute de chaque côté sur le gril. Servez les brochettes avec le tzatziki, les crudités, les pitas et des quartiers du second citron."
+   ],
+   "astuceOptions": "Agneau de Lozère IGP ou Agneau du Quercy IGP ; des yaourts au lait entier d'une laiterie d'Occitanie remplacent très bien le yaourt grec, et les pitas peuvent devenir des tranches de pain complet grillées.",
+   "tags": [
+    "grillé",
+    "plancha",
+    "été",
+    "monde",
+    "sans-four",
+    "convivial"
+   ]
+  },
+  {
+   "id": "lapin-roti-provencale-pommes-de-terre-olives-viandes-volailles",
+   "nom": "Lapin rôti à la provençale, pommes de terre, tomates et olives",
+   "type": "viande",
+   "gras": 1,
+   "terroir": "Provence",
+   "description": "Un lapin rôti au four sur un lit de pommes de terre, tomates, oignons et olives, parfumé aux herbes et à l'ail : le plat d'été qui sent la garrigue.",
+   "tempsTotalMin": 75,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "lapin",
+     "nom": "Lapin découpé en morceaux",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 1,3 kg"
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires",
+     "quantite": 80,
+     "unite": "g",
+     "optionnel": false,
+     "note": "dénoyautées"
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 4,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "herbes-provence",
+     "nom": "Herbes de Provence",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "non traité"
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "une dizaine de feuilles suffisent"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Coupez les pommes de terre en quartiers, les oignons en lamelles et les tomates en quartiers ; écrasez les gousses d'ail en chemise.",
+    "Dans un grand plat, mélangez pommes de terre, oignons et ail avec 2 c. à soupe d'huile d'olive, la moitié des herbes de Provence, du sel et du poivre. Enfournez 20 minutes.",
+    "Pendant ce temps, frottez les morceaux de lapin avec le reste d'huile, le reste des herbes, le zeste du citron, du sel et du poivre.",
+    "Posez le lapin sur les pommes de terre, ajoutez les tomates et les olives, arrosez du vin blanc et du jus du citron. Enfournez 35 minutes en retournant les morceaux à mi-cuisson : le lapin doit être doré et les pommes de terre fondantes.",
+    "Laissez reposer 5 minutes, parsemez de basilic ciselé et servez directement dans le plat."
+   ],
+   "astuceOptions": "Olives noires de Nyons AOP ou de Nice AOP, tomates et basilic du marché en plein été ; un lapin fermier du Sud-Ouest remplace sans problème le lapin provençal, et le plat reste léger car le lapin est une viande maigre.",
+   "tags": [
+    "four",
+    "été",
+    "provence",
+    "plat complet",
+    "familial"
+   ]
+  },
+  {
+   "id": "saute-veau-marengo-champignons-riz-camargue-complet-viandes-volailles",
+   "nom": "Sauté de veau Marengo aux champignons, riz de Camargue complet",
+   "type": "viande",
+   "gras": 1,
+   "terroir": null,
+   "description": "Des cubes de veau dorés puis mijotés au vin blanc dans une sauce tomate à l'ail, champignons sautés ajoutés en fin de cuisson, sur un riz de Camargue complet.",
+   "tempsTotalMin": 110,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "veau",
+     "nom": "Épaule ou tendron de veau en cubes",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "cubes de 4 cm"
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Tomates concassées en boîte",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": "1 boîte"
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 30,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1/2 cube"
+    },
+    {
+     "idIngredient": "champignon-paris",
+     "nom": "Champignons de Paris",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil haché",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz de Camargue complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Épongez les cubes de veau, salez, poivrez. Faites-les dorer dans 1 c. à soupe d'huile, dans une cocotte, en deux fournées de 4 minutes, puis réservez-les.",
+    "Faites fondre les oignons émincés 5 minutes dans la cocotte. Remettez la viande, saupoudrez de farine, mélangez 1 minute, puis versez le vin blanc et laissez bouillir 2 minutes en grattant le fond.",
+    "Ajoutez les tomates concassées, le bouillon, l'ail haché, le thym et le laurier. Couvrez et laissez mijoter 1 h 15 à feu doux, jusqu'à ce que le veau soit fondant.",
+    "Pendant ce temps, faites cuire le riz de Camargue complet 35 à 40 minutes à couvert dans 1,5 fois son volume d'eau salée, jusqu'à absorption.",
+    "Nettoyez les champignons, coupez-les en quartiers et faites-les sauter 5 minutes à feu vif dans le reste d'huile, dans une poêle, jusqu'à ce qu'ils soient dorés. Ajoutez-les dans la cocotte 15 minutes avant la fin de la cuisson.",
+    "Retirez le laurier, découvrez quelques minutes pour épaissir la sauce si besoin, rectifiez l'assaisonnement, parsemez de persil et servez sur le riz."
+   ],
+   "astuceOptions": "Veau d'Aveyron et du Ségala IGP ou Veau du Limousin IGP, riz de Camargue IGP complet ; le veau est une viande maigre et la sauce n'a ni crème ni beurre, ce qui garde ce mijoté léger.",
+   "tags": [
+    "mijoté",
+    "familial",
+    "semaine",
+    "économique",
+    "batch-cooking"
+   ]
+  },
+  {
+   "id": "escalopes-veau-citron-persil-courgettes-viandes-volailles",
+   "nom": "Escalopes de veau au citron et au persil, courgettes poêlées et pâtes complètes",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Des escalopes fines saisies puis déglacées au vin blanc et au citron avec beaucoup de persil, servies avec des courgettes croquantes et des pâtes complètes.",
+   "tempsTotalMin": 30,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "veau",
+     "nom": "Escalopes de veau fines",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 130 g chacune"
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 30,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "non traité"
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1/2 cube"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat haché",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pates",
+     "nom": "Pâtes complètes (tagliatelles ou linguine)",
+     "quantite": 320,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Lancez la cuisson des pâtes complètes dans un grand volume d'eau salée selon le temps du paquet. Lavez les courgettes et coupez-les en demi-rondelles.",
+    "Faites sauter les courgettes 8 minutes à feu vif dans 1 c. à soupe d'huile avec l'ail haché ; salez, poivrez et réservez au chaud.",
+    "Aplatissez légèrement les escalopes, salez, poivrez et farinez-les en tapotant pour retirer l'excédent. Faites-les dorer 2 minutes par face dans le reste d'huile et 10 g de beurre, dans une grande poêle, puis réservez-les sur une assiette.",
+    "Déglacez la poêle avec le vin blanc, le jus du citron et le bouillon ; laissez réduire 2 minutes puis incorporez le reste de beurre en fouettant et la moitié du persil.",
+    "Remettez les escalopes dans la sauce 1 minute pour les réchauffer. Servez avec les pâtes égouttées, les courgettes, le reste de persil et quelques zestes de citron."
+   ],
+   "astuceOptions": "Veau d'Aveyron et du Ségala IGP ou Veau du Limousin IGP ; pour alléger, supprimez le beurre de la sauce et liez-la simplement en la laissant réduire un peu plus.",
+   "tags": [
+    "rapide",
+    "semaine",
+    "italie",
+    "été",
+    "une-poêle"
+   ]
+  },
+  {
+   "id": "roti-porc-pommes-oignons-doux-cevennes-viandes-volailles",
+   "nom": "Rôti de porc aux pommes et aux oignons doux des Cévennes",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Cévennes",
+   "description": "Un rôti de porc dans l'échine doré puis cuit au four avec des quartiers de pomme, des oignons doux des Cévennes fondants et du thym, le jus lié à la moutarde.",
+   "tempsTotalMin": 95,
+   "portions": 4,
+   "saisonMois": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "porc",
+     "nom": "Rôti de porc dans l'échine (ou filet)",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ficelé"
+    },
+    {
+     "idIngredient": "pomme",
+     "nom": "Pommes (reinette ou chanteclerc)",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-doux-cevennes",
+     "nom": "Oignons doux des Cévennes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1/2 cube"
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 180 °C. Badigeonnez le rôti de 1 c. à soupe de moutarde, du thym, de sel et de poivre. Faites-le dorer 8 minutes sur toutes les faces dans l'huile, dans une cocotte allant au four.",
+    "Coupez les oignons doux en quartiers épais et les pommes de terre en gros cubes ; disposez-les autour du rôti avec le laurier, versez le bouillon, couvrez et enfournez 40 minutes.",
+    "Coupez les pommes en quartiers sans les peler et retirez le cœur. Ajoutez-les dans la cocotte, arrosez de miel, mélangez-les aux oignons et poursuivez 25 minutes à découvert.",
+    "Sortez le rôti et enveloppez-le d'aluminium 10 minutes. Mélangez le reste de moutarde au jus de cuisson et rectifiez l'assaisonnement.",
+    "Tranchez le rôti et servez-le avec les pommes, les oignons confits, les pommes de terre et le jus moutardé."
+   ],
+   "astuceOptions": "Oignon doux des Cévennes AOP, pommes du Limousin AOP ou chanteclerc des vergers du Tarn-et-Garonne, et porc fermier Label Rouge : le rôti dans l'échine reste moelleux, celui dans le filet est plus maigre.",
+   "tags": [
+    "four",
+    "automne",
+    "dimanche",
+    "familial",
+    "sucré-salé"
+   ]
+  },
+  {
+   "id": "cotes-porc-plancha-legumes-grilles-pois-chiches-viandes-volailles",
+   "nom": "Côtes de porc à la plancha, légumes d'été grillés et pois chiches au citron",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Des côtes de porc marinées à l'ail et aux herbes puis saisies à la plancha, avec des légumes d'été grillés et une salade tiède de pois chiches au citron.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "porc",
+     "nom": "Côtes de porc (échine ou filet)",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 180 g chacune"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "herbes-provence",
+     "nom": "Herbes de Provence",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "aubergine",
+     "nom": "Aubergine",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivrons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "rouge et jaune"
+    },
+    {
+     "idIngredient": "pois-chiches",
+     "nom": "Pois chiches cuits (bocal)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": "poids égoutté, 1 grand bocal"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil haché",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez 2 c. à soupe d'huile d'olive, 2 gousses d'ail hachées, les herbes de Provence et du poivre ; enrobez-en les côtes de porc et laissez mariner 30 minutes à température ambiante.",
+    "Coupez l'aubergine et les courgettes en tranches de 1 cm dans la longueur, les poivrons en larges lanières. Huilez-les légèrement au pinceau (1 c. à soupe) et salez.",
+    "Faites chauffer la plancha (ou une grande poêle-gril) à feu vif. Grillez les légumes 4 à 5 minutes par face jusqu'à ce qu'ils soient marqués et tendres ; réservez-les sur un plat.",
+    "Rincez et égouttez les pois chiches, mélangez-les tièdes avec le jus du citron, la dernière c. à soupe d'huile, la gousse d'ail restante pressée, le persil, le piment d'Espelette, du sel et du poivre.",
+    "Salez les côtes de porc et saisissez-les sur la plancha 4 à 5 minutes par face selon l'épaisseur. Laissez-les reposer 2 minutes et servez avec les légumes grillés et les pois chiches."
+   ],
+   "astuceOptions": "Porc fermier Label Rouge, ou Porc noir de Bigorre AOP pour les grandes occasions ; les côtes dans l'échine sont plus goûteuses, celles dans le filet plus maigres, et les pois chiches remplacent avantageusement les frites.",
+   "tags": [
+    "plancha",
+    "grillé",
+    "été",
+    "légumineuses",
+    "rapide",
+    "sans-four"
+   ]
+  },
+  {
+   "id": "porc-caramel-leger-gingembre-riz-basmati-viandes-volailles",
+   "nom": "Porc au caramel léger au gingembre, riz basmati complet et brocoli",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Vietnam",
+   "description": "Des dés de porc fondants laqués dans un caramel léger au miel, à la sauce soja et au gingembre, servis avec un riz basmati complet et du brocoli croquant.",
+   "tempsTotalMin": 60,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "porc",
+     "nom": "Échine de porc (ou filet mignon) en cubes",
+     "quantite": 700,
+     "unite": "g",
+     "optionnel": false,
+     "note": "cubes de 3 cm"
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sauce-soja",
+     "nom": "Sauce soja",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-basmati",
+     "nom": "Riz basmati complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "brocoli",
+     "nom": "Brocoli",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-nouveau",
+     "nom": "Cébette",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": "pour servir"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Lancez le riz basmati complet dans 1,5 fois son volume d'eau salée, couvrez et laissez cuire 25 à 30 minutes à feu doux jusqu'à absorption.",
+    "Dans une cocotte ou un wok, faites chauffer le miel à feu moyen jusqu'à ce qu'il bouillonne et prenne une teinte ambrée (2 à 3 minutes), sans le laisser noircir. Ajoutez aussitôt les cubes de porc et l'huile et mélangez pour les enrober.",
+    "Ajoutez l'oignon émincé, l'ail et le gingembre hachés, faites revenir 3 minutes, puis versez la sauce soja, le vinaigre et 15 cl d'eau. Poivrez.",
+    "Couvrez et laissez mijoter 30 minutes à feu doux, puis découvrez et laissez réduire 10 minutes en remuant, jusqu'à ce que la sauce nappe la viande.",
+    "Détaillez le brocoli en bouquets et faites-les cuire 5 minutes à la vapeur ou dans l'eau bouillante salée : ils doivent rester croquants.",
+    "Servez le porc laqué sur le riz avec le brocoli, parsemé de cébette ciselée."
+   ],
+   "astuceOptions": "Porc fermier Label Rouge du Sud-Ouest ; le caramel au miel évite le sucre et reste modéré, et le riz basmati complet peut être remplacé par du riz de Camargue IGP complet pour rester en Occitanie.",
+   "tags": [
+    "asie",
+    "monde",
+    "mijoté",
+    "familial",
+    "enfants",
+    "sucré-salé"
+   ]
+  },
+  {
+   "id": "bavette-echalote-pommes-de-terre-sautees-champignons-viandes-volailles",
+   "nom": "Bavette à l'échalote, pommes de terre sautées et champignons persillés",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Le plat de bistrot : bavette saisie rosée, échalotes fondues déglacées au vin rouge, pommes de terre sautées et champignons à l'ail et au persil.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bavette d'aloyau",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 160 g chacune, épaisses"
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 6,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 150 g"
+    },
+    {
+     "idIngredient": "vin-rouge",
+     "nom": "Vin rouge",
+     "quantite": 10,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à chair ferme",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "champignon-paris",
+     "nom": "Champignons de Paris",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil haché",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": true,
+     "note": "pour les pommes de terre"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Pelez les pommes de terre, coupez-les en cubes de 2 cm et plongez-les 7 minutes dans l'eau bouillante salée ; égouttez-les et séchez-les. Faites-les sauter 15 minutes à feu moyen-vif dans 2 c. à soupe d'huile avec le thym, en remuant de temps en temps, jusqu'à ce qu'elles soient dorées.",
+    "Nettoyez les champignons et coupez-les en quartiers. Dans une seconde poêle très chaude, faites-les sauter 6 à 8 minutes dans la dernière cuillère d'huile ; ajoutez l'ail haché et la moitié du persil la dernière minute, salez, poivrez et mélangez-les aux pommes de terre.",
+    "Épongez les bavettes, salez, poivrez. Dans la poêle des champignons essuyée, saisissez-les à feu vif 2 à 3 minutes par face pour une cuisson saignante à à point ; réservez-les sous une feuille d'aluminium.",
+    "Baissez le feu, mettez 10 g de beurre et les échalotes hachées dans la poêle et faites-les fondre 3 minutes. Déglacez au vinaigre puis au vin rouge, laissez réduire de moitié 3 minutes, ajoutez le jus rendu par la viande et le reste du beurre en fouettant ; poivrez.",
+    "Tranchez les bavettes en biais, perpendiculairement aux fibres, nappez-les de sauce à l'échalote, parsemez du reste de persil et servez avec les pommes de terre et les champignons."
+   ],
+   "astuceOptions": "Bœuf fermier Aubrac Label Rouge, Bœuf de Chalosse Label Rouge ou gasconne des Pyrénées chez le boucher ; pour alléger, supprimez le beurre de la sauce et laissez-la simplement réduire un peu plus.",
+   "tags": [
+    "rapide",
+    "semaine",
+    "bistrot",
+    "poêle",
+    "familial"
+   ]
+  },
+  {
+   "id": "tartare-boeuf-couteau-frites-four-viandes-volailles",
+   "nom": "Tartare de bœuf au couteau, frites au four et salade verte",
+   "type": "viande",
+   "gras": 2,
+   "terroir": null,
+   "description": "Un tartare taillé au couteau et assaisonné minute (échalote, cornichons, moutarde, jaune d'œuf, piment d'Espelette), avec des frites croustillantes au four.",
+   "tempsTotalMin": 45,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bœuf pour tartare (rumsteck ou poire)",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à faire hacher au couteau par le boucher le jour même et à consommer dans la journée"
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cornichons",
+     "nom": "Cornichons",
+     "quantite": 6,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil plat haché",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde forte",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs extra-frais",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "seuls les jaunes servent"
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à frites (agria, bintje)",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte (batavia)",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 220 °C. Coupez les pommes de terre en bâtonnets, rincez-les, séchez-les bien dans un torchon et mélangez-les avec 2 c. à soupe d'huile et du sel. Étalez-les sans les superposer sur une plaque et enfournez 30 à 35 minutes en les retournant à mi-cuisson.",
+    "Hachez finement les échalotes, les cornichons et le persil. Lavez et essorez la salade, préparez sa vinaigrette avec 1 c. à soupe d'huile, le vinaigre, du sel et du poivre.",
+    "Dans un saladier froid, mélangez la moutarde, la dernière c. à soupe d'huile, le jus d'un demi-citron, le piment d'Espelette, du sel et du poivre. Ajoutez le bœuf haché, les échalotes, les cornichons et le persil, mélangez à la fourchette sans écraser.",
+    "Façonnez 4 tartares à l'emporte-pièce sur des assiettes froides, creusez le dessus et déposez-y un jaune d'œuf par assiette. Assaisonnez la salade.",
+    "Servez immédiatement avec les frites brûlantes, la salade et des quartiers du demi-citron restant ; proposez moutarde et piment à table pour ajuster."
+   ],
+   "astuceOptions": "Bœuf fermier Aubrac Label Rouge ou Bœuf de Chalosse Label Rouge, haché minute : la fraîcheur fait tout ; les frites au four avec deux cuillères d'huile remplacent la friture.",
+   "tags": [
+    "bistrot",
+    "four",
+    "cru",
+    "convivial"
+   ]
+  },
+  {
+   "id": "rougail-saucisse-toulouse-riz-camargue-complet-viandes-volailles",
+   "nom": "Rougail de saucisse de Toulouse, riz de Camargue complet",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "La Réunion",
+   "description": "Le grand mijoté réunionnais : saucisse blanchie puis dorée dans une fondue de tomates, oignons, ail, gingembre et curcuma, servie sur du riz complet.",
+   "tempsTotalMin": 60,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "saucisse-toulouse",
+     "nom": "Saucisse de Toulouse",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou pour moitié des saucisses fumées, comme à La Réunion"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates bien mûres",
+     "quantite": 5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 600 g"
+    },
+    {
+     "idIngredient": "ail-violet-cadours",
+     "nom": "Ail violet de Cadours",
+     "quantite": 4,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "curcuma",
+     "nom": "Curcuma moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "ou 1 petit piment frais haché"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "ou 2 branches fraîches"
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz de Camargue complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Faites cuire le riz de Camargue complet 35 à 40 minutes à couvert dans 1,5 fois son volume d'eau salée, jusqu'à absorption.",
+    "Piquez les saucisses et plongez-les 10 minutes dans une casserole d'eau bouillante pour les dégraisser ; égouttez-les et coupez-les en tronçons de 3 cm.",
+    "Dans une sauteuse, faites dorer les tronçons de saucisse 5 minutes dans l'huile à feu vif. Ajoutez les oignons émincés et laissez-les fondre 5 minutes.",
+    "Ajoutez l'ail et le gingembre hachés fin, le curcuma, le piment et le thym ; mélangez 1 minute. Incorporez les tomates coupées en dés, salez légèrement, poivrez.",
+    "Couvrez et laissez mijoter 20 minutes à feu doux, puis découvrez et poursuivez 10 minutes en remuant, jusqu'à ce que la sauce soit épaisse et nappe la saucisse.",
+    "Rectifiez l'assaisonnement et servez le rougail bien chaud sur le riz."
+   ],
+   "astuceOptions": "Saucisse de Toulouse pur porc d'un charcutier (porc fermier Label Rouge) et riz de Camargue IGP complet ; le blanchiment retire une bonne partie du gras. Hors saison, remplacez les tomates par une boîte de tomates concassées.",
+   "tags": [
+    "mijoté",
+    "monde",
+    "outre-mer",
+    "familial",
+    "été",
+    "épicé"
+   ]
+  },
+  {
+   "id": "pintade-rotie-raisins-puree-celeri-rave-viandes-volailles",
+   "nom": "Pintade rôtie aux raisins, purée de céleri-rave",
+   "type": "volaille",
+   "gras": 2,
+   "terroir": "Quercy",
+   "description": "Une pintade fermière rôtie en cocotte et déglacée au vin blanc, des grains de chasselas de Moissac qui pochent dans le jus, et une purée légère de céleri-rave.",
+   "tempsTotalMin": 80,
+   "portions": 4,
+   "saisonMois": [
+    10
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "pintade",
+     "nom": "Pintade fermière entière",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 1,4 kg"
+    },
+    {
+     "idIngredient": "raisin-chasselas",
+     "nom": "Raisin blanc (chasselas de Moissac)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1/2 cube"
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "ou 2 branches"
+    },
+    {
+     "idIngredient": "celeri-rave",
+     "nom": "Céleri-rave",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 800 g"
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait demi-écrémé",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 190 °C. Salez et poivrez la pintade dedans et dehors, glissez le thym dans le ventre. Dans une cocotte allant au four, faites-la dorer sur toutes les faces dans l'huile et 10 g de beurre, 10 minutes.",
+    "Ajoutez les échalotes émincées autour, enfournez à couvert 25 minutes, puis retournez la pintade, arrosez-la et poursuivez 20 minutes à découvert pour dorer la peau.",
+    "Pendant ce temps, pelez le céleri-rave et les pommes de terre, coupez-les en cubes et faites-les cuire 25 minutes dans l'eau bouillante salée. Égouttez et écrasez avec le lait chaud, le reste de beurre, la muscade, du sel et du poivre.",
+    "Lavez et égrappez le raisin. Sortez la pintade et gardez-la au chaud sous une feuille d'aluminium. Dégraissez le jus de la cocotte, déglacez au vin blanc sur feu vif en grattant les sucs, laissez réduire de moitié puis ajoutez le bouillon.",
+    "Plongez les grains de raisin dans la sauce et laissez frémir 5 minutes. Découpez la pintade, nappez de sauce aux raisins et servez avec la purée de céleri-rave."
+   ],
+   "astuceOptions": "Chasselas de Moissac AOP en octobre, quand il croise les premiers céleris-raves sur les marchés, et pintade fermière Label Rouge (celles du Gers sont excellentes) ; la purée au lait, sans crème, garde le plat léger.",
+   "tags": [
+    "four",
+    "automne",
+    "dimanche",
+    "sud-ouest",
+    "sucré-salé"
+   ]
+  },
+  {
+   "id": "cuisses-canard-braisees-navets-carottes-viandes-volailles",
+   "nom": "Cuisses de canard braisées aux navets et aux carottes",
+   "type": "volaille",
+   "gras": 2,
+   "terroir": null,
+   "description": "Des cuisses de canard fermier dorées sans ajout de gras puis braisées au vin blanc avec navets, carottes et oignons, le jus dégraissé et à peine sucré au miel.",
+   "tempsTotalMin": 110,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "cuisse-canard",
+     "nom": "Cuisses de canard fraîches",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "250 à 300 g chacune"
+    },
+    {
+     "idIngredient": "navet",
+     "nom": "Navets",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 15,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "bouillon-volaille",
+     "nom": "Bouillon de volaille",
+     "quantite": 30,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "reconstitué avec 1 cube"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à chair ferme"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil haché",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Salez et poivrez les cuisses. Posez-les côté peau dans une cocotte froide, sans matière grasse, et faites-les dorer 10 minutes à feu moyen pour que la graisse fonde, puis 3 minutes côté chair. Réservez-les et videz la graisse en n'en gardant qu'une cuillère.",
+    "Faites revenir dans la cocotte les oignons émincés, les carottes en rondelles et l'ail écrasé 5 minutes. Déglacez au vin blanc et laissez réduire de moitié.",
+    "Remettez les cuisses, ajoutez le bouillon, le thym et le laurier. Couvrez et laissez braiser 1 heure à feu doux.",
+    "Pelez les navets et coupez-les en quartiers ; ajoutez-les dans la cocotte avec le miel et poursuivez la cuisson 30 minutes à couvert, jusqu'à ce que les navets soient fondants et que la viande se détache de l'os.",
+    "Pendant ce temps, faites cuire les pommes de terre à la vapeur 20 à 25 minutes. Dégraissez le jus de la cocotte à la cuillère, retirez le laurier, rectifiez l'assaisonnement, parsemez de persil et servez."
+   ],
+   "astuceOptions": "Canard fermier IGP du Sud-Ouest ; la cuisson départ cocotte froide fait fondre la graisse sous la peau, que l'on retire : gardez-la au frais pour des pommes de terre sarladaises un autre jour.",
+   "tags": [
+    "mijoté",
+    "hiver",
+    "sud-ouest",
+    "dimanche",
+    "familial"
+   ]
+  },
+  {
+   "id": "poulet-croute-de-sel-herbes-viandes-volailles",
+   "nom": "Poulet fermier en croûte de sel aux herbes, pommes de terre vapeur et haricots verts",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": null,
+   "description": "Un poulet fermier enfermé dans une croûte de gros sel, farine et blancs d'œufs, cuit sans matière grasse : la chair reste moelleuse et parfumée au thym.",
+   "tempsTotalMin": 100,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Poulet fermier entier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 1,5 kg"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Gros sel de Camargue",
+     "quantite": 2,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "pour la croûte"
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "seuls les blancs servent"
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuilles de laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 4,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "haricot-vert",
+     "nom": "Haricots verts",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Séchez soigneusement le poulet avec du papier absorbant, poivrez l'intérieur et glissez-y le citron coupé en deux, l'ail en chemise, le laurier et la moitié du thym. Ne salez pas la volaille.",
+    "Mélangez le gros sel, la farine, le reste de thym et les blancs d'œufs, en ajoutant juste assez d'eau (environ 15 cl) pour obtenir une pâte sableuse qui se tient.",
+    "Étalez un quart de la pâte de sel dans un plat allant au four, posez le poulet dessus, puis recouvrez-le entièrement avec le reste en tassant bien, sans laisser de trou.",
+    "Enfournez 1 h 10 (comptez 45 minutes par kilo). Sortez le plat et laissez reposer 10 minutes avant de casser la croûte au couteau et de retirer tous les éclats de sel.",
+    "Pendant la cuisson, faites cuire les pommes de terre à la vapeur 25 minutes et les haricots verts équeutés 8 minutes dans l'eau bouillante ; assaisonnez-les d'huile d'olive et de poivre.",
+    "Retirez la peau du poulet (elle n'est pas croustillante et concentre le sel), découpez-le et servez avec les légumes."
+   ],
+   "astuceOptions": "Poulet fermier Label Rouge du Gers ou des Landes ; sans matière grasse ajoutée, c'est l'une des cuissons les plus légères pour une volaille entière. En hiver, les haricots verts deviennent des poireaux ou des carottes vapeur.",
+   "tags": [
+    "four",
+    "dimanche",
+    "léger",
+    "convivial",
+    "été"
+   ]
+  }
+ ],
+ "nouveauxIngredients": [
+  {
+   "id": "gingembre-frais",
+   "nom": "Gingembre frais",
+   "rayon": "Fruits & Légumes",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Un rhizome ferme, lourd, à la peau lisse et tendue ; il se congèle très bien et se râpe directement sans décongeler.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "cuisse-canard",
+   "nom": "Cuisses de canard fraîches",
+   "rayon": "Boucherie & Volaille",
+   "categorie": "viande",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Gers, Landes, Chalosse",
+   "siqo": [
+    {
+     "label": "IGP",
+     "denomination": "Canard à foie gras du Sud-Ouest"
+    }
+   ],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Des cuisses charnues à la peau sèche et sans hématome, de canard fermier du Sud-Ouest (IGP) ou de canard de Barbarie fermier Label Rouge ; comptez une cuisse de 250 à 300 g par personne.",
+   "versionComplete": null,
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Occitanie",
+    "Pays de la Loire",
+    "Bretagne"
+   ]
+  },
+  {
+   "id": "curcuma",
+   "nom": "Curcuma moulu",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Épice douce et colorante à acheter en petit pot et à renouveler dans l'année ; elle tache, donc à manier loin des torchons clairs.",
+   "versionComplete": null,
+   "regions": []
+  }
+ ],
+ "mappings": []
+}

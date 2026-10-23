@@ -1,0 +1,2978 @@
+{
+ "recettes": [
+  {
+   "id": "lasagnes-legeres-legumes-ete-chevre-mozzarella-monde",
+   "nom": "Lasagnes légères aux légumes d'été, chèvre frais et mozzarella",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Des lasagnes sans béchamel : légumes d'été rôtis dans une sauce tomate à l'origan, une crème légère au chèvre frais et au basilic, de la mozzarella gratinée.",
+   "tempsTotalMin": 85,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Feuilles de lasagnes (complètes si possible)",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": "sans précuisson"
+    },
+    {
+     "idIngredient": "courgette",
+     "nom": "Courgettes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "aubergine",
+     "nom": "Aubergine",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivron rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 700,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "origan",
+     "nom": "Origan séché",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chevre-frais",
+     "nom": "Chèvre frais",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": "remplace la ricotta"
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "basilic",
+     "nom": "Basilic frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "mozzarella",
+     "nom": "Mozzarella",
+     "quantite": 125,
+     "unite": "g",
+     "optionnel": false,
+     "note": "1 boule, bien égouttée"
+    },
+    {
+     "idIngredient": "parmesan",
+     "nom": "Parmesan râpé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Coupez les courgettes, l'aubergine et le poivron en petits dés, étalez-les sur une plaque avec 2 c. à soupe d'huile d'olive et une pincée de sel, puis enfournez 20 minutes.",
+    "Pendant ce temps, faites fondre l'oignon émincé et l'ail haché dans le reste d'huile 5 minutes à feu moyen. Ajoutez le coulis de tomate et l'origan, laissez mijoter 10 minutes, salez et poivrez, puis mélangez-y les légumes rôtis.",
+    "Fouettez le chèvre frais avec le yaourt, l'œuf, le basilic ciselé, une pincée de sel et de poivre jusqu'à obtenir une crème lisse.",
+    "Dans un plat à gratin, étalez une louche de sauce aux légumes, couvrez de feuilles de lasagnes, puis de sauce et de crème au chèvre. Répétez trois fois et terminez par la sauce, la mozzarella en tranches et le parmesan.",
+    "Baissez le four à 180 °C, couvrez le plat d'une feuille d'aluminium et enfournez 30 minutes, puis retirez l'aluminium et poursuivez 10 minutes pour gratiner.",
+    "Laissez reposer 10 minutes hors du four avant de découper, les lasagnes se tiendront mieux."
+   ],
+   "astuceOptions": "Prenez des feuilles de lasagnes complètes et un chèvre frais de Lozère ou du Tarn pour rester dans le Sud ; pour alléger encore, remplacez la mozzarella par 60 g de parmesan seulement.",
+   "tags": [
+    "italie",
+    "four",
+    "familial",
+    "été",
+    "végétarien",
+    "monde"
+   ]
+  },
+  {
+   "id": "spaghetti-complets-puttanesca-monde",
+   "nom": "Spaghetti complets alla puttanesca (olives, câpres, tomate)",
+   "type": "vege",
+   "gras": 1,
+   "terroir": "Italie",
+   "description": "La sauce napolitaine du placard : tomate, olives noires, câpres, ail et une pointe de piment, prête le temps de cuire des spaghetti complets.",
+   "tempsTotalMin": 25,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pates",
+     "nom": "Spaghetti complets",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Tomates concassées en conserve",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "2 boîtes de 400 g"
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires dénoyautées",
+     "quantite": 120,
+     "unite": "g",
+     "optionnel": false,
+     "note": "type Nyons ou Gaeta"
+    },
+    {
+     "idIngredient": "capres",
+     "nom": "Câpres",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "au sel de préférence, rincées"
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "pour l'eau des pâtes"
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Portez une grande casserole d'eau à ébullition avec le sel. Pelez et écrasez l'ail, coupez les olives en deux, rincez les câpres et hachez le persil.",
+    "Dans une sauteuse, faites chauffer l'huile d'olive à feu doux avec l'ail et le piment d'Espelette 2 minutes sans laisser colorer.",
+    "Ajoutez les olives et les câpres, mélangez 1 minute, puis versez les tomates concassées. Laissez mijoter 12 à 15 minutes à feu moyen en écrasant les tomates à la cuillère, poivrez.",
+    "Pendant ce temps, faites cuire les spaghetti complets dans l'eau bouillante selon le temps indiqué (8 à 10 minutes), en gardant une louche d'eau de cuisson.",
+    "Égouttez les pâtes, versez-les dans la sauce avec un peu d'eau de cuisson et mélangez 1 minute sur le feu pour bien les enrober.",
+    "Servez aussitôt parsemé de persil haché."
+   ],
+   "astuceOptions": "Les olives noires de Nyons AOP et le piment d'Espelette AOP remplacent sans peine les produits italiens ; les spaghetti complets gardent mieux leur mâche dans cette sauce épaisse.",
+   "tags": [
+    "italie",
+    "rapide",
+    "semaine",
+    "économique",
+    "végétarien",
+    "monde"
+   ]
+  },
+  {
+   "id": "vitello-tonnato-veau-poche-sauce-thon-capres-monde",
+   "nom": "Vitello tonnato : rôti de veau poché, sauce au thon et aux câpres, pommes de terre vapeur",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Le classique piémontais servi froid : un rôti de veau poché au vin blanc, tranché fin et nappé d'une sauce au thon, câpres et citron allégée au yaourt.",
+   "tempsTotalMin": 80,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "veau",
+     "nom": "Rôti de veau (noix ou quasi), ficelé",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": "une pièce régulière, à pocher"
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carotte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "celeri-branche",
+     "nom": "Branche de céleri",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "clous-girofle",
+     "nom": "Clous de girofle",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thon-conserve",
+     "nom": "Thon au naturel en conserve",
+     "quantite": 160,
+     "unite": "g",
+     "optionnel": false,
+     "note": "poids égoutté, soit une grande boîte"
+    },
+    {
+     "idIngredient": "capres",
+     "nom": "Câpres",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "2 pour la sauce, 1 pour le service"
+    },
+    {
+     "idIngredient": "mayonnaise",
+     "nom": "Mayonnaise",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": "allège la sauce"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à chair ferme",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "roquette",
+     "nom": "Roquette",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 3,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Dans une cocotte, réunissez le rôti de veau, la carotte et l'oignon coupés en gros morceaux, le céleri, le laurier, les clous de girofle, le vin blanc, 1 c. à café de sel et 1,5 litre d'eau froide. Portez à frémissement, écumez, puis laissez pocher 45 à 50 minutes à feu très doux, sans jamais bouillir : le cœur doit rester légèrement rosé.",
+    "Laissez le rôti tiédir dans son bouillon, égouttez-le, enveloppez-le dans un film et placez-le au moins 2 heures au réfrigérateur (la veille, c'est l'idéal) : il se tranchera très fin sans s'effriter. Gardez 10 cl de bouillon.",
+    "Préparez la sauce : mixez le thon égoutté avec la mayonnaise, le yaourt, 2 c. à soupe de câpres rincées, le jus d'un demi-citron et le poivre, en ajoutant 5 à 10 cl de bouillon froid jusqu'à obtenir une crème nappante. Rectifiez le sel.",
+    "Faites cuire les pommes de terre 20 à 25 minutes à la vapeur ou à l'eau salée, laissez-les tiédir et coupez-les en deux.",
+    "Tranchez le veau le plus finement possible et disposez les tranches en rosace sur un plat. Nappez-les de sauce au thon et laissez reposer 15 minutes au frais pour qu'elles s'imprègnent.",
+    "Parsemez du reste de câpres, assaisonnez la roquette d'huile d'olive et du reste de jus de citron, et servez avec les pommes de terre tièdes."
+   ],
+   "astuceOptions": "Un Veau d'Aveyron et du Ségala IGP ou un veau Label Rouge donne une chair claire qui se tranche bien ; pour alléger encore, remplacez la mayonnaise par du yaourt seul et une cuillerée d'huile d'olive.",
+   "tags": [
+    "italie",
+    "monde",
+    "été",
+    "dimanche",
+    "convivial"
+   ]
+  },
+  {
+   "id": "pizza-maison-pate-complete-champignons-mozzarella-monde",
+   "nom": "Pizza maison à la pâte complète, champignons, oignon et mozzarella",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Italie",
+   "description": "Deux grandes pizzas à la pâte complète pétrie à la main : coulis de tomate à l'origan, champignons, oignon, olives, mozzarella et une poignée de roquette.",
+   "tempsTotalMin": 100,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé complète (T110)",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou moitié T65, moitié complète"
+    },
+    {
+     "idIngredient": "levure-boulanger",
+     "nom": "Levure de boulanger sèche",
+     "quantite": 1,
+     "unite": "sachet",
+     "optionnel": false,
+     "note": "7 à 8 g"
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Coulis de tomate",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "origan",
+     "nom": "Origan séché",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "champignon-paris",
+     "nom": "Champignons de Paris",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires dénoyautées",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "mozzarella",
+     "nom": "Mozzarella",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": "2 boules, bien égouttées"
+    },
+    {
+     "idIngredient": "roquette",
+     "nom": "Roquette",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez la farine, la levure et le sel dans un saladier. Ajoutez 25 cl d'eau tiède et 2 c. à soupe d'huile d'olive, puis pétrissez 8 minutes jusqu'à obtenir une pâte souple. Couvrez d'un torchon et laissez lever 1 heure dans un endroit tiède.",
+    "Pendant la levée, émincez finement les champignons et l'oignon, coupez la mozzarella en tranches et posez-les sur du papier absorbant.",
+    "Préchauffez le four à 250 °C avec une plaque à l'intérieur. Divisez la pâte en deux et étalez chaque pâton en un disque fin sur une feuille de papier cuisson.",
+    "Étalez le coulis de tomate sur les pâtes, saupoudrez d'origan, poivrez, puis répartissez les champignons, l'oignon, les olives et la mozzarella.",
+    "Glissez les pizzas, l'une après l'autre, sur la plaque brûlante et faites cuire 12 à 15 minutes, jusqu'à ce que les bords soient dorés et le fromage fondu.",
+    "À la sortie du four, ajoutez la roquette et un filet d'huile d'olive, coupez en parts et servez aussitôt."
+   ],
+   "astuceOptions": "La farine complète donne une pâte plus rustique et rassasiante ; pour rester dans le Sud, troquez la mozzarella contre du Pélardon AOP émietté ou de la Tomme des Pyrénées IGP râpée.",
+   "tags": [
+    "italie",
+    "four",
+    "convivial",
+    "enfants",
+    "végétarien",
+    "monde"
+   ]
+  },
+  {
+   "id": "tajine-poulet-olives-citron-confit-monde",
+   "nom": "Tajine de poulet aux olives vertes et citron confit, semoule complète",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": "Maroc",
+   "description": "Des cuisses de poulet mijotées avec oignons, gingembre, curcuma et safran, relevées d'olives vertes et de citron confit, sur une semoule complète.",
+   "tempsTotalMin": 80,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Cuisses de poulet (haut et pilon)",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "peau retirée pour alléger"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": "un morceau de 3 cm"
+    },
+    {
+     "idIngredient": "curcuma",
+     "nom": "Curcuma moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "safran",
+     "nom": "Safran",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": true,
+     "note": "quelques pistils"
+    },
+    {
+     "idIngredient": "citron-confit",
+     "nom": "Citron confit au sel",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "2 s'ils sont petits"
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives vertes dénoyautées",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "semoule",
+     "nom": "Semoule de blé complète",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": "grain moyen"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "peu : le citron confit et les olives sont salés"
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 3,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Mélangez les cuisses de poulet avec l'ail et le gingembre râpés, le curcuma, le cumin, le poivre et 1 c. à soupe d'huile ; laissez-les s'imprégner 15 minutes pendant que vous émincez les oignons.",
+    "Dans une cocotte ou un plat à tajine, faites dorer le poulet dans le reste d'huile 3 minutes par face, puis ajoutez les oignons et laissez-les fondre 5 minutes.",
+    "Versez 15 cl d'eau, ajoutez le safran et les tiges de coriandre et de persil hachées. Couvrez et laissez mijoter 40 minutes à feu doux en retournant le poulet à mi-cuisson.",
+    "Rincez le citron confit, retirez la pulpe et coupez l'écorce en fines lanières. Ajoutez-la avec les olives dans la cocotte et poursuivez 10 minutes à découvert pour que la sauce épaississe.",
+    "Pendant ce temps, versez la semoule dans un saladier avec 36 cl d'eau bouillante et le sel, couvrez 5 minutes, puis égrainez à la fourchette.",
+    "Parsemez le tajine des feuilles de coriandre et de persil ciselées et servez avec la semoule."
+   ],
+   "astuceOptions": "Un poulet fermier Label Rouge du Gers supporte bien ce mijotage ; le safran du Quercy, cultivé près de Cajarc, remplace à merveille le safran importé.",
+   "tags": [
+    "orient",
+    "mijoté",
+    "familial",
+    "léger",
+    "monde",
+    "maghreb"
+   ]
+  },
+  {
+   "id": "falafels-maison-sauce-yaourt-tahini-pita-monde",
+   "nom": "Falafels maison à la poêle, sauce yaourt-tahini et pains pita garnis",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Liban",
+   "description": "Des falafels de pois chiches au persil et au cumin, dorés à la poêle sans friture, glissés dans des pitas avec crudités et sauce yaourt-tahini.",
+   "tempsTotalMin": 45,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "pois-chiches",
+     "nom": "Pois chiches secs",
+     "quantite": 250,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à tremper 12 h, ne pas cuire"
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "1 jaune pour la pâte, 1 rouge pour la garniture"
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 1,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tahini",
+     "nom": "Tahini (crème de sésame)",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pains pita",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "complets si possible"
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte",
+     "quantite": 0.5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Égouttez soigneusement les pois chiches trempés (crus) et séchez-les dans un torchon. Mixez-les par à-coups avec l'oignon jaune, l'ail, le persil, la coriandre, le cumin, le paprika, le piment, le sel et le poivre jusqu'à obtenir une pâte granuleuse qui se tient.",
+    "Incorporez la farine, puis façonnez 16 boulettes légèrement aplaties en pressant bien. Placez-les 15 minutes au réfrigérateur pour qu'elles se raffermissent.",
+    "Préparez la sauce : mélangez le yaourt, le tahini, le jus d'un demi-citron, une pincée de sel et 2 c. à soupe d'eau. Lavez la salade, râpez les carottes et émincez l'oignon rouge, arrosez-les du reste de jus de citron.",
+    "Faites chauffer l'huile dans une grande poêle antiadhésive et cuisez les falafels 3 à 4 minutes par face à feu moyen, jusqu'à ce qu'ils soient bien dorés (ou 20 minutes au four à 200 °C en les retournant à mi-cuisson).",
+    "Passez les pitas 2 minutes au grille-pain ou au four, ouvrez-les et garnissez-les de salade, de carottes, d'oignon rouge, de 4 falafels et d'une bonne cuillerée de sauce."
+   ],
+   "astuceOptions": "Les pois chiches secs du Lauragais ou de l'Aude donnent des falafels bien parfumés ; la cuisson au four plutôt qu'à la poêle fait passer le plat en version légère.",
+   "tags": [
+    "orient",
+    "légumineuses",
+    "végétarien",
+    "une-poêle",
+    "économique",
+    "monde"
+   ]
+  },
+  {
+   "id": "kefta-boeuf-grillees-houmous-crudites-monde",
+   "nom": "Kefta de bœuf grillées, houmous maison et crudités à la menthe",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Moyen-Orient",
+   "description": "Des boudins de bœuf haché aux herbes, cumin et ras-el-hanout saisis au gril, un houmous onctueux au tahini et des crudités : un repas oriental à partager.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bœuf haché (5 % de matières grasses)",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": "1 pour les kefta, 1 pour le houmous"
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": "moitié kefta, moitié crudités"
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "1 pour les kefta, 1 pour le houmous"
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ras-el-hanout",
+     "nom": "Ras-el-hanout",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pois-chiches",
+     "nom": "Pois chiches cuits (conserve)",
+     "quantite": 2,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "400 g chacune"
+    },
+    {
+     "idIngredient": "tahini",
+     "nom": "Tahini (crème de sésame)",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pains pita",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 3,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préparez le houmous : égouttez et rincez les pois chiches, mixez-les avec le tahini, le jus du citron, 1 gousse d'ail, 1 c. à café de cumin, 2 c. à soupe d'huile d'olive, une pincée de sel et 6 à 8 c. à soupe d'eau jusqu'à obtenir une crème lisse.",
+    "Hachez finement l'oignon, la deuxième gousse d'ail, le persil, la coriandre et la moitié de la menthe. Mélangez-les au bœuf haché avec le reste du cumin, le paprika, le ras-el-hanout, le piment, le sel et le poivre, en pétrissant 2 minutes.",
+    "Façonnez 12 boudins allongés (ou des brochettes autour de piques) et réservez-les au frais 10 minutes.",
+    "Coupez le concombre et les tomates en dés, assaisonnez-les du reste d'huile d'olive, de la menthe restante ciselée, de sel et de poivre.",
+    "Faites chauffer un gril, une plancha ou une poêle bien chaude et cuisez les kefta 3 à 4 minutes par face sans les écraser, jusqu'à ce qu'elles soient dorées mais encore juteuses.",
+    "Réchauffez les pitas 2 minutes au four ou au grille-pain et servez-les avec les kefta, le houmous et les crudités."
+   ],
+   "astuceOptions": "Un bœuf Label Rouge ou Blonde d'Aquitaine haché maigre garde la kefta juteuse sans excès de gras ; les pois chiches du Lauragais en bocal font un houmous très local.",
+   "tags": [
+    "orient",
+    "grillé",
+    "plancha",
+    "été",
+    "convivial",
+    "monde"
+   ]
+  },
+  {
+   "id": "curry-thai-rouge-butternut-chou-fleur-lait-coco-monde",
+   "nom": "Curry thaï rouge de butternut et chou-fleur au lait de coco, riz basmati complet",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Thaïlande",
+   "description": "Un curry thaï d'hiver : butternut et chou-fleur mijotés dans un lait de coco parfumé à la pâte de curry rouge, finis aux épinards et au citron vert.",
+   "tempsTotalMin": 45,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "courge-butternut",
+     "nom": "Courge butternut",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "pesée épluchée"
+    },
+    {
+     "idIngredient": "chou-fleur",
+     "nom": "Chou-fleur",
+     "quantite": 0.5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "epinard",
+     "nom": "Épinards frais",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pate-curry-thai",
+     "nom": "Pâte de curry rouge thaï",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "1 seule pour une version douce"
+    },
+    {
+     "idIngredient": "lait-coco",
+     "nom": "Lait de coco",
+     "quantite": 400,
+     "unite": "ml",
+     "optionnel": false,
+     "note": "1 boîte"
+    },
+    {
+     "idIngredient": "sauce-soja",
+     "nom": "Sauce soja",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron-vert",
+     "nom": "Citron vert",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cacahuetes",
+     "nom": "Cacahuètes grillées non salées",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-basmati",
+     "nom": "Riz basmati complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez le riz basmati complet et faites-le cuire 25 à 30 minutes dans 1,5 fois son volume d'eau salée, à couvert et à feu doux.",
+    "Coupez le butternut en dés de 2 cm, détaillez le chou-fleur en petits bouquets, émincez l'oignon, hachez l'ail et râpez le gingembre.",
+    "Dans une sauteuse, faites revenir l'oignon, l'ail et le gingembre dans l'huile 3 minutes, ajoutez la pâte de curry et remuez 1 minute pour la torréfier.",
+    "Versez le lait de coco et 20 cl d'eau, ajoutez le butternut et laissez mijoter 10 minutes à couvert. Ajoutez le chou-fleur et poursuivez 10 minutes, jusqu'à ce que les légumes soient tendres.",
+    "Incorporez les épinards, la sauce soja et le jus du citron vert, laissez tomber les feuilles 2 minutes et rectifiez le sel.",
+    "Servez sur le riz, parsemé de cacahuètes concassées et de coriandre."
+   ],
+   "astuceOptions": "Le lait de coco rend le plat crémeux mais riche : utilisez une boîte allégée ou n'en mettez que 25 cl complétés d'eau pour passer en version légère ; le riz basmati complet absorbe bien la sauce.",
+   "tags": [
+    "asie",
+    "végétarien",
+    "hiver",
+    "une-poêle",
+    "mijoté",
+    "monde"
+   ]
+  },
+  {
+   "id": "bo-bun-boeuf-vermicelles-riz-monde",
+   "nom": "Bo bun au bœuf, vermicelles de riz, crudités et cacahuètes",
+   "type": "viande",
+   "gras": 1,
+   "terroir": "Vietnam",
+   "description": "Le bol vietnamien complet : vermicelles de riz, bœuf mariné saisi à feu vif, carotte, concombre, salade, menthe, coriandre, cacahuètes et sauce nuoc cham.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bavette ou rumsteck de bœuf",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": "à émincer finement"
+    },
+    {
+     "idIngredient": "sauce-soja",
+     "nom": "Sauce soja",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": "2 pour la marinade, 1 pour la sauce"
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 10,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "nouilles-riz",
+     "nom": "Vermicelles de riz",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "salade-verte",
+     "nom": "Salade verte (laitue)",
+     "quantite": 0.5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "menthe",
+     "nom": "Menthe fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cacahuetes",
+     "nom": "Cacahuètes grillées non salées",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "nuoc-mam",
+     "nom": "Nuoc-mâm (sauce de poisson)",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron-vert",
+     "nom": "Citron vert",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "remplace le sucre"
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Émincez le bœuf en fines lanières et mélangez-le avec la sauce soja, 2 gousses d'ail hachées, le gingembre râpé et le poivre. Laissez mariner 15 minutes.",
+    "Préparez la sauce nuoc cham : mélangez le nuoc-mâm, le jus du citron vert, le miel, 8 c. à soupe d'eau, la dernière gousse d'ail hachée et le piment.",
+    "Faites cuire les vermicelles de riz 3 à 4 minutes dans l'eau bouillante, égouttez-les et rincez-les à l'eau froide.",
+    "Râpez les carottes, coupez le concombre en bâtonnets, émincez la salade et effeuillez la menthe et la coriandre. Concassez les cacahuètes.",
+    "Faites chauffer l'huile dans une poêle ou un wok très chaud et saisissez le bœuf 2 minutes en remuant, en deux fois pour ne pas le faire bouillir.",
+    "Répartissez la salade dans 4 grands bols, puis les vermicelles, les crudités, le bœuf et les herbes. Parsemez de cacahuètes et arrosez de sauce : on mélange tout avant de manger."
+   ],
+   "astuceOptions": "Une bavette de bœuf Label Rouge ou de Blonde d'Aquitaine se prête bien à la saisie rapide ; en version encore plus légère, remplacez la moitié du bœuf par des crevettes ou doublez les crudités.",
+   "tags": [
+    "asie",
+    "salade",
+    "plat complet",
+    "été",
+    "rapide",
+    "monde"
+   ]
+  },
+  {
+   "id": "saumon-teriyaki-four-riz-complet-brocoli-monde",
+   "nom": "Saumon teriyaki au four, riz complet de Camargue et brocoli vapeur",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Japon",
+   "description": "Des pavés de saumon laqués d'une sauce teriyaki maison au soja, miel et gingembre, cuits au four en dix minutes et servis avec riz complet et brocoli croquant.",
+   "tempsTotalMin": 45,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "saumon",
+     "nom": "Pavés de saumon avec peau",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 150 g chacun"
+    },
+    {
+     "idIngredient": "sauce-soja",
+     "nom": "Sauce soja",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 15,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "fecule-mais",
+     "nom": "Fécule de maïs",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "brocoli",
+     "nom": "Brocoli",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 500 g"
+    },
+    {
+     "idIngredient": "riz-camargue",
+     "nom": "Riz complet de Camargue",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "pour le riz et le brocoli"
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez le riz complet et faites-le cuire 35 minutes dans deux fois son volume d'eau salée, à couvert et à feu doux.",
+    "Préparez la sauce teriyaki : dans une petite casserole, faites chauffer la sauce soja, le miel, le gingembre râpé, l'ail haché et 5 cl d'eau. Laissez frémir 3 minutes, puis liez avec la fécule délayée dans 1 c. à soupe d'eau froide jusqu'à ce que la sauce nappe la cuillère.",
+    "Préchauffez le four à 200 °C. Faites chauffer l'huile dans une poêle allant au four et saisissez les pavés côté peau 3 minutes à feu vif.",
+    "Retournez les pavés, badigeonnez-les généreusement de sauce teriyaki, poivrez, puis enfournez 8 à 10 minutes selon l'épaisseur : le centre doit rester rosé.",
+    "Pendant ce temps, détaillez le brocoli en bouquets et faites-le cuire 6 minutes à la vapeur, il doit rester croquant.",
+    "Servez le saumon nappé du reste de sauce avec le riz complet et le brocoli."
+   ],
+   "astuceOptions": "Le saumon est importé : pour un plat du Sud, laquez de la même façon des filets de truite des Pyrénées ou un dos de merlu ; le riz complet de Camargue IGP coche la case céréales complètes.",
+   "tags": [
+    "asie",
+    "four",
+    "rapide",
+    "semaine",
+    "léger",
+    "monde"
+   ]
+  },
+  {
+   "id": "tacos-poisson-merlu-chou-croquant-citron-vert-monde",
+   "nom": "Tacos de poisson au merlu épicé, chou croquant et sauce yaourt-citron vert",
+   "type": "poisson",
+   "gras": 1,
+   "terroir": "Mexique",
+   "description": "Façon Basse-Californie, sans friture : merlu doré au paprika et au cumin, chou et carotte au citron vert, sauce yaourt, le tout roulé dans une tortilla.",
+   "tempsTotalMin": 30,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    9,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "merlu",
+     "nom": "Filets de merlu sans peau",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "ou lieu noir"
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 0.5,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 1,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chou-rouge-blanc",
+     "nom": "Chou blanc (ou rouge)",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": "un quart de chou"
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carotte",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron-vert",
+     "nom": "Citrons verts",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "tortillas-ble-complet",
+     "nom": "Tortillas de blé complet",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Émincez le chou très finement, râpez la carotte et émincez l'oignon rouge. Assaisonnez-les du jus d'un citron vert, d'une pincée de sel et de la moitié de la coriandre ciselée ; laissez le chou s'attendrir 15 minutes.",
+    "Mélangez le yaourt avec le jus du second citron vert, le reste de coriandre, du sel et du poivre.",
+    "Coupez le merlu en morceaux de 3 cm. Mélangez la farine, le paprika, le cumin, le piment, l'ail haché et une pincée de sel, puis roulez-y les morceaux de poisson.",
+    "Faites chauffer l'huile dans une poêle antiadhésive et dorez le poisson 2 à 3 minutes par face, sans trop le remuer pour qu'il reste en morceaux.",
+    "Réchauffez les tortillas 20 secondes chacune dans une poêle sèche, puis garnissez-les de chou, de poisson et de sauce au yaourt, et pliez-les en deux."
+   ],
+   "astuceOptions": "Le merlu de la criée de Saint-Jean-de-Luz ou du golfe de Gascogne est le poisson local idéal ; des tortillas complètes ou des galettes de maïs font un plat tout en céréales complètes.",
+   "tags": [
+    "monde",
+    "mexique",
+    "rapide",
+    "semaine",
+    "léger",
+    "hiver"
+   ]
+  },
+  {
+   "id": "moussaka-allegee-aubergines-roties-agneau-monde",
+   "nom": "Moussaka allégée aux aubergines rôties et agneau haché",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Grèce",
+   "description": "La moussaka grecque sans friture : aubergines rôties au four, hachis d'agneau à la tomate et à la cannelle, béchamel légère gratinée à la tomme.",
+   "tempsTotalMin": 100,
+   "portions": 4,
+   "saisonMois": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "aubergine",
+     "nom": "Aubergines",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "3 à 4 belles"
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": true,
+     "note": "pour la couche du fond"
+    },
+    {
+     "idIngredient": "agneau",
+     "nom": "Agneau haché (ou bœuf)",
+     "quantite": 500,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon jaune",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Tomates concassées en conserve",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cannelle",
+     "nom": "Cannelle moulue",
+     "quantite": 0.5,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "origan",
+     "nom": "Origan séché",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 3,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "lait",
+     "nom": "Lait demi-écrémé",
+     "quantite": 50,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 40,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "noix-muscade",
+     "nom": "Noix de muscade",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œuf",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "tomme-pyrenees",
+     "nom": "Tomme des Pyrénées râpée",
+     "quantite": 60,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 3,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 220 °C. Coupez les aubergines en tranches de 1 cm dans la longueur, badigeonnez-les de 2 c. à soupe d'huile d'olive, salez et faites-les rôtir 20 minutes sur deux plaques, en les retournant à mi-cuisson. Coupez les pommes de terre en fines rondelles et faites-les cuire 8 minutes à l'eau bouillante.",
+    "Pendant ce temps, faites fondre l'oignon émincé et l'ail haché dans le reste d'huile 5 minutes, ajoutez l'agneau haché et faites-le revenir 5 minutes en l'émiettant. Versez les tomates, la cannelle, l'origan, du sel et du poivre, puis laissez mijoter 15 minutes à découvert. Ajoutez le persil haché.",
+    "Préparez la béchamel légère : faites fondre le beurre, ajoutez la farine, mélangez 1 minute, puis versez le lait froid en fouettant et laissez épaissir 5 minutes à feu doux. Hors du feu, ajoutez la muscade, l'œuf battu et la moitié de la tomme, salez et poivrez.",
+    "Dans un plat à gratin, disposez les rondelles de pommes de terre, puis la moitié des aubergines, toute la viande, le reste des aubergines et enfin la béchamel. Parsemez du reste de tomme.",
+    "Baissez le four à 180 °C et faites cuire 40 minutes, jusqu'à ce que le dessus soit bien doré.",
+    "Laissez reposer 10 minutes avant de servir pour que les couches se tiennent à la découpe."
+   ],
+   "astuceOptions": "L'agneau des Pyrénées ou de Lozère (Label Rouge ou IGP) convient très bien ; la version aux aubergines rôties plutôt que frites divise la matière grasse par trois par rapport à la recette classique.",
+   "tags": [
+    "monde",
+    "grece",
+    "four",
+    "gratin",
+    "été",
+    "familial"
+   ]
+  },
+  {
+   "id": "salade-grecque-repas-pois-chiches-feta-monde",
+   "nom": "Salade grecque-repas aux pois chiches, feta, concombre et olives",
+   "type": "vege",
+   "gras": 2,
+   "terroir": "Grèce",
+   "description": "La salade villageoise grecque en plat complet : tomates, concombre, poivron, oignon rouge, olives, feta et pois chiches à l'origan, avec des pitas grillées.",
+   "tempsTotalMin": 20,
+   "portions": 4,
+   "saisonMois": [
+    7,
+    8,
+    9
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "tomate",
+     "nom": "Tomates mûres",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "concombre",
+     "nom": "Concombre",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivron",
+     "nom": "Poivron vert",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignon rouge",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "olives",
+     "nom": "Olives noires (Kalamata)",
+     "quantite": 100,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "feta",
+     "nom": "Feta",
+     "quantite": 200,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pois-chiches",
+     "nom": "Pois chiches cuits (conserve)",
+     "quantite": 1,
+     "unite": "boîte",
+     "optionnel": false,
+     "note": "400 g, soit 240 g égouttés"
+    },
+    {
+     "idIngredient": "origan",
+     "nom": "Origan séché",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-olive",
+     "nom": "Huile d'olive",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin rouge",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pains pita",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "ou pain de campagne"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Coupez les tomates en quartiers, le concombre en demi-rondelles épaisses, le poivron en lanières et l'oignon rouge en fines demi-lunes.",
+    "Égouttez et rincez les pois chiches, puis réunissez-les dans un grand saladier avec les légumes et les olives.",
+    "Mélangez l'huile d'olive, le vinaigre, l'origan, une pincée de sel et le poivre, versez sur la salade et remuez délicatement.",
+    "Posez la feta en gros morceaux ou en tranche sur le dessus, sans la mélanger, et saupoudrez d'une dernière pincée d'origan.",
+    "Faites griller les pitas 2 minutes au grille-pain ou sous le gril du four, coupez-les en quartiers et servez aussitôt."
+   ],
+   "astuceOptions": "Pour rester local, remplacez la feta par un fromage de brebis des Pyrénées frais ou un Ossau-Iraty AOP jeune en dés ; les pois chiches du Lauragais font de cette salade un vrai plat complet.",
+   "tags": [
+    "monde",
+    "grece",
+    "salade",
+    "été",
+    "sans-four",
+    "végétarien"
+   ]
+  },
+  {
+   "id": "carbonade-flamande-allegee-biere-oignons-pommes-vapeur-monde",
+   "nom": "Carbonade flamande allégée à la bière et aux oignons, pommes de terre et carottes vapeur",
+   "type": "viande",
+   "gras": 2,
+   "terroir": "Belgique",
+   "description": "Le mijoté des Flandres : bœuf à braiser et oignons fondus dans la bière, liés par une tartine de pain moutardée au miel, sans lard ni excès de beurre.",
+   "tempsTotalMin": 190,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "boeuf",
+     "nom": "Bœuf à braiser (paleron, joue ou gîte) en cubes de 4 cm",
+     "quantite": 800,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": "environ 500 g"
+    },
+    {
+     "idIngredient": "biere-blonde",
+     "nom": "Bière blonde ou ambrée",
+     "quantite": 66,
+     "unite": "cl",
+     "optionnel": false,
+     "note": "2 bouteilles de 33 cl ; une ambrée ou une brune d'abbaye donne une sauce plus ronde"
+    },
+    {
+     "idIngredient": "pain",
+     "nom": "Pain de campagne",
+     "quantite": 2,
+     "unite": "tranche",
+     "optionnel": false,
+     "note": "tranches épaisses, remplacent le pain d'épices"
+    },
+    {
+     "idIngredient": "moutarde",
+     "nom": "Moutarde",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "miel",
+     "nom": "Miel",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": "remplace la cassonade"
+    },
+    {
+     "idIngredient": "vinaigre-vin",
+     "nom": "Vinaigre de vin",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuilles de laurier",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "clous-girofle",
+     "nom": "Clous de girofle",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 15,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "farine-ble",
+     "nom": "Farine de blé",
+     "quantite": 1,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à chair ferme",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "carotte",
+     "nom": "Carottes",
+     "quantite": 4,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 3,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Épongez les cubes de bœuf, salez-les et poivrez-les. Dans une cocotte, faites chauffer l'huile et le beurre et faites dorer la viande en deux ou trois fois, 3 minutes par face à feu vif, puis réservez-la.",
+    "Baissez le feu, mettez les oignons émincés dans la cocotte et laissez-les fondre 10 minutes en remuant, jusqu'à ce qu'ils soient dorés et presque compotés.",
+    "Remettez la viande, saupoudrez de farine et mélangez 1 minute. Versez la bière, ajoutez le vinaigre, le miel, le thym, le laurier et les clous de girofle, puis portez à frémissement en grattant le fond de la cocotte.",
+    "Tartinez les tranches de pain de moutarde et posez-les sur la viande, moutarde vers le bas. Couvrez et laissez mijoter 2 h 30 à feu très doux (ou au four à 150 °C), en remuant une ou deux fois : le pain se défait et lie la sauce, la viande doit s'effilocher à la fourchette.",
+    "Trente minutes avant la fin, épluchez les pommes de terre et les carottes, coupez-les en gros morceaux et faites-les cuire 20 à 25 minutes à la vapeur ou à l'eau salée.",
+    "Découvrez la cocotte les 15 dernières minutes si la sauce est trop liquide, retirez le laurier, rectifiez sel et poivre et servez bien chaud avec les légumes vapeur."
+   ],
+   "astuceOptions": "Un bœuf Gascon ou Aubrac Label Rouge chez le boucher ; sans lard ni pain d'épices et avec une seule noisette de beurre, la carbonade reste un mijoté normal plutôt que très gras, et elle est encore meilleure réchauffée le lendemain.",
+   "tags": [
+    "belgique",
+    "monde",
+    "mijoté",
+    "dimanche",
+    "hiver",
+    "batch-cooking"
+   ]
+  },
+  {
+   "id": "moules-marinieres-frites-four-monde",
+   "nom": "Moules marinières à la belge et frites au four",
+   "type": "poisson",
+   "gras": 2,
+   "terroir": "Belgique",
+   "description": "Le classique belge : une marmite de moules ouvertes au vin blanc, échalotes, ail et persil, avec des frites croustillantes cuites au four, presque sans huile.",
+   "tempsTotalMin": 50,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "moules",
+     "nom": "Moules (bouchot ou Bouzigues)",
+     "quantite": 3,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "environ 750 g par personne"
+    },
+    {
+     "idIngredient": "echalote",
+     "nom": "Échalotes",
+     "quantite": 3,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 2,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "vin-blanc-sec",
+     "nom": "Vin blanc sec",
+     "quantite": 20,
+     "unite": "cl",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "persil",
+     "nom": "Persil frais",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "thym",
+     "nom": "Thym",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "laurier",
+     "nom": "Feuille de laurier",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "beurre",
+     "nom": "Beurre",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "pomme-de-terre",
+     "nom": "Pommes de terre à frites",
+     "quantite": 1,
+     "unite": "kg",
+     "optionnel": false,
+     "note": "type Agria ou Bintje"
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "mayonnaise",
+     "nom": "Mayonnaise",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": true,
+     "note": "pour les frites"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "pour les frites seulement"
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 3,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Préchauffez le four à 200 °C. Coupez les pommes de terre en frites, rincez-les, séchez-les bien dans un torchon et mélangez-les avec l'huile et le sel. Étalez-les sur une plaque et faites-les cuire 35 minutes en les retournant à mi-cuisson.",
+    "Pendant ce temps, grattez et lavez les moules à l'eau froide, retirez le byssus et jetez celles qui restent ouvertes quand on les presse.",
+    "Dix minutes avant la fin des frites, faites fondre le beurre dans une grande marmite et faites suer les échalotes et l'ail hachés 3 minutes sans coloration.",
+    "Versez le vin blanc, ajoutez le thym et le laurier, portez à ébullition, puis ajoutez les moules. Couvrez et faites cuire 6 à 8 minutes à feu vif en secouant la marmite deux ou trois fois, jusqu'à ce qu'elles soient toutes ouvertes.",
+    "Jetez les moules restées fermées, poivrez, parsemez de persil haché et servez aussitôt dans la marmite avec les frites et, pour les amateurs, un peu de mayonnaise."
+   ],
+   "astuceOptions": "Les moules de Bouzigues (étang de Thau) remplacent celles de bouchot pour une version occitane ; les frites au four avec deux cuillerées d'huile évitent la friture sans perdre le croustillant.",
+   "tags": [
+    "monde",
+    "belgique",
+    "convivial",
+    "four",
+    "familial",
+    "économique"
+   ]
+  },
+  {
+   "id": "poulet-tikka-chou-fleur-rotis-riz-basmati-monde",
+   "nom": "Poulet tikka et chou-fleur rôtis au four, riz basmati complet",
+   "type": "volaille",
+   "gras": 1,
+   "terroir": "Inde",
+   "description": "Du poulet mariné au yaourt, gingembre et garam masala, rôti sur la même plaque qu'un chou-fleur au curcuma, avec riz basmati complet et sauce yaourt-citron.",
+   "tempsTotalMin": 50,
+   "portions": 4,
+   "saisonMois": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    12
+   ],
+   "ingredients": [
+    {
+     "idIngredient": "poulet",
+     "nom": "Hauts de cuisse de poulet désossés (ou blancs)",
+     "quantite": 600,
+     "unite": "g",
+     "optionnel": false,
+     "note": "sans peau ; à mariner au moins 1 h, la veille si possible"
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": "150 g marinade, 150 g sauce"
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "garam-masala",
+     "nom": "Garam masala",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "curcuma",
+     "nom": "Curcuma moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "moitié marinade, moitié chou-fleur"
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 0.5,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "chou-fleur",
+     "nom": "Chou-fleur",
+     "quantite": 1,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-basmati",
+     "nom": "Riz basmati complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": true,
+     "note": null
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Coupez le poulet en gros cubes. Mélangez 150 g de yaourt avec le jus d'un demi-citron, l'ail et le gingembre râpés, le garam masala, la moitié du curcuma, le paprika, le cumin, le piment et 1 c. à café de sel. Enrobez-en le poulet et laissez mariner au moins 1 heure au frais (la veille, c'est encore mieux).",
+    "Préchauffez le four à 220 °C. Détaillez le chou-fleur en bouquets, mélangez-les avec l'huile, le reste du curcuma, du sel et du poivre.",
+    "Étalez le chou-fleur sur une grande plaque, posez les morceaux de poulet égouttés de leur marinade à côté et enfournez 25 minutes, en retournant le tout à mi-cuisson : le poulet doit être grillé sur les bords.",
+    "Pendant ce temps, rincez le riz basmati complet et faites-le cuire 25 à 30 minutes dans 1,5 fois son volume d'eau salée, à couvert et à feu doux.",
+    "Mélangez le reste du yaourt avec le jus de l'autre moitié de citron, la coriandre ciselée et une pincée de sel.",
+    "Servez le poulet et le chou-fleur sur le riz avec la sauce au yaourt."
+   ],
+   "astuceOptions": "Hauts de cuisse de poulet fermier Label Rouge pour rester moelleux au four ; le chou-fleur d'hiver du Lauragais ou de Bretagne et le riz basmati complet rendent ce plat aussi local que possible.",
+   "tags": [
+    "monde",
+    "inde",
+    "four",
+    "léger",
+    "hiver",
+    "semaine"
+   ]
+  },
+  {
+   "id": "curry-oeufs-tomate-garam-masala-riz-basmati-monde",
+   "nom": "Curry d'œufs à la tomate et au garam masala (anda masala), riz basmati complet",
+   "type": "vege",
+   "gras": 1,
+   "terroir": "Inde",
+   "description": "Le curry d'œufs des familles indiennes : œufs durs dorés au curcuma, sauce oignon-tomate au gingembre et au garam masala, petits pois et coriandre fraîche.",
+   "tempsTotalMin": 40,
+   "portions": 4,
+   "saisonMois": [],
+   "ingredients": [
+    {
+     "idIngredient": "oeufs",
+     "nom": "Œufs",
+     "quantite": 8,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "oignon-jaune",
+     "nom": "Oignons jaunes",
+     "quantite": 2,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "ail-rose-lautrec",
+     "nom": "Ail rose de Lautrec",
+     "quantite": 3,
+     "unite": "gousse",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "gingembre-frais",
+     "nom": "Gingembre frais",
+     "quantite": 20,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "coulis-tomate",
+     "nom": "Tomates concassées en conserve",
+     "quantite": 400,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "cumin",
+     "nom": "Cumin moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "curcuma",
+     "nom": "Curcuma moulu",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": "moitié pour dorer les œufs, moitié pour la sauce"
+    },
+    {
+     "idIngredient": "paprika",
+     "nom": "Paprika",
+     "quantite": 1,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "garam-masala",
+     "nom": "Garam masala",
+     "quantite": 1.5,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "piment-espelette",
+     "nom": "Piment d'Espelette",
+     "quantite": 0.5,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "petits-pois",
+     "nom": "Petits pois",
+     "quantite": 150,
+     "unite": "g",
+     "optionnel": false,
+     "note": "frais en mai-juin, surgelés le reste de l'année"
+    },
+    {
+     "idIngredient": "coriandre",
+     "nom": "Coriandre fraîche",
+     "quantite": 0.5,
+     "unite": "botte",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "citron",
+     "nom": "Citron",
+     "quantite": 0.5,
+     "unite": "pièce",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "huile-colza",
+     "nom": "Huile de colza",
+     "quantite": 2,
+     "unite": "c. à soupe",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "riz-basmati",
+     "nom": "Riz basmati complet",
+     "quantite": 300,
+     "unite": "g",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "yaourt-nature",
+     "nom": "Yaourt nature",
+     "quantite": 4,
+     "unite": "c. à soupe",
+     "optionnel": true,
+     "note": "pour servir"
+    },
+    {
+     "idIngredient": "sel-camargue",
+     "nom": "Sel",
+     "quantite": 2,
+     "unite": "c. à café",
+     "optionnel": false,
+     "note": null
+    },
+    {
+     "idIngredient": "poivre-noir",
+     "nom": "Poivre noir",
+     "quantite": 2,
+     "unite": "pincée",
+     "optionnel": false,
+     "note": null
+    }
+   ],
+   "etapes": [
+    "Rincez le riz basmati complet et faites-le cuire 25 à 30 minutes dans 1,5 fois son volume d'eau salée, à couvert et à feu doux.",
+    "Plongez les œufs 9 minutes dans l'eau bouillante, rafraîchissez-les et écalez-les. Piquez-les à la fourchette, puis faites-les dorer 2 minutes dans une sauteuse avec 1 c. à soupe d'huile et la moitié du curcuma, en les roulant. Réservez-les.",
+    "Dans la même sauteuse, faites revenir les oignons finement hachés dans le reste d'huile 8 minutes à feu moyen, jusqu'à ce qu'ils soient bien dorés. Ajoutez l'ail et le gingembre râpés, le cumin, le reste du curcuma, le paprika et le piment, et remuez 1 minute.",
+    "Versez les tomates concassées et 15 cl d'eau, salez et laissez mijoter 10 minutes à découvert en écrasant les tomates, jusqu'à ce que la sauce épaississe et que l'huile perle en surface.",
+    "Ajoutez les petits pois et laissez cuire 4 minutes, puis coupez les œufs en deux et déposez-les dans la sauce, jaune vers le haut. Saupoudrez de garam masala, poivrez et réchauffez 3 minutes à feu doux sans remuer.",
+    "Arrosez du jus de citron, parsemez de coriandre ciselée et servez sur le riz, avec une cuillerée de yaourt pour les amateurs."
+   ],
+   "astuceOptions": "Des œufs de poules élevées en plein air (code 1) ou Label Rouge et des petits pois du Lauragais en mai-juin ; le plat est déjà léger et végétarien, doublez les petits pois pour plus de légumes.",
+   "tags": [
+    "inde",
+    "monde",
+    "végétarien",
+    "rapide",
+    "économique",
+    "semaine"
+   ]
+  }
+ ],
+ "nouveauxIngredients": [
+  {
+   "id": "mozzarella",
+   "nom": "Mozzarella",
+   "rayon": "Crèmerie & Fromages",
+   "categorie": "cremerie",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [
+    {
+     "label": "AOP",
+     "denomination": "Mozzarella di Bufala Campana"
+    }
+   ],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Boule au lait de vache pour la pizza et les gratins, Mozzarella di Bufala Campana AOP pour la déguster crue ; bien l'égoutter et l'éponger avant de l'enfourner.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "parmesan",
+   "nom": "Parmesan (Parmigiano Reggiano)",
+   "rayon": "Crèmerie & Fromages",
+   "categorie": "cremerie",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [
+    {
+     "label": "AOP",
+     "denomination": "Parmigiano Reggiano"
+    }
+   ],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Acheter un morceau de Parmigiano Reggiano AOP affiné 24 mois et le râper soi-même ; en remplacement local, un vieux Cantal ou un Ossau-Iraty bien affiné râpé.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "feta",
+   "nom": "Feta",
+   "rayon": "Crèmerie & Fromages",
+   "categorie": "cremerie",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [
+    {
+     "label": "AOP",
+     "denomination": "Feta"
+    }
+   ],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "La Feta AOP grecque est au lait de brebis ; pour rester dans le Sud, un fromage de brebis frais des Pyrénées ou un Ossau-Iraty AOP jeune en dés la remplacent très bien en salade.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "lait-coco",
+   "nom": "Lait de coco",
+   "rayon": "Épicerie",
+   "categorie": "epicerie",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Boîte de 400 ml sans épaississant ni sucre ajouté ; la version allégée fait un curry plus léger, l'entière un curry plus onctueux.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "gingembre-frais",
+   "nom": "Gingembre frais",
+   "rayon": "Fruits & Légumes",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Choisir un rhizome ferme à la peau lisse et fine ; il se conserve plusieurs semaines au réfrigérateur ou se congèle et se râpe sans décongeler.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "citron-vert",
+   "nom": "Citron vert",
+   "rayon": "Fruits & Légumes",
+   "categorie": "fruit",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Fruit importé (Brésil, Mexique) : le prendre lourd et souple, et le remplacer par du citron jaune de Menton ou de Corse quand il n'est là que pour son acidité.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "nouilles-riz",
+   "nom": "Vermicelles et nouilles de riz",
+   "rayon": "Épicerie",
+   "categorie": "feculent",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Vermicelles fins pour les bo bun et salades, nouilles plates pour les plats sautés ; ils cuisent en 3 à 4 minutes et se rincent à l'eau froide pour ne pas coller.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "tortillas-ble-complet",
+   "nom": "Tortillas de blé complet",
+   "rayon": "Épicerie",
+   "categorie": "feculent",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Préférer les tortillas de blé complet à liste d'ingrédients courte (farine, eau, huile, sel) ; à défaut, des galettes maison à la farine complète se font en dix minutes.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "curcuma",
+   "nom": "Curcuma moulu",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Épice douce et colorante à acheter en petit pot et à renouveler dans l'année ; elle tache, donc à manier loin des torchons clairs.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "garam-masala",
+   "nom": "Garam masala",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Mélange indien chaud (cannelle, cardamome, clou de girofle, cumin, poivre) à ajouter en fin de cuisson pour garder son parfum ; différent du curry, plus doux et sans curcuma.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "ras-el-hanout",
+   "nom": "Ras-el-hanout",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Mélange maghrébin d'une vingtaine d'épices (cumin, coriandre, cannelle, gingembre, curcuma) ; choisir un mélange sans sel ajouté pour doser soi-même.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "tahini",
+   "nom": "Tahini (crème de sésame)",
+   "rayon": "Épicerie",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Purée de graines de sésame pure, sans sucre ni huile ajoutée, à bien remuer avant usage car l'huile remonte ; se conserve des mois au frais.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "pate-curry-thai",
+   "nom": "Pâte de curry thaï (rouge ou verte)",
+   "rayon": "Épicerie",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Un petit pot suffit pour plusieurs currys : 1 à 2 c. à soupe pour 4 personnes, la verte étant plus piquante que la rouge ; vérifier qu'elle ne contient pas de crevettes séchées pour un plat végétarien.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "citron-confit",
+   "nom": "Citrons confits au sel",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "En bocal au rayon produits du monde ou chez l'épicier oriental ; on n'utilise que l'écorce rincée, la pulpe est trop salée. Faciles à préparer soi-même avec des citrons de Menton et du gros sel (un mois de patience).",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "cacahuetes",
+   "nom": "Cacahuètes grillées non salées",
+   "rayon": "Épicerie",
+   "categorie": "epicerie",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Prendre des cacahuètes grillées nature, sans sel ni enrobage, et les concasser au couteau au dernier moment pour garder le croquant.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "capres",
+   "nom": "Câpres",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Les câpres au sel ont plus de parfum que celles au vinaigre : les rincer et les faire tremper 10 minutes avant usage.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "origan",
+   "nom": "Origan séché",
+   "rayon": "Épices & Condiments",
+   "categorie": "condiment",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Garrigues du Gard et de l'Hérault",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "L'origan de Provence ou des garrigues du Languedoc est plus parfumé que les mélanges ; à acheter en feuilles séchées plutôt qu'en poudre et à frotter entre les doigts au moment de l'utiliser.",
+   "versionComplete": null,
+   "regions": [
+    "Provence-Alpes-Côte d'Azur",
+    "Occitanie"
+   ]
+  },
+  {
+   "id": "nuoc-mam",
+   "nom": "Nuoc-mâm (sauce de poisson)",
+   "rayon": "Épicerie",
+   "categorie": "condiment",
+   "origineFrance": false,
+   "local": false,
+   "provenanceLocale": null,
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": false,
+   "conseil": "Choisir une sauce de poisson à deux ingrédients (anchois, sel) sans sucre ni glutamate ; très salée, elle se dose à la cuillère et se garde longtemps.",
+   "versionComplete": null,
+   "regions": []
+  },
+  {
+   "id": "thon-conserve",
+   "nom": "Thon au naturel en conserve",
+   "rayon": "Épicerie",
+   "categorie": "poisson",
+   "origineFrance": true,
+   "local": true,
+   "provenanceLocale": "Saint-Jean-de-Luz, Capbreton (thon germon)",
+   "siqo": [],
+   "saisonMois": [],
+   "risqueEspagne": true,
+   "conseil": "Préférer le thon germon (blanc) pêché à la ligne et mis en boîte au Pays basque ou en Bretagne ; le thon albacore d'import, plus courant, convient aussi au naturel.",
+   "versionComplete": null,
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Bretagne"
+   ]
+  }
+ ],
+ "mappings": []
+}
