@@ -11,6 +11,7 @@ $avant = 0; $apres = 0; $n = 0
 Get-ChildItem $dir -File | Where-Object { $_.Extension -match '^\.(jpg|jpeg|png|webp)$' } | ForEach-Object {
   $f = $_; $avant += $f.Length
   try { $img = [System.Drawing.Image]::FromFile($f.FullName) } catch { Write-Output "ILLISIBLE : $($f.Name)"; return }
+  if ($img.Width -le 560 -and $f.Extension -eq '.jpg') { $img.Dispose(); $apres += $f.Length; return }   # déjà optimisée
   $w = [Math]::Min(560, $img.Width); $h = [int][Math]::Round($img.Height * $w / $img.Width)
   $bmp = New-Object System.Drawing.Bitmap $w, $h
   $g = [System.Drawing.Graphics]::FromImage($bmp)
