@@ -226,6 +226,28 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
 .sai-legend{font-size:12px; color:var(--muted); margin:0 0 10px; display:flex; gap:14px; flex-wrap:wrap; align-items:center}
 .sai-legend .mstrip{width:60px; display:inline-grid}
 
+/* ---------- frigo ---------- */
+.fr-sel{display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin:0 0 10px; min-height:34px}
+.fr-sel .lbl{font-weight:650; font-size:13.5px; margin-right:2px}
+.fr-vide{font-size:13px; color:var(--muted); margin:0}
+.ichip{border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:6px 12px; font-size:13px; font-weight:600; color:var(--fg); line-height:1.2}
+.ichip:hover{background:var(--surface2)}
+.ichip[aria-pressed="true"], .ichip.on{background:var(--brique); border-color:var(--brique); color:var(--brique-ink)}
+.ichip.on span{opacity:.8; margin-left:2px}
+#fr-pick{margin-bottom:16px}
+.fr-chips{display:flex; flex-wrap:wrap; gap:6px; padding:4px 0 10px}
+.fr-grp{border-bottom:1px solid var(--line)}
+.fr-grp summary{cursor:pointer; font-weight:650; padding:9px 0; font-size:14px}
+.fr-grp summary .n{font-weight:500; color:var(--muted); font-size:12.5px; margin-left:4px}
+.fr-titre{font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:var(--brique); border-bottom:1px solid var(--line); padding-bottom:6px; margin:20px 0 12px; font-weight:700}
+.fr-titre .n{color:var(--muted); letter-spacing:0; font-weight:600}
+.fr-plus3{margin-top:14px}
+.fr-plus3 summary{cursor:pointer; font-weight:600; color:var(--muted); padding:10px 0}
+.fr-lines{display:flex; flex-direction:column; gap:6px; font-size:12.5px}
+.fr-lines .fr-row{display:flex; flex-wrap:wrap; gap:4px 5px; align-items:center}
+.fr-lines .k{font-weight:650; color:var(--muted); margin-right:2px}
+.fr-lines .plus{color:var(--muted); display:block}
+
 /* ---------- courses ---------- */
 .crs-head{display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:6px}
 .crs-head .acts{display:flex; gap:8px; flex-wrap:wrap}
@@ -426,6 +448,7 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
   <nav class="tabs" role="tablist" id="tabs">
     <button role="tab" data-tab="planning" aria-selected="true" id="tabbtn-planning">Planning <span class="cnt" id="cnt-plan" hidden>0</span></button>
     <button role="tab" data-tab="recettes" aria-selected="false" id="tabbtn-recettes">Recettes <span class="cnt" id="cnt-rec" hidden>0</span></button>
+    <button role="tab" data-tab="frigo" aria-selected="false" id="tabbtn-frigo">Frigo <span class="cnt" id="cnt-frigo" hidden>0</span></button>
     <button role="tab" data-tab="saisons" aria-selected="false" id="tabbtn-saisons">Saisons</button>
     <button role="tab" data-tab="courses" aria-selected="false" id="tabbtn-courses">Liste de courses <span class="cnt" id="cnt-crs" hidden>0</span></button>
     <button role="tab" data-tab="drive" aria-selected="false" id="tabbtn-drive" hidden>Drive &amp; export</button>
@@ -460,6 +483,18 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
       </div>
       <p class="rec-status" id="rec-status"></p>
       <div class="grid-rec" id="rec-grid"></div>
+    </section>
+
+    <section class="tab" id="tab-frigo" hidden>
+      <h2 style="font-size:19px; margin-bottom:6px">Cuisiner avec ce que j'ai</h2>
+      <p class="crs-note">Indiquez les viandes, poissons, légumes et fruits que vous avez sous la main, sans les quantités : l'application propose les recettes possibles. Ne sont pas comptés, car supposés disponibles : sel, poivre, épices, herbes, huiles, vinaigre, moutarde, bouillon, farine, beurre, lait, yaourt, œufs, crème, ail, oignon, échalote et citron.</p>
+      <div class="fr-sel" id="fr-sel"></div>
+      <div class="rec-tools">
+        <input type="search" id="fr-search" placeholder="Ajouter un ingrédient (poulet, courgette…)" aria-label="Chercher un ingrédient à ajouter" autocomplete="off">
+      </div>
+      <div id="fr-pick"></div>
+      <p class="rec-status" id="fr-status"></p>
+      <div id="fr-res"></div>
     </section>
 
     <section class="tab" id="tab-saisons" hidden>
@@ -587,7 +622,8 @@ var state = {
   options: Object.assign({}, DEFAULTS),
   planning: {},   /* "lun-soir" -> id recette */
   checks: {},     /* clé article -> true */
-  extras: []      /* articles ajoutés à la main */
+  extras: [],     /* articles ajoutés à la main */
+  frigo: []       /* ids des ingrédients principaux que l'on a sous la main */
 };
 var currentTab = 'planning';
 var saisonUI = {mois:null, scope:null};
@@ -635,7 +671,7 @@ var persist = {
     return use.then(function(db){
       self.db = db || null;
       if (!self.db) return false;
-      ['options','planning','courses'].forEach(function(key){
+      ['options','planning','courses','frigo'].forEach(function(key){
         if (self.dirty[key] && self.lastJson[key]) self.push(key);   /* modifications faites avant la connexion */
         self.db.doc('app/'+key).onSnapshot(function(snap){
           if (!snap.exists) return;
@@ -670,6 +706,7 @@ function applyDoc(key, data){
   }
   else if (key === 'planning'){ state.planning = (data && data.slots) || {}; nettoyerPlanning(false) }
   else if (key === 'courses'){ state.checks = (data && data.checks) || {}; state.extras = (data && data.extras) || [] }
+  else if (key === 'frigo'){ state.frigo = (data && Array.isArray(data.ids)) ? data.ids.filter(function(x){ return typeof x === 'string' }) : [] }
 }
 /* retire du planning les identifiants de recette inconnus (base mise à jour, code de transfert d'une autre version) */
 function nettoyerPlanning(sauver){
@@ -682,6 +719,7 @@ function nettoyerPlanning(sauver){
 function saveOptions(){ persist.save('options', state.options) }
 function savePlanning(){ persist.save('planning', {slots: state.planning}) }
 function saveCourses(){ persist.save('courses', {checks: state.checks, extras: state.extras}) }
+function saveFrigo(){ persist.save('frigo', {ids: state.frigo}) }
 
 /* ===================== aides métier ===================== */
 function moisCourant(){ return new Date().getMonth()+1 }
@@ -926,6 +964,150 @@ function renderRecettes(){
       + '</article>';
   }).join('');
   $('#rec-grid').innerHTML = html || '<p style="color:var(--muted)">Aucune recette ne correspond à ces filtres.</p>';
+}
+
+/* ===================== frigo : recettes possibles avec ce que l'on a ===================== */
+/* Seuls les ingrédients principaux se saisissent : viandes, poissons, fruits et légumes frais.
+   « De base » = supposé disponible, jamais compté : épices, herbes et condiments, plus la liste ci-dessous.
+   Le reste (fromages, féculents, conserves, vin…) n'est pas compté non plus, mais rappelé sur la carte. */
+var FRIGO_BASE = {'ail-rose-lautrec':1, 'ail-violet-cadours':1, 'oignon-jaune':1, 'oignon-doux-cevennes':1, 'echalote':1, 'citron':1,
+  'oeufs':1, 'creme-fraiche':1, 'beurre':1, 'lait':1, 'yaourt-nature':1,
+  'farine-ble':1, 'fecule-mais':1, 'chapelure':1, 'levure-boulanger':1, 'levure-chimique':1, 'miel':1,
+  'huile-olive':1, 'huile-colza':1, 'huile-tournesol':1, 'bouillon-volaille':1, 'bouillon-legumes':1};
+var FRIGO_GROUPES = [['viande','Viandes et charcuteries'], ['poisson','Poissons et fruits de mer'], ['legume','Légumes'], ['fruit','Fruits']];
+var FRIGO_MAX_LOIN = 30;   /* nombre de recettes affichées dans le groupe « trois ingrédients manquants ou plus » */
+/* sur un écran étroit, toutes les familles sont repliées au départ pour que les recettes restent à portée de pouce */
+var frigoLarge = !!(window.matchMedia && window.matchMedia('(min-width: 700px)').matches);
+var frigoUI = {ouverts:{viande:frigoLarge, poisson:false, legume:frigoLarge, fruit:false}, index:null};
+function sansAccent(s){
+  s = String(s||'').toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae');
+  return s.normalize ? s.normalize('NFD').replace(/[̀-ͯ]/g,'') : s;
+}
+function nomCourt(g){ return String((g && g.nom) || '').split(' (')[0] }
+function frigoDeBase(g){ return !g || g.categorie === 'condiment' || !!FRIGO_BASE[g.id] }
+function frigoPrincipal(g){
+  if (frigoDeBase(g)) return false;
+  if (g.categorie === 'viande' || g.categorie === 'poisson') return true;
+  return (g.categorie === 'fruit' || g.categorie === 'legume') && g.rayon === 'Fruits & Légumes';
+}
+/* pour chaque recette : ingrédients principaux (comptés) et « à prévoir aussi » ; usage = nombre de recettes par ingrédient principal */
+function frigoIndex(){
+  if (frigoUI.index) return frigoUI.index;
+  var parRecette = {}, usage = {};
+  RECS.forEach(function(r){
+    var mains = [], plus = [], vu = {};
+    (r.ingredients||[]).forEach(function(ri){
+      var g = ingOf(ri);
+      if (!g || ri.optionnel || vu[g.id]) return;
+      vu[g.id] = 1;
+      if (frigoPrincipal(g)){ mains.push(g.id); usage[g.id] = (usage[g.id]||0)+1 }
+      else if (!frigoDeBase(g)) plus.push(g.id);
+    });
+    parRecette[r.id] = {mains:mains, plus:plus};
+  });
+  frigoUI.index = {parRecette:parRecette, usage:usage};
+  return frigoUI.index;
+}
+function carteFrigo(x){
+  var r = x.r;
+  return '<article class="card-rec">'
+    + imgHtml(r, 'rimg', true)
+    + '<div class="top"><span class="tchip t-'+esc(r.type)+'"><span class="tdot"></span>'+TYPES[r.type]+'</span><span class="ter">'+(r.terroir?esc(r.terroir)+' · ':'')+r.tempsTotalMin+' min</span></div>'
+    + '<h3 data-open="'+esc(r.id)+'">'+esc(r.nom)+'</h3>'
+    + '<div class="fr-lines">'
+    + (x.ai.length ? '<div class="fr-row"><span class="k">Vous avez</span>'+x.ai.map(function(id){ return chip('loc', nomCourt(ING[id])) }).join('')+'</div>' : '')
+    + (x.manque.length ? '<div class="fr-row"><span class="k">Il manque</span>'+x.manque.map(function(id){
+        var g = ING[id], hs = !enSaison(g);
+        return chip(hs ? 'hsaison' : 'warn', nomCourt(g)+(hs ? ' (hors saison)' : ''));
+      }).join('')+'</div>' : '')
+    + (x.plus.length ? '<div class="fr-row plus"><span class="k">À prévoir aussi</span> '+esc(x.plus.map(function(id){ return nomCourt(ING[id]) }).join(', '))+'</div>' : '')
+    + '</div>'
+    + (r.gras === 3 ? '<div class="badges">'+chip('gras3', 'très gras')+'</div>' : '')
+    + '<div class="foot"><button class="btn sm" data-open="'+esc(r.id)+'" type="button">Voir</button>'
+    + '<button class="btn sm prim" data-plan="'+esc(r.id)+'" type="button">+ Planifier</button></div>'
+    + '</article>';
+}
+function renderFrigo(){
+  if (!RECS.length) return;
+  var idx = frigoIndex();
+  var sel = state.frigo.filter(function(id){ return idx.usage[id] && ING[id] });
+  var selMap = {}; sel.forEach(function(id){ selMap[id] = 1 });
+  var cnt = $('#cnt-frigo'); cnt.hidden = !sel.length; cnt.textContent = sel.length;
+
+  /* ce que l'on a déjà indiqué */
+  $('#fr-sel').innerHTML = sel.length
+    ? '<span class="lbl">J\'ai :</span>'
+      + sel.map(function(id){ return '<button class="ichip on" data-frigo="'+esc(id)+'" type="button" title="Retirer '+esc(nomCourt(ING[id]))+'">'+esc(nomCourt(ING[id]))+' <span aria-hidden="true">×</span></button>' }).join('')
+      + '<button class="linkbtn" data-frigovider type="button">Tout effacer</button>'
+    : '<p class="fr-vide">Aucun ingrédient pour l\'instant : choisissez-les ci-dessous.</p>';
+
+  /* choix des ingrédients : résultats de la recherche, sinon familles repliables */
+  var qBrut = $('#fr-search').value.trim(), q = sansAccent(qBrut);
+  var dispo = Object.keys(idx.usage).map(function(id){ return ING[id] }).filter(Boolean)
+    .sort(function(a,b){ return nomCourt(a).localeCompare(nomCourt(b), 'fr') });
+  function bouton(g){ return '<button class="ichip" data-frigo="'+esc(g.id)+'" aria-pressed="'+(selMap[g.id]?'true':'false')+'" type="button">'+esc(nomCourt(g))+'</button>' }
+  var pick;
+  if (q){
+    var trouves = dispo.filter(function(g){ return sansAccent(g.nom).indexOf(q) !== -1 });
+    pick = trouves.length
+      ? '<div class="fr-chips">'+trouves.map(bouton).join('')+'</div>'
+      : '<p class="fr-vide">Aucun ingrédient principal ne correspond à « '+esc(qBrut)+' ». Les épices, herbes, féculents et produits laitiers ne sont pas à saisir.</p>';
+  } else {
+    pick = FRIGO_GROUPES.map(function(gr){
+      var l = dispo.filter(function(g){ return g.categorie === gr[0] });
+      var n = l.filter(function(g){ return selMap[g.id] }).length;
+      return '<details class="fr-grp" data-grp="'+gr[0]+'"'+(frigoUI.ouverts[gr[0]] ? ' open' : '')+'><summary>'+gr[1]
+        + ' <span class="n">'+(n ? n+' sur ' : '')+l.length+'</span></summary><div class="fr-chips">'+l.map(bouton).join('')+'</div></details>';
+    }).join('');
+  }
+  $('#fr-pick').innerHTML = pick;
+
+  /* recettes : au moins un ingrédient principal en commun, classées par nombre d'ingrédients principaux manquants */
+  if (!sel.length){
+    $('#fr-status').innerHTML = '<span>Choisissez au moins un ingrédient pour voir les recettes possibles.</span>';
+    $('#fr-res').innerHTML = '';
+    return;
+  }
+  var res = [], placard = [], nGras = 0;
+  RECS.forEach(function(r){
+    var e = idx.parRecette[r.id];
+    if (!e) return;
+    if (!e.mains.length){
+      /* aucune viande, poisson, fruit ni légume à saisir : faisable avec les seuls produits de base et du placard */
+      if (r.gras !== 3 || state.options.tresGras) placard.push({r:r, ai:[], manque:[], plus:e.plus});
+      return;
+    }
+    var ai = e.mains.filter(function(id){ return selMap[id] });
+    if (!ai.length) return;
+    if (r.gras === 3 && !state.options.tresGras){ nGras++; return }
+    res.push({r:r, ai:ai, manque:e.mains.filter(function(id){ return !selMap[id] }), plus:e.plus});
+  });
+  res.sort(function(a,b){ return (a.manque.length - b.manque.length) || (b.ai.length - a.ai.length) || (scoreRecette(b.r) - scoreRecette(a.r)) });
+  var g0 = res.filter(function(x){ return x.manque.length === 0 });
+  var g1 = res.filter(function(x){ return x.manque.length === 1 });
+  var g2 = res.filter(function(x){ return x.manque.length === 2 });
+  var g3 = res.filter(function(x){ return x.manque.length > 2 });
+
+  var st = ['<span>'+res.length+' recette'+(res.length>1?'s':'')+' utilise'+(res.length>1?'nt':'')+' vos ingrédients, dont '+g0.length+' sans autre ingrédient principal à acheter</span>'];
+  if (nGras) st.push('<span>'+nGras+' masquée'+(nGras>1?'s':'')+' (très grasses) <button class="linkbtn" data-optoggle="gras" type="button">afficher</button></span>');
+  $('#fr-status').innerHTML = st.join('');
+
+  function groupe(titre, l){
+    return l.length ? '<h3 class="fr-titre">'+titre+' <span class="n">· '+l.length+'</span></h3><div class="grid-rec">'+l.map(carteFrigo).join('')+'</div>' : '';
+  }
+  var html = groupe('Tout y est', g0) + groupe('Il manque un ingrédient', g1) + groupe('Il manque deux ingrédients', g2);
+  if (g3.length){
+    html += '<details class="fr-plus3"'+(html ? '' : ' open')+'><summary>Il manque trois ingrédients ou plus ('+g3.length+')</summary>'
+      + '<div class="grid-rec">'+g3.slice(0, FRIGO_MAX_LOIN).map(carteFrigo).join('')+'</div>'
+      + (g3.length > FRIGO_MAX_LOIN ? '<p class="fr-vide" style="margin-top:10px">Seules les '+FRIGO_MAX_LOIN+' recettes les plus proches sont affichées ; ajoutez des ingrédients pour affiner.</p>' : '')
+      + '</details>';
+  }
+  if (!html) html = '<p class="fr-vide">Aucune recette de la base n\'utilise ces ingrédients.</p>';
+  if (placard.length){
+    html += '<details class="fr-plus3"><summary>Sans ingrédient frais particulier : avec le placard ('+placard.length+')</summary>'
+      + '<div class="grid-rec">'+placard.map(carteFrigo).join('')+'</div></details>';
+  }
+  $('#fr-res').innerHTML = html;
 }
 
 /* ===================== modale recette ===================== */
@@ -1286,7 +1468,7 @@ function b64urlDecode(str){
   return out;
 }
 function encoderEtat(){
-  var json = JSON.stringify({o: state.options, p: state.planning, c: Object.keys(state.checks), x: state.extras});
+  var json = JSON.stringify({o: state.options, p: state.planning, c: Object.keys(state.checks), x: state.extras, f: state.frigo});
   var bytes = new TextEncoder().encode(json);
   var cs = null;
   try{ cs = new CompressionStream('deflate-raw') }catch(e){ cs = null }   /* classe absente ou format inconnu : code non compressé */
@@ -1323,6 +1505,7 @@ function importerEtat(d){
   state.checks = {};
   (d.c || []).forEach(function(k){ state.checks[k] = true });
   state.extras = d.x || [];
+  if (Array.isArray(d.f)){ applyDoc('frigo', {ids: d.f}); saveFrigo() }   /* absent des codes produits par une version antérieure */
   saveOptions(); savePlanning(); saveCourses();
   if (RECS.length) renderAll(); else renderOptions();
 }
@@ -1593,6 +1776,7 @@ function renderAll(){
   renderOptions();
   renderPlanning();
   renderRecettes();
+  renderFrigo();
   renderSaisons();
   renderCourses();
 }
@@ -1621,6 +1805,18 @@ function wire(){
       renderRecettes();
     });
   });
+  $('#fr-search').addEventListener('input', renderFrigo);
+  $('#fr-search').addEventListener('keydown', function(ev){
+    /* Entrée : ajoute (ou retire) le premier ingrédient trouvé */
+    if (ev.key !== 'Enter' || !this.value.trim()) return;
+    var b = $('#fr-pick .ichip');
+    if (b){ ev.preventDefault(); b.click() }
+  });
+  $('#fr-pick').addEventListener('toggle', function(ev){
+    /* mémorise les familles dépliées : la liste est redessinée à chaque choix */
+    var d = ev.target;
+    if (d && d.dataset && d.dataset.grp) frigoUI.ouverts[d.dataset.grp] = d.open;
+  }, true);
   $('#btn-composer').addEventListener('click', composerSemaine);
   $('#btn-vider').addEventListener('click', function(){
     if (!Object.keys(state.planning).length) return;
@@ -1663,7 +1859,7 @@ function wire(){
   $('#tr-importer').addEventListener('click', importerDepuisChamp);
 
   document.addEventListener('click', function(ev){
-    var t = ev.target.closest ? ev.target.closest('[data-open],[data-plan],[data-print],[data-rm],[data-pick],[data-slot],[data-choose],[data-rmextra],[data-close],[data-optoggle],[data-scope],[data-mois],#crs-goplan') : null;
+    var t = ev.target.closest ? ev.target.closest('[data-open],[data-plan],[data-print],[data-rm],[data-pick],[data-slot],[data-choose],[data-rmextra],[data-close],[data-optoggle],[data-scope],[data-mois],[data-frigo],[data-frigovider],#crs-goplan') : null;
     if (!t) {
       if (ev.target.classList && ev.target.classList.contains('ovl')) ev.target.hidden = true;
       return;
@@ -1674,6 +1870,17 @@ function wire(){
       if (t.getAttribute('data-optoggle')==='saison') state.options.saisonUniquement = false;
       else state.options.tresGras = true;
       saveOptions(); renderAll(); return;
+    }
+    if (t.hasAttribute('data-frigovider')){ state.frigo = []; saveFrigo(); renderFrigo(); return }
+    if (t.hasAttribute('data-frigo')){
+      var fid = t.getAttribute('data-frigo'), fk = state.frigo.indexOf(fid);
+      var auClavier = document.activeElement === t && !!t.closest('#fr-pick');
+      if (fk === -1) state.frigo.push(fid); else state.frigo.splice(fk, 1);
+      var champ = $('#fr-search'), cherchait = !!champ.value;
+      champ.value = '';   /* après un choix issu de la recherche, on revient aux familles */
+      saveFrigo(); renderFrigo();
+      if (auClavier && !cherchait){ var nb = document.querySelector('#fr-pick [data-frigo="'+fid+'"]'); if (nb) nb.focus() }
+      return;
     }
     if (t.hasAttribute('data-scope')){ saisonUI.scope = t.getAttribute('data-scope'); renderSaisons(); return }
     if (t.hasAttribute('data-mois')){ saisonUI.mois = parseInt(t.getAttribute('data-mois'),10); renderSaisons(); return }
@@ -1723,7 +1930,7 @@ function wire(){
 
 /* ===================== démarrage ===================== */
 function boot(){
-  ['options','planning','courses'].forEach(function(key){
+  ['options','planning','courses','frigo'].forEach(function(key){
     var v = persist.loadLocal(key);
     if (v){ persist.lastJson[key] = JSON.stringify(v); applyDoc(key, v) }
   });
@@ -1732,7 +1939,7 @@ function boot(){
   initPWA();
 
   var hash = (location.hash||'').replace('#','');
-  if (['planning','recettes','saisons','courses','drive'].indexOf(hash)!==-1) currentTab = hash;
+  if (['planning','recettes','frigo','saisons','courses','drive'].indexOf(hash)!==-1) currentTab = hash;
   /* lien d'impression venu de la version claude.ai : #imprimer=recette.<id>.<personnes>.<complets> ou #imprimer=planning.<code> */
   var mpr = (location.hash||'').match(/^#imprimer=(recette|planning)(?:\.(.+))?$/);
   if (mpr && !window.claude){ pendingPrint = {type: mpr[1], arg: mpr[2] || ''}; try{ history.replaceState(null, '', location.pathname) }catch(e){} }

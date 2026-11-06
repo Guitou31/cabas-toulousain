@@ -59,6 +59,24 @@ head = f'''<!doctype html>
 '''
 page = head + html + '\n</body>\n</html>\n'
 
+# ---------- page de l'artifact claude.ai (document complet exigé à la publication) ----------
+# Même fragment, enveloppe minimale : pas de manifeste ni d'icônes (le cadre claude.ai n'installe rien).
+# À publier comme index.html de l'artifact ; data.json et img/ y sont publiés à part.
+ART = os.path.join(BASE, 'artifact')
+os.makedirs(ART, exist_ok=True)
+art_page = f'''<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{title}</title>
+{fonts}<style>:root{{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}html{{scroll-padding-top:env(safe-area-inset-top,0px)}}body{{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}}img{{max-width:100%}}[hidden]:not([hidden=until-found i]){{display:none!important}}</style>
+</head>
+<body>
+''' + html + '\n</body>\n</html>\n'
+with open(os.path.join(ART, 'index.html'), 'w', encoding='utf-8') as f:
+    f.write(art_page)
+
 os.makedirs(os.path.join(OUT, 'icons'), exist_ok=True)
 with open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8') as f:
     f.write(page)
