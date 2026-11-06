@@ -367,6 +367,8 @@ body.is-dragging{cursor:grabbing; user-select:none; -webkit user-select:none}
 
 /* ---------- divers ---------- */
 .toast{position:fixed; left:50%; transform:translateX(-50%); bottom:calc(22px + env(safe-area-inset-bottom,0px)); background:var(--fg); color:var(--bg); border-radius:999px; padding:9px 18px; font-weight:600; font-size:13.5px; z-index:80; box-shadow:var(--shadow); pointer-events:none}
+.majbar{position:fixed; left:50%; transform:translateX(-50%); bottom:calc(64px + env(safe-area-inset-bottom,0px)); z-index:85; display:flex; align-items:center; gap:12px; background:var(--fg); color:var(--bg); border-radius:999px; padding:7px 8px 7px 18px; font-weight:600; font-size:13.5px; box-shadow:var(--shadow); max-width:calc(100vw - 24px); white-space:nowrap}
+.majbar .btn{border-radius:999px; background:var(--brique); border-color:var(--brique); color:var(--brique-ink)}
 .foot{margin-top:40px; padding-top:14px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 16px; justify-content:space-between}
 .sync{display:inline-flex; align-items:center; gap:6px}
 .sync .dot{width:7px; height:7px; border-radius:50%; background:var(--line)}
@@ -1555,16 +1557,50 @@ function importerDepuisChamp(){
 
 /* ===================== version installable (hors claude.ai) ===================== */
 var installEvt = null;
+/* interagi : l'utilisateur a touché à la page depuis son dernier retour au premier plan ;
+   special : ouverture par un lien d'impression ou de transfert, à ne pas interrompre par un rechargement */
+var majUI = {interagi:false, special:false};
+/* Une nouvelle version vient de prendre la main (ses fichiers sont déjà en cache).
+   Personne n'a encore touché à la page : on recharge tout de suite. Sinon on le propose, sans rien interrompre. */
+function majPrete(){
+  var occupe = majUI.interagi || majUI.special || $$('.ovl').some(function(o){ return !o.hidden });
+  var recent = false;   /* garde-fou : jamais deux rechargements automatiques en moins d'une minute */
+  try{ recent = (Date.now() - parseInt(sessionStorage.getItem('cabas_maj') || '0', 10)) < 60000 }catch(e){}
+  if (!occupe && !recent){
+    try{ sessionStorage.setItem('cabas_maj', String(Date.now())) }catch(e){}
+    location.reload();
+    return;
+  }
+  var b = $('#maj-bar');
+  if (!b){
+    b = document.createElement('div'); b.id = 'maj-bar'; b.className = 'majbar'; b.setAttribute('role', 'status');
+    b.innerHTML = '<span>Nouvelle version disponible</span><button class="btn sm" type="button" id="maj-btn">Recharger</button>';
+    document.body.appendChild(b);
+    $('#maj-btn').addEventListener('click', function(){ location.reload() });
+  }
+  b.hidden = false;
+}
 function initPWA(){
   if (window.claude) return;   /* dans l'artifact claude.ai : rien à installer */
   /* demande au navigateur de ne pas purger les données locales (accordé d'office aux apps installées) */
   if (navigator.storage && navigator.storage.persist){ try{ navigator.storage.persist().catch(function(){}) }catch(e){} }
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')){
-    var avaitControleur = !!navigator.serviceWorker.controller;
-    navigator.serviceWorker.register('sw.js').catch(function(){});
+    var avaitControleur = !!navigator.serviceWorker.controller, swReg = null, derniereVerif = Date.now();
+    navigator.serviceWorker.register('sw.js').then(function(r){ swReg = r }).catch(function(){});
     navigator.serviceWorker.addEventListener('controllerchange', function(){
-      if (avaitControleur) toast('Nouvelle version installée — rechargez la page');
+      if (avaitControleur) majPrete();   /* la toute première installation n'est pas une mise à jour */
       avaitControleur = true;
+    });
+    ['pointerdown','keydown'].forEach(function(nom){
+      document.addEventListener(nom, function(){ majUI.interagi = true }, true);
+    });
+    /* une application installée reste ouverte en arrière-plan pendant des jours :
+       on revérifie la version quand elle revient au premier plan (au plus toutes les dix minutes) */
+    document.addEventListener('visibilitychange', function(){
+      if (document.visibilityState !== 'visible'){ majUI.interagi = false; return }
+      if (!swReg || Date.now() - derniereVerif < 600000) return;
+      derniereVerif = Date.now();
+      try{ swReg.update().catch(function(){}) }catch(e){}
     });
   }
   window.addEventListener('beforeinstallprompt', function(e){
@@ -1942,9 +1978,10 @@ function boot(){
   if (['planning','recettes','frigo','saisons','courses','drive'].indexOf(hash)!==-1) currentTab = hash;
   /* lien d'impression venu de la version claude.ai : #imprimer=recette.<id>.<personnes>.<complets> ou #imprimer=planning.<code> */
   var mpr = (location.hash||'').match(/^#imprimer=(recette|planning)(?:\.(.+))?$/);
-  if (mpr && !window.claude){ pendingPrint = {type: mpr[1], arg: mpr[2] || ''}; try{ history.replaceState(null, '', location.pathname) }catch(e){} }
+  if (mpr && !window.claude){ pendingPrint = {type: mpr[1], arg: mpr[2] || ''}; majUI.special = true; try{ history.replaceState(null, '', location.pathname) }catch(e){} }
   var mt = (location.hash||'').match(/^#t=(.+)$/);
   if (mt){
+    majUI.special = true;
     try{ history.replaceState(null, '', location.pathname) }catch(e){}
     decoderEtat(mt[1]).then(function(d){
       importerEtat(d); toast('Données importées depuis l\'autre appareil');
